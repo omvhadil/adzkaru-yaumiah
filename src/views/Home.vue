@@ -21,11 +21,11 @@ const router = useRouter()
         <div class="text-center mt-4">
           <h1
             class="nav_logo font-aref text-decoration-none text-first-color"
-            style="font-size: 5rem"
+            style="font-size: 4.5rem"
           >
-            الْقَيُّوْمُ
+            أَذْكَارُ يَوْمِيَّة
           </h1>
-          <p class="text-first-color" style="font-size: 2rem">Maha Mandiri</p>
+          <p class="text-first-color" style="font-size: 2rem">Dzikir Harian</p>
 
           <div class="mt-5">
             <span class="text-secondary">&#169; Alabim 2023. All right reserved</span>
