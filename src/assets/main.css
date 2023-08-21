@@ -1,27 +1,23 @@
+/* Font Arabic Aref Ruqaa - Reguler 400 */
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
+/* Font Arabic Scheherazade New - Reguler 400 */
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+/* Font Arabic Lateef - Reguler 400 - medium 500 - bold 700 */
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@400;500;700&display=swap');
-/* Font Arabic Amiri - Reguler 400  */
-@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+/* Font Arabic Amiri Quran - Reguler 400  */
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
 
 :root{
-  /* Font Arabic Amiri - Reguler 400 */
-  --font-amiri: 'Amiri', serif;
-
-  /* 1 merah */
-  /* 20 orange */
-  /* 50 kuning */
-  /* 110 hijau */
-  /* 170 biru terang */
-  /* 200 biru */
-  /* 270 ungu */
-  /* 1 red */
-  --hue: 270;
-  --first-color: hsl(var(--hue), 90%, 50%);
-  --first-color-alt: hsl(var(--hue), 50%, 70%);
-  --gradient-first-color: linear-gradient(to bottom, var(--first-color), hsl(var(--hue), 57%, 53%));
-  --gradient-first-color-alt: linear-gradient(to right, var(--first-color), hsl(var(--hue), 57%, 53%));
-
+/* ===================== Font Family ===================== */
+/* Font Arabic Amiri - Reguler 400 */
+  --font-amiri-quran: 'Amiri Quran', serif;
+/* Font Arabic Lateef - Reguler 400 - medium 500 - bold 700 */
+  --font-lateef: 'Lateef', serif;
+/* Font Arabic Scheherazade New - Reguler 400 */
+  --font-scheherazade: 'Scheherazade New', serif;
+/* Font Arabic Aref Ruqaa - Reguler 400 */
+  --font-aref: 'Aref Ruqaa', serif;
+/* ===================== Color Theme ===================== */
   /* Green  */
   --color-green: #2dce89;
   --color-green-alt: #99dec0;
@@ -66,23 +62,26 @@
 .bg-gradient-first-color-alt{
   background-image: var(--color-green-gradient);
 }
-
+/* Font Family  */
+.font-aref{
+  font-family: var(--font-aref)!important;
+}
+.font-lateef{
+font-family: var(--font-lateef)!important;
+}
+.font-amiri-quran{
+  font-family: var(--font-amiri-quran)!important;
+}
+.font-scheherazade{
+  font-family: var(--font-scheherazade)!important;
+}
 
 body{
-  font-family: var(--font-amiri)!important;
+  font-family: var(--font-scheherazade)!important;
 }
 .container-app {
   max-width: 450px;
   height: 100vh;
-}
-.font-aref{
-  font-family: 'Aref Ruqaa', serif;
-}
-.font-lateef{
-font-family: 'Lateef', serif !important;
-}
-.font-amiri{
-  font-family: var(--font-amiri)!important;
 }
 img{
   width: 100%;
