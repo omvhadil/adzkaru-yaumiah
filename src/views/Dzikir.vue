@@ -54,7 +54,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
             <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
               <h2
                 style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
-                class="m-0 py-1"
+                class="m-0 py-1 fw-normal"
                 align="justify"
               >
                 {{ item.arab }}
