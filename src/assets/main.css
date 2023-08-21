@@ -54,7 +54,7 @@
   border-color: var(--color-green)!important;
 }
 .bg-first-color-alt{
-  background-color: var(--color-green-alt);
+  background-color: var(--color-green-alt)!important;
 }
 .bg-gradient-first-color{
   background-image: var(--color-green-gradient);

@@ -30,7 +30,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
           v-for="item in category?.dzikri"
           :key="item.id"
           @click="categoryNumber = item.id - 1"
-          class="btn bg-gradient-first-color border-light w-100 p-1 text-white"
+          class="btn bg-first-color-alt border-light w-100 p-1 text-white"
           type="button"
         >
           {{ item.title }}
