@@ -2,13 +2,6 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import Tawassul from '../components/Tawassul.vue'
-import { reactive } from 'vue'
-
-const show = reactive({
-  madad: true,
-  majmu: true,
-  tahlil: true
-})
 
 const router = useRouter()
 </script>
@@ -51,7 +44,7 @@ const router = useRouter()
           class="menu rounded-start-5 bg-gradient-first-color py-4 d-grid justify-content-center gap-3 ms-auto"
           style="width: 90%"
         >
-          <div v-if="show.madad" @click="router.push('madad')" class="menu-item text-center">
+          <div @click="router.push('madad')" class="menu-item text-center">
             <div>
               <div
                 class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
@@ -68,7 +61,7 @@ const router = useRouter()
             </div>
             <span class="text-white">Madad</span>
           </div>
-          <div v-if="show.majmu" @click="router.push('majmu')" class="menu-item text-center">
+          <div @click="router.push('majmu')" class="menu-item text-center">
             <div>
               <div
                 class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
@@ -85,11 +78,7 @@ const router = useRouter()
             </div>
             <span class="text-white">Majmu'</span>
           </div>
-          <div
-            v-if="show.tahlil"
-            @click="router.push('/majmu/tahlil-kubur')"
-            class="menu-item text-center"
-          >
+          <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
             <div>
               <div
                 class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
@@ -156,6 +145,7 @@ const router = useRouter()
                 <!-- Simtud -->
                 <div>
                   <div
+                    @click="router.push('/simtud')"
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >

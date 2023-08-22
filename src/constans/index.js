@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     slug: 'madad',
-    image: '../../src/assets/images/ventor-1.png',
+    image: '',
     title: 'Khulasoh',
     arab: 'خُلاَصَةُ الْمَدَدًا النَّبَوِىًّ',
     latin: 'Khulashotul Madadan Nabawi',
@@ -11,14 +11,14 @@ export const data = [
         id: 1,
         slug: 'fardhu',
         title: 'Dzikir Setelah Sholat Fardhu',
-        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ وَاجِيبْ',
+        arab: 'جُصُوْص',
         latin: 'Dzikir ba’da shalāti al-farīdāti',
         dzikri: [
           {
             id: 1,
             title: 'Dzikir',
-            name: 'Khusus',
-            subName: '',
+            name: '',
+            subName: 'Dzikir Setelah Sholat Wajib',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -97,13 +97,13 @@ export const data = [
         id: 2,
         slug: 'subuh',
         title: 'Dzikir Setelah Sholat Subuh',
-        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ صُبُوحْ',
+        arab: 'وِرْدُ الَّطِيْفُ',
         latin: 'Dzikir ba’da shalāti as-subhi',
         dzikri: [
           {
             id: 1,
             title: 'Dzikir',
-            name: 'Wirdul Lathif',
+            name: '',
             subName: 'Al-imam Abdullah bin Alwi Al-Haddad',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
@@ -282,7 +282,7 @@ export const data = [
             id: 2,
             title: 'Yasin',
             name: 'Surat Yasin',
-            subName: '',
+            subName: 'Al-imam Abdullah bin Alwi Al-Haddad',
             arab: 'سُوْرَةُ يس',
             latin: 'Surat Yasin',
             bait_bait: [
@@ -826,7 +826,7 @@ export const data = [
             id: 3,
             title: 'Waqiah',
             name: 'Surat Al-Waqiah',
-            subName: '',
+            subName: 'Al-imam Abdullah bin Alwi Al-Haddad',
             arab: 'سُوْرَةُ الْوَاقِعَةُ',
             latin: 'Surat al-Wāqi’ah',
             bait_bait: [
@@ -1444,7 +1444,7 @@ export const data = [
         id: 3,
         slug: 'dzuhur',
         title: 'Dzikir Setelah Sholat Dzuhur',
-        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ ظُهُورْ',
+        arab: 'خُصُوصْ',
         latin: 'Dzikir ba’da shalāti ad-dzuhri',
         dzikri: [
           {
@@ -1553,7 +1553,7 @@ export const data = [
         id: 4,
         slug: 'ashar',
         title: 'Dzikir Setelah Sholat Ashar',
-        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ عَشَارْ',
+        arab: 'خُصُوصْ',
         latin: 'Dzikir ba’da shalāti as-syuri',
         dzikri: [
           {
@@ -2338,7 +2338,7 @@ export const data = [
         id: 5,
         slug: 'maghrib',
         title: 'Dzikir Setelah Sholat Maghrib',
-        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ مَغْرِبْ',
+        arab: 'خُصُوصْ',
         latin: 'Dzikir ba’da shalāti al-maghribi',
         dzikri: [
           {
@@ -3151,7 +3151,7 @@ export const data = [
         id: 6,
         slug: 'isya',
         title: 'Dzikir Setelah Sholat Isya’',
-        arab: 'ذِكِرْ سَتَلَاهْ صَلَاتْ عِشَاءْ',
+        arab: 'خُصُوصْ',
         latin: 'Dzikir ba’da shalāti al-isyā’i',
         dzikri: [
           {
@@ -4046,7 +4046,7 @@ export const data = [
         slug: 'dhuha',
         title: 'Niat Sholat Dhuha dan Doa',
         latin: '',
-        arab: 'نِيَاتْ دَانْ دُعَاءْ صَلاَةْ ضُحَى',
+        arab: 'خُصُوصْ',
         dzikri: [
           {
             id: 1,
@@ -4087,7 +4087,7 @@ export const data = [
         slug: 'tahajjud',
         title: 'Niat Sholat Tahajjud dan Doa',
         latin: '',
-        arab: 'نِيَاتْ دَانْ دُعَاءْ صَلاَةْ تَهَجُّدْ',
+        arab: 'خُصُوصْ',
         dzikri: [
           {
             id: 1,
@@ -4128,7 +4128,7 @@ export const data = [
   {
     id: 2,
     slug: 'majmu',
-    image: '../../src/assets/images/vektor-2.png',
+    image: '',
     title: 'Majmu’',
     arab: 'مَجْمُوعَةُ الشَّرِيفِ',
     latin: 'Majmu’ As-syarif',
@@ -5895,6 +5895,131 @@ export const data = [
       }
     ]
   },
+  {
+    id: 3,
+    slug: 'simtud',
+    image: '',
+    title: 'Simtud',
+    arab: 'سِمْطُ الدُّرَارْ',
+    latin: '',
+    category: [
+      {
+        id: 1,
+        slug: 'sholawat-pertama',
+        title: 'Sholawat Pertama',
+        arab: 'سِمْطُ الدُّرَارْ',
+        latin: 'Sholawat Pertama',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Sholawat Pertama',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ مَالَاحَ فِى الْاُفْقِ نُوْرُكَوْكَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 2,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ اَلْفَاتِحِ الْخَاتِمِ الْمُقَرَّبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 3,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ اَلْمُصْطَفَى الْمُجْتَبَى الْمُحَبَّب',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 4,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ مَالَاحَ بَدْرٌ وَغَابَ غَيْهَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 5,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ مَارِيْحُ نَصْرٍبِالنَّصْرِ قَدْهَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 6,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ مَاسَارَتِ الْعِيْسُ بَطْنَ سَبْسَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 7,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ وَكُلّ مَنْ لِلْحَبِيْبِ يُنْسَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 8,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ وَكُلّ مَنْ لِلنَّبِيّ يُصْحَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 9,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ وَاغْفِرْوَسَامِحْ مَنْ كَانَ اَذْنَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 10,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ وَبَلّغِ الْكُلَّ كُلَّ مُطْلَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 11,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ وَاسْلُكْ بِنَارَبّ خَيْرَ مَذْهَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 12,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ وَاصْلِحْ وَسَهّلْ مَاقَدْتَصَعَّبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 13,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ اَعْلَى الْبَرَايَاجَاهًاوَاَرْحَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 14,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ اَصْدَقِ عَبْدٍبِالْحَقّ اَعْرَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 15,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ خَيْرِالْوَرَى مَنْهَجًاوَأَصْوَبْ',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 16,
+                arab: 'يَارَبِّ صَلِّ عَلى مُحَمَّدْ ۞ مَاطَيْرُيُمْنٍ غَنَّى فَاَطْرَبْ',
+                latin: '',
+                arti: ''
+              },
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]
 
 export const dataKyai = [

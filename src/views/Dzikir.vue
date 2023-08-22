@@ -43,8 +43,10 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
-          <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
-          <h4 v-if="jmlname" class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
+          <h2 class="m-0 font-aref mb-3" style="font-size: 3rem !important">
+            ﴾ {{ category.arab }} ﴿
+          </h2>
+          <h4 v-if="jmlname" class="m-0">﴾ {{ tampilCategory?.name }} ﴿</h4>
           <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
         </div>
       </div>
