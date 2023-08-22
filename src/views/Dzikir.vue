@@ -1,6 +1,5 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-import { Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide'
 import { data } from '../constans/index.js'
 import { useRoute } from 'vue-router'
 import Header from '../components/Header.vue'
@@ -40,95 +39,30 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     </template>
   </Header>
 
-  <Splide :has-track="false">
-    <SplideTrack>
-      <!-- index-0 -->
-      <SplideSlide>
-        <div class="container mt-5 px-2" :class="jmlcategorydzikir > 1 ? 'py-5' : 'py-0'">
-          <div class="pt-5">
-            <div class="text-center mb-3">
-              <div>
-                <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
-                <h4 v-if="jmlname" class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
-                <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
-              </div>
-            </div>
-            <table class="table">
-              <tbody>
-                <tr v-for="item in dzikri[0]?.bait_bait" :key="item.id">
-                  <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
-                    <h2
-                      style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
-                      class="m-0 py-1 font-scheherazade fw-semibold"
-                      align="justify"
-                    >
-                      {{ item.arab }}
-                    </h2>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+  <div class="container mt-5 px-2" :class="jmlcategorydzikir > 1 ? 'py-5' : 'py-0'">
+    <div class="pt-5">
+      <div class="text-center mb-3">
+        <div>
+          <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
+          <h4 v-if="jmlname" class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
+          <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
         </div>
-      </SplideSlide>
-      <!-- index-1 -->
-      <SplideSlide>
-        <div class="container mt-5 px-2" :class="jmlcategorydzikir > 1 ? 'py-5' : 'py-0'">
-          <div class="pt-5">
-            <div class="text-center mb-3">
-              <div>
-                <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
-                <h4 v-if="jmlname" class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
-                <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
-              </div>
-            </div>
-            <table class="table">
-              <tbody>
-                <tr v-for="item in dzikri[1]?.bait_bait" :key="item.id">
-                  <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
-                    <h2
-                      style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
-                      class="m-0 py-1 font-scheherazade fw-semibold"
-                      align="justify"
-                    >
-                      {{ item.arab }}
-                    </h2>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </SplideSlide>
-      <!-- index-2 -->
-      <SplideSlide>
-        <div class="container mt-5 px-2" :class="jmlcategorydzikir > 1 ? 'py-5' : 'py-0'">
-          <div class="pt-5">
-            <div class="text-center mb-3">
-              <div>
-                <h4 class="m-0">﴾ {{ category.title }} ﴿</h4>
-                <h4 v-if="jmlname" class="m-0">🍀 {{ tampilCategory?.name }} 🍀</h4>
-                <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
-              </div>
-            </div>
-            <table class="table">
-              <tbody>
-                <tr v-for="item in dzikri[2]?.bait_bait" :key="item.id">
-                  <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
-                    <h2
-                      style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
-                      class="m-0 py-1 font-scheherazade fw-semibold"
-                      align="justify"
-                    >
-                      {{ item.arab }}
-                    </h2>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </SplideSlide>
-    </SplideTrack>
-  </Splide>
+      </div>
+      <table class="table">
+        <tbody>
+          <tr v-for="item in tampilCategory?.bait_bait" :key="item.id">
+            <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
+              <h2
+                style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
+                class="m-0 py-1 font-scheherazade fw-semibold"
+                align="justify"
+              >
+                {{ item.arab }}
+              </h2>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </template>
