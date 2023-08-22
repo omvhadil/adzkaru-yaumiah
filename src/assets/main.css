@@ -7,6 +7,7 @@
 /* Font Arabic Amiri Quran - Reguler 400  */
 @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
 
+@import '@splidejs/vue-splide/css';
 
 :root{
 /* ===================== Font Family ===================== */
