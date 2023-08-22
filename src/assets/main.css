@@ -95,3 +95,6 @@ img{
 .text-small{
   font-size: .913rem;
 }
+.transition {
+  transition: all .3s ease-in-out;
+}
