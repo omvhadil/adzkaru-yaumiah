@@ -28,7 +28,7 @@ const data = defineProps({
         </svg>
         <!-- end:icon -->
       </div>
-      <h3 class="text-light m-0">{{ data.title }}</h3>
+      <h3 class="text-light font-scheherazade m-0">{{ data.title }}</h3>
       <!-- <Toggle /> -->
     </div>
     <slot name="menu"> </slot>

@@ -17,7 +17,7 @@ import { dataKyai } from '../constans/index'
         <path fill="none" d="M0 0h24v24H0z"></path>
         <path
           fill="#9c9898"
-          d="M3 21C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5H20C20.5523 5 21 5.44772 21 6V9H4V18.996L6 11H22.5L20.1894 20.2425C20.0781 20.6877 19.6781 21 19.2192 21H3Z"
+          d="M4 2H20C20.5523 2 21 2.44772 21 3V22.2763C21 22.5525 20.7761 22.7764 20.5 22.7764C20.4298 22.7764 20.3604 22.7615 20.2963 22.7329L12 19.0313L3.70373 22.7329C3.45155 22.8455 3.15591 22.7322 3.04339 22.4801C3.01478 22.4159 3 22.3465 3 22.2763V3C3 2.44772 3.44772 2 4 2ZM12 13.5L14.9389 15.0451L14.3776 11.7725L16.7553 9.45492L13.4695 8.97746L12 6L10.5305 8.97746L7.24472 9.45492L9.62236 11.7725L9.06107 15.0451L12 13.5Z"
         ></path>
       </svg>
     </div>
@@ -30,7 +30,7 @@ import { dataKyai } from '../constans/index'
     tabindex="-1"
     id="tawassul"
     aria-labelledby="staticBackdropLabel"
-    style="width: 300px"
+    style="width: 350px"
   >
     <div class="offcanvas-header bg-gradient-first-color-alt text-white">
       <h5 class="offcanvas-title" id="staticBackdropLabel">Tawassul Maqbaroh</h5>

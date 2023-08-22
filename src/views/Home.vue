@@ -32,10 +32,15 @@ const router = useRouter()
           >
             أَذْكَارُ يَوْمِيَّة
           </h1>
-          <p class="text-first-color" style="font-size: 2rem">Dzikir Harian</p>
+          <p class="text-first-color fw-semibold" style="font-size: 2rem">Dzikir Harian</p>
 
           <div class="mt-5">
-            <span class="text-secondary">&#169; Alabim 2023. All right reserved</span>
+            <span class="text-secondary font-aref" style="font-size: 1.3rem"
+              >جمع الفقير الى عفوابه <br /><span class="fw-semibold text-dark-emphasis">
+                فضيلة الرّحمن بن شمسل </span
+              ><br />
+              نفعنااللّه به بعلومه فى الدّارين آمين <br
+            /></span>
           </div>
         </div>
       </div>

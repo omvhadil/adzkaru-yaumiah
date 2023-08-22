@@ -66,3 +66,4 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     </div>
   </div>
 </template>
+style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
