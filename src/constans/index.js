@@ -1444,14 +1444,14 @@ export const data = [
         id: 3,
         slug: 'dzuhur',
         title: 'Dzikir Setelah Sholat Dzuhur',
-        arab: 'خُصُوصْ',
+        arab: 'حِزْبُ النَّصْرُ',
         latin: 'Dzikir ba’da shalāti ad-dzuhri',
         dzikri: [
           {
             id: 1,
             title: 'Dzikir',
-            name: 'Hizbun Nashar',
-            subName: 'Al-Imam Abdulah Bin Al-Haddad',
+            name: '',
+            subName: 'Al-Imam Abdulah Bin Alwy Al-Haddad',
             arab: 'ذِكْرَ',
             latin: 'Dzikra',
             bait_bait: [
@@ -1553,16 +1553,16 @@ export const data = [
         id: 4,
         slug: 'ashar',
         title: 'Dzikir Setelah Sholat Ashar',
-        arab: 'خُصُوصْ',
-        latin: 'Dzikir ba’da shalāti as-syuri',
+        arab: 'حِزْبُ الْبَحْرُ',
+        latin: '',
         dzikri: [
           {
             id: 1,
             title: 'Waqiah',
-            name: 'Surat Al-Waqiah',
-            subName: '',
-            arab: 'سُوْرَةُ الْوَاقِعَةُ',
-            latin: 'Surat al-Wāqi’ah',
+            name: '',
+            subName: 'Al-Imam Abi Hasan Asy-Syadzili',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -2175,10 +2175,10 @@ export const data = [
           {
             id: 2,
             title: 'Dzikir',
-            name: 'Hizbul Bahr',
+            name: '',
             subName: 'Al-Imam Abi Hasan Asy-Syadzili',
-            arab: 'ذِكْرَ',
-            latin: 'Dzikra',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -2338,16 +2338,16 @@ export const data = [
         id: 5,
         slug: 'maghrib',
         title: 'Dzikir Setelah Sholat Maghrib',
-        arab: 'خُصُوصْ',
-        latin: 'Dzikir ba’da shalāti al-maghribi',
+        arab: 'رَاتِبُ الْحَدَّادُ',
+        latin: '',
         dzikri: [
           {
             id: 1,
             title: 'Yasin',
-            name: 'Surat Yasin',
-            subName: '',
-            arab: 'سُوْرَةُ يس',
-            latin: 'Surat Yasin',
+            name: '',
+            subName: 'Al-Imam Abdullah Bin Alwy Al-Haddad',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -2888,10 +2888,10 @@ export const data = [
           {
             id: 2,
             title: 'Dzikir',
-            name: 'Ratib Al-Haddad',
+            name: '',
             subName: 'Al-Imam Abdullah Bil Alwi Al-Haddad',
-            arab: 'ذِكْرَ',
-            latin: 'Dzikra',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -3102,10 +3102,10 @@ export const data = [
           {
             id: 3,
             title: 'Sakran',
-            name: 'Wirdus Sakran',
+            name: '',
             subName: 'Al-Imam Ali Bin Abu Bakar Assegaf',
-            arab: 'سُوْرَةُ الْوَاقِعَةُ',
-            latin: 'Surat al-Wāqi’ah',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -3157,10 +3157,10 @@ export const data = [
           {
             id: 1,
             title: 'Dzikir',
-            name: 'Khusus',
-            subName: '',
-            arab: 'ذِكْرَ',
-            latin: 'Dzikra',
+            name: '',
+            subName: 'Khusus',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -3173,10 +3173,10 @@ export const data = [
           {
             id: 2,
             title: 'Al-Mulk',
-            name: 'Surat Al-Mulk',
-            subName: '',
-            arab: 'سُوْرَةُ يس',
-            latin: 'Surat Yasin',
+            name: '',
+            subName: 'Khusus',
+            arab: '',
+            latin: '',
             bait_bait: [
               {
                 id: 1,
@@ -3373,7 +3373,7 @@ export const data = [
             id: 1,
             title: '',
             name: '',
-            subName: '',
+            subName: 'Khusus Malam Jum`at',
             arab: '',
             latin: '',
             bait_bait: [
@@ -4051,8 +4051,8 @@ export const data = [
           {
             id: 1,
             title: 'Niat',
-            name: 'Niat Sholat Dhuha',
-            subName: '',
+            name: '',
+            subName: 'Niat Sholat Dhuha',
             arab: '',
             latin: '',
             bait_bait: [
@@ -4067,8 +4067,8 @@ export const data = [
           {
             id: 2,
             title: 'Doa',
-            name: 'Doa Setelah sholat Dhuha',
-            subName: '',
+            name: '',
+            subName: 'Doa Setelah sholat Dhuha',
             arab: '',
             latin: '',
             bait_bait: [
@@ -4092,8 +4092,8 @@ export const data = [
           {
             id: 1,
             title: 'Niat',
-            name: 'Niat Sholat Tahajjud',
-            subName: '',
+            name: '',
+            subName: 'Niat Sholat Tahajjud',
             arab: '',
             latin: '',
             bait_bait: [
@@ -4108,8 +4108,8 @@ export const data = [
           {
             id: 2,
             title: 'Doa',
-            name: 'Doa Setelah sholat Tahajjud',
-            subName: '',
+            name: '',
+            subName: 'Doa Setelah sholat Tahajjud',
             arab: '',
             latin: '',
             bait_bait: [
