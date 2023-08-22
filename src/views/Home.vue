@@ -28,8 +28,12 @@ const router = useRouter()
           <p class="text-first-color fw-semibold" style="font-size: 2rem">Dzikir Harian</p>
 
           <div class="mt-5">
-            <span class="text-secondary font-aref" style="font-size: 1.3rem"
-              >جمع الفقير الى عفوابه <br /><span class="fw-semibold text-dark-emphasis">
+            <span class="text-secondary font-aref" style="font-size: 1.3rem">
+              جمع و ترتيب <br />
+              الدّاعى الى اللّه الفقير <br /><span
+                class="fw-semibold text-dark-emphasis"
+                style="font-size: 1.5rem"
+              >
                 فضيلة الرّحمن بن شمسل </span
               ><br />
               نفعنااللّه به بعلومه فى الدّارين آمين <br
@@ -141,9 +145,9 @@ const router = useRouter()
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              <div class="d-flex flex-wrap gap-4">
+              <div class="row gy-4">
                 <!-- Simtud -->
-                <div>
+                <div class="col-4">
                   <div
                     @click="router.push('/simtud')"
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
@@ -166,15 +170,15 @@ const router = useRouter()
                   <span class="ctext-dark">Simtud</span>
                 </div>
                 <!-- Diba -->
-                <div>
+                <div class="col-4">
                   <div
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
                     <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                     >
-                      Proses
+                      Plan
                       <span class="visually-hidden">unread messages</span>
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -188,15 +192,15 @@ const router = useRouter()
                   <span class="ctext-dark">Diba'</span>
                 </div>
                 <!-- basaudan -->
-                <div>
+                <div class="col-4">
                   <div
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
                     <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                     >
-                      Proses
+                      Plan
                       <span class="visually-hidden">unread messages</span>
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -210,15 +214,15 @@ const router = useRouter()
                   <span class="ctext-dark">Basaudan</span>
                 </div>
                 <!-- Haji & Umroh -->
-                <div>
+                <div class="col-4">
                   <div
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
                     <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                     >
-                      Proses
+                      Plan
                       <span class="visually-hidden">unread messages</span>
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -232,15 +236,15 @@ const router = useRouter()
                   <span class="ctext-dark">Haji Umroh</span>
                 </div>
                 <!-- Ramadhan -->
-                <div>
+                <div class="col-4">
                   <div
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
                     <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                     >
-                      Proses
+                      Plan
                       <span class="visually-hidden">unread messages</span>
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -254,15 +258,15 @@ const router = useRouter()
                   <span class="ctext-dark">Ramadhan</span>
                 </div>
                 <!-- Jenazah -->
-                <div>
+                <div class="col-4">
                   <div
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
                     <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                     >
-                      Proses
+                      Plan
                       <span class="visually-hidden">unread messages</span>
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
