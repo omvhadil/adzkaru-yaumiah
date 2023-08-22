@@ -4143,8 +4143,8 @@ export const data = [
           {
             id: 1,
             title: 'Yasin',
-            name: 'Surat Yasin',
-            subName: '',
+            name: '',
+            subName: 'Tahlil Panjang',
             arab: 'سُوْرَةُ يس',
             latin: 'Surat Yasin',
             bait_bait: [
@@ -4688,8 +4688,8 @@ export const data = [
             id: 2,
             arab: '',
             title: 'Tahlil',
-            name: 'Tahlil',
-            subName: '',
+            name: '',
+            subName: 'Tahlil Panjang',
             latin: 'Dzikra',
             bait_bait: [
               {
@@ -4902,8 +4902,8 @@ export const data = [
             id: 3,
             arab: '',
             title: 'Doa',
-            name: 'Doa Tahlil',
-            subName: '',
+            name: '',
+            subName: 'Tahlil Panjang',
             latin: 'Dzikra',
             bait_bait: [
               {
@@ -4944,14 +4944,14 @@ export const data = [
         id: 2,
         slug: 'tahlil-kubur',
         title: 'Tahlil Kubur',
-        arab: 'تَهْلِيْلْ قُبُورْ',
+        arab: 'تَهْلِيْلْ ',
         latin: 'Tahlil',
         dzikri: [
           {
             id: 1,
             title: 'Yasin',
-            name: 'Surat Yasin',
-            subName: '',
+            name: '',
+            subName: 'Tahlil Pendek',
             arab: 'سُوْرَةُ يس',
             latin: 'Surat Yasin',
             bait_bait: [
@@ -5495,8 +5495,8 @@ export const data = [
             id: 2,
             arab: '',
             title: 'Tahlil kubur',
-            name: 'Tahlil kubur',
-            subName: '',
+            name: '',
+            subName: 'Tahlil Pendek',
             latin: 'Dzikra',
             bait_bait: [
               {
@@ -5589,8 +5589,8 @@ export const data = [
             id: 3,
             arab: '',
             title: 'Doa',
-            name: 'Doa Tahlil',
-            subName: '',
+            name: '',
+            subName: 'Tahlil Pendek',
             latin: 'Dzikra',
             bait_bait: [
               {
@@ -5638,7 +5638,7 @@ export const data = [
             id: 1,
             title: '',
             name: '',
-            subName: '',
+            subName: 'Istighosah Umum',
             arab: '',
             latin: ' ',
             bait_bait: [
@@ -5794,14 +5794,14 @@ export const data = [
         id: 4,
         slug: 'dzikir-imam-ghozali',
         title: 'Dzikir Harian Imam Ghozali',
-        arab: '',
+        arab: 'الْغَزَالِىْ',
         latin: '',
         dzikri: [
           {
             id: 1,
             title: '',
             name: '',
-            subName: '',
+            subName: 'Dzikir Harian Imam Ghozali',
             arab: '',
             latin: ' ',
             bait_bait: [
