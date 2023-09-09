@@ -6202,31 +6202,6 @@ export const data = [
         ]
       },
       {
-        id: 4,
-        slug: 'assalamualaika',
-        title: 'Assalamualaika',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Assalamualaika',
-        dzikri: [
-          {
-            id: 1,
-            title: '',
-            name: '',
-            subName: 'Assalamualaika',
-            arab: '',
-            latin: '',
-            bait_bait: [
-              {
-                id: 1,
-                arab: '',
-                latin: '',
-                arti: ''
-              }
-            ]
-          }
-        ]
-      },
-      {
         id: 5,
         slug: 'waasyhadu',
         title: 'Wa Asyhadu',
