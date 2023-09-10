@@ -3545,6 +3545,391 @@ export const data = [
         ]
       },
     ]
+  },
+  {
+    id: 4,
+    slug: 'dibak',
+    image: '',
+    title: 'Diba`',
+    arab: 'مَوْلِدُ الدِّبَاعِی',
+    latin: '',
+    category: [
+      {
+        id: 1,
+        slug: 'sholawat-pertama',
+        title: 'Sholawat Pertama',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Sholawat Pertama',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Sholawat Pertama',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 2,
+        slug: 'laqodja-akum',
+        title: 'Laqodja Akum',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Laqodja Akum',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Laqodja Akum',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 3,
+        slug: 'alhamdulillah',
+        title: 'Alhamdulillah',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Alhamdulillah',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Alhamdulillah',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 4,
+        slug: 'qilahuwa-adam',
+        title: 'Qilahuawa Adam',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Qilahuawa Adam',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Qilahuawa Adam',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 5,
+        slug: 'yubastu-mintihamah',
+        title: 'Yub`atsu Mintihamah',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Yub`atsu Mintihamah',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Yub`atsu Mintihamah',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        slug: 'stumma-arudduhu',
+        title: 'Tsumma Arudduhu',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Tsumma Arudduhu',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Tsumma Arudduhu',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        slug: 'fasubhanaman-khossohu',
+        title: 'Fasubhaman Khossohu',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Fasubhaman Khossohu',
+        dzikri: [ 
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Fasubhaman Khossohu',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 8,
+        slug: 'awwaluma-nastaftih',
+        title: 'Awwaluma Nastaftih',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Awwaluma Nastaftih',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Awwaluma Nastaftih',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 9,
+        slug: 'alhaditsul-awwal',
+        title: 'Alhaditsul Awwal',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Alhaditsul Awwal',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Alhaditsul Awwal',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 10,
+        slug: 'alhadistus-tsani',
+        title: 'Alhaditsus Tsani',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Alhaditsus Tsani',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Alhaditsus Tsani',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 11,
+        slug: 'fayakulul-haqqu',
+        title: 'Fayakulul Haqqu',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Fayakulul Haqqu',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Fayakulul Haqqu',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 12,
+        slug: 'ahdiru-kulubakum',
+        title: 'Ahdiru Kulubakum',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Ahdiru Kulubakum',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Ahdiru Kulubakum',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 13,
+        slug: 'fahtazzal-harsyu',
+        title: 'Fahtazzal Harsyu',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Fahtazzal Harsyu',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Fayakulul Haqqu',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 14,
+        slug: 'dibak-mahallul-qiyam',
+        title: 'Mahallul Qiyam',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Mahallul Qiyam',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Mahallul Qiyam',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 15,
+        slug: 'dibak-doa-maulid',
+        title: 'Doa Maulid',
+        arab: 'مَوْلِدُ الدِّبَاعِی',
+        latin: 'Doa Maulid',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Doa Maulid',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+    ]
   }
 ]
 

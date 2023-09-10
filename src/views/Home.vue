@@ -153,12 +153,6 @@ const router = useRouter()
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
-                    >
-                      Proses
-                      <span class="visually-hidden">unread messages</span>
-                    </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path fill="none" d="M0 0h24v24H0z"></path>
                       <path
@@ -172,13 +166,14 @@ const router = useRouter()
                 <!-- Diba -->
                 <div class="col-4">
                   <div
+                    @click="router.push('/dibak')"
                     class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
                     style="width: 50px; height: 50px"
                   >
                     <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
                     >
-                      Plan
+                      Proses
                       <span class="visually-hidden">unread messages</span>
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
