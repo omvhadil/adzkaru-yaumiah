@@ -6,16 +6,15 @@ import Header from '../components/Header.vue'
 import { ref, computed } from 'vue'
 
 const categoryNumber = ref(0)
-
 const kitabId = useRoute().params.kitab
 const categoryId = useRoute().params.category
 const kitab = data.find((item) => item.slug === kitabId)
 const category = kitab.category.find((item) => item.slug === categoryId)
 const dzikri = category.dzikri
-
 const tampilCategory = computed(() => dzikri[categoryNumber.value])
 
 const jmlcategorydzikir = dzikri.length
+
 const jmlname = dzikri[categoryNumber.value].name.length
 const jmlSubname = dzikri[categoryNumber.value].subName.length
 </script>

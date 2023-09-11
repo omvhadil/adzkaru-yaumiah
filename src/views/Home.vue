@@ -2,6 +2,7 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import Tawassul from '../components/Tawassul.vue'
+import { pesan } from '@/constans/index.js'
 
 const router = useRouter()
 </script>
@@ -36,8 +37,10 @@ const router = useRouter()
               >
                 فضيلة الرّحمن بن شمسل </span
               ><br />
-              نفعنااللّه به بعلومه فى الدّارين آمين <br
-            /></span>
+              نفعنااللّه به بعلومه فى الدّارين آمين <br /><span class="text-small"
+                >Copyright &copy; 2023</span
+              >
+            </span>
           </div>
         </div>
       </div>
@@ -48,6 +51,7 @@ const router = useRouter()
           class="menu rounded-start-5 bg-gradient-first-color py-4 d-grid justify-content-center gap-3 ms-auto"
           style="width: 90%"
         >
+          <!-- Madad -->
           <div @click="router.push('madad')" class="menu-item text-center">
             <div>
               <div
@@ -65,6 +69,7 @@ const router = useRouter()
             </div>
             <span class="text-white">Madad</span>
           </div>
+          <!-- Majmuk -->
           <div @click="router.push('majmu')" class="menu-item text-center">
             <div>
               <div
@@ -82,6 +87,7 @@ const router = useRouter()
             </div>
             <span class="text-white">Majmu'</span>
           </div>
+          <!-- Tahlil -->
           <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
             <div>
               <div
@@ -99,6 +105,7 @@ const router = useRouter()
             </div>
             <span class="text-white">Tahlil</span>
           </div>
+          <!-- Lainnya -->
           <div class="menu-item text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div>
               <div
@@ -276,10 +283,7 @@ const router = useRouter()
   <main class="ps-3 pe-3 mt-5">
     <div class="border border-secondary overflow-hidden rounded-2">
       <h5 class="text-center bg-first-color text-white py-2 text-uppercase">Pesan</h5>
-      <span class="text-center d-block p-3 fs-5"
-        >"Lakukanlah kebaikan sekecil apapun, karna engkau tidak akan pernah tau kebaikan mana yang
-        akan memasukkanmu ke dalam SURGA."</span
-      >
+      <span class="text-center d-block p-3 fs-5">"{{ pesan[1].text }}"</span>
     </div>
   </main>
 </template>
