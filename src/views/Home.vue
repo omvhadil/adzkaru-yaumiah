@@ -24,9 +24,9 @@ const router = useRouter()
             class="nav_logo font-aref text-decoration-none text-first-color"
             style="font-size: 4.5rem"
           >
-            أَذْكَارُ يَوْمِيَّة
+            اْلبَآقِى
           </h1>
-          <p class="text-first-color fw-semibold" style="font-size: 2rem">Dzikir Harian</p>
+          <p class="text-first-color fw-semibold" style="font-size: 2rem">Al-Baqi'</p>
 
           <div class="mt-5">
             <span class="text-secondary font-aref" style="font-size: 1.3rem">
