@@ -53,22 +53,22 @@
 }
 /* Theme App  */
 .text-first-color{
-  color: var(--color-gray);
+  color: var(--color-green);
 }
 .bg-first-color{
-  background-color: var(--color-gray);
+  background-color: var(--color-green);
 }
 .border-first-color{
-  border-color: var(--color-gray)!important;
+  border-color: var(--color-green)!important;
 }
 .bg-first-color-alt{
-  background-color: var(--color-gray-alt)!important;
+  background-color: var(--color-green-alt)!important;
 }
 .bg-gradient-first-color{
-  background-image: var(--color-gray-gradient);
+  background-image: var(--color-green-gradient);
 }
 .bg-gradient-first-color-alt{
-  background-image: var(--color-gray-gradient);
+  background-image: var(--color-green-gradient);
 }
 /* Font Family  */
 .font-aref{
