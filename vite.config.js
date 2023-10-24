@@ -11,7 +11,7 @@ export default defineConfig({
     VitePWA({ registerType: 'autoUpdate',  manifest: {
       name: 'Al-Baqi`',
       short_name: 'Al-Baqi`',
-      background_color: '#f1eeee',
+      background_color: '#ffffff',
       display: 'standalone',
       scope: '/',
       start_url: '/',
