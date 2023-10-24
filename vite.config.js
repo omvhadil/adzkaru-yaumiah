@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({ registerType: 'autoUpdate',  manifest: {
-      name: 'Adzkaru Yaumiah',
-      short_name: 'Adzkaru Yaumiah',
+      name: 'Al-Baqi`',
+      short_name: 'Al-Baqi`',
       background_color: '#f1eeee',
       display: 'standalone',
       scope: '/',

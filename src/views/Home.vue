@@ -281,7 +281,7 @@ const router = useRouter()
   </section>
   <!-- end:content  -->
   <main class="ps-3 pe-3 mt-5">
-    <div class="border border-secondary overflow-hidden rounded-2">
+    <div class="overflow-hidden rounded-2 shadow-sm" style="background-color: #fcfcfc">
       <h5 class="text-center bg-first-color text-white py-2 text-uppercase">Pesan</h5>
       <span class="text-center d-block p-3 fs-5">"{{ pesan[1].text }}"</span>
     </div>
