@@ -2,6 +2,7 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import Tawassul from '../components/Tawassul.vue'
+import Toggle from '../components/Toggle.vue'
 import { pesan } from '@/constans/index.js'
 
 const router = useRouter()
@@ -9,54 +10,43 @@ const router = useRouter()
 <template>
   <!-- begin:header  -->
   <header class="header px-3">
-    <div class="nav d-flex align-items-center justify-content-end gap-4" style="height: 3.5rem">
+    <div class="flex items-center justify-end gap-4 h-[3.5rem]">
       <Tawassul />
+      <Toggle />
     </div>
   </header>
   <!-- end:header  -->
   <!-- begin:content  -->
   <section class="section">
-    <div class="row mt-4 g-0">
+    <div class="flex mt-4">
       <!-- begin:icon -->
-      <div class="col-9 p-0">
+      <div class="w-[80%] p-0">
         <div class="text-center mt-4">
-          <h1
-            class="nav_logo font-aref text-decoration-none text-first-color"
-            style="font-size: 4.5rem"
-          >
-            اْلبَآقِى
-          </h1>
-          <p class="text-first-color fw-semibold" style="font-size: 2rem">Al-Baqi'</p>
+          <h1 class="font-aref text-green-500 text-[3.5rem]">الْخَلاَصَةُالْوَاعِيَّةُ</h1>
+          <p class="font-aref text-[1.7rem] text-gray-500 m-0">في الأوراداليوميةوالأدعية</p>
 
-          <div class="mt-5">
-            <span class="text-secondary font-aref" style="font-size: 1.3rem">
-              جمع و ترتيب <br />
-              الدّاعى الى اللّه الفقير <br /><span
-                class="fw-semibold text-dark-emphasis"
-                style="font-size: 1.5rem"
-              >
-                فضيلة الرّحمن بن شمسل </span
-              ><br />
-              نفعنااللّه به بعلومه فى الدّارين آمين <br /><span class="text-small"
-                >Copyright &copy; 2023</span
-              >
-            </span>
-          </div>
+          <span class="text-gray-500 font-aref text-[1.5rem]">
+            جمع و ترتيب <br />
+            الدّاعى الى اللّه الفقير <br /><span
+              class="text-dark-emphasis font-semibold text-[1.5rem]"
+            >
+              فضيلة الرّحمن بن شمسل </span
+            ><br />
+            نفعنااللّه به بعلومه فى الدّارين آمين <br /><span class="text-[.9rem]"
+              >Copyright &copy; 2023</span
+            >
+          </span>
         </div>
       </div>
       <!-- end:icon -->
       <!-- begin:menu -->
-      <div class="col-3 p-0">
-        <div
-          class="menu rounded-start-5 bg-gradient-first-color py-4 d-grid justify-content-center gap-3 ms-auto"
-          style="width: 90%"
-        >
+      <div class="w-[20%] p-0">
+        <div class="rounded-l-3xl bg-green-500 py-4 grid justify-center gap-3 ms-auto w-[90%]">
           <!-- Madad -->
-          <div @click="router.push('madad')" class="menu-item text-center">
+          <div @click="router.push('madad')" class="text-center">
             <div>
               <div
-                class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
-                style="width: 50px; height: 50px"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
@@ -73,8 +63,7 @@ const router = useRouter()
           <div @click="router.push('majmu')" class="menu-item text-center">
             <div>
               <div
-                class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
-                style="width: 50px; height: 50px"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
@@ -91,8 +80,7 @@ const router = useRouter()
           <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
             <div>
               <div
-                class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
-                style="width: 50px; height: 50px"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
@@ -109,8 +97,7 @@ const router = useRouter()
           <div class="menu-item text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div>
               <div
-                class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto"
-                style="width: 50px; height: 50px"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
@@ -281,9 +268,9 @@ const router = useRouter()
   </section>
   <!-- end:content  -->
   <main class="ps-3 pe-3 mt-5">
-    <div class="overflow-hidden rounded-2 shadow-sm" style="background-color: #fcfcfc">
-      <h5 class="text-center bg-first-color text-white py-2 text-uppercase">Pesan</h5>
-      <span class="text-center d-block p-3 fs-5">"{{ pesan[1].text }}"</span>
+    <div class="overflow-hidden rounded-md shadow-sm bg-gray-100">
+      <h5 class="text-center bg-green-500 text-white py-2 text-uppercase">Pesan</h5>
+      <span class="text-center block p-3 text-lg">"{{ pesan[1].text }}"</span>
     </div>
   </main>
 </template>

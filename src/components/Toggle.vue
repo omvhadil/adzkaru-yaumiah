@@ -5,17 +5,16 @@
     style="color: #fff; cursor: pointer"
     type="button"
     data-bs-toggle="offcanvas"
-    data-bs-target="#staticBackdrop"
-    aria-controls="staticBackdrop"
+    data-bs-target="#toggle"
+    aria-controls="toggle"
   >
     <!-- begin:icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
-      <path fill="none" d="M0 0h24v24H0z"></path>
-      <path
-        fill="#696969"
-        d="M13 21V11H21V21H13ZM3 13V3H11V13H3ZM9 11V5H5V11H9ZM3 21V15H11V21H3ZM5 19H9V17H5V19ZM15 19H19V13H15V19ZM13 3H21V9H13V3ZM15 5V7H19V5H15Z"
-      ></path>
-    </svg>
+    <div class="">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="#9c9898" d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+      </svg>
+    </div>
     <!-- end:icon -->
   </div>
 
@@ -23,33 +22,21 @@
     class="offcanvas offcanvas-end"
     data-bs-backdrop="static"
     tabindex="-1"
-    id="staticBackdrop"
+    id="toggle"
     aria-labelledby="staticBackdropLabel"
-    style="width: 300px"
+    style="width: 350px"
   >
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="staticBackdropLabel">Setting</h5>
+    <div class="offcanvas-header bg-gradient-first-color-alt text-white">
+      <h5 class="offcanvas-title" id="staticBackdropLabel">Menu</h5>
       <button
         type="button"
-        class="btn-close"
+        class="btn-close btn-close-white"
         data-bs-dismiss="offcanvas"
         aria-label="Close"
       ></button>
     </div>
     <div class="offcanvas-body">
-      <div class="row">
-        <div class="col-12">
-          <div class="form-check form-switch d-flex justify-content-between p-0">
-            <label class="form-check-label fs-5" for="flexSwitchCheckChecked">Dark Mode</label>
-            <input
-              class="form-check-input fs-4"
-              type="checkbox"
-              role="switch"
-              id="flexSwitchCheckChecked"
-            />
-          </div>
-        </div>
-      </div>
+      <p>Masih Belum selesai</p>
     </div>
   </div>
 </template>
