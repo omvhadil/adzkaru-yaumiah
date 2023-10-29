@@ -1,8 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { useRouter } from 'vue-router'
-import Tawassul from '../components/Tawassul.vue'
-import Toggle from '../components/Toggle.vue'
+// import Tawassul from '../components/Tawassul.vue'
+// import Toggle from '../components/Toggle.vue'
 import { pesan } from '@/constans/index.js'
 
 const router = useRouter()
@@ -10,9 +10,31 @@ const router = useRouter()
 <template>
   <!-- begin:header  -->
   <header class="header px-3">
-    <div class="flex items-center justify-end gap-4 h-[3.5rem]">
-      <Tawassul />
-      <Toggle />
+    <div class="flex items-center justify-end h-[3.5rem] gap-4">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path
+            fill="#4b5563"
+            d="M21 4V18.7215C21 18.9193 20.8833 19.0986 20.7024 19.1787L12 23.0313L3.29759 19.1787C3.11667 19.0986 3 18.9193 3 18.7215V4H1V2H23V4H21ZM5 4V17.7451L12 20.8441L19 17.7451V4H5ZM8 8H16V10H8V8ZM8 12H16V14H8V12Z"
+          ></path>
+        </svg>
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path
+            fill="#4b5563"
+            d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z"
+          ></path>
+        </svg>
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path fill="#4b5563" d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+        </svg>
+      </div>
     </div>
   </header>
   <!-- end:header  -->
@@ -22,7 +44,7 @@ const router = useRouter()
       <!-- begin:icon -->
       <div class="w-[80%] p-0">
         <div class="text-center mt-4">
-          <h1 class="font-aref text-green-500 text-[3.5rem]">الْخَلاَصَةُالْوَاعِيَّةُ</h1>
+          <h1 class="font-aref text-green-500 text-[3.5rem]">الْخُلاَصَةُالْوَاعِيَّةُ</h1>
           <p class="font-aref text-[1.7rem] text-gray-500 m-0">في الأوراداليوميةوالأدعية</p>
 
           <span class="text-gray-500 font-aref text-[1.5rem]">
@@ -41,229 +63,80 @@ const router = useRouter()
       <!-- end:icon -->
       <!-- begin:menu -->
       <div class="w-[20%] p-0">
-        <div class="rounded-l-3xl bg-green-500 py-4 grid justify-center gap-3 ms-auto w-[90%]">
+        <div
+          class="rounded-l-3xl bg-gradient-to-b from-green-400 to-green-600 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+        >
           <!-- Madad -->
           <div @click="router.push('madad')" class="text-center">
             <div>
               <div
-                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path
                     fill="white"
-                    d="M21 21H13V6C13 4.34315 14.3431 3 16 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21ZM11 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H8C9.65685 3 11 4.34315 11 6V21ZM11 21H13V23H11V21Z"
+                    d="M3 18.5V5C3 3.34315 4.34315 2 6 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H6.5C4.567 22 3 20.433 3 18.5ZM19 20V17H6.5C5.67157 17 5 17.6716 5 18.5C5 19.3284 5.67157 20 6.5 20H19ZM10 4H6C5.44772 4 5 4.44772 5 5V15.3368C5.45463 15.1208 5.9632 15 6.5 15H19V4H17V12L13.5 10L10 12V4Z"
                   ></path>
                 </svg>
               </div>
             </div>
-            <span class="text-white">Madad</span>
+            <span class="text-white text-[.8rem]">Madad</span>
           </div>
           <!-- Majmuk -->
           <div @click="router.push('majmu')" class="menu-item text-center">
             <div>
               <div
-                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path
                     fill="white"
-                    d="M9 13V16H15V13H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V13H9ZM11 11H13V14H11V11ZM7 5V2C7 1.44772 7.44772 1 8 1H16C16.5523 1 17 1.44772 17 2V5H21C21.5523 5 22 5.44772 22 6V11H15V9H9V11H2V6C2 5.44772 2.44772 5 3 5H7ZM9 3V5H15V3H9Z"
+                    d="M7 5V2C7 1.44772 7.44772 1 8 1H16C16.5523 1 17 1.44772 17 2V5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V6C2 5.44772 2.44772 5 3 5H7ZM9 13H4V19H20V13H15V16H9V13ZM20 7H4V11H9V9H15V11H20V7ZM11 11V14H13V11H11ZM9 3V5H15V3H9Z"
                   ></path>
                 </svg>
               </div>
             </div>
-            <span class="text-white">Majmu'</span>
+            <span class="text-white text-[.8rem]">Majmu'</span>
           </div>
           <!-- Tahlil -->
           <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
             <div>
               <div
-                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path
                     fill="white"
-                    d="M10.007 2.10377C8.60544 1.65006 7.08181 2.28116 6.41156 3.59306L5.60578 5.17023C5.51004 5.35763 5.35763 5.51004 5.17023 5.60578L3.59306 6.41156C2.28116 7.08181 1.65006 8.60544 2.10377 10.007L2.64923 11.692C2.71404 11.8922 2.71404 12.1078 2.64923 12.308L2.10377 13.993C1.65006 15.3946 2.28116 16.9182 3.59306 17.5885L5.17023 18.3942C5.35763 18.49 5.51004 18.6424 5.60578 18.8298L6.41156 20.407C7.08181 21.7189 8.60544 22.35 10.007 21.8963L11.692 21.3508C11.8922 21.286 12.1078 21.286 12.308 21.3508L13.993 21.8963C15.3946 22.35 16.9182 21.7189 17.5885 20.407L18.3942 18.8298C18.49 18.6424 18.6424 18.49 18.8298 18.3942L20.407 17.5885C21.7189 16.9182 22.35 15.3946 21.8963 13.993L21.3508 12.308C21.286 12.1078 21.286 11.8922 21.3508 11.692L21.8963 10.007C22.35 8.60544 21.7189 7.08181 20.407 6.41156L18.8298 5.60578C18.6424 5.51004 18.49 5.35763 18.3942 5.17023L17.5885 3.59306C16.9182 2.28116 15.3946 1.65006 13.993 2.10377L12.308 2.64923C12.1078 2.71403 11.8922 2.71404 11.692 2.64923L10.007 2.10377ZM6.75977 11.7573L8.17399 10.343L11.0024 13.1715L16.6593 7.51465L18.0735 8.92886L11.0024 15.9999L6.75977 11.7573Z"
+                    d="M10.007 2.10377C8.60544 1.65006 7.08181 2.28116 6.41156 3.59306L5.60578 5.17023C5.51004 5.35763 5.35763 5.51004 5.17023 5.60578L3.59306 6.41156C2.28116 7.08181 1.65006 8.60544 2.10377 10.007L2.64923 11.692C2.71403 11.8922 2.71403 12.1078 2.64923 12.308L2.10377 13.993C1.65006 15.3946 2.28116 16.9182 3.59306 17.5885L5.17023 18.3942C5.35763 18.49 5.51004 18.6424 5.60578 18.8298L6.41156 20.407C7.08181 21.7189 8.60544 22.35 10.007 21.8963L11.692 21.3508C11.8922 21.286 12.1078 21.286 12.308 21.3508L13.993 21.8963C15.3946 22.35 16.9182 21.7189 17.5885 20.407L18.3942 18.8298C18.49 18.6424 18.6424 18.49 18.8298 18.3942L20.407 17.5885C21.7189 16.9182 22.35 15.3946 21.8963 13.993L21.3508 12.308C21.286 12.1078 21.286 11.8922 21.3508 11.692L21.8963 10.007C22.35 8.60544 21.7189 7.08181 20.407 6.41156L18.8298 5.60578C18.6424 5.51004 18.49 5.35763 18.3942 5.17023L17.5885 3.59306C16.9182 2.28116 15.3946 1.65006 13.993 2.10377L12.308 2.64923C12.1078 2.71403 11.8922 2.71404 11.692 2.64923L10.007 2.10377ZM8.19258 4.50299C8.416 4.06569 8.92388 3.85532 9.39107 4.00656L11.0761 4.55201C11.6767 4.74644 12.3233 4.74644 12.9239 4.55201L14.609 4.00656C15.0761 3.85532 15.584 4.06569 15.8074 4.50298L16.6132 6.08016C16.9004 6.64234 17.3577 7.09958 17.9199 7.3868L19.497 8.19258C19.9343 8.416 20.1447 8.92388 19.9935 9.39107L19.448 11.0761C19.2536 11.6767 19.2536 12.3233 19.448 12.9239L19.9935 14.609C20.1447 15.0761 19.9343 15.584 19.497 15.8074L17.9199 16.6132C17.3577 16.9004 16.9004 17.3577 16.6132 17.9199L15.8074 19.497C15.584 19.9343 15.0761 20.1447 14.609 19.9935L12.9239 19.448C12.3233 19.2536 11.6767 19.2536 11.0761 19.448L9.39107 19.9935C8.92388 20.1447 8.416 19.9343 8.19258 19.497L7.3868 17.9199C7.09958 17.3577 6.64234 16.9004 6.08016 16.6132L4.50299 15.8074C4.06569 15.584 3.85532 15.0761 4.00656 14.609L4.55201 12.9239C4.74644 12.3233 4.74644 11.6767 4.55201 11.0761L4.00656 9.39107C3.85532 8.92388 4.06569 8.416 4.50299 8.19258L6.08016 7.3868C6.64234 7.09958 7.09958 6.64234 7.3868 6.08016L8.19258 4.50299ZM6.7596 11.7574L11.0022 16L18.0733 8.92897L16.6591 7.51476L11.0022 13.1716L8.17382 10.3431L6.7596 11.7574Z"
                   ></path>
                 </svg>
               </div>
             </div>
-            <span class="text-white">Tahlil</span>
+            <span class="text-white text-[.8rem]">Tahlil</span>
           </div>
           <!-- Lainnya -->
-          <div class="menu-item text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
             <div>
               <div
-                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[50px] h-[50px]"
+                class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path
                     fill="white"
-                    d="M3 13H11V3H3V13ZM3 21H11V15H3V21ZM13 21H21V11H13V21ZM13 3V9H21V3H13Z"
+                    d="M6.75 2.5C9.09721 2.5 11 4.40279 11 6.75V11H6.75C4.40279 11 2.5 9.09721 2.5 6.75C2.5 4.40279 4.40279 2.5 6.75 2.5ZM9 9V6.75C9 5.50736 7.99264 4.5 6.75 4.5C5.50736 4.5 4.5 5.50736 4.5 6.75C4.5 7.99264 5.50736 9 6.75 9H9ZM6.75 13H11V17.25C11 19.5972 9.09721 21.5 6.75 21.5C4.40279 21.5 2.5 19.5972 2.5 17.25C2.5 14.9028 4.40279 13 6.75 13ZM6.75 15C5.50736 15 4.5 16.0074 4.5 17.25C4.5 18.4926 5.50736 19.5 6.75 19.5C7.99264 19.5 9 18.4926 9 17.25V15H6.75ZM17.25 2.5C19.5972 2.5 21.5 4.40279 21.5 6.75C21.5 9.09721 19.5972 11 17.25 11H13V6.75C13 4.40279 14.9028 2.5 17.25 2.5ZM17.25 9C18.4926 9 19.5 7.99264 19.5 6.75C19.5 5.50736 18.4926 4.5 17.25 4.5C16.0074 4.5 15 5.50736 15 6.75V9H17.25ZM13 13H17.25C19.5972 13 21.5 14.9028 21.5 17.25C21.5 19.5972 19.5972 21.5 17.25 21.5C14.9028 21.5 13 19.5972 13 17.25V13ZM15 15V17.25C15 18.4926 16.0074 19.5 17.25 19.5C18.4926 19.5 19.5 18.4926 19.5 17.25C19.5 16.0074 18.4926 15 17.25 15H15Z"
                   ></path>
                 </svg>
               </div>
             </div>
-            <span class="text-white">Lainnya</span>
+            <span class="text-white text-[.8rem]">Lainnya</span>
           </div>
         </div>
       </div>
       <!-- end:menu -->
-    </div>
-    <!-- modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header border-bottom-0">
-            <h1 class="modal-title fs-5 text-first-color" id="exampleModalLabel">Menu Lainnya</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div
-              class="menu-item text-center"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              <div class="row gy-4">
-                <!-- Simtud -->
-                <div class="col-4">
-                  <div
-                    @click="router.push('/simtud')"
-                    class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
-                    style="width: 50px; height: 50px"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path
-                        fill="white"
-                        d="M4.87759 3.00293H19.1319C19.4518 3.00293 19.7524 3.15601 19.9406 3.41476L23.7634 8.67115C23.9037 8.86403 23.8882 9.12913 23.7265 9.30438L12.3721 21.6049C12.1848 21.8078 11.8685 21.8205 11.6656 21.6332C11.6558 21.6241 11.6464 21.6147 11.6373 21.6049L0.282992 9.30438C0.121226 9.12913 0.10575 8.86403 0.246026 8.67115L4.06886 3.41476C4.25704 3.15601 4.55766 3.00293 4.87759 3.00293Z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span class="ctext-dark">Simtud</span>
-                </div>
-                <!-- Diba -->
-                <div class="col-4">
-                  <div
-                    @click="router.push('/dibak')"
-                    class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
-                    style="width: 50px; height: 50px"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path
-                        fill="white"
-                        d="M13.0049 16.941V19.0029H18.0049V21.0029H6.00488V19.0029H11.0049V16.941C7.05857 16.4489 4.00488 13.0825 4.00488 9.00293V3.00293H20.0049V9.00293C20.0049 13.0825 16.9512 16.4489 13.0049 16.941ZM1.00488 5.00293H3.00488V9.00293H1.00488V5.00293ZM21.0049 5.00293H23.0049V9.00293H21.0049V5.00293Z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span class="ctext-dark">Diba'</span>
-                </div>
-                <!-- basaudan -->
-                <div class="col-4">
-                  <div
-                    class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
-                    style="width: 50px; height: 50px"
-                  >
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
-                    >
-                      Proses
-                      <span class="visually-hidden">unread messages</span>
-                    </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path
-                        fill="white"
-                        d="M19.2914 5.99994H20.0002C20.5525 5.99994 21.0002 6.44766 21.0002 6.99994V13.9999C21.0002 14.5522 20.5525 14.9999 20.0002 14.9999H18.0002L13.8319 9.16427C13.3345 8.46797 12.4493 8.16522 11.6297 8.41109L9.14444 9.15668C8.43971 9.3681 7.6758 9.17551 7.15553 8.65524L6.86277 8.36247C6.41655 7.91626 6.49011 7.17336 7.01517 6.82332L12.4162 3.22262C13.0752 2.78333 13.9312 2.77422 14.5994 3.1994L18.7546 5.8436C18.915 5.94571 19.1013 5.99994 19.2914 5.99994ZM5.02708 14.2947L3.41132 15.7085C2.93991 16.1209 2.95945 16.8603 3.45201 17.2474L8.59277 21.2865C9.07284 21.6637 9.77592 21.5264 10.0788 20.9963L10.7827 19.7645C11.2127 19.012 11.1091 18.0682 10.5261 17.4269L7.82397 14.4545C7.09091 13.6481 5.84722 13.5771 5.02708 14.2947ZM7.04557 5H3C2.44772 5 2 5.44772 2 6V13.5158C2 13.9242 2.12475 14.3173 2.35019 14.6464C2.3741 14.6238 2.39856 14.6015 2.42357 14.5796L4.03933 13.1658C5.47457 11.91 7.65103 12.0343 8.93388 13.4455L11.6361 16.4179C12.6563 17.5401 12.8376 19.1918 12.0851 20.5087L11.4308 21.6538C11.9937 21.8671 12.635 21.819 13.169 21.4986L17.5782 18.8531C18.0786 18.5528 18.2166 17.8896 17.8776 17.4146L12.6109 10.0361C12.4865 9.86205 12.2652 9.78636 12.0603 9.84783L9.57505 10.5934C8.34176 10.9634 7.00492 10.6264 6.09446 9.7159L5.80169 9.42313C4.68615 8.30759 4.87005 6.45035 6.18271 5.57524L7.04557 5Z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span class="ctext-dark">Basaudan</span>
-                </div>
-                <!-- Haji & Umroh -->
-                <div class="col-4">
-                  <div
-                    class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
-                    style="width: 50px; height: 50px"
-                  >
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                    >
-                      Plan
-                      <span class="visually-hidden">unread messages</span>
-                    </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path
-                        fill="white"
-                        d="M15.2238 15.5078L13.0111 20.1579C12.8687 20.4572 12.5107 20.5843 12.2115 20.4419C12.1448 20.4102 12.0845 20.3664 12.0337 20.3127L8.49229 16.574C8.39749 16.4739 8.27113 16.4095 8.13445 16.3917L3.02816 15.7242C2.69958 15.6812 2.46804 15.3801 2.51099 15.0515C2.52056 14.9782 2.54359 14.9074 2.5789 14.8425L5.04031 10.3191C5.1062 10.198 5.12839 10.0579 5.10314 9.92241L4.16 4.85979C4.09931 4.53402 4.3142 4.22074 4.63997 4.16005C4.7126 4.14652 4.78711 4.14652 4.85974 4.16005L9.92237 5.10319C10.0579 5.12843 10.198 5.10625 10.319 5.04036L14.8424 2.57895C15.1335 2.42056 15.4979 2.52812 15.6562 2.81919C15.6916 2.88409 15.7146 2.95495 15.7241 3.02821L16.3916 8.13449C16.4095 8.27118 16.4739 8.39754 16.5739 8.49233L20.3127 12.0337C20.5533 12.2616 20.5636 12.6414 20.3357 12.8819C20.2849 12.9356 20.2246 12.9794 20.1579 13.0111L15.5078 15.2238C15.3833 15.2831 15.283 15.3833 15.2238 15.5078ZM16.0206 17.4349L17.4348 16.0207L21.6775 20.2633L20.2633 21.6775L16.0206 17.4349Z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span class="ctext-dark">Haji Umroh</span>
-                </div>
-                <!-- Ramadhan -->
-                <div class="col-4">
-                  <div
-                    class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
-                    style="width: 50px; height: 50px"
-                  >
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                    >
-                      Plan
-                      <span class="visually-hidden">unread messages</span>
-                    </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path
-                        fill="white"
-                        d="M2.00488 19H22.0049V21H2.00488V19ZM2.00488 5L7.00488 8L12.0049 2L17.0049 8L22.0049 5V17H2.00488V5Z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span class="ctext-dark">Ramadhan</span>
-                </div>
-                <!-- Jenazah -->
-                <div class="col-4">
-                  <div
-                    class="cursor menu-icon bg-first-color-alt p-2 rounded-circle d-flex align-items-center justify-content-center mx-auto position-relative"
-                    style="width: 50px; height: 50px"
-                  >
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                    >
-                      Plan
-                      <span class="visually-hidden">unread messages</span>
-                    </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path fill="white " d="M10 10.1111V1L21 7V21H3V7L10 10.1111Z"></path>
-                    </svg>
-                  </div>
-                  <span class="ctext-dark">Jenazah</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   <!-- end:content  -->

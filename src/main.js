@@ -4,8 +4,6 @@ import router from './router'
 import VueSplide from '@splidejs/vue-splide';
 
 import './assets/main.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
 import 'remixicon/fonts/remixicon.css'
 
 const app = createApp(App)
