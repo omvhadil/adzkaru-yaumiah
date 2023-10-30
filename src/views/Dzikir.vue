@@ -55,6 +55,12 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
               >
                 {{ item.arab }}
               </h2>
+              <h2 class="m-0 py-1 font-scheherazade text-[1.2rem]" align="justify">
+                {{ item.indo }}
+              </h2>
+              <div>
+                <img :src="item.image" alt="" class="w-full" />
+              </div>
             </td>
           </tr>
         </tbody>

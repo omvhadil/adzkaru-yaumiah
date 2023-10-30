@@ -72,7 +72,7 @@ const router = useRouter()
     <section class="grid grid-cols-4 gap-4 mt-3">
       <!-- simtud -->
       <div
-        @click="router.push('/simtut')"
+        @click="router.push('/simtud')"
         class="flex flex-col justify-center items-center text-center"
       >
         <div class="bg-green-200 rounded-full h-[45px] w-[45px] p-2">
@@ -145,6 +145,31 @@ const router = useRouter()
           </div>
         </div>
         <p>Ramadhan</p>
+      </div>
+      <!-- kejawean -->
+      <div
+        @click="router.push('/kejawen')"
+        class="flex flex-col justify-center items-center text-center"
+      >
+        <div class="bg-green-200 rounded-full h-[45px] w-[45px] p-2 relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path
+              fill="dark"
+              d="M21.7992 14.001C20.9633 18.1168 17.5995 21.3145 13.399 21.9028L13.3992 19.878C16.4926 19.3321 18.9729 17.0086 19.7473 14.0004L21.7992 14.001ZM4.25157 14.0004C5.01757 16.9759 7.45244 19.2814 10.4989 19.8595V21.8882C6.3456 21.2632 3.02888 18.0838 2.19968 14.001L4.25157 14.0004ZM17.9994 11V13H14.9994C13.9451 13 13.0813 13.8159 13.0049 14.8507L12.9994 15V18H10.9994V15C10.9994 13.9456 10.1836 13.0818 9.14871 13.0055L8.99944 13H5.99944V11H17.9994ZM11.9994 2C17.1848 2 21.4483 5.94662 21.9501 10.9999L19.9376 11C19.4455 7.05371 16.0791 4 11.9994 4C7.91981 4 4.55341 7.05371 4.06133 11L2.04883 10.9999C2.5506 5.94662 6.81413 2 11.9994 2Z"
+            ></path>
+          </svg>
+          <div class="absolute top-0 right-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path
+                fill="red"
+                d="M18 8H20C20.5523 8 21 8.44772 21 9V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V9C3 8.44772 3.44772 8 4 8H6V7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7V8ZM11 15.7324V18H13V15.7324C13.5978 15.3866 14 14.7403 14 14C14 12.8954 13.1046 12 12 12C10.8954 12 10 12.8954 10 14C10 14.7403 10.4022 15.3866 11 15.7324ZM16 8V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V8H16Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <p>Kejawen</p>
       </div>
     </section>
   </main>
