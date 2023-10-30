@@ -35,13 +35,11 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     </template>
   </Header>
 
-  <div class="container transition mt-5 px-2" :class="jmlcategorydzikir > 1 ? 'py-5' : 'py-0'">
+  <div class="container transition mt-10 px-2" :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'">
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
-          <h2 class="m-0 font-aref mb-3" style="font-size: 3rem !important">
-            ﴾ {{ category.arab }} ﴿
-          </h2>
+          <h2 class="m-0 font-aref mb-3 text-[3rem]">﴾ {{ category.arab }} ﴿</h2>
           <h4 v-if="jmlname" class="m-0">﴾ {{ tampilCategory?.name }} ﴿</h4>
           <span v-if="jmlSubname" class="m-0">{{ tampilCategory?.subName }}</span>
         </div>
@@ -52,7 +50,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
             <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
               <h2
                 style="direction: rtl; unicode-bidi: bidi-override; line-height: 2 !important"
-                class="m-0 py-1 font-scheherazade fw-semibold"
+                class="m-0 py-1 font-scheherazade text-semibold text-[1.5rem]"
                 align="justify"
               >
                 {{ item.arab }}
