@@ -3386,7 +3386,7 @@ export const data = [
   },
   {
     id: 4,
-    slug: 'dibak',
+    slug: 'diba',
     image: '',
     title: 'Diba`',
     arab: 'مَوْلِدُ الدِّبَاعِی',

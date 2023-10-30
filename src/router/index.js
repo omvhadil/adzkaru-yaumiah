@@ -19,6 +19,11 @@ const router = createRouter({
       component: () => import('../views/Dzikir.vue')
     },
     {
+      path: '/all-menus',
+      name: 'all-menu',
+      component: () => import('../views/AllMenu.vue')
+    },
+    {
       path: '/new-home',
       name: 'new-home',
       component: () => import('../views/New-Home.vue')

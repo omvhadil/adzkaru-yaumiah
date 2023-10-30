@@ -118,7 +118,7 @@ const router = useRouter()
             <span class="text-white text-[.8rem]">Tahlil</span>
           </div>
           <!-- Lainnya -->
-          <div @click="router.push('/majmu')" class="menu-item text-center">
+          <div @click="router.push('/all-menus')" class="menu-item text-center">
             <div>
               <div
                 class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
