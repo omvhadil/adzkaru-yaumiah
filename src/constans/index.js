@@ -4991,7 +4991,7 @@ export const data = [
                 id: 1,
                 arab: '',
                 indo: '',
-                image: '/public/image/kayon-bw.png',
+                image: '/image/kayon-bw.png',
                 latin: '',
                 arti: '',
               }
