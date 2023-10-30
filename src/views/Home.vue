@@ -12,7 +12,7 @@ const router = useRouter()
   <header class="header px-3">
     <div class="flex items-center justify-end h-[3.5rem] gap-4">
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
             fill="#4b5563"
@@ -21,7 +21,7 @@ const router = useRouter()
         </svg>
       </div>
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
             fill="#4b5563"
@@ -30,7 +30,7 @@ const router = useRouter()
         </svg>
       </div>
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path fill="#4b5563" d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
         </svg>
@@ -118,7 +118,7 @@ const router = useRouter()
             <span class="text-white text-[.8rem]">Tahlil</span>
           </div>
           <!-- Lainnya -->
-          <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
+          <div @click="router.push('/majmu')" class="menu-item text-center">
             <div>
               <div
                 class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
@@ -142,7 +142,7 @@ const router = useRouter()
   <!-- end:content  -->
   <main class="ps-3 pe-3 mt-5">
     <div class="overflow-hidden rounded-md shadow-sm bg-gray-100">
-      <h5 class="text-center bg-green-500 text-white py-2 text-uppercase">Pesan</h5>
+      <h5 class="text-center bg-green-600 text-white py-2 text-uppercase">Pesan</h5>
       <span class="text-center block p-3 text-lg">"{{ pesan[1].text }}"</span>
     </div>
   </main>

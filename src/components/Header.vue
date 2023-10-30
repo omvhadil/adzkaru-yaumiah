@@ -12,14 +12,11 @@ const data = defineProps({
 })
 </script>
 <template>
-  <nav class="bg-gradient-first-color-alt position-fixed top-0 start-0 w-100 p-0">
-    <div
-      class="container d-flex align-items-center p-2 justify-content-between"
-      style="height: 3.5rem"
-    >
-      <div @click="router.back()" class="cursor">
+  <nav class="bg-gradient-to-b from-green-500 to-green-700 fixed top-0 start-0 w-full p-0">
+    <div class="container flex items-center p-2 justify-between h-[3.5rem]">
+      <div @click="router.back()" class="cursor-pointer">
         <!-- begin:icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
             fill="white"
@@ -28,7 +25,7 @@ const data = defineProps({
         </svg>
         <!-- end:icon -->
       </div>
-      <h3 class="text-light font-scheherazade m-0">{{ data.title }}</h3>
+      <h3 class="text-white font-scheherazade m-0">{{ data.title }}</h3>
       <!-- <Toggle /> -->
     </div>
     <slot name="menu"> </slot>
