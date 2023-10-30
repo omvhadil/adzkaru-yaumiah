@@ -58,7 +58,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
               <h2 class="m-0 py-1 font-scheherazade text-[1.2rem]" align="justify">
                 {{ item.indo }}
               </h2>
-              <div>
+              <div v-if="item.image.length">
                 <img :src="item.image" alt="" class="w-full" />
               </div>
             </td>
