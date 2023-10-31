@@ -6,6 +6,12 @@ import VueSplide from '@splidejs/vue-splide';
 import './assets/main.css'
 import 'remixicon/fonts/remixicon.css'
 
+import Alpine from 'alpinejs'
+ 
+window.Alpine = Alpine
+ 
+Alpine.start()
+
 const app = createApp(App)
 
 app.use( VueSplide );

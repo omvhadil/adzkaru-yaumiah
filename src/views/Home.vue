@@ -2,7 +2,7 @@
 <script setup>
 import { useRouter } from 'vue-router'
 // import Tawassul from '../components/Tawassul.vue'
-// import Toggle from '../components/Toggle.vue'
+import MenuToggle from '../components/MenuToggle.vue'
 import { pesan } from '@/constans/index.js'
 
 const router = useRouter()
@@ -29,12 +29,7 @@ const router = useRouter()
           ></path>
         </svg>
       </div>
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24">
-          <path fill="none" d="M0 0h24v24H0z"></path>
-          <path fill="#4b5563" d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
-        </svg>
-      </div>
+      <MenuToggle />
     </div>
   </header>
   <!-- end:header  -->
