@@ -4982,16 +4982,16 @@ export const data = [
       },
       {
         id: 2,
-        slug: 'simbol',
-        title: 'Simbol',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
+        slug: 'rokat',
+        title: 'Rokat Bumi/Barang/Rumah/Tanah',
+        arab: 'سٓلَمٓتًا كَتَرِتَنًا',
         latin: '',
         dzikri: [
           {
             id: 1,
             title: '',
             name: '',
-            subName: 'Simbol',
+            subName: 'Rokat Bumi/Barang/Rumah/Tanah',
             arab: '',
             latin: '',
             bait_bait: [
@@ -4999,7 +4999,34 @@ export const data = [
                 id: 1,
                 arab: '',
                 indo: '',
-                image: '/image/kayon-bw.png',
+                image: '',
+                latin: '',
+                arti: '',
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 3,
+        slug: 'kosong',
+        title: 'Kosong',
+        arab: 'سٓلَمٓتًا كَتَرِتَنًا',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            title: '',
+            name: '',
+            subName: 'Kosong',
+            arab: '',
+            latin: '',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                indo: '',
+                image: '',
                 latin: '',
                 arti: '',
               }

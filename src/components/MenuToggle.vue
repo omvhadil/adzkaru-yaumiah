@@ -10,6 +10,7 @@
     </div>
     <div
       x-show="open"
+      x-transition
       class="w-[70%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-white py-8 px-6"
     >
       <div x-on:click="open = false" class="absolute top-4 right-4">
