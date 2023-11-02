@@ -1,5 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup></script>
+<script setup>
+import SwitchToggle from './SwitchToggle.vue'
+</script>
 <template>
   <div x-data="{ open: false }">
     <div x-on:click="open = true">
@@ -11,7 +13,7 @@
     <div
       x-show="open"
       x-transition
-      class="w-[70%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-white py-8 px-6"
+      class="w-[80%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-white py-8 px-6"
     >
       <div x-on:click="open = false" class="absolute top-4 right-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
@@ -21,7 +23,7 @@
           ></path>
         </svg>
       </div>
-      <div class="grid gap-4 mt-8 text-gray-700">
+      <div class="grid gap-4 mt-8 text-gray-700 mb-6">
         <div class="flex gap-3">
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
@@ -65,6 +67,30 @@
             </svg>
           </div>
           <h4>Privasi</h4>
+        </div>
+      </div>
+      <hr />
+      <div class="grid mt-6 gap-4">
+        <div class="flex justify-between items-center">
+          <div>
+            <h3 class="text-lg font-semibold">Mode Gelap</h3>
+            <span class="text-xs">Mode gelap tidak aktif</span>
+          </div>
+          <div>
+            <SwitchToggle />
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <h3 class="text-lg font-semibold">Bacaan Latin</h3>
+            <span class="text-xs">Bacaan latin tidak ditampilkan</span>
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <h3 class="text-lg font-semibold">Terjamahan</h3>
+            <span class="text-xs">Terjemahan tidak ditampilkan</span>
+          </div>
         </div>
       </div>
     </div>

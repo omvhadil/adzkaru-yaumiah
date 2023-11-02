@@ -23,11 +23,6 @@ const router = createRouter({
       name: 'all-menu',
       component: () => import('../views/AllMenu.vue')
     },
-    {
-      path: '/new-home',
-      name: 'new-home',
-      component: () => import('../views/New-Home.vue')
-    },
   ]
 })
 
