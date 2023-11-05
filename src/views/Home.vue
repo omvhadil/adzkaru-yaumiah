@@ -16,7 +16,7 @@ const router = useRouter()
           <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
-              fill="#4b5563"
+              fill="#ffffff"
               d="M21 4V18.7215C21 18.9193 20.8833 19.0986 20.7024 19.1787L12 23.0313L3.29759 19.1787C3.11667 19.0986 3 18.9193 3 18.7215V4H1V2H23V4H21ZM5 4V17.7451L12 20.8441L19 17.7451V4H5ZM8 8H16V10H8V8ZM8 12H16V14H8V12Z"
             ></path>
           </svg>
@@ -31,13 +31,11 @@ const router = useRouter()
         <!-- begin:icon -->
         <div class="w-[80%] p-0">
           <div class="text-center mt-4">
-            <h1 class="font-aref text-white text-[3.5rem]">الْخُلاَصَةُالْوَاعِيَّةُ</h1>
-            <p class="font-aref text-[1.7rem] text-gray-300 m-0">في الأوراداليوميةوالأدعية</p>
-            <span class="text-gray-300 font-aref text-[1.5rem]">
+            <h1 class="font-aref text-yellow-400 text-[3.5rem]">الْخُلاَصَةُالْوَاعِيَّةُ</h1>
+            <p class="font-aref text-[1.7rem] text-white m-0">في الأوراداليوميةوالأدعية</p>
+            <span class="text-white font-aref text-[1.5rem]">
               جمع و ترتيب <br />
-              الدّاعى الى اللّه الفقير <br /><span
-                class="text-dark-emphasis font-semibold text-[1.5rem]"
-              >
+              الدّاعى الى اللّه الفقير <br /><span class="text-white font-semibold text-[1.5rem]">
                 فضيلة الرّحمن بن شمسل </span
               ><br />
               نفعنااللّه به بعلومه فى الدّارين آمين <br /><span class="text-[.9rem]"
@@ -50,13 +48,13 @@ const router = useRouter()
         <!-- begin:menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-green-600 to-green-700 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-green-700 to-green-800 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -73,7 +71,7 @@ const router = useRouter()
             <div @click="router.push('majmu')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -90,7 +88,7 @@ const router = useRouter()
             <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -107,7 +105,7 @@ const router = useRouter()
             <div @click="router.push('/all-menus')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-300 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -126,10 +124,10 @@ const router = useRouter()
       </div>
     </section>
     <!-- end:content  -->
-    <div class="ps-3 pe-3 mt-5">
-      <div class="overflow-hidden rounded-md shadow-sm bg-gray-100">
-        <h5 class="text-center bg-green-600 text-white py-2 text-uppercase">Pesan</h5>
-        <span class="text-center block p-3 text-lg">"{{ pesan[1].text }}"</span>
+    <div class="px-4 mt-10">
+      <div class="overflow-hidden rounded-md shadow-sm bg-green-300">
+        <h5 class="text-center bg-green-700 text-white py-2 text-uppercase">Pesan</h5>
+        <span class="text-center block p-4 text-lg">"{{ pesan[1].text }}"</span>
       </div>
     </div>
   </main>
