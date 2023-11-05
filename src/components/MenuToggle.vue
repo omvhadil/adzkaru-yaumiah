@@ -16,12 +16,15 @@ import SwitchToggle from './SwitchToggle.vue'
       class="w-[80%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-white py-8 px-6"
     >
       <div x-on:click="open = false" class="absolute top-4 right-4">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
             d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"
           ></path>
         </svg>
+      </div>
+      <div class="absolute top-4 left-4">
+        <h6 class="text-lg font-semibold text-green-800">Pengaturan</h6>
       </div>
       <div class="grid gap-4 mt-8 text-gray-700 mb-6">
         <div class="flex gap-3">
@@ -73,8 +76,8 @@ import SwitchToggle from './SwitchToggle.vue'
       <div class="grid mt-6 gap-4">
         <div class="flex justify-between items-center">
           <div>
-            <h3 class="text-lg font-semibold">Mode Gelap</h3>
-            <span class="text-xs">Mode gelap tidak aktif</span>
+            <p class="text-base font-semibold">Mode Gelap</p>
+            <p class="text-xs">Mode gelap tidak aktif</p>
           </div>
           <div>
             <SwitchToggle />
@@ -82,14 +85,14 @@ import SwitchToggle from './SwitchToggle.vue'
         </div>
         <div class="flex">
           <div>
-            <h3 class="text-lg font-semibold">Bacaan Latin</h3>
-            <span class="text-xs">Bacaan latin tidak ditampilkan</span>
+            <p class="text-base font-semibold">Bacaan Latin</p>
+            <p class="text-xs">Bacaan latin tidak ditampilkan</p>
           </div>
         </div>
         <div class="flex">
           <div>
-            <h3 class="text-lg font-semibold">Terjamahan</h3>
-            <span class="text-xs">Terjemahan tidak ditampilkan</span>
+            <p class="text-base font-semibold">Terjemahan</p>
+            <p class="text-xs">Terjemahan tidak ditampilkan</p>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const router = useRouter()
         ></path>
       </svg>
     </div>
-    <h4 class="font-semibold">All Menu</h4>
+    <h4 class="font-semibold text-lg text-green-800">Semua Menu</h4>
   </header>
   <!-- Main -->
   <main class="container mt-4">
