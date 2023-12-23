@@ -8,7 +8,7 @@ import { pesan } from '@/constans/index.js'
 const router = useRouter()
 </script>
 <template>
-  <main class="main w-full h-[100vh] bg-green-600">
+  <main class="main w-full h-[100vh] bg-gradient-to-b from-green-500 to-sky-500">
     <!-- begin:header  -->
     <header class="header px-3">
       <div class="flex items-center justify-end h-[3.5rem] gap-5">
@@ -31,7 +31,7 @@ const router = useRouter()
         <!-- begin:icon -->
         <div class="w-[80%] p-0">
           <div class="text-center mt-4">
-            <h1 class="font-aref text-yellow-400 text-[3.5rem]">الْخُلاَصَةُالْوَاعِيَّةُ</h1>
+            <h1 class="font-aref text-yellow-300 text-[3.5rem]">الْخُلاَصَةُ</h1>
             <p class="font-aref text-[1.7rem] text-white m-0">في الأوراداليوميةوالأدعية</p>
             <span class="text-white font-aref text-[1.5rem]">
               جمع و ترتيب <br />
@@ -48,13 +48,13 @@ const router = useRouter()
         <!-- begin:menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-green-700 to-green-800 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-green-700 to-sky-700 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-red-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -71,7 +71,7 @@ const router = useRouter()
             <div @click="router.push('majmu')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-yellow-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -105,7 +105,7 @@ const router = useRouter()
             <div @click="router.push('/all-menus')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-green-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-purple-500 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -125,8 +125,8 @@ const router = useRouter()
     </section>
     <!-- end:content  -->
     <div class="px-4 mt-10">
-      <div class="overflow-hidden rounded-md shadow-sm bg-green-300">
-        <h5 class="text-center bg-green-700 text-white py-2 text-uppercase">Pesan</h5>
+      <div class="overflow-hidden rounded-md shadow-sm bg-sky-300">
+        <h5 class="text-center bg-sky-600 text-white py-2 text-uppercase">Pesan</h5>
         <span class="text-center block p-4 text-lg">"{{ pesan[1].text }}"</span>
       </div>
     </div>
