@@ -24,7 +24,7 @@ const router = useRouter()
         @click="router.push('/madad')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2">
+        <div class="bg-red-500 rounded-full h-[50px] w-[50px] p-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -40,7 +40,7 @@ const router = useRouter()
         @click="router.push('/majmu')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2">
+        <div class="bg-yellow-500 rounded-full h-[50px] w-[50px] p-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -75,7 +75,7 @@ const router = useRouter()
         @click="router.push('/simtud')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2">
+        <div class="bg-sky-500 rounded-full h-[50px] w-[50px] p-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -91,7 +91,7 @@ const router = useRouter()
         @click="router.push('/diba')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2">
+        <div class="bg-lime-500 rounded-full h-[50px] w-[50px] p-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -107,7 +107,7 @@ const router = useRouter()
         @click="router.push('/kejawen')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2 relative">
+        <div class="bg-slate-500 rounded-full h-[50px] w-[50px] p-2 relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -120,7 +120,7 @@ const router = useRouter()
       </div>
       <!-- basaudan -->
       <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2 relative">
+        <div class="bg-orange-500 rounded-full h-[50px] w-[50px] p-2 relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -142,7 +142,7 @@ const router = useRouter()
       </div>
       <!-- ramadhan -->
       <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-green-500 rounded-full h-[50px] w-[50px] p-2 relative">
+        <div class="bg-violet-500 rounded-full h-[50px] w-[50px] p-2 relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path

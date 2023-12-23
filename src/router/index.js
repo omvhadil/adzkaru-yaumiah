@@ -23,6 +23,12 @@ const router = createRouter({
       name: 'all-menu',
       component: () => import('../views/AllMenu.vue')
     },
+    // =======
+    {
+      path: '/desain-baru',
+      name: 'desain-baru',
+      component: () => import('../views/Desain.vue')
+    },
   ]
 })
 
