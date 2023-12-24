@@ -23,7 +23,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     <template #menu>
       <div
         v-if="jmlcategorydzikir > 1"
-        class="flex bg-gradient-to-r from-green-500 to-sky-500 p-2 px-3 gap-2 w-full"
+        class="flex bg-gradient-to-rt from-green-600 to-green-400 p-2 px-3 gap-2 w-full"
       >
         <button
           v-for="item in category?.dzikri"
