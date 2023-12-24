@@ -105,8 +105,8 @@ export const data = [
               ]
             },
             {
-              id: 1,
-              title: 'Dzikir-doa',
+              id: 2,
+              title: 'Doa',
               name: '',
               subName: 'Doa Setelah Sholat Wajib',
               arab: 'ذِكْرَ',
