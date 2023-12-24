@@ -38,7 +38,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
     </template>
   </Header>
 
-  <div class="container transition mt-10 px-2" :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'">
+  <div class="container transition mt-10 px-0" :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'">
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
@@ -51,8 +51,12 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
       </div>
       <table class="table">
         <tbody>
-          <tr v-for="item in tampilCategory?.bait_bait" :key="item.id">
-            <td class="col-11" :class="item.arab ? 'border-bottom' : ''">
+          <tr
+            v-for="item in tampilCategory?.bait_bait"
+            :key="item.id"
+            class="even:bg-white odd:bg-green-50"
+          >
+            <td class="col-11 px-2" :class="item.arab ? 'border-bottom' : ''">
               <h2
                 class="m-0 py-1 font-scheherazade text-[1.6rem]"
                 align="right"
@@ -60,7 +64,10 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
               >
                 {{ item.arab }}
               </h2>
-              <h2 class="m-0 py-1 font-scheherazade text-[1.2rem]" align="justify">
+              <h4 class="m-0 py-1 font-scheherazade text-[1rem]" align="left">
+                {{ item.arti }}
+              </h4>
+              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem]" align="justify">
                 {{ item.indo }}
               </h2>
               <div v-if="item.image.length">
