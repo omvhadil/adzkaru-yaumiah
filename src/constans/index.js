@@ -14,139 +14,139 @@ export const data = [
         arab: 'جُصُوْص',
         latin: 'Dzikir ba’da shalāti al-farīdāti',
         dzikri: [
-            {
-              id: 1,
-              title: 'Dzikir',
-              name: '',
-              subName: 'Dzikir Setelah Sholat Wajib',
-              arab: 'ذِكْرَ',
-              latin: 'Dzikra',
-              bait_bait: [
-                {
-                  id: 1,
-                  arab: 'أَسْتَغْفِرُ اللهَ (٣)',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Aku memohon ampun kepada Allah. (3x)'
-                },
-                {
-                  id: 2,
-                  arab: 'أَللَّهُمَّ أَنْتَ السَّلَامُ، وَمِنْكَ السَّلَامُ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَارَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا دَاركَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَاالْـجَلَالِ وَاْلإِكْرَامِ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Ya Allah, Engkau Maha Sejahtera, dari-Mu kesejahteraan, dan kepada-Mu kembali kesejahteraan, maka hiduplah kami wahai Tuhanku dalam kesejahteraan, masukkanlah kami ke negeri-Mu (surga) yang sejahtera, Maha Suci Engkau Tuhan Kami, Maha Tinggi Engkau, wahai Pemilik Kebesaran dan Kemuliaan.'
-                },
-                {
-                  id: 3,
-                  arab: 'اَللّٰهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ وَلَا مُعْطِيَ لِمَا مَنَعْتَ وَلاَرَادَّ لِمَا قَضَيْتَ وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ . اَللّٰهُمَّ اَعِنِّيْ عَلَي ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَاذَتِكَ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Ya Allah, tak ada yang dapat mencegah segala yang Kau beri, dan tak ada yang dapat memberi segala yang engkau cegah. tak ada yang dapat menolak segala ang Kau tetapkan dan tak bermanfaat mereka yang memiliki kekayaan, karena kekayaan berasal dari-Mu. Ya Allah, tolonglah aku dalam menyebut, mensyukuri dan beribadah kepada-Mu dengan baik.'
-                },
-                {
-                  id: 4,
-                  arab: 'رَبَّنَا تَقَبَّلْ مِنَّا اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْمُ . وَتُبْ عَلَيْنَا اِنَّكَ اَنْتَ التَّوَّابُ الرَّحِيْمُ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Tuhan kami, terimalah dari kami (doa), sesungguhnya Engkau Maha Mendangar lagi Maha Mengetahui. Terimalah taubat kami, sesungguhnya Engkau Maha penerima Taubat lagi Maha Penyayang.'
-                },
-                {
-                  id: 5,
-                  arab: 'وَصَلَّى اللّٰهُ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَي آلِهِ وَصَحْبِهِ وَسَلَّمْ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Sholawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya.'
-                },
-                {
-                  id: 6,
-                  arab: 'اَعُوْذُبِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ ، بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Aku berlindung kepada Allah dari setan yang terkutuk. Dengan Nama Allah yang Maha Pengasih lagi Maha Penyayang.'
-                },
-                {
-                  id: 7,
-                  arab: 'اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ الْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Allah, tidak ada tuhan selain Dia, Yang Maha Hidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Maha Tinggi lagi Maha Agung.'
-                },
-                {
-                  id: 8,
-                  arab: 'سُبْنَكَ يَاعَلِيُّ يَاعَظِيْمُ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Maha Suci Engkau yang Maha Tinggi, Maha Agung.'
-                },
-                {
-                  id: 9,
-                  arab: 'سُبْحَانَاللّٰهِ (٣٣) الْحَمْدُلِلّٰهِ (٣٣) اَللّٰهُ اَكْبَرُ (٣٣)',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Maha Suci Allah (33x); Segala Puji bagi Allah Tuhann semesta alam (33x); Allah Maha Besar (33x)'
-                },
-                {
-                  id: 10,
-                  arab: 'لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهٗ لَا شَرِيكَ لَهُ . لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Tiada Tuhan selain Allah yang Maha Esa tiasa sekutu bagi-Nya. Milik-Nya kerajaan, Milik-Nya segala Pujian. Dia menghidupkan dan mematikan, dan Dia Maha Kuasa atas segala sesuatu.'
-                },
-              ]
-            },
-            {
-              id: 2,
-              title: 'Doa',
-              name: '',
-              subName: 'Doa Setelah Sholat Wajib',
-              arab: 'ذِكْرَ',
-              latin: 'Dzikra',
-              bait_bait: [
-                {
-                  id: 1,
-                  arab: 'الْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ . اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Segala puji bagi Allah Tuhan semesta alam. Ya Allah, limpahkanlah sholawat dan salam atas junjungan kami Muhammad dan keluarga junjungan kamu Muhammad.'
-                },
-                {
-                  id: 2,
-                  arab: '',
-                  indo: 'Lalu mengangkat kedua tangan dan berdoa sesuai dangan hajatnya dan mengakhiri dengan doa Habib Abdullah AlHaddad',
-                  image: '',
-                  latin: '',
-                  arti: ''
-                },
-                {
-                  id: 3,
-                  arab: 'اَللّٰهُمَّ اَخْرِجْ مِنْ قَلْبِيْ كُلَّ قَدْرٍ لِلدُّنْيَا وَكُلَّ مَحَلٍّ لِلْخَلْقِ يَمِيْلُ بِى اِلَى مَعْصِيَتِكَ اَوْ يُشْغِلُنِى عَنْ طَاعَتِكَ اَوْ يَحُوْلُ بَنِي وَبَيْنَ التَّحَقُّقِ بِمَعْرِفَتِكَ الْخَاصَّةِ وَمَحَبَّتِكَ الْخَالِصَةِ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Ya Allah, keluarkanlah dari hatiku segala pengagungan terhadap dunia, segala kedudukan terhadap makhluk, yang dapat menjerumuskanku ke dalam perbuatan maksiat terhadap-Mu, atau menyibukkanku dari perbuatan taat kepada-Mu, atau menghalangiku dari mendalami pengetahuan secara khusus tentang-Mu, dan cinta yang murni kepada-Mu.'
-                },
-                {
-                  id: 4,
-                  arab: 'وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ وَالْحَمْدُلِلّٰهِ رَبِّ الْعَالَمِيْنَ',
-                  indo: '',
-                  image: '',
-                  latin: '',
-                  arti: 'Sholawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya. Segala puji bagi Allah Tuhan semesta alam.'
-                },
-              ]
-            }
-          ]
+          {
+            id: 1,
+            title: 'Dzikir',
+            name: '',
+            subName: 'Dzikir Setelah Sholat Wajib',
+            arab: 'ذِكْرَ',
+            latin: 'Dzikra',
+            bait_bait: [
+              {
+                id: 1,
+                arab: 'أَسْتَغْفِرُ اللهَ (٣)',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Aku memohon ampun kepada Allah. (3x)'
+              },
+              {
+                id: 2,
+                arab: 'أَللَّهُمَّ أَنْتَ السَّلَامُ، وَمِنْكَ السَّلَامُ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَارَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا دَاركَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَاالْـجَلَالِ وَاْلإِكْرَامِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, Engkau Maha Sejahtera, dari-Mu kesejahteraan, dan kepada-Mu kembali kesejahteraan, maka hiduplah kami wahai Tuhanku dalam kesejahteraan, masukkanlah kami ke negeri-Mu (surga) yang sejahtera, Maha Suci Engkau Tuhan Kami, Maha Tinggi Engkau, wahai Pemilik Kebesaran dan Kemuliaan.'
+              },
+              {
+                id: 3,
+                arab: 'اَللّٰهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ وَلَا مُعْطِيَ لِمَا مَنَعْتَ وَلاَرَادَّ لِمَا قَضَيْتَ وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ . اَللّٰهُمَّ اَعِنِّيْ عَلَي ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَاذَتِكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, tak ada yang dapat mencegah segala yang Kau beri, dan tak ada yang dapat memberi segala yang engkau cegah. tak ada yang dapat menolak segala ang Kau tetapkan dan tak bermanfaat mereka yang memiliki kekayaan, karena kekayaan berasal dari-Mu. Ya Allah, tolonglah aku dalam menyebut, mensyukuri dan beribadah kepada-Mu dengan baik.'
+              },
+              {
+                id: 4,
+                arab: 'رَبَّنَا تَقَبَّلْ مِنَّا اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْمُ . وَتُبْ عَلَيْنَا اِنَّكَ اَنْتَ التَّوَّابُ الرَّحِيْمُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tuhan kami, terimalah dari kami (doa), sesungguhnya Engkau Maha Mendangar lagi Maha Mengetahui. Terimalah taubat kami, sesungguhnya Engkau Maha penerima Taubat lagi Maha Penyayang.'
+              },
+              {
+                id: 5,
+                arab: 'وَصَلَّى اللّٰهُ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَي آلِهِ وَصَحْبِهِ وَسَلَّمْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sholawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya.'
+              },
+              {
+                id: 6,
+                arab: 'اَعُوْذُبِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ ، بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Aku berlindung kepada Allah dari setan yang terkutuk. Dengan Nama Allah yang Maha Pengasih lagi Maha Penyayang.'
+              },
+              {
+                id: 7,
+                arab: 'اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ الْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Allah, tidak ada tuhan selain Dia, Yang Maha Hidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Maha Tinggi lagi Maha Agung.'
+              },
+              {
+                id: 8,
+                arab: 'سُبْنَكَ يَاعَلِيُّ يَاعَظِيْمُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maha Suci Engkau yang Maha Tinggi, Maha Agung.'
+              },
+              {
+                id: 9,
+                arab: 'سُبْحَانَاللّٰهِ (٣٣) الْحَمْدُلِلّٰهِ (٣٣) اَللّٰهُ اَكْبَرُ (٣٣)',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maha Suci Allah (33x); Segala Puji bagi Allah Tuhann semesta alam (33x); Allah Maha Besar (33x)'
+              },
+              {
+                id: 10,
+                arab: 'لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهٗ لَا شَرِيكَ لَهُ . لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tiada Tuhan selain Allah yang Maha Esa tiasa sekutu bagi-Nya. Milik-Nya kerajaan, Milik-Nya segala Pujian. Dia menghidupkan dan mematikan, dan Dia Maha Kuasa atas segala sesuatu.'
+              },
+            ]
+          },
+          {
+            id: 1,
+            title: 'Doa',
+            name: '',
+            subName: 'Doa Setelah Sholat Wajib',
+            arab: 'ذِكْرَ',
+            latin: 'Dzikra',
+            bait_bait: [
+              {
+                id: 1,
+                arab: 'الْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ . اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Segala puji bagi Allah Tuhan semesta alam. Ya Allah, limpahkanlah sholawat dan salam atas junjungan kami Muhammad dan keluarga junjungan kamu Muhammad.'
+              },
+              {
+                id: 2,
+                arab: '',
+                indo: 'Lalu mengangkat kedua tangan dan berdoa sesuai dangan hajatnya dan mengakhiri dengan doa Habib Abdullah AlHaddad',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 3,
+                arab: 'اَللّٰهُمَّ اَخْرِجْ مِنْ قَلْبِيْ كُلَّ قَدْرٍ لِلدُّنْيَا وَكُلَّ مَحَلٍّ لِلْخَلْقِ يَمِيْلُ بِى اِلَى مَعْصِيَتِكَ اَوْ يُشْغِلُنِى عَنْ طَاعَتِكَ اَوْ يَحُوْلُ بَنِي وَبَيْنَ التَّحَقُّقِ بِمَعْرِفَتِكَ الْخَاصَّةِ وَمَحَبَّتِكَ الْخَالِصَةِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, keluarkanlah dari hatiku segala pengagungan terhadap dunia, segala kedudukan terhadap makhluk, yang dapat menjerumuskanku ke dalam perbuatan maksiat terhadap-Mu, atau menyibukkanku dari perbuatan taat kepada-Mu, atau menghalangiku dari mendalami pengetahuan secara khusus tentang-Mu, dan cinta yang murni kepada-Mu.'
+              },
+              {
+                id: 4,
+                arab: 'وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ وَالْحَمْدُلِلّٰهِ رَبِّ الْعَالَمِيْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sholawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya. Segala puji bagi Allah Tuhan semesta alam.'
+              },
+            ]
+          }
+        ]
       },
       {
         id: 2,
@@ -165,227 +165,443 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم ۝ قُلْ هُوَ اللّٰهُ أَحَدٌ ۝ اَللهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يٌوْلَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ۝ (٣)',
+                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم ، قُلْ هُوَ اللّٰهُ أَحَدٌ ۝ اَللهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُوْلَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ۝ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Dengan Nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah (wahai Muhammad): "Dialah Allah yang Maha Esa; Allah yang menjadi tumpuan segala permohonan; Ia tidak beranak, dan Ia pula  tidak diperanakkan; Dan tidak ada siapapun yang sebanding dengan-Nya". (QS. Al-Ikhlas)'
               },
               {
                 id: 2,
-                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ ماَ خَلَقَ ۝ وَمِنْ شَـرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِنْ شَـرِّ النَّـفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝ (٣)',
+                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ ماَ خَلَقَ ۝ وَمِنْ شَـرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِنْ شَـرِّ النَّـفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Dengan Nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah (wahai Muhammad); "Aku berlindung dengan Tuhan yang menciptakan cahaya subuh, dari kejahatan makhluk-makhluk yang Ia ciptakan; dan dari kejahatan malam apabila ia gelap gulita; dan dari (ahli-ahli sihir) yang menghembus pada simpulan-simpulan ikatan; dan dari kejahatan orang dengki apabila ia mendengki". (QS. Al-Falaq)'
               },
               {
                 id: 3,
-                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَهِ النَّاسِ ۝ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ اَلَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ ۝ (٣)',
+                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَهِ النَّاسِ ۝ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ اَلَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ ۝ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Dengan Nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah (wahai Muhammad); "Aku berlindung dengan Tuhan sekalian manusia; Yang menguasai sekalian manusia; Tuhan yang berhak disembah oleh sekalian manusia; Dari kejahatan pembisik penghasut yang timbul tenggelam; Yang melemparkan bisikan dan hasutannya ke dalam hati manusia dari kalangan jin dan manusia". (QS. An-Nas)'
               },
               {
                 id: 4,
-                arab: 'رَبِّ أَعُوذُ بِـكَ مِنْ هَمَـزَاتِ الشَّيَـاطِيْنِ ، وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُـرُونِ  (٣)',
+                arab: 'رَبِّ أَعُوذُ بِـكَ مِنْ هَمَـزَاتِ الشَّيَـاطِيْنِ ، وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُـرُونِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Tuhanku, aku berlindung kepada-Mu dari bisikan-bisikan syaitan. Dan aku berlindung pula kepada-Mu ya Tuhanku dari kehadiran mereka kepadaku.'
               },
               {
                 id: 5,
-                arab: 'اَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثاً وَأَنَّكُمْ إِلَيْنَا لاَ تُرْجَعُـوْنَ ، فَتَعَالَى اللّٰهُ الْمَلِكُ الْحَقُّ لَا إِلَهَ إِلاَّ هُوَ رَبُّ الْعَرْشِ الْكَرِيْم  ، وَ مَنْ يَدْعُ مَعَ اللّٰهِ إِلٰهاً آخَرَ لاَ بُرْهَانَ لَهُ بِـهِ فَإِنَّمَا حِسَـابُهُ عِنْدَ رَبّـِهِ إِنَّـهٗ لاَ يُفْلِحُ الْكَافِـرُوْنَ ، وَقُلْ رَبِّ اغْفِرْ وَارْحَمْ وَأَنْتَ خَيْرُ الرَّاحِمِيْنَ ، فَسُبْحَانَ اللّٰهِ حِيْنَ تُمْسُوْنَ وَحِيْنَ تُصْبِحُوْنَ ، وَلَهُ الْحَمْدُ فِي السَّمَوَاتِ وَالأَرْضِ وَعَشِيًّا وَحِيْنَ تُظْهِرُوْنَ ، يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَيُحْيِ الأَرْضَ بَعْدَ مَوْتِهَا وَكَذَلِكَ تُخْرِجُوْنَ',
+                arab: 'اَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثاً وَأَنَّكُمْ إِلَيْنَا لاَ تُرْجَعُـوْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Maka apakah aku mengira, bahwa sesungguhnya Kami menciptakan kamu sia-sia saja, dan bahwa kamu tidak akan dikembalikan kepada kami? (QS. Al-Mukminun: 115)'
               },
               {
                 id: 6,
+                arab: 'فَتَعَالَى اللّٰهُ الْمَلِكُ الْحَقُّ لَا إِلَهَ إِلاَّ هُوَ رَبُّ الْعَرْشِ الْكَرِيْم',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka Maha Tinggi Allah, Raja yang sebenarnya - tidak ada Tuhan selain Dia - Tuhan yang mempunyai arsy yang Agung. (QS. Al-Mukminun: 116)'
+              },
+              {
+                id: 7,
+                arab: 'وَ مَنْ يَدْعُ مَعَ اللّٰهِ إِلٰهاً آخَرَ لاَ بُرْهَانَ لَهُ بِـهِ فَإِنَّمَا حِسَـابُهُ عِنْدَ رَبّـِهِ إِنَّـهٗ لاَ يُفْلِحُ الْكَافِـرُوْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan barang siapa memohon kepada tuhan selain Allah, padahal tidak ada suatu bukti pun baginya tentang itu, maka sesungguhnya perhitungannya disisi Tuhannya, sesungguhnya orang-orang kafir itu tidak beruntung. (QS. Al-Mukminun: 117)'
+              },
+              {
+                id: 8,
+                arab: 'وَقُلْ رَبِّ اغْفِرْ وَارْحَمْ وَأَنْتَ خَيْرُ الرَّاحِمِيْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan katakanlah: Ya Tuhanku berilah ampunan dan berilah rahmat, dan Engkau adalah Perberi rahmat yang terbaik. (QS. Al-Mukminun: 118)'
+              },
+              {
+                id: 9,
+                arab: 'فَسُبْحَانَ اللّٰهِ حِيْنَ تُمْسُوْنَ وَحِيْنَ تُصْبِحُوْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka bertasbih kepada Allah diwaktu kamu berada di petang hari dan waktu kamu berada di waktu subuh. (QS. Ar-Rum: 17)'
+              },
+              {
+                id: 10,
+                arab: 'وَلَهُ الْحَمْدُ فِي السَّمَوَاتِ وَالأَرْضِ وَعَشِيًّا وَحِيْنَ تُظْهِرُوْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan bagi-Nya segala puji dilangit dan bumi, dan diwaktu petang dan ketika kamu berada di waktu dzuhur. (QS. Ar-Rum: 18)'
+              },
+              {
+                id: 11,
+                arab: 'يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَيُحْيِ الأَرْضَ بَعْدَ مَوْتِهَا وَكَذَلِكَ تُخْرِجُوْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dia mengeluarkan yang hidup dari yang mati dan mengeluarkan yang mati dari yang hidup dan menghidupkan bumi sesudah matinya: dan seperti itulah kamu dikeluarkan (dari kubur). (QS. Ar-Rum: 19)'
+              },
+              {
+                id: 12,
                 arab: 'أَعُوْذُ بِاللّٰهِ السَّمِيْعِ الْعَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْم (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Aku berlindung dengan Allah Yang Maha Mendengar Lagi Maha Mengetahui dari bisikan syaitan yang terkutuk. (3x)'
               },
               {
-                id: 7,
-                arab: 'لَوْ أَنْزَلْنَـا هَذَا الْقُرْآنَ عَلَى جَبَلٍ لَرَأَيْتَهُ خَاشِعًـا مُتَصَدِّعًا مِنْ خَشْيَةِ اللّٰهِ  ، وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ  ، هُوَ اللّٰهُ الَّذِيْ لاَ إِلَهَ إِلاَّ هُوَ عَالِمُ الْغَيْبِ وَالشَّهاَدَةِ هُوَ الرَّحْمَنُ الرَّحِيْمُ  ، هُوَ اللّٰهُ الَّذِيْ لاَ إِلَهَ إِلاَّ هُوَ الْمَلِكُ الْقُدُّوْسُ السَّلاَمُ الْمُؤْمِـنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللّٰهِ عَمَّا يُشْرِكُوْنَ  ، هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الأَسْمَاءُ الْحُسْنَى  ، يُسَبِّحُ لَهُ مَا فِي السَّمَوَاتِ وَالأَرْضِ وَهُوَ الْعَزِيْزُ الْحَكِيْم  ، سَلاَمٌ عَلَى نُوْحٍ فِي الْعَالَمِيْن  ، إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِيْن  ، إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِيْن',
+                id: 13,
+                arab: 'لَوْ أَنْزَلْنَـا هَذَا الْقُرْآنَ عَلَى جَبَلٍ لَرَأَيْتَهُ خَاشِعًـا مُتَصَدِّعًا مِنْ خَشْيَةِ اللّٰهِ وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Kalau sekiranya Kamu menurunkan Al-Quran ini pada sebuah gunung pasti kamu akan melihatnya tunduk terpecah-pecah disebabkan takut kepada Allah. Dan perumpamaan-perumpamaan itu Kami buat untuk manusia supaya mereka berfikir. (QS. Al-Hasyr: 21)'
               },
               {
-                id: 8,
+                id: 14,
+                arab: 'هُوَ اللّٰهُ الَّذِيْ لاَ إِلَهَ إِلاَّ هُوَ عَالِمُ الْغَيْبِ وَالشَّهاَدَةِ هُوَ الرَّحْمَنُ الرَّحِيْمُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dialah Allah Yang Tiada Tuhan selain Dia, Yang Mengetahui yang ghaib dan yang nyata. Dialah yang Maha Pemurah lagi Maha Penyayang. (QS. Al-Hasyr: 22)'
+              },
+              {
+                id: 15,
+                arab: 'هُوَ اللّٰهُ الَّذِيْ لاَ إِلَهَ إِلاَّ هُوَ الْمَلِكُ الْقُدُّوْسُ السَّلاَمُ الْمُؤْمِـنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللّٰهِ عَمَّا يُشْرِكُوْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dialah Allah yang Tiada Tuhan selain Dia; Raja yang Maha Suci; Yang Maha Sejahtera; Yang Memberikan keamanan; Yang Maha Memelihara; Yang Maha Perkasa; Yang Maha Kuasa; Yang Memiliki Segala Keagungan. Maha Suci Allah dari apa yang mereka persekutukan. (QS. Al-Hasyr: 23)'
+              },
+              {
+                id: 16,
+                arab: 'هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الأَسْمَاءُ الْحُسْنَى يُسَبِّحُ لَهُ مَا فِي السَّمَوَاتِ وَالأَرْضِ وَهُوَ الْعَزِيْزُ الْحَكِيْم',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dialah Allah Yang Menciptakan; Yang Mengadakan; Yang Membentuk Rupa; Yang mempunyai sifat-sifat baik; Bertasbih kepada-Nya segala yang dilangit dan dibumi; dan Dia-lah Yang Maha Perkasa Lagi Maha Bijaksana. (QS. Al-Hasyr: 24)'
+              },
+              {
+                id: 17,
+                arab: 'سَلاَمٌ عَلَى نُوْحٍ فِي الْعَالَمِيْن',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kesejahteraan dilimpahkan atas Nuh diseluruh alam. (QS. Ash-Shaffat: 79)'
+              },
+              {
+                id: 18,
+                arab: 'إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِيْن ، إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِيْن',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik. (QS. Ash-Shaffat: 80) Sesungguhnya dia termasuk diantara hamba-hamba Kami yang beriman. (QS. Ash-Shaffat: 81)'
+              },
+              {
+                id: 19,
                 arab: 'أَعُوذُ بِكَلِمَاتِ اللّٰهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk-Nya. (3x)'
               },
               {
-                id: 9,
+                id: 20,
                 arab: 'بِسْمِ اللّٰهِ الَّذِيْ لاَ يَضُرُّ مَعَ أسْمِهِ شَيْءٌ فِي اْلأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيْعُ الْعَلِيْمُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Dengan nama Allah uang dengan nama-Nya tak satu pun, yang dibumi maupun di langit dapat memberi bencana dan Ia Maha Mendengar Lagi Maha mengetahui. (3x)'
               },
               {
-                id: 10,
+                id: 21,
                 arab: 'اَللّٰهُمَّ إِنِّي أَصْبَحْتُ مِنْكَ فِي نِعْمَةٍ وَعَافِيَةٍ وَسِتْرٍ فَأَتْمِمْ نِعْمَتَكَ عَلَيَّ وَعَافِيَتَكَ وَسِتْرَكَ فِي الدُّنْيَا وَاْلآخِرَةِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah, sesungguhnya aku berada di pagi hari dalam kenikmatan, keselamatan dan perlindungan dari-Mu, maka sempurnakanlah kenikmatan, keselamatan dan perlindungan-Mu di dunia dan akhirat. (3x)'
               },
               {
-                id: 11,
+                id: 22,
                 arab: 'اَللّٰهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ وَمَلاَئِكَتَكَ وَجَمِيعَ خَلْقِكَ أَنَّكَ أَنْتَ اللّٰهُ لاَ إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيْكَ لَكَ وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ (٤)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah, sesungguhnya aku berada di pagi hari dalam keadaan menjadikan-Mu sebagai saksi, begitu juga pemikul arsy-Mu, para malaikat dan seluruh makhluk-Mu, bahwa sesungguhnya Engkau adalah Allah yang tiada tuhan selain-Mu, yang Maha Esa tiada sekutu bagi-Mu, dan sesungguhnya Muhammad adalah hamba dan rasul-Mu. (4x)'
               },
               {
-                id: 12,
+                id: 23,
                 arab: 'اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ حَمْداً يُوَافِي نِعَمَهُ وَيُكَافِئُ مَزِيْدَهُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Segala puji bagi Allah, Tuhan alam semesta, pujian yang memenuhi nikmat-nikmat-Nya dan mencukupi tambahan (nikmat)-Nya. (3x)'
               },
               {
-                id: 13,
+                id: 24,
                 arab: 'آمَنْتُ بِاللّٰهِ العَظِيْمِ وَكَفَرْتُ بِالْجِبْتِ وَالطَّاغُوْتِ وَاسْتَمْسَكْتُ بِالْعُرْوَةِ الْوُثْقَى لاَ انْفِصَامَ لَهاَ وَاللّٰهُ سَمِيْعٌ عَلِيمٌ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Aku beriman kepada Allah Yang Maha Agung dan ingkar terhadap sembahan selain Allah dan thaghut (segala yang disekutukan dengan Allah), serta aku berpegang dengan tali yang kukuh yang tidak akan terputus. Dan Allah Maha Mendengar Lagi Maha Mengetahui. (QS. Al-Baqarah: 256) (3x)'
               },
               {
-                id: 14,
+                id: 25,
                 arab: 'رَضِيْتُ بِاللّٰهِ رَبـًّا وَ بِالإِسْلاَمِ دِيْنـًا وَبِمُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا وَرَسُولاً (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Aku ridho Allah sebagai Tuhan, Islam sebagai agama dan Muhammad SAW sebagai Nabi dan Rosul. (3x)'
               },
               {
-                id: 15,
+                id: 26,
                 arab: 'حَسْـبِيَ اللّٰهُ لاَ إِلَهَ إِلاَّ هُـوَ عَلَيْـهِ تَـوَكَّلْتُ وَهُـوَ رَبُّ العَرْشِ العَظِيْـم(٧)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Cukuplah Allah (sebagai pelindungku), tiada Tuhan melainkan Dia, kepada-Nya aku bertawakal, dan Dialah Penguasa Arsy yang Agung. (QS. At-Taubah: 129) (7x)'
               },
               {
-                id: 16,
+                id: 27,
                 arab: 'اَللَّهُمَّ صَلِّ عَلَى سَيِّدِناَ مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلِّمْ (٠١)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah, limpahkanlah shalawat dan salam kepada junjungan kamu Muhammad serta keluarga dan para sahabarnya. (10x)'
               },
               {
-                id: 17,
-                arab: 'اَللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فُجَاءَةِ الْخَيْرِ وَأَعُوذُ بِكَ مِنْ فُجَاءَةِ الشَّرِّ ، اَللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ خَلَقْتَنِيْ وَ أَناَ عَبْدُكَ وَأَناَ عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوْذُ بِـكَ مِنْ شَرِّ مـَا صَنَعْـتُ أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوْءُ بِذَنْبِيْ فاَغْفِرْ لِيْ فَاِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ  ، اَللَّهُـمَّ أَنْتَ رَبِّيْ لاَ اِلَهَ إِلاَّ أَنْتَ عَلَيْكَ تَوَكَّلْـتُ وَأَنْتَ رَبُّ الْعَـرْشِ الْعَظِيْـم مَا شَاءَ اللّٰهُ كَـانَ وَمَا لَمْ يَشَأْ لَـمْ يَكُنْ وَلاَ حَـوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ',
+                id: 28,
+                arab: 'اَللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فُجَاءَةِ الْخَيْرِ وَأَعُوذُ بِكَ مِنْ فُجَاءَةِ الشَّرِّ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah aku memohon kepada-Mu kebaikan yang tidak disangka; dan aku berlindung kepada-Mu dari keburukan yang datang tiba-tiba.'
               },
               {
-                id: 18,
+                id: 29,
+                arab: 'اَللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ خَلَقْتَنِيْ وَ أَناَ عَبْدُكَ وَأَناَ عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوْذُ بِـكَ مِنْ شَرِّ مـَا صَنَعْـتُ أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوْءُ بِذَنْبِيْ فاَغْفِرْ لِيْ فَاِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, Engkaulah Tuhanku, tiada Tuhan selain Engkau; Engkau ciptakan aku, dan aku adalah hamba-Mu, dan aku akan menuruti perintah dan amanat-Mu sekuat tenagaku. Aku berlindung kepada-Mu dari hal-hal buruk yang aku perbuat, dan aku mengakui nikmat kurnia-Mu kepadaku, serta mengakui dosaku, maka ampunilah aku, karena tak ada yang mampu mengampuni dosa itu selain Engkau.'
+              },
+              {
+                id: 30,
+                arab: 'اَللَّهُـمَّ أَنْتَ رَبِّيْ لاَ اِلَهَ إِلاَّ أَنْتَ عَلَيْكَ تَوَكَّلْـتُ وَأَنْتَ رَبُّ الْعَـرْشِ الْعَظِيْـم ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah Engkaulah Tuhanku tiada Tuhan selain Engkau aku berserah diri, dan Engkau Tuhan arsy yang mempunyai keagungan.'
+              },
+              {
+                id: 31,
+                arab: 'مَا شَاءَ اللّٰهُ كَـانَ وَمَا لَمْ يَشَأْ لَـمْ يَكُنْ وَلاَ حَـوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apa yang dikehendaki Allah  pasti akan terjadi, dan apa yang tidak dikehendaki tidak akan terjadi, Tiada daya dan tiada kekuatan tanpa pertolongan Allah yang Maha Tinggi lagi Maha Besar.'
+              },
+              {
+                id: 32,
                 arab: 'اَعْلَـمُ أَنَّ اللهَ عَلَى كُلِّ شَيْءٍ قَدِيْـرٌ ، وَاَنَّ اللهَ قَدْ أَحَـاطَ بِكُلِّ شَيْءٍ عِلْمًـا',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Aku mengetahui bahwasanya Allah Maha Kuasa atas segala sesuatu. dan sesungguhnya Allah, ilmu-Nya meliputi segala sesuatu. (QS. At-Talaq: 12)'
               },
               {
-                id: 19,
-                arab: 'اَللَّهُمَّ إِنِّي أَعُوْذُ بِـكَ مِنْ شَرِّ نَفْسِيْ وَمِنْ شَرِّ كُـلِّ دَابَّـةٍ أَنْتَ آخِـذٌ بِنَا صِيَتِهاَ إِنَّ رَبِيِّ عَلَى صِرَاطٍ مُسْتَقِيْمٍ  ، يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ اَسْتَغِيْثُ وَمِنْ عَذَابِكَ أَسْتَجِيْرُ أَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَي نَفْسِيْ وَلاَ إِلَى أَحَدٍ مِنْ خَلْقِكَ طَرْفَةَ عَيْنٍ  ، اَللَّهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَأَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ  ، اَللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ  ، اَللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَـافِيَةَ وَالْمُعَافاَةَ الدَّائِمَةَ فِي دِيْنِيْ وَدُنْياَيَ وَأَهْلِيْ وَماَلِيْ  ، اَللَّهُمَّ اسْتُرْ عَوْرَاتِيْ وَآمِنْ رَوْعَاتِيْ  ، اَللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِيْ وَعَنْ يَمِيْنِيْ وَعَنْ شِماَلِيْ وَمِنْ فَوْقِيْ  ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتاَلَ مِنْ تَحْتِيْ',
+                id: 33,
+                arab: 'اَللَّهُمَّ إِنِّي أَعُوْذُ بِـكَ مِنْ شَرِّ نَفْسِيْ وَمِنْ شَرِّ كُـلِّ دَابَّـةٍ أَنْتَ آخِـذٌ بِنَا صِيَتِهاَ إِنَّ رَبِيِّ عَلَى صِرَاطٍ مُسْتَقِيْمٍ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah, aku berlindung kepada-Mu dari kejahatan diriku sendiri, dan dari kejahatan segala yang melata dan ubun-ubunnya berada dalam genggaman-Mu, sesungguhnya Tuhanku selalu berada diatas jalan yang lurus.'
               },
               {
-                id: 20,
-                arab: 'اَللَّهُـمَّ أَنْتَ خَلَقْتَنِـيْ وَأَنْتَ تَهْدِيْنِـيْ وَأَنْتَ تُطْعِمُنِـيْ وَأَنْتَ تُسْقِيْنِـيْ وَأَنْتَ تُمِيْتُنِـي وَأَنْتَ تُحْيِيْنِـيْ وَاَنْتَ عَلَي كُلِّ شَئٍ قَدِيْرٌ  ،  أَصْبَحْناَ عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ وَعَلَى دِيْنِ نَبِيِّناَ مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ  ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْراَهِيْمَ حَنِيْفاً مُسْلِماً وَماَ كاَنَ مِنَ الْمُشْرِكِيْنَ  ، اَللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ  ، أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعاَلَمِيْنَ  ، اَللَّهُّمَ إِنِّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ فَتْحَهُ وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُداَهُ  ، اَللَّهُمَّ إِنَّي أَسْأَلُكَ خَيْرَ هَذاَ الْيَوْمِ وَخَيْرَ ماَ فِيْهِ  وَأَعُوْذُ بِكَ مِنْ شَرِّ هَذاَالْيَوْمِ وَشَرِّ مَا فِيْهِ  ، اَللَّهُمَّ ماَ أَصْبَحَ بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَـدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ عَلَى ذَلِكَ ',
+                id: 34,
+                arab: 'يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ اَسْتَغِيْثُ وَمِنْ عَذَابِكَ أَسْتَجِيْرُ أَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَي نَفْسِيْ وَلاَ إِلَى أَحَدٍ مِنْ خَلْقِكَ طَرْفَةَ عَيْنٍ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Wahai yang Maha Hidup dan Maha Berdiri Sendiri, aku memohon pertolongan dengan kasih sayang-Mu, dan aku memohon perlindungan dari siksa-Mu. Perbaikilah untukku segala permasalahanku, dan jangan Engkau tinggalkan aku kepada diriku sendiri, dan kepada salah seorang dari makhluk-Mu walau sekejap mata pun.'
               },
               {
-                id: 21,
+                id: 35,
+                arab: 'اَللَّهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَأَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, aku berlindung kepada-Mu dari kegundahan dan kesedihan, dan aku berlindung kepada-Mudari ketidakberdayaan dan sifat malas, dan aku berlindung kepada-Mu dari sifat pengecut dan kikir, dan aku berlindung kepada-Mu dari beban hutang dan penindasan manusia.'
+              },
+              {
+                id: 36,
+                arab: 'اَللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, aku memohon kepada-Mu keselamatan di dunia dan akhirat.'
+              },
+              {
+                id: 37,
+                arab: 'اَللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَـافِيَةَ وَالْمُعَافاَةَ الدَّائِمَةَ فِي دِيْنِيْ وَدُنْياَيَ وَأَهْلِيْ وَماَلِيْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, aku memohon kepada-Mu maaf dan keselamatan serta perlindungan yang abadi dalam agama, dunia, keluarga, dan hartaku.'
+              },
+              {
+                id: 38,
+                arab: 'اَللَّهُمَّ اسْتُرْ عَوْرَاتِيْ وَآمِنْ رَوْعَاتِيْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, tutupilah segala kekuranganku, dan berilah keamanan kepadaku dari rasa takut.'
+              },
+              {
+                id: 39,
+                arab: 'اَللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِيْ وَعَنْ يَمِيْنِيْ وَعَنْ شِماَلِيْ وَمِنْ فَوْقِيْ ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتاَلَ مِنْ تَحْتِيْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, jagalah aku (dari malapetaka) yang datang dari depan dan belakangku, dari kanan dan kiriku, dari atasku,  dan aku berlindung dengan keagungan-Mu agar tidak dibinasakan dari bawahku.'
+              },
+              {
+                id: 40,
+                arab: 'اَللَّهُـمَّ أَنْتَ خَلَقْتَنِـيْ وَأَنْتَ تَهْدِيْنِـيْ وَأَنْتَ تُطْعِمُنِـيْ وَأَنْتَ تُسْقِيْنِـيْ وَأَنْتَ تُمِيْتُنِـي وَأَنْتَ تُحْيِيْنِـيْ وَاَنْتَ عَلَي كُلِّ شَئٍ قَدِيْرٌ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, Engkaulah yang menciptakanku, memberikan petunjuk kepadaku, memberi makanan kepadaku, memberikan minuman kepadaku, mematikanku, menghidupkanku, dan Engkau Maha Kuasa atas segala sesuatu.'
+              },
+              {
+                id: 41,
+                arab: 'أَصْبَحْناَ عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ وَعَلَى دِيْنِ نَبِيِّناَ مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْراَهِيْمَ حَنِيْفاً مُسْلِماً وَماَ كاَنَ مِنَ الْمُشْرِكِيْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami berada pada pagi ini di atas fitrah beragama Islam, kalimat yang murni, agama Nabi kami Muhammad saw dan agama bapak kami Ibrahim as yang lurus dan berserah diri (kepada Allah), dan sekali-kali bukanlah dia dari golongan orang-orang yang mempersekutukan Allah dengan yang lain.'
+              },
+              {
+                id: 42,
+                arab: 'اَللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah! Dengan-Mu kami berada di waktu pagi, dan demikian pula di waktu petang, dengan-Mu kami hidup dan dengan-mu kami mati, serta kepada-Mu tempat kembali.'
+              },
+              {
+                id: 43,
+                arab: 'أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعاَلَمِيْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami berada di pagi hari dan kerajaan milik Allah, serta segala puji bagi Allah Tuhan semesta alam.'
+              },
+              {
+                id: 44,
+                arab: 'اَللَّهُّمَ إِنِّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ فَتْحَهُ وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُداَهُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, kami memohon kepada-Mu kebaikan hari ini, pembukaan. pertolongan, cahaya, keberkahan dan petunjuknya.'
+              },
+              {
+                id: 45,
+                arab: 'اَللَّهُمَّ إِنَّي أَسْأَلُكَ خَيْرَ هَذاَ الْيَوْمِ وَخَيْرَ ماَ فِيْهِ وَأَعُوْذُ بِكَ مِنْ شَرِّ هَذاَالْيَوْمِ وَشَرِّ مَا فِيْهِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah aku memohon kepada-Mu kebaikan hari ini, dan kebaikan apa yang ada di dalamnya, kebaikan sebelum dan sesudahnya. Dan aku berlindung kepada-Mu dari keburukan hari ini dan keburukan apa yang terdapat didalamnya, juga keburukan sebelum dan sesudahnya.'
+              },
+              {
+                id: 46,
+                arab: 'اَللَّهُمَّ ماَ أَصْبَحَ بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَـدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ عَلَى ذَلِكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, nikmat yang aku terima di pagi ini, atau yang di terima oleh salah seorang dari hamba-Mu, maka semua itu semata-mata dari-Mu yang Maha Esa tiada sekutu bagi-Mu. Bagi-Mu segala pujian dan untuk-Mu segala syukur atas semua itu.'
+              },
+              {
+                id: 47,
                 arab: 'سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ عَدَدَ خَلْقِـهِ وَرِضَـى نَفْسِهِ وَزِنَةَ عَرْشِهِ وَمِداَدَ كَلِمَاتِهِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Maha Suci Allah dan segala puji untuk-Nya, sebanyak bilangan makhluk-Nya, keridhaan, timbangan Arsy dan sebanyak tinta untuk menulis kalimat-Nya. (3X)'
               },
               {
-                id: 22,
-                arab: 'سُبْحَانَ اللّٰهِ الْعَظِيْمِ وَبِحَمْدِهِ عَدَدَ خَلْقِـهِ وَرِضَـى نَفْسِـهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ  ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا خَلَقَ فِي السَّمَـاءِ  ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا خَلَـقَ فِي الأَرْضِ  ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا بَيْنَ ذَلِكَ  ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا هُوَ خَـالِقٌ',
+                id: 48,
+                arab: 'سُبْحَانَ اللّٰهِ الْعَظِيْمِ وَبِحَمْدِهِ عَدَدَ خَلْقِـهِ وَرِضَـى نَفْسِـهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Maha Suci Allah lagi maha Agung dan segala puji untuk-Nya, sebanyak bilangan makhluk-Nya, keridhaan, timbangan Arsy dan sebanyak tinta untuk menulis kalimat-Nya. (3X)'
               },
               {
-                id: 23,
-                arab: 'اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ  ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ  ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا بَيْـنَ ذَلِكَ  ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا هُوَ خَـالِقٌ',
+                id: 49,
+                arab: 'سُبْحَـانَ اللّٰهِ عَدَدَ مَا خَلَقَ فِي السَّمَـاءِ ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا خَلَـقَ فِي الأَرْضِ ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا بَيْنَ ذَلِكَ ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا هُوَ خَـالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Maha suci Allah sebanyak bilangan ciptaan-Nya di langit, Mala suci Allah sebanyak bilangan ciptaan-Nya di bumi, Maha suci Allah sebanyak bilangan ciptaan-Nya di antara keduanya dan Maha suc Allah sebanyak bilangan ciptaan-Nya.'
               },
               {
-                id: 24,
-                arab: ' لاَ إِلَهَ إِلاَّ اللّٰهُ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، لاَ إِلَهَ إِلاَّ اللّٰهُ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، لاَ إِلَـهَ إِلاَّ اللّٰهُ عَدَدَ مَـا بَيْـنَ ذَلِـكَ ، لاَ إِلَهَ إِلاَّ اللّٰهُ عَدَدَ مَـا هُوَ خَـالِقٌ',
+                id: 50,
+                arab: 'اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا بَيْـنَ ذَلِكَ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا هُوَ خَـالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Segala puji bagi Allah sebanyak bilangan ciptaan-Nya di langit, Segala puji bagi Allah sebanyak bilangan ciptaan-Nya di bumi, Segala puji bagi Allah sebanyak bilangan ciptaan-Nya di antara keduanya dan Segala puji bagi Allah sebanyak bilangan ciptaan-Nya.'
               },
               {
-                id: 25,
-                arab: 'اللّٰهُ أَكْبَرُ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، اللّٰهُ أَكْبَرُ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ  ، اللّٰهُ أَكْبَرُ عَدَدَ مَـا بَيْـنَ ذَلِكَ ، اللّٰهُ أَكْبَرُ عَدَدَ مَـا هُوَ خَـالِقٌ',
+                id: 51,
+                arab: 'لاَ إِلَهَ إِلاَّ اللّٰهُ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، لاَ إِلَهَ إِلاَّ اللّٰهُ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، لاَ إِلَـهَ إِلاَّ اللّٰهُ عَدَدَ مَـا بَيْـنَ ذَلِـكَ ، لاَ إِلَهَ إِلاَّ اللّٰهُ عَدَدَ مَـا هُوَ خَـالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Tiada tuhan selain Allah sebanyak bilangan ciptaan-Nya di langit, Tiada tuhan selain Allah sebanyak bilangan ciptaan-Nya di bumi, Tiada tuhan selain Allah sebanyak bilangan ciptaan-Nya di antara keduanya dan Tiada tuhan selain Allah sebanyak bilangan ciptaan- Nya.'
               },
               {
-                id: 26,
-                arab: 'لآ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا خَلَقَ فِي السَّمَاءِ  ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا خَلَقَ فِي الأَرْضِ  ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا بَيْـنَ ذَلِـكَ  ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَا هُوَ خَالِقٌ',
+                id: 52,
+                arab: 'اللّٰهُ أَكْبَرُ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، اللّٰهُ أَكْبَرُ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، اللّٰهُ أَكْبَرُ عَدَدَ مَـا بَيْـنَ ذَلِكَ ، اللّٰهُ أَكْبَرُ عَدَدَ مَـا هُوَ خَـالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Allah Maha Besar sebanyak bilangan ciptaan-Nya di langit, Allah Maha Besar sebanyak bilangan ciptaan-Nya di bumi, Allah Maha Besar sebanyak bilangan ciptaan-Nya di antara keduanya dan Allah Maha Besar sebanyak bilangan ciptaan-Nya.'
               },
               {
-                id: 27,
-                arab: 'لاَ إِلَهَ إِلاَّ اللّٰهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ  ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَـى كُلِّ شَيْءٍ قَدِيْرٌ (٣)',
+                id: 53,
+                arab: 'لآ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا خَلَقَ فِي السَّمَاءِ ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا خَلَقَ فِي الأَرْضِ ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا بَيْـنَ ذَلِـكَ ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَا هُوَ خَالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Tiada daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya di langit, Tuda daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya di bumi, Tiada daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya di antara keduanya dan Tiada daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya.'
               },
               {
-                id: 28,
+                id: 54,
+                arab: 'لاَ إِلَهَ إِلاَّ اللّٰهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَـى كُلِّ شَيْءٍ قَدِيْرٌ (٣)',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tiada tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya, kepunyaan-Nya kerajaan, dan hanya bagi-Nya segala puji, yang menghidupkan dan mematika dan Dia Maha Kuasa atas segala sesuatu, sebanyak setiap zarrah seribu kali. (3x)'
+              },
+              {
+                id: 55,
                 arab: 'اَللّٰهُمَّ صَلِّ وَ سَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ مِفْتَاحِ بَابِ رَحْمَةِ اللّٰهِ عَدَدَمَا فِى عِلْمِ اللّٰهِ صَلاَةً وَسَلَامًا دَائِمَيْنِ بِدَوَامِ مُلْكِ اللّٰهِ وَعَلَى آلِهِ وَصَحْبِهِ عَدَدَكُلِّ ذَرَّةٍ أَلْفَ مَرَّةٍ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah limpahkanlah shalawat dan salam atas junjungan kami Muhammad pembuka pintu rahmat Allah, sebanyak segala yang terdapat ilmu Allah. Shalawat dan salam yang terus menerus bersama dengan keabadian kerajaan Allah. Juga kepada keluarga dan sahabatnya sebanyak setiap zarrah seribu kali. (3X)'
               },
             ]
           },
@@ -399,51 +615,723 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'يٰسٓ ۝ وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝ اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝ عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝ تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝ لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝ لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝ وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝ وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝ اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝ وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝ اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝ قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝ قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝ وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝ قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝ قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝ وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                arab: 'يٰسٓ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Yā Sīn.'
               },
               {
                 id: 2,
-                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝ وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝ ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝ اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝ اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝ قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝ بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝ وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝ يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝ اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝ وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝ وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝ لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝ وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝ وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝ وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝ لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                arab: 'وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Demi Al-Qur’an yang penuh hikmah,'
               },
               {
                 id: 3,
-                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝ وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝ وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝ اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝ وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝ وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝ وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ  قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝ وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝ مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝ فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝ وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝ قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝ اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝ هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝ لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝ سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝ وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝ اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                arab: 'اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'sesungguhnya engkau (Nabi Muhammad) benar-benar salah seorang dari rasul-rasul'
               },
               {
                 id: 4,
-                arab: 'وَّاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝ وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝ هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝ اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝ اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝ وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝ وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝ وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝ وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝ لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝ اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝ وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝ وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝ لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝ فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝ اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝ وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝ قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝ اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝ اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝ اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝ فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                arab: 'عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: '(yang berada) di atas jalan yang lurus,'
               },
               {
                 id: 5,
+                arab: 'تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa lagi Maha Penyayang,'
+              },
+              {
+                id: 6,
+                arab: 'لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar engkau (Nabi Muhammad) memberi peringatan kepada suatu kaum yang nenek moyang mereka belum pernah diberi peringatan, sehingga mereka lalai.'
+              },
+              {
+                id: 7,
+                arab: 'لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, benar-benar berlaku perkataan (ketetapan takdir) terhadap kebanyakan mereka, maka mereka tidak akan beriman.'
+              },
+              {
+                id: 8,
+                arab: 'اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kami telah memasang belenggu di leher mereka, lalu (tangan mereka yang terbelenggu diangkat) ke dagu, karena itu mereka tertengadah.'
+              },
+              {
+                id: 9,
+                arab: 'وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami memasang penghalang di hadapan mereka dan di belakang mereka, sehingga Kami menutupi (pandangan) mereka. Mereka pun tidak dapat melihat.'
+              },
+              {
+                id: 10,
+                arab: 'وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sama saja bagi mereka, apakah engkau (Nabi Muhammad) memberi peringatan kepada mereka atau tidak. Mereka (tetap) tidak akan beriman.'
+              },
+              {
+                id: 11,
+                arab: 'اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya engkau (Nabi Muhammad) hanya (bisa) memberi peringatan kepada orang-orang yang mau mengikutinya dan yang takut kepada Tuhan Yang Maha Pengasih tanpa melihat-Nya. Berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.'
+              },
+              {
+                id: 12,
+                arab: 'اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kamilah yang menghidupkan orang-orang yang mati dan Kami (pulalah) yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Segala sesuatu Kami kumpulkan dalam kitab induk yang nyata (Lauh Mahfuz).'
+              },
+              {
+                id: 13,
+                arab: 'وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Buatlah suatu perumpamaan bagi mereka (kaum kafir Makkah), yaitu penduduk suatu negeri, ketika para utusan datang kepada mereka,'
+              },
+              {
+                id: 14,
+                arab: 'اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya. Kemudian Kami menguatkan dengan (utusan) yang ketiga. Maka, ketiga (utusan itu) berkata, “Sesungguhnya kami adalah orang-orang yang diutus kepadamu.”'
+              },
+              {
+                id: 15,
+                arab: 'قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Kamu tidak lain hanyalah manusia seperti kami. (Allah) Yang Maha Pengasih tidak (pernah) menurunkan sesuatu apa pun. Kamu hanyalah berdusta.”'
+              },
+              {
+                id: 16,
+                arab: 'قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Tuhan kami mengetahui bahwa sesungguhnya kami benar-benar para utusan(-Nya) kepadamu.'
+              },
+              {
+                id: 17,
+                arab: 'وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Adapun kewajiban kami hanyalah menyampaikan (perintah Allah) yang jelas.”'
+              },
+              {
+                id: 18,
+                arab: 'قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Sesungguhnya kami bernasib malang karenamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami merajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”'
+              },
+              {
+                id: 19,
+                arab: 'قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Kemalangan kamu itu (akibat perbuatan) kamu sendiri. Apakah karena kamu diberi peringatan, (lalu kamu menjadi malang)? Sebenarnya kamu adalah kaum yang melampaui batas.”'
+              },
+              {
+                id: 20,
+                arab: 'وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Datanglah dengan bergegas dari ujung kota, seorang laki-laki. Dia berkata, “Wahai kaumku, ikutilah para rasul itu!'
+              },
+              {
+                id: 21,
+                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ikutilah orang yang tidak meminta imbalan (dalam berdakwah) kepadamu. Mereka adalah orang-orang yang mendapat petunjuk.'
+              },
+              {
+                id: 22,
+                arab: 'وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apa (alasanku) untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan?'
+              },
+              {
+                id: 23,
+                arab: 'ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mengapa aku (harus) mengambil sembahan-sembahan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.'
+              },
+              {
+                id: 24,
+                arab: 'اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku (jika berbuat) begitu, pasti berada dalam kesesatan yang nyata.'
+              },
+              {
+                id: 25,
+                arab: 'اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku telah beriman kepada Tuhanmu. Maka, dengarkanlah (pengakuan)-ku.”'
+              },
+              {
+                id: 26,
+                arab: 'قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Aduhai, sekiranya kaumku mengetahui'
+              },
+              {
+                id: 27,
+                arab: 'بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(bagaimana) Tuhanku mengampuniku dan menjadikanku termasuk orang-orang yang dimuliakan.”'
+              },
+              {
+                id: 28,
+                arab: 'وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Setelah dia (dibunuh), Kami tidak menurunkan satu pasukan pun dari langit kepada kaumnya dan Kami tidak perlu menurunkannya.'
+              },
+              {
+                id: 29,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Azab mereka) itu cukup dengan satu teriakan saja. Maka, seketika itu mereka mati.'
+              },
+              {
+                id: 30,
+                arab: 'يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Alangkah besar penyesalan diri para hamba itu. Setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.'
+              },
+              {
+                id: 31,
+                arab: 'اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui berapa banyak umat sebelum mereka yang telah Kami binasakan? Mereka (setelah binasa) tidak ada yang kembali kepada mereka (di dunia).'
+              },
+              {
+                id: 32,
+                arab: 'وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak ada satu (umat) pun, kecuali semuanya akan dihadirkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 33,
+                arab: 'وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kekuasaan-Nya) bagi mereka adalah bumi yang mati (tandus lalu) Kami menghidupkannya dan mengeluarkan darinya biji-bijian kemudian dari (biji-bijian) itu mereka makan.'
+              },
+              {
+                id: 34,
+                arab: 'وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami (juga) menjadikan padanya (bumi) kebun-kebun kurma dan anggur serta Kami memancarkan padanya beberapa mata air'
+              },
+              {
+                id: 35,
+                arab: 'لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Mengapa mereka tidak bersyukur?'
+              },
+              {
+                id: 36,
+                arab: 'سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri maupun dari apa yang tidak mereka ketahui.'
+              },
+              {
+                id: 37,
+                arab: 'وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda juga (atas kekuasaan Allah) bagi mereka adalah malam. Kami pisahkan siang dari (malam) itu. Maka, seketika itu mereka (berada dalam) kegelapan.'
+              },
+              {
+                id: 38,
+                arab: 'وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Suatu tanda juga atas kekuasaan Allah bagi mereka adalah) matahari yang berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa lagi Maha Mengetahui.'
+              },
+              {
+                id: 39,
+                arab: 'وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) bulan, Kami tetapkan bagi(-nya) tempat-tempat peredaran sehingga (setelah ia sampai ke tempat peredaran yang terakhir,) kembalilah ia seperti bentuk tandan yang tua.'
+              },
+              {
+                id: 40,
+                arab: 'لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.'
+              },
+              {
+                id: 41,
+                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami mengangkut keturunan mereka dalam kapal yang penuh muatan.'
+              },
+              {
+                id: 42,
+                arab: 'وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) Kami menciptakan untuk mereka dari jenis itu angkutan (lain) yang mereka kendarai.'
+              },
+              {
+                id: 43,
+                arab: 'وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika Kami menghendaki, Kami akan menenggelamkan mereka. Kemudian, tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan.'
+              },
+              {
+                id: 44,
+                arab: 'اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Akan tetapi, (Kami menyelamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberi mereka kesenangan hidup sampai waktu tertentu.'
+              },
+              {
+                id: 45,
+                arab: 'وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ketika dikatakan kepada mereka, “Takutlah kamu akan (siksa) yang ada di hadapanmu (di dunia) dan azab yang ada di belakangmu (akhirat) agar kamu mendapat rahmat,” (maka mereka berpaling).'
+              },
+              {
+                id: 46,
+                arab: 'وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak satu pun dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, kecuali mereka berpaling darinya.'
+              },
+              {
+                id: 47,
+                arab: 'وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kufur itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki, Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”'
+              },
+              {
+                id: 48,
+                arab: 'وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Kapankah janji (hari Kebangkitan) ini (terjadi) jika kamu orang-orang benar?”'
+              },
+              {
+                id: 49,
+                arab: 'مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka hanya menunggu satu teriakan yang akan membinasakan mereka saat mereka (sibuk) bertengkar (tentang urusan dunia).'
+              },
+              {
+                id: 50,
+                arab: 'فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Oleh sebab itu, mereka tidak dapat berwasiat dan tidak dapat kembali kepada keluarganya.'
+              },
+              {
+                id: 51,
+                arab: 'وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sangkakala pun ditiup dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya.'
+              },
+              {
+                id: 52,
+                arab: 'قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” (Lalu, dikatakan kepada mereka,) “Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah para rasul(-Nya).”'
+              },
+              {
+                id: 53,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 54,
+                arab: 'فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari itu tidak ada sama sekali orang yang dirugikan sedikit pun. Kamu tidak akan diberi balasan, kecuali atas apa yang telah kamu kerjakan.'
+              },
+              {
+                id: 55,
+                arab: 'اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya penghuni surga pada hari itu berada dalam kesibukan (sehingga tidak sempat berpikir tentang penghuni neraka) lagi bersenang-senang.'
+              },
+              {
+                id: 56,
+                arab: 'هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka dan pasangan-pasangannya berada dalam tempat yang teduh sambil berbaring di atas ranjang berkelambu.'
+              },
+              {
+                id: 57,
+                arab: 'لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Di (surga) itu mereka memperoleh buah-buahan dan apa saja yang mereka inginkan.'
+              },
+              {
+                id: 58,
+                arab: 'سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Kepada mereka dikatakan,) “Salam sejahtera” sebagai ucapan dari Tuhan Yang Maha Penyayang.'
+              },
+              {
+                id: 59,
+                arab: 'وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dikatakan kepada orang-orang kafir,) “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai para pendurhaka!'
+              },
+              {
+                id: 60,
+                arab: 'اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Aku telah berpesan kepadamu dengan sungguh-sungguh, wahai anak cucu Adam, bahwa janganlah kamu menyembah setan? Sesungguhnya setan itu musuh yang nyata bagi kamu.'
+              },
+              {
+                id: 61,
+                arab: 'وَاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga bahwa) sembahlah Aku. Inilah jalan yang lurus.”'
+              },
+              {
+                id: 62,
+                arab: 'وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu. Maka, apakah kamu tidak mengerti?'
+              },
+              {
+                id: 63,
+                arab: 'هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu.'
+              },
+              {
+                id: 64,
+                arab: 'اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya.'
+              },
+              {
+                id: 65,
+                arab: 'اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari ini Kami membungkam mulut mereka. Tangan merekalah yang berkata kepada Kami dan kaki merekalah yang akan bersaksi terhadap apa yang dahulu mereka kerjakan.'
+              },
+              {
+                id: 66,
+                arab: 'وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan menghapus penglihatan (membutakan) mereka sehingga mereka berlomba-lomba (mencari) jalan (selamat). Maka, bagaimana mungkin mereka dapat melihat?'
+              },
+              {
+                id: 67,
+                arab: 'وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan mengubah bentuk mereka di tempat mereka berada, sehingga mereka tidak sanggup meneruskan perjalanan dan juga tidak sanggup pulang kembali.'
+              },
+              {
+                id: 68,
+                arab: 'وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Siapa yang Kami panjangkan umurnya niscaya Kami balik proses penciptaannya (dari kuat menuju lemah). Maka, apakah mereka tidak mengerti?'
+              },
+              {
+                id: 69,
+                arab: 'وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami tidak mengajarkan syair kepadanya (Nabi Muhammad) dan (bersyair) itu tidaklah pantas baginya. (Wahyu yang Kami turunkan kepadanya) itu tidak lain hanyalah pelajaran dan Al-Qur’an yang jelas'
+              },
+              {
+                id: 70,
+                arab: 'لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar dia (Nabi Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar ketetapan (azab) terhadap orang-orang kafir itu menjadi pasti.'
+              },
+              {
+                id: 71,
+                arab: 'اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui bahwa Kami telah menciptakan untuk mereka hewan-hewan ternak dari ciptaan tangan Kami (sendiri), lalu mereka menjadi pemiliknya?'
+              },
+              {
+                id: 72,
+                arab: 'وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami menjadikannya (hewan-hewan itu) tunduk kepada mereka. Sebagian di antaranya menjadi tunggangan mereka dan sebagian (lagi) mereka makan.'
+              },
+              {
+                id: 73,
+                arab: 'وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada dirinya (hewan-hewan ternak itu) terdapat berbagai manfaat dan minuman untuk mereka. Apakah mereka tidak bersyukur?'
+              },
+              {
+                id: 74,
+                arab: 'وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka menjadikan sesembahan selain Allah agar mereka mendapat pertolongan.'
+              },
+              {
+                id: 75,
+                arab: 'لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Sesembahan) itu tidak mampu menolong mereka, padahal (sesembahan) itu adalah tentara yang dihadirkan untuk menjaganya.'
+              },
+              {
+                id: 76,
+                arab: 'فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, jangan sampai ucapan mereka membuat engkau (Nabi Muhammad) bersedih hati. Sesungguhnya Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.'
+              },
+              {
+                id: 77,
+                arab: 'اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah manusia mengetahui bahwa Kami menciptakannya dari setetes mani? Kemudian tiba-tiba saja dia menjadi musuh yang nyata.'
+              },
+              {
+                id: 78,
+                arab: 'وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dia membuat perumpamaan bagi Kami dan melupakan asal penciptaannya. Dia berkata, “Siapakah yang bisa menghidupkan tulang-belulang yang telah hancur luluh?”'
+              },
+              {
+                id: 79,
+                arab: 'قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Katakanlah (Nabi Muhammad), “Yang akan menghidupkannya adalah Zat yang menciptakannya pertama kali. Dia Maha Mengetahui setiap makhluk.'
+              },
+              {
+                id: 80,
+                arab: 'اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dialah) yang menjadikan api untukmu dari kayu yang hijau. Kemudian, seketika itu kamu menyalakan (api) darinya.”'
+              },
+              {
+                id: 81,
+                arab: 'اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Zat yang menciptakan langit dan bumi mampu menciptakan manusia yang serupa mereka itu (di akhirat kelak)? Benar. Dialah yang Maha Banyak Mencipta lagi Maha Mengetahui.'
+              },
+              {
+                id: 82,
+                arab: 'اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ketetapan-Nya, jika Dia menghendaki sesuatu, Dia hanya berkata kepadanya, “Jadilah!” Maka, jadilah (sesuatu) itu.'
+              },
+              {
+                id: 83,
+                arab: 'فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.'
+              },
+              {
+                id: 84,
                 arab: '',
-                indo: 'Doa surat yasin',
+                indo: 'Doa setelah baca surat yasin',
                 image: '',
                 latin: '',
                 arti: '',
               },
               {
-                id: 6,
-                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا ، اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ ، اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ، وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ. وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                id: 85,
+                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 86,
+                arab: 'اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Wahai Allah jadikanlah kami dan mereka itu dalam pemeliharaan, keamanan, dan perlindungan-Mu, dari segala setan yang durhaka dan penguasa yang lalim, dari para pembangkang, dan dari orang-orang yang dengki serta dari kejahatan orang-orang yang berbuat jahat, sesungguhnya Engkau Maha Kuasa atas segala sesuatu.',
+              },
+              {
+                id: 87,
+                arab: 'اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, perindahlah kami dengan keselamatan, kesejahteraan. Dan kokohkanlah kami dengan takwa dan istiqamah. Lindungilah kami dari segala sesuatu yang mengakibatkan penyesalan, sesungguhnya Engkau Maha Mendengar doa.',
+              },
+              {
+                id: 88,
+                arab: 'اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 89,
+                arab: 'وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Limpahkan shalawat dan salam ya Allah kepada hamba dan rasul-Mu, junjungan dan tuan kami Muhammad, juga keluarga dan para sahabatnya.',
+              },
+              {
+                id: 100,
+                arab: 'وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan berilah kami rezeki kesempurnaan dalam mengikuti beliau secara lahir dan batin, dalam keselamatan dan kesejahteraan dengan kasih sayang-Mu wahai yang Maha mengasihi di antara seluruh pengasih.',
               },
             ]
           },
@@ -457,83 +1345,867 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'اِذَا وَقَعَتِ الۡوَاقِعَةُ ۝ لَيۡسَ لِـوَقۡعَتِهَا كَاذِبَةٌ‌ ۝ خَافِضَةٌ رَّافِعَةٌ ۝ اِذَا رُجَّتِ الۡاَرۡضُ رَجًّا ۝ وَّبُسَّتِ الۡجِبَالُ بَسًّا ۝ فَكَانَتۡ هَبَآءً مُّنۡۢبَـثًّا ۝ وَّكُنۡـتُمۡ اَزۡوَاجًا ثَلٰـثَـةً ۝ فَاَصۡحٰبُ الۡمَيۡمَنَةِ مَاۤ اَصۡحٰبُ الۡمَيۡمَنَةِ ۝ وَاَصۡحٰبُ الۡمَشۡـَٔـمَةِ مَاۤ اَصۡحٰبُ الۡمَشۡـَٔـمَةِ ۝ وَالسّٰبِقُوۡنَ السّٰبِقُوۡنَ ۝ اُولٰٓٮِٕكَ الۡمُقَرَّبُوۡنَ‌ ۝ فِىۡ جَنّٰتِ النَّعِيۡمِ ۝ ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝ وَقَلِيۡلٌ مِّنَ الۡاٰخِرِيۡنَ ۝ عَلٰى سُرُرٍ مَّوۡضُوۡنَةٍ ۝ مُّتَّكِـــِٕيۡنَ عَلَيۡهَا مُتَقٰبِلِيۡنَ ۝ يَطُوۡفُ عَلَيۡهِمۡ وِلۡدَانٌ مُّخَلَّدُوۡنَ ۝ بِاَكۡوَابٍ وَّاَبَارِيۡقَ وَكَاۡسٍ مِّنۡ مَّعِيۡنٍ ۝ لَّا يُصَدَّعُوۡنَ عَنۡهَا وَلَا يُنۡزِفُوۡنَ ۝ وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُوۡنَ ۝',
+                arab: 'اِذَا وَقَعَتِ الۡوَاقِعَةُ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Apabila terjadi hari Kiamat (yang pasti terjadi),'
               },
               {
                 id: 2,
-                arab: 'وَلَحۡمِ طَيۡرٍ مِّمَّا يَشۡتَهُوۡنَ ۝ وَحُوۡرٌ عِيۡنٌ ۝ كَاَمۡثَالِ اللُّـؤۡلُـوٴِالۡمَكۡنُوۡنِ‌ ۝ جَزَآءًۢ بِمَا كَانُوۡا يَعۡمَلُوۡنَ ۝ لَا يَسۡمَعُوۡنَ فِيۡهَا لَغۡوًا وَّلَا تَاۡثِيۡمًا ۝ اِلَّا قِيۡلًا سَلٰمًا سَلٰمًا ۝ وَاَصۡحٰبُ الۡيَمِيۡنِ مَاۤ اَصۡحٰبُ الۡيَمِيۡنِ ۝ فِىۡ سِدۡرٍ مَّخۡضُوۡدٍ ۝ وَّطَلۡحٍ مَّنۡضُوۡدٍ ۝ وَّظِلٍّ مَّمۡدُوۡدٍ ۝ وَّ مَآءٍ مَّسۡكُوۡبٍ ۝ وَّفَاكِهَةٍ كَثِيۡرَةٍ ۝ لَّا مَقۡطُوۡعَةٍ وَّلَا مَمۡنُوۡعَةٍ ۝ وَّ فُرُشٍ مَّرۡفُوۡعَةٍ ۝ اِنَّاۤ اَنۡشَاۡنٰهُنَّ اِنۡشَآءً ۝ فَجَعَلۡنٰهُنَّ اَبۡكَارًا ۝ عُرُبًا اَتۡرَابًا ۝ لِّاَصۡحٰبِ الۡيَمِيۡنِ ۝ ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝ وَثُلَّةٌ مِّنَ الۡاٰخِرِيۡنَ ۝',
+                arab: 'لَيۡسَ لِـوَقۡعَتِهَا كَاذِبَةٌ‌ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'tidak ada seorang pun yang (dapat) mendustakan terjadinya.'
               },
               {
                 id: 3,
-                arab: 'وَاَصۡحٰبُ الشِّمَالِ مَاۤ اَصۡحٰبُ الشِّمَالِ ۝ فِىۡ سَمُوۡمٍ وَّحَمِيۡمٍ ۝ وَّظِلٍّ مِّنۡ يَّحۡمُوۡمٍ ۝ لَّا بَارِدٍ وَّلَا كَرِيۡمٍ ۝ اِنَّهُمۡ كَانُوۡا قَبۡلَ ذٰ لِكَ مُتۡرَفِيۡنَ ۝ وَكَانُوۡا يُصِرُّوۡنَ عَلَى الۡحِنۡثِ الۡعَظِيۡمِ‌ ۝ وَكَانُوۡا يَقُوۡلُوۡنَ اَٮِٕذَا مِتۡنَا وَكُنَّا تُرَابًا وَّعِظَامًا ءَاِنَّا لَمَبۡعُوۡثُوۡنَ ۝ اَوَاٰبَآؤُنَا الۡاَوَّلُوۡنَ ۝ قُلۡ اِنَّ الۡاَوَّلِيۡنَ وَالۡاٰخِرِيۡنَ ۝ لَمَجۡمُوۡعُوۡنَ اِلٰى مِيۡقَاتِ يَوۡمٍ مَّعۡلُوۡمٍ ۝ ثُمَّ اِنَّكُمۡ اَيُّهَا الضَّآلُّوۡنَ الۡمُكَذِّبُوۡنَ ۝ لَاٰكِلُوۡنَ مِنۡ شَجَرٍ مِّنۡ زَقُّوۡمٍ ۝ فَمٰلِــُٔوۡنَ مِنۡهَا الۡبُطُوۡنَ‌ ۝ فَشٰرِبُوۡنَ عَلَيۡهِ مِنَ الۡحَمِيۡمِ‌ ۝ فَشٰرِبُوۡنَ شُرۡبَ الۡهِيۡمِ ۝ هٰذَا نُزُلُهُمۡ يَوۡمَ الدِّيۡنِ ۝ نَحۡنُ خَلَقۡنٰكُمۡ فَلَوۡلَا تُصَدِّقُوۡنَ ۝ اَفَرَءَيۡتُمۡ مَّا تُمۡنُوۡنَ ۝ ءَاَنۡتُمۡ تَخۡلُقُوۡنَهٗۤ اَمۡ نَحۡنُ الۡخٰلِقُوۡنَ ۝ نَحۡنُ قَدَّرۡنَا بَيۡنَكُمُ الۡمَوۡتَ وَمَا نَحۡنُ بِمَسۡبُوۡقِيۡنَ ۝',
+                arab: 'خَافِضَةٌ رَّافِعَةٌ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: '(Kejadian itu) merendahkan (satu golongan) dan meninggikan (golongan yang lain).'
               },
               {
                 id: 4,
-                arab: 'عَلٰٓى اَنۡ نُّبَدِّلَ اَمۡثَالَـكُمۡ وَنُـنۡشِئَكُمۡ فِىۡ مَا لَا تَعۡلَمُوۡنَ ۝ وَلَـقَدۡ عَلِمۡتُمُ النَّشۡاَةَ الۡاُوۡلٰى فَلَوۡلَا تَذَكَّرُوۡنَ ۝ اَفَرَءَيۡتُمۡ مَّا تَحۡرُثُوۡنَ ۝ ءَاَنۡتُمۡ تَزۡرَعُوۡنَهٗۤ اَمۡ نَحۡنُ الزّٰرِعُوۡنَ ۝ لَوۡ نَشَآءُ لَجَـعَلۡنٰهُ حُطَامًا فَظَلۡتُمۡ تَفَكَّهُوۡنَ ۝ اِنَّا لَمُغۡرَمُوۡنَ ۝ بَلۡ نَحۡنُ مَحۡرُوۡمُوۡنَ ۝ اَفَرَءَيۡتُمُ الۡمَآءَ الَّذِىۡ تَشۡرَبُوۡنَ ۝ ءَاَنۡـتُمۡ اَنۡزَلۡـتُمُوۡهُ مِنَ الۡمُزۡنِ اَمۡ نَحۡنُ الۡمُنۡزِلُوۡنَ ۝ لَوۡ نَشَآءُ جَعَلۡنٰهُ اُجَاجًا فَلَوۡلَا تَشۡكُرُوۡنَ ۝ اَفَرَءَيۡتُمُ النَّارَ الَّتِىۡ تُوۡرُوۡنَ ۝ ءَاَنۡتُمۡ اَنۡشَاۡتُمۡ شَجَرَتَهَاۤ اَمۡ نَحۡنُ الۡمُنۡشِـُٔـوۡنَ ۝ نَحۡنُ جَعَلۡنٰهَا تَذۡكِرَةً وَّمَتَاعًا لِّلۡمُقۡوِيۡنَ‌ ۝ فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝ فَلَاۤ اُقۡسِمُ بِمَوٰقِعِ النُّجُوۡمِ ۝ وَاِنَّهٗ لَقَسَمٌ لَّوۡ تَعۡلَمُوۡنَ عَظِيۡمٌ ۝ اِنَّهٗ لَـقُرۡاٰنٌ كَرِيۡمٌ ۝ فِىۡ كِتٰبٍ مَّكۡنُوۡنٍ ۝ لَّا يَمَسُّهٗۤ اِلَّا الۡمُطَهَّرُوۡنَ ۝ تَنۡزِيۡلٌ مِّنۡ رَّبِّ الۡعٰلَمِيۡنَ ۝',
+                arab: 'اِذَا رُجَّتِ الۡاَرۡضُ رَجًّا ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Apabila bumi diguncangkan sedahsyat-dahsyatnya'
               },
               {
                 id: 5,
-                arab: 'اَفَبِهٰذَا الۡحَـدِيۡثِ اَنۡتُمۡ مُّدۡهِنُوۡنَ ۝ وَتَجۡعَلُوۡنَ رِزۡقَكُمۡ اَنَّكُمۡ تُكَذِّبُوۡنَ ۝ فَلَوۡلَاۤ اِذَا بَلَغَتِ الۡحُـلۡقُوۡمَ ۝ وَاَنۡتُمۡ حِيۡنَٮِٕذٍ تَـنۡظُرُوۡنَ ۝ وَنَحۡنُ اَقۡرَبُ اِلَيۡهِ مِنۡكُمۡ وَلٰـكِنۡ لَّا تُبۡصِرُوۡنَ ۝ فَلَوۡلَاۤ اِنۡ كُنۡتُمۡ غَيۡرَ مَدِيۡنِيۡنَ ۝ تَرۡجِعُوۡنَهَاۤ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝ فَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُقَرَّبِيۡنَ ۝ فَرَوۡحٌ وَّ رَيۡحَانٌ وَّجَنَّتُ نَعِيۡمٍ ۝ وَاَمَّاۤ اِنۡ كَانَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝ فَسَلٰمٌ لَّكَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝ وَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُكَذِّبِيۡنَ الضَّآلِّيۡنَ ۝ فَنُزُلٌ مِّنۡ حَمِيۡمٍ ۝ وَّتَصۡلِيَةُ جَحِيۡمٍ ۝ اِنَّ هٰذَا لَهُوَ حَقُّ الۡيَـقِيۡنِ ۝ فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝',
+                arab: 'وَّبُسَّتِ الۡجِبَالُ بَسًّا ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'dan gunung-gunung dihancurkan sehancur-hancurnya,'
               },
               {
                 id: 6,
-                arab: '',
-                indo: 'Doa surat Waqiah',
+                arab: 'فَكَانَتۡ هَبَآءً مُّنۡۢبَـثًّا ۝',
+                indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'jadilah ia debu yang beterbangan.'
               },
               {
                 id: 7,
-                arab: 'اَللَّهُمَّ صُنْ وُجُوْهَنَا بِاْليَسَارِ وَلاَتُوهِنَّابِاْلاِقْتَارِ فَنَسْتَرْزِقَ طَالِبِيْ رِزْقِكَ وَنَسْتَعْطِفَ شِرَارَخَلْقِكَ وَنَشْتَغِلَ بِحَمْدِ مَنْ اَعْطَانَاوَنُبْتَلَى بِذَمِّ مَنْ مَنَعَنَاوَاَنْتَ مِنْ وَرَاءِذَلِكَ كُلِّهِ اَهْلُ اْلعَطَاءِ وَاْلمَنْعِ . اَللَّهُمَّ كَمَاصُنْتَ وُجُوْ هَنَاعَنِ السُّجُوْدِاِلاَّلَكَ فَصُنَّاعَنِ اْلحاَجَةِاِلاَّاِلَيْكَ بِجُوْدِكَ وَكَرَمِكَ وَفَضْلِكَ , يَااَرْحَمَ الرَّاحِمِيْنَ (ثلاثا) اَغْنِنَا بِفَضْلِكَ عَمَّنْ سِوَاكَ . وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى اَلِهِ وَصَحْبِهِ وَسَلَّمَ',
+                arab: 'وَّكُنۡـتُمۡ اَزۡوَاجًا ثَلٰـثَـةً ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Kamu menjadi tiga golongan,'
               },
               {
                 id: 8,
-                arab: 'اَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ ، وَهَبَ لَنَاَبِهِ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ مِنْ رِزْقِكَ الْحَلَالِ الطَّيِّبِ الْمُبَارَكِ مَا تَصُوْنُ بِهِ وُجُوْهَنَا عَنِ التَّعَرُّضِ اِلَى اَحَدٍ مِنْ خَلْقِكَ وَاجْعَلِ اللّٰهُمَّ لَنَا اِلَيْهِ طَرِيْقًا سَهْلاً مِنْ غَيْرِ فِتْنَةٍ وَلاَمِحْنَةٍ وَلاَمِنَّةٍ وَلاَتَبِعَةٍ لِأَحَدٍ وَجَنِّبْنَا اَللّٰهُمَّ الْحَرَامَ حَيْثُ كَانَ وَاَيْنَ كَانَ وَعِنْدَمَنْ كَانَ وَحُلَّ بَيْنَنَا وَبَيْنَ أَهْلِهِ وَاقْبِضْ عَنَّا اَيْدِيْهِمْ وَاصْرِفْ عَنَّا وُجُوْهَحُمْ وَقُلُوْبَهُمْ حَتَّى لاَ نَتَقَلَّبَ اِلاَّ فِيْمَا يُرْضِيْكَ وَلاَنَسْتَعِيْنَ بِنِعْمَتِكَ يَا ارْحَمَ الرَّحِمِيْنَ',
+                arab: 'فَاَصۡحٰبُ الۡمَيۡمَنَةِ مَاۤ اَصۡحٰبُ الۡمَيۡمَنَةِ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'yaitu golongan kanan, alangkah mulianya golongan kanan itu'
               },
               {
                 id: 9,
-                arab: 'اَللّٰهُمَّ اِنْ كَانَ رِزْكُنَا فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى الْأَرْضِ فَاَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَاِنْ كَانَ قَلِيْلاً فَكَثِّرْهُ وَاِنْ كَانَ مَعْدُوْمًا فَأَوْجِدْهُ وَاِنْ كَانَ مَوْقُوْفًا فَأَجْرِهِ وَاِنْ كَانَ ذَنْبًا فَأَغْفِرْهُ وَاِنْ كَانَ سَيِّئَةً فَامْحُهَا وَاِنْ كَانَ خَطِيْئَةً فَتَجَاوَزْعَنْهَا وَاِنْ كَانَ عَثْرَةً فَأَقِلْهَا وَبَارِكْ لَنَا فِى جَمِيْعِ ذَالِكَ ، اِنَّكَ مَلِيْكٌ مُقْتَدِرٌ وَمَا تَشَاؤُهُ مِنْ اَمْرٍيَكُوْنُ',
+                arab: 'وَاَصۡحٰبُ الۡمَشۡـَٔـمَةِ مَاۤ اَصۡحٰبُ الۡمَشۡـَٔـمَةِ ۝',
                 indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan golongan kiri, alangkah sengsaranya golongan kiri itu.'
+              },
+              {
+                id: 10,
+                arab: 'وَالسّٰبِقُوۡنَ السّٰبِقُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Selain itu, (golongan ketiga adalah) orang-orang yang paling dahulu (beriman). Merekalah yang paling dahulu (masuk surga).'
+              },
+              {
+                id: 11,
+                arab: 'اُولٰٓٮِٕكَ الۡمُقَرَّبُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka itulah orang-orang yang didekatkan (kepada Allah).'
+              },
+              {
+                id: 12,
+                arab: 'فِىۡ جَنّٰتِ النَّعِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka) berada dalam surga (yang penuh) kenikmatan.'
+              },
+              {
+                id: 13,
+                arab: 'ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka adalah) segolongan besar dari orang-orang yang terdahulu'
+              },
+              {
+                id: 14,
+                arab: 'قَلِيۡلٌ مِّنَ الۡاٰخِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan sedikit dari orang-orang yang (datang) kemudian.'
+              },
+              {
+                id: 15,
+                arab: 'عَلٰى سُرُرٍ مَّوۡضُوۡنَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka berada) di atas dipan-dipan yang bertatahkan emas dan permata'
+              },
+              {
+                id: 16,
+                arab: 'مُّتَّكِـــِٕيۡنَ عَلَيۡهَا مُتَقٰبِلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'seraya bersandar di atasnya saling berhadapan.'
+              },
+              {
+                id: 17,
+                arab: 'يَطُوۡفُ عَلَيۡهِمۡ وِلۡدَانٌ مُّخَلَّدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka dikelilingi oleh anak-anak yang selalu muda'
+              },
+              {
+                id: 18,
+                arab: 'بِاَكۡوَابٍ وَّاَبَارِيۡقَ وَكَاۡسٍ مِّنۡ مَّعِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dengan (membawa) gelas, kendi, dan seloki (berisi minuman yang diambil) dari sumber yang mengalir.'
+              },
+              {
+                id: 19,
+                arab: 'لَّا يُصَدَّعُوۡنَ عَنۡهَا وَلَا يُنۡزِفُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka tidak pening karenanya dan tidak pula mabuk.'
+              },
+              {
+                id: 20,
+                arab: 'وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka menyuguhkan pula) buah-buahan yang mereka pilih'
+              },
+              {
+                id: 21,
+                arab: 'وَلَحۡمِ طَيۡرٍ مِّمَّا يَشۡتَهُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan daging burung yang mereka sukai.'
+              },
+              {
+                id: 22,
+                arab: 'وَحُوۡرٌ عِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ada bidadari yang bermata indah'
+              },
+              {
+                id: 23,
+                arab: 'كَاَمۡثَالِ اللُّـؤۡلُـوٴِالۡمَكۡنُوۡنِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'laksana mutiara yang tersimpan dengan baik'
+              },
+              {
+                id: 24,
+                arab: 'جَزَآءًۢ بِمَا كَانُوۡا يَعۡمَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'sebagai balasan atas apa yang selama ini mereka kerjakan.'
+              },
+              {
+                id: 25,
+                arab: 'لَا يَسۡمَعُوۡنَ فِيۡهَا لَغۡوًا وَّلَا تَاۡثِيۡمًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Di sana mereka tidak mendengar percakapan yang sia-sia dan tidak (pula) percakapan yang menimbulkan dosa,'
+              },
+              {
+                id: 26,
+                arab: 'اِلَّا قِيۡلًا سَلٰمًا سَلٰمًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'kecuali (yang mereka dengar hanyalah) ucapan, “Salam… salam.”'
+              },
+              {
+                id: 27,
+                arab: 'وَاَصۡحٰبُ الۡيَمِيۡنِ مَاۤ اَصۡحٰبُ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Golongan kanan, alangkah mulianya golongan kanan itu.'
+              },
+              {
+                id: 28,
+                arab: 'فِىۡ سِدۡرٍ مَّخۡضُوۡدٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka) berada di antara pohon bidara yang tidak berduri,'
+              },
+              {
+                id: 29,
+                arab: 'وَّطَلۡحٍ مَّنۡضُوۡدٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'pohon pisang yang (buahnya) bersusun-susun,'
+              },
+              {
+                id: 30,
+                arab: 'وَّظِلٍّ مَّمۡدُوۡدٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'naungan yang terbentang luas,'
+              },
+              {
+                id: 31,
+                arab: 'وَّ مَآءٍ مَّسۡكُوۡبٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'air yang tercurah,'
+              },
+              {
+                id: 32,
+                arab: 'وَّفَاكِهَةٍ كَثِيۡرَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'buah-buahan yang banyak'
+              },
+              {
+                id: 33,
+                arab: 'لَّا مَقۡطُوۡعَةٍ وَّلَا مَمۡنُوۡعَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'yang tidak berhenti berbuah dan tidak terlarang memetiknya,'
+              },
+              {
+                id: 34,
+                arab: 'وَّ فُرُشٍ مَّرۡفُوۡعَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan kasur-kasur yang tebal lagi empuk.'
+              },
+              {
+                id: 35,
+                arab: 'اِنَّاۤ اَنۡشَاۡنٰهُنَّ اِنۡشَآءً ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kami menciptakan mereka (bidadari itu) secara langsung,'
+              },
+              {
+                id: 36,
+                arab: 'فَجَعَلۡنٰهُنَّ اَبۡكَارًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'lalu Kami jadikan mereka perawan-perawan'
+              },
+              {
+                id: 37,
+                arab: 'عُرُبًا اَتۡرَابًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'yang penuh cinta (lagi) sebaya umurnya,'
+              },
+              {
+                id: 38,
+                arab: 'لِّاَصۡحٰبِ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(diperuntukkan) bagi golongan kanan,'
+              },
+              {
+                id: 39,
+                arab: 'ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: ' (yaitu) segolongan besar dari orang-orang yang terdahulu'
+              },
+              {
+                id: 40,
+                arab: 'وَثُلَّةٌ مِّنَ الۡاٰخِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan segolongan besar (pula) dari orang-orang yang kemudian.'
+              },
+              {
+                id: 41,
+                arab: 'وَاَصۡحٰبُ الشِّمَالِ مَاۤ اَصۡحٰبُ الشِّمَالِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Golongan kiri, alangkah sengsaranya golongan kiri itu.'
+              },
+              {
+                id: 42,
+                arab: 'فِىۡ سَمُوۡمٍ وَّحَمِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka berada) dalam siksaan angin yang sangat panas, air yang mendidih,'
+              },
+              {
+                id: 43,
+                arab: 'وَّظِلٍّ مِّنۡ يَّحۡمُوۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan naungan asap hitam'
+              },
+              {
+                id: 44,
+                arab: 'لَّا بَارِدٍ وَّلَا كَرِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'yang tidak sejuk dan tidak menyenangkan.'
+              },
+              {
+                id: 45,
+                arab: 'اِنَّهُمۡ كَانُوۡا قَبۡلَ ذٰ لِكَ مُتۡرَفِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya mereka sebelum itu hidup bermewah-mewah.'
+              },
+              {
+                id: 46,
+                arab: 'وَكَانُوۡا يُصِرُّوۡنَ عَلَى الۡحِنۡثِ الۡعَظِيۡمِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka terus-menerus mengerjakan dosa yang besar.'
+              },
+              {
+                id: 47,
+                arab: 'وَكَانُوۡا يَقُوۡلُوۡنَ اَٮِٕذَا مِتۡنَا وَكُنَّا تُرَابًا وَّعِظَامًا ءَاِنَّا لَمَبۡعُوۡثُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Apabila kami telah mati menjadi tanah dan tulang-belulang, apakah kami benar-benar akan dibangkitkan (kembali)'
+              },
+              {
+                id: 48,
+                arab: 'اَوَاٰبَآؤُنَا الۡاَوَّلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah nenek moyang kami yang terdahulu (akan dibangkitkan pula)?”'
+              },
+              {
+                id: 49,
+                arab: 'قُلۡ اِنَّ الۡاَوَّلِيۡنَ وَالۡاٰخِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Katakanlah (Nabi Muhammad), “Sesungguhnya orang-orang yang terdahulu dan yang kemudian'
+              },
+              {
+                id: 50,
+                arab: 'لَمَجۡمُوۡعُوۡنَ اِلٰى مِيۡقَاتِ يَوۡمٍ مَّعۡلُوۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'benar-benar akan dikumpulkan pada waktu tertentu, yaitu hari yang sudah diketahui.'
+              },
+              {
+                id: 51,
+                arab: 'ثُمَّ اِنَّكُمۡ اَيُّهَا الضَّآلُّوۡنَ الۡمُكَذِّبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kemudian, sesungguhnya kamu, wahai orang-orang sesat lagi pendusta,'
+              },
+              {
+                id: 52,
+                arab: 'لَاٰكِلُوۡنَ مِنۡ شَجَرٍ مِّنۡ زَقُّوۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'pasti akan memakan pohon zaqum.'
+              },
+              {
+                id: 53,
+                arab: 'فَمٰلِــُٔوۡنَ مِنۡهَا الۡبُطُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Lalu, kamu akan memenuhi perut-perutmu dengannya.'
+              },
+              {
+                id: 54,
+                arab: 'فَشٰرِبُوۡنَ عَلَيۡهِ مِنَ الۡحَمِيۡمِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Setelah itu, untuk penawarnya (zaqum) kamu akan meminum air yang sangat panas.'
+              },
+              {
+                id: 55,
+                arab: 'فَشٰرِبُوۡنَ شُرۡبَ الۡهِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, kamu minum bagaikan unta yang sangat haus.'
+              },
+              {
+                id: 56,
+                arab: 'هٰذَا نُزُلُهُمۡ يَوۡمَ الدِّيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Inilah hidangan (untuk) mereka pada hari Pembalasan.”'
+              },
+              {
+                id: 57,
+                arab: 'نَحۡنُ خَلَقۡنٰكُمۡ فَلَوۡلَا تُصَدِّقُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami telah menciptakanmu. Mengapa kamu tidak membenarkan (hari Kebangkitan)?'
+              },
+              {
+                id: 58,
+                arab: 'اَفَرَءَيۡتُمۡ مَّا تُمۡنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan apa yang kamu pancarkan (sperma)?'
+              },
+              {
+                id: 59,
+                arab: 'ءَاَنۡتُمۡ تَخۡلُقُوۡنَهٗۤ اَمۡ نَحۡنُ الۡخٰلِقُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menciptakannya atau Kami Penciptanya?'
+              },
+              {
+                id: 60,
+                arab: 'نَحۡنُ قَدَّرۡنَا بَيۡنَكُمُ الۡمَوۡتَ وَمَا نَحۡنُ بِمَسۡبُوۡقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menciptakannya atau Kami Penciptanya?'
+              },
+              {
+                id: 61,
+                arab: 'عَلٰٓى اَنۡ نُّبَدِّلَ اَمۡثَالَـكُمۡ وَنُـنۡشِئَكُمۡ فِىۡ مَا لَا تَعۡلَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'untuk mengubah bentukmu (di hari Kiamat) dan menciptakanmu kelak dalam keadaan yang tidak kamu ketahui.'
+              },
+              {
+                id: 62,
+                arab: 'وَلَـقَدۡ عَلِمۡتُمُ النَّشۡاَةَ الۡاُوۡلٰى فَلَوۡلَا تَذَكَّرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, kamu benar-benar telah mengetahui penciptaan yang pertama. Mengapa kamu tidak mengambil pelajaran?'
+              },
+              {
+                id: 63,
+                arab: 'اَفَرَءَيۡتُمۡ مَّا تَحۡرُثُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan benih yang kamu tanam?'
+              },
+              {
+                id: 64,
+                arab: 'ءَاَنۡتُمۡ تَزۡرَعُوۡنَهٗۤ اَمۡ نَحۡنُ الزّٰرِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menumbuhkannya atau Kami yang menumbuhkan?'
+              },
+              {
+                id: 65,
+                arab: 'لَوۡ نَشَآءُ لَجَـعَلۡنٰهُ حُطَامًا فَظَلۡتُمۡ تَفَكَّهُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami berkehendak, Kami benar-benar menjadikannya hancur sehingga kamu menjadi heran tercengang,'
+              },
+              {
+                id: 66,
+                arab: 'اِنَّا لَمُغۡرَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(sambil berkata,) “Sesungguhnya kami benar-benar menderita kerugian.'
+              },
+              {
+                id: 67,
+                arab: 'بَلۡ نَحۡنُ مَحۡرُوۡمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bahkan, kami tidak mendapat hasil apa pun.”'
+              },
+              {
+                id: 68,
+                arab: 'اَفَرَءَيۡتُمُ الۡمَآءَ الَّذِىۡ تَشۡرَبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan air yang kamu minum?'
+              },
+              {
+                id: 69,
+                arab: 'ءَاَنۡـتُمۡ اَنۡزَلۡـتُمُوۡهُ مِنَ الۡمُزۡنِ اَمۡ نَحۡنُ الۡمُنۡزِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menurunkannya dari awan atau Kami yang menurunkan?'
+              },
+              {
+                id: 70,
+                arab: 'لَوۡ نَشَآءُ جَعَلۡنٰهُ اُجَاجًا فَلَوۡلَا تَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami berkehendak, Kami menjadikannya asin. Mengapa kamu tidak bersyukur?'
+              },
+              {
+                id: 71,
+                arab: 'اَفَرَءَيۡتُمُ النَّارَ الَّتِىۡ تُوۡرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan api yang kamu nyalakan?'
+              },
+              {
+                id: 72,
+                arab: 'ءَاَنۡتُمۡ اَنۡشَاۡتُمۡ شَجَرَتَهَاۤ اَمۡ نَحۡنُ الۡمُنۡشِـُٔـوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menumbuhkan kayunya atau Kami yang menumbuhkan?'
+              },
+              {
+                id: 73,
+                arab: 'نَحۡنُ جَعَلۡنٰهَا تَذۡكِرَةً وَّمَتَاعًا لِّلۡمُقۡوِيۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami menjadikannya (api itu) sebagai peringatan dan manfaat bagi para musafir.'
+              },
+              {
+                id: 74,
+                arab: 'فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, bertasbihlah dengan (menyebut) nama Tuhanmu Yang Mahaagung.'
+              },
+              {
+                id: 75,
+                arab: 'فَلَاۤ اُقۡسِمُ بِمَوٰقِعِ النُّجُوۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Aku bersumpah demi tempat beredarnya bintang-bintang.'
+              },
+              {
+                id: 76,
+                arab: 'وَاِنَّهٗ لَقَسَمٌ لَّوۡ تَعۡلَمُوۡنَ عَظِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya itu benar-benar sumpah yang sangat besar seandainya kamu mengetahui.'
+              },
+              {
+                id: 77,
+                arab: 'اِنَّهٗ لَـقُرۡاٰنٌ كَرِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ia benar-benar Al-Qur’an yang sangat mulia,'
+              },
+              {
+                id: 78,
+                arab: 'فِىۡ كِتٰبٍ مَّكۡنُوۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dalam Kitab yang terpelihara.'
+              },
+              {
+                id: 79,
+                arab: 'لَّا يَمَسُّهٗۤ اِلَّا الۡمُطَهَّرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak ada yang menyentuhnya, kecuali para hamba (Allah) yang disucikan.'
+              },
+              {
+                id: 80,
+                arab: 'تَنۡزِيۡلٌ مِّنۡ رَّبِّ الۡعٰلَمِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Al-Qur’an) diturunkan dari Tuhan seluruh alam.'
+              },
+              {
+                id: 81,
+                arab: 'اَفَبِهٰذَا الۡحَـدِيۡثِ اَنۡتُمۡ مُّدۡهِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu menganggap remeh berita ini (Al-Qur’an)'
+              },
+              {
+                id: 82,
+                arab: 'وَتَجۡعَلُوۡنَ رِزۡقَكُمۡ اَنَّكُمۡ تُكَذِّبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan kamu menjadikan rezeki yang kamu terima (dari Allah) justru untuk mendustakan (Al-Qur’an)?'
+              },
+              {
+                id: 83,
+                arab: 'فَلَوۡلَاۤ اِذَا بَلَغَتِ الۡحُـلۡقُوۡمَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kalau begitu, mengapa (kamu) tidak (menahan nyawa) ketika telah sampai di kerongkongan,'
+              },
+              {
+                id: 84,
+                arab: 'وَاَنۡتُمۡ حِيۡنَٮِٕذٍ تَـنۡظُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'padahal kamu ketika itu melihat (orang yang sedang sekarat)?'
+              },
+              {
+                id: 85,
+                arab: 'وَنَحۡنُ اَقۡرَبُ اِلَيۡهِ مِنۡكُمۡ وَلٰـكِنۡ لَّا تُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami lebih dekat kepadanya (orang yang sedang sekarat) daripada kamu, tetapi kamu tidak melihat.'
+              },
+              {
+                id: 86,
+                arab: 'فَلَوۡلَاۤ اِنۡ كُنۡتُمۡ غَيۡرَ مَدِيۡنِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, mengapa jika kamu tidak diberi balasan,'
+              },
+              {
+                id: 87,
+                arab: 'تَرۡجِعُوۡنَهَاۤ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'kamu tidak mengembalikannya (nyawa itu) jika kamu orang-orang yang benar?'
+              },
+              {
+                id: 88,
+                arab: 'فَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُقَرَّبِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika dia (orang yang mati) itu termasuk yang didekatkan (kepada Allah),'
+              },
+              {
+                id: 89,
+                arab: 'فَرَوۡحٌ وَّ رَيۡحَانٌ وَّجَنَّتُ نَعِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dia memperoleh ketenteraman, rezeki, dan surga (yang penuh) kenikmatan.'
+              },
+              {
+                id: 90,
+                arab: 'وَاَمَّاۤ اِنۡ كَانَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika dia (termasuk) golongan kanan,'
+              },
+              {
+                id: 91,
+                arab: 'فَسَلٰمٌ لَّكَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '“Salam bagimu” dari (sahabatmu,) golongan kanan.'
+              },
+              {
+                id: 92,
+                arab: 'وَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُكَذِّبِيۡنَ الضَّآلِّيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika dia termasuk golongan para pendusta lagi sesat,'
+              },
+              {
+                id: 93,
+                arab: 'فَنُزُلٌ مِّنۡ حَمِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'jamuannya berupa air mendidih'
+              },
+              {
+                id: 94,
+                arab: 'وَّتَصۡلِيَةُ جَحِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan dibakar oleh (neraka) Jahim.'
+              },
+              {
+                id: 95,
+                arab: 'اِنَّ هٰذَا لَهُوَ حَقُّ الۡيَـقِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ini benar-benar merupakan hakulyakin.'
+              },
+              {
+                id: 96,
+                arab: 'فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, bertasbihlah dengan (menyebut) nama Tuhanmu Yang Mahaagung.'
+              },
+              {
+                id: 97,
+                arab: '',
+                indo: 'Doa setelah baca surat Waqiah',
                 image: '',
                 latin: '',
                 arti: ''
               },
               {
-                id: 10,
-                arab: 'يَامَنْ أِذَااَرَادَ شَيْأً اِنَّمَا يَقُوْلَ لَهُ كُنْ فَيَكُوْنُ ، سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ وَسَلاَمٌ عَلَى الْمُرْسَلِيْنَ وَالْحَمْدُلِلّٰهِ رَبِّ الْعَالَمِيْنَ',
+                id: 98,
+                arab: 'اَللَّهُمَّ صُنْ وُجُوْهَنَا بِاْليَسَارِ وَلاَتُوهِنَّابِاْلاِقْتَارِ فَنَسْتَرْزِقَ طَالِبِيْ رِزْقِكَ وَنَسْتَعْطِفَ شِرَارَخَلْقِكَ وَنَشْتَغِلَ بِحَمْدِ مَنْ اَعْطَانَاوَنُبْتَلَى بِذَمِّ مَنْ مَنَعَنَاوَاَنْتَ مِنْ وَرَاءِذَلِكَ كُلِّهِ اَهْلُ اْلعَطَاءِ وَاْلمَنْعِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah jagalah wajah kami dengan kecukupan (dalam rezeki), dan janganlah Kau hinakan kami dengan kekurangan, hingga kami meminta rezeki dari pencari rezeki-Mu dan mengharap belas kasih dari hamba-Mu yang bersifat buruk, serta sibuk memuji orang yang memberi kami dan diuji dengan mencaci orang yang mencegah (hartanya) dari kami. Padahal sesungguhnya Engkau di belakang semua itu yang memberi dan mencegah.'
+              },
+              {
+                id: 99,
+                arab: 'اَللَّهُمَّ كَمَاصُنْتَ وُجُوْ هَنَاعَنِ السُّجُوْدِاِلاَّلَكَ فَصُنَّاعَنِ اْلحاَجَةِاِلاَّاِلَيْكَ بِجُوْدِكَ وَكَرَمِكَ وَفَضْلِكَ , يَااَرْحَمَ الرَّاحِمِيْنَ (ثلاثا) اَغْنِنَا بِفَضْلِكَ عَمَّنْ سِوَاكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, seperti halnya Kau jaga wajah kami dari sujud kecuali kepada-Mu, maka jagalah kami dari berkebutuhan kecuali kepada-Mu, demi pemberian, kemuliaan, dan anugerah-Mu. Wahai yang Maha Kasih di antara para pengasih (3x).'
+              },
+              {
+                id: 100,
+                arab: 'وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى اَلِهِ وَصَحْبِهِ وَسَلَّمَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Shalawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya.'
+              },
+              {
+                id: 101,
+                arab: 'اَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah limpahkanlah shalawat dan salam atas junjungan kami Muhammad dan keluarga junjungan kami Muhammad.'
+              },
+              {
+                id: 102,
+                arab: 'وَهَبَ لَنَاَبِهِ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ مِنْ رِزْقِكَ الْحَلَالِ الطَّيِّبِ الْمُبَارَكِ مَا تَصُوْنُ بِهِ وُجُوْهَنَا عَنِ التَّعَرُّضِ اِلَى اَحَدٍ مِنْ خَلْقِكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan berilah kami demi beliau saaw dari rezeki-Mu yang halal, baik, dan berkah. Yang dapat menjaga wajah kami dari butuh kepada salah satu dari makhluk-Mu. '
+              },
+              {
+                id: 103,
+                arab: 'وَاجْعَلِ اللّٰهُمَّ لَنَا اِلَيْهِ طَرِيْقًا سَهْلاً مِنْ غَيْرِ فِتْنَةٍ وَلاَمِحْنَةٍ وَلاَمِنَّةٍ وَلاَتَبِعَةٍ لِأَحَدٍ وَجَنِّبْنَا',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jadikanlah untuk kami ya Allah, jalan yang mudah untuk menujunya, tanpa ujian, cobaan, kesusahan hidup, atau kesalahan terhadap siapa pun.'
+              },
+              {
+                id: 104,
+                arab: 'اَللّٰهُمَّ الْحَرَامَ حَيْثُ كَانَ وَاَيْنَ كَانَ وَعِنْدَمَنْ كَانَ وَحُلَّ بَيْنَنَا وَبَيْنَ أَهْلِهِ وَاقْبِضْ عَنَّا اَيْدِيْهِمْ وَاصْرِفْ عَنَّا وُجُوْهَحُمْ وَقُلُوْبَهُمْ حَتَّى لاَ نَتَقَلَّبَ اِلاَّ فِيْمَا يُرْضِيْكَ وَلاَنَسْتَعِيْنَ بِنِعْمَتِكَ يَا ارْحَمَ الرَّحِمِيْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jauhkanlah dari kami ya Allah hal-hal yang haram dalam posisi apa pun, dimana pun, dan kapan pun. Jauhkanlah kami dari para pelakunya (haram). Cegahlah dari kami tangan-tangan (usaha) mereka, palingkanlah dari kami wajah dan hati mereka hingga kami tidak berbuat kecuali yang menjadikan-Mu ridha, dan kami tidak menggunakan kenikmatan dari-Mu kecuali pada hal-hal yang Engkau menyukai dan meridhai-Nya. Dengan rahmat-Mu wahai yang Maha Pengasih di antara para pengasih.'
+              },
+              {
+                id: 105,
+                arab: 'اَللّٰهُمَّ اِنْ كَانَ رِزْكُنَا فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى الْأَرْضِ فَاَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, jika rezeki kami terdapat di langit maka turunkanlah, jika di bumi maka keluarkanlah, jika sulit (untuk dicapai) maka mudahkanlah, jika jauh maka dekatkanlah, jika haram maka sucikanlah,'
+              },
+              {
+                id: 106,
+                arab: 'وَاِنْ كَانَ قَلِيْلاً فَكَثِّرْهُ وَاِنْ كَانَ مَعْدُوْمًا فَأَوْجِدْهُ وَاِنْ كَانَ مَوْقُوْفًا فَأَجْرِهِ وَاِنْ كَانَ ذَنْبًا فَأَغْفِرْهُ وَاِنْ كَانَ سَيِّئَةً فَامْحُهَا وَاِنْ كَانَ خَطِيْئَةً فَتَجَاوَزْعَنْهَا وَاِنْ كَانَ عَثْرَةً فَأَقِلْهَا وَبَارِكْ لَنَا فِى جَمِيْعِ ذَالِكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'jika sedikit maka perbanyaklah, jika tak ada maka wujudkanlah, jika berhenti maka lancarkanlah, jika berdosa maka ampunilah, jika buruk maka hapuslah (keburukannya), jika salah maka maafkanlah, jika tergelincir maka hapuskanlah, dan berkahilah kami dalam semua itu.'
+              },
+              {
+                id: 107,
+                arab: 'اِنَّكَ مَلِيْكٌ مُقْتَدِرٌ وَمَا تَشَاؤُهُ مِنْ اَمْرٍيَكُوْنُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Engkau Maha Raja, Maha Kuasa, dan segala hal yang Engkau kehendaki akan terjadi,'
+              },
+              {
+                id: 108,
+                arab: 'يَامَنْ أِذَااَرَادَ شَيْأً اِنَّمَا يَقُوْلَ لَهُ كُنْ فَيَكُوْنُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'wahai yang jika menghendaki sesuatu Dia berfirman, "Jadi," maka terjadilah.'
               },
             ]
           }
@@ -695,83 +2367,867 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'اِذَا وَقَعَتِ الۡوَاقِعَةُ ۝ لَيۡسَ لِـوَقۡعَتِهَا كَاذِبَةٌ‌ ۝ خَافِضَةٌ رَّافِعَةٌ ۝ اِذَا رُجَّتِ الۡاَرۡضُ رَجًّا ۝ وَّبُسَّتِ الۡجِبَالُ بَسًّا ۝ فَكَانَتۡ هَبَآءً مُّنۡۢبَـثًّا ۝ وَّكُنۡـتُمۡ اَزۡوَاجًا ثَلٰـثَـةً ۝ فَاَصۡحٰبُ الۡمَيۡمَنَةِ مَاۤ اَصۡحٰبُ الۡمَيۡمَنَةِ ۝ وَاَصۡحٰبُ الۡمَشۡـَٔـمَةِ مَاۤ اَصۡحٰبُ الۡمَشۡـَٔـمَةِ ۝ وَالسّٰبِقُوۡنَ السّٰبِقُوۡنَ ۝ اُولٰٓٮِٕكَ الۡمُقَرَّبُوۡنَ‌ ۝ فِىۡ جَنّٰتِ النَّعِيۡمِ ۝ ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝ وَقَلِيۡلٌ مِّنَ الۡاٰخِرِيۡنَ ۝ عَلٰى سُرُرٍ مَّوۡضُوۡنَةٍ ۝ مُّتَّكِـــِٕيۡنَ عَلَيۡهَا مُتَقٰبِلِيۡنَ ۝ يَطُوۡفُ عَلَيۡهِمۡ وِلۡدَانٌ مُّخَلَّدُوۡنَ ۝ بِاَكۡوَابٍ وَّاَبَارِيۡقَ وَكَاۡسٍ مِّنۡ مَّعِيۡنٍ ۝ لَّا يُصَدَّعُوۡنَ عَنۡهَا وَلَا يُنۡزِفُوۡنَ ۝ وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُوۡنَ ۝',
+                arab: 'اِذَا وَقَعَتِ الۡوَاقِعَةُ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Apabila terjadi hari Kiamat (yang pasti terjadi),'
               },
               {
                 id: 2,
-                arab: 'وَلَحۡمِ طَيۡرٍ مِّمَّا يَشۡتَهُوۡنَ ۝ وَحُوۡرٌ عِيۡنٌ ۝ كَاَمۡثَالِ اللُّـؤۡلُـوٴِالۡمَكۡنُوۡنِ‌ ۝ جَزَآءًۢ بِمَا كَانُوۡا يَعۡمَلُوۡنَ ۝ لَا يَسۡمَعُوۡنَ فِيۡهَا لَغۡوًا وَّلَا تَاۡثِيۡمًا ۝ اِلَّا قِيۡلًا سَلٰمًا سَلٰمًا ۝ وَاَصۡحٰبُ الۡيَمِيۡنِ مَاۤ اَصۡحٰبُ الۡيَمِيۡنِ ۝ فِىۡ سِدۡرٍ مَّخۡضُوۡدٍ ۝ وَّطَلۡحٍ مَّنۡضُوۡدٍ ۝ وَّظِلٍّ مَّمۡدُوۡدٍ ۝ وَّ مَآءٍ مَّسۡكُوۡبٍ ۝ وَّفَاكِهَةٍ كَثِيۡرَةٍ ۝ لَّا مَقۡطُوۡعَةٍ وَّلَا مَمۡنُوۡعَةٍ ۝ وَّ فُرُشٍ مَّرۡفُوۡعَةٍ ۝ اِنَّاۤ اَنۡشَاۡنٰهُنَّ اِنۡشَآءً ۝ فَجَعَلۡنٰهُنَّ اَبۡكَارًا ۝ عُرُبًا اَتۡرَابًا ۝ لِّاَصۡحٰبِ الۡيَمِيۡنِ ۝ ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝ وَثُلَّةٌ مِّنَ الۡاٰخِرِيۡنَ ۝',
+                arab: 'لَيۡسَ لِـوَقۡعَتِهَا كَاذِبَةٌ‌ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'tidak ada seorang pun yang (dapat) mendustakan terjadinya.'
               },
               {
                 id: 3,
-                arab: 'وَاَصۡحٰبُ الشِّمَالِ مَاۤ اَصۡحٰبُ الشِّمَالِ ۝ فِىۡ سَمُوۡمٍ وَّحَمِيۡمٍ ۝ وَّظِلٍّ مِّنۡ يَّحۡمُوۡمٍ ۝ لَّا بَارِدٍ وَّلَا كَرِيۡمٍ ۝ اِنَّهُمۡ كَانُوۡا قَبۡلَ ذٰ لِكَ مُتۡرَفِيۡنَ ۝ وَكَانُوۡا يُصِرُّوۡنَ عَلَى الۡحِنۡثِ الۡعَظِيۡمِ‌ ۝ وَكَانُوۡا يَقُوۡلُوۡنَ اَٮِٕذَا مِتۡنَا وَكُنَّا تُرَابًا وَّعِظَامًا ءَاِنَّا لَمَبۡعُوۡثُوۡنَ ۝ اَوَاٰبَآؤُنَا الۡاَوَّلُوۡنَ ۝ قُلۡ اِنَّ الۡاَوَّلِيۡنَ وَالۡاٰخِرِيۡنَ ۝ لَمَجۡمُوۡعُوۡنَ اِلٰى مِيۡقَاتِ يَوۡمٍ مَّعۡلُوۡمٍ ۝ ثُمَّ اِنَّكُمۡ اَيُّهَا الضَّآلُّوۡنَ الۡمُكَذِّبُوۡنَ ۝ لَاٰكِلُوۡنَ مِنۡ شَجَرٍ مِّنۡ زَقُّوۡمٍ ۝ فَمٰلِــُٔوۡنَ مِنۡهَا الۡبُطُوۡنَ‌ ۝ فَشٰرِبُوۡنَ عَلَيۡهِ مِنَ الۡحَمِيۡمِ‌ ۝ فَشٰرِبُوۡنَ شُرۡبَ الۡهِيۡمِ ۝ هٰذَا نُزُلُهُمۡ يَوۡمَ الدِّيۡنِ ۝ نَحۡنُ خَلَقۡنٰكُمۡ فَلَوۡلَا تُصَدِّقُوۡنَ ۝ اَفَرَءَيۡتُمۡ مَّا تُمۡنُوۡنَ ۝ ءَاَنۡتُمۡ تَخۡلُقُوۡنَهٗۤ اَمۡ نَحۡنُ الۡخٰلِقُوۡنَ ۝ نَحۡنُ قَدَّرۡنَا بَيۡنَكُمُ الۡمَوۡتَ وَمَا نَحۡنُ بِمَسۡبُوۡقِيۡنَ ۝',
+                arab: 'خَافِضَةٌ رَّافِعَةٌ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: '(Kejadian itu) merendahkan (satu golongan) dan meninggikan (golongan yang lain).'
               },
               {
                 id: 4,
-                arab: 'عَلٰٓى اَنۡ نُّبَدِّلَ اَمۡثَالَـكُمۡ وَنُـنۡشِئَكُمۡ فِىۡ مَا لَا تَعۡلَمُوۡنَ ۝ وَلَـقَدۡ عَلِمۡتُمُ النَّشۡاَةَ الۡاُوۡلٰى فَلَوۡلَا تَذَكَّرُوۡنَ ۝ اَفَرَءَيۡتُمۡ مَّا تَحۡرُثُوۡنَ ۝ ءَاَنۡتُمۡ تَزۡرَعُوۡنَهٗۤ اَمۡ نَحۡنُ الزّٰرِعُوۡنَ ۝ لَوۡ نَشَآءُ لَجَـعَلۡنٰهُ حُطَامًا فَظَلۡتُمۡ تَفَكَّهُوۡنَ ۝ اِنَّا لَمُغۡرَمُوۡنَ ۝ بَلۡ نَحۡنُ مَحۡرُوۡمُوۡنَ ۝ اَفَرَءَيۡتُمُ الۡمَآءَ الَّذِىۡ تَشۡرَبُوۡنَ ۝ ءَاَنۡـتُمۡ اَنۡزَلۡـتُمُوۡهُ مِنَ الۡمُزۡنِ اَمۡ نَحۡنُ الۡمُنۡزِلُوۡنَ ۝ لَوۡ نَشَآءُ جَعَلۡنٰهُ اُجَاجًا فَلَوۡلَا تَشۡكُرُوۡنَ ۝ اَفَرَءَيۡتُمُ النَّارَ الَّتِىۡ تُوۡرُوۡنَ ۝ ءَاَنۡتُمۡ اَنۡشَاۡتُمۡ شَجَرَتَهَاۤ اَمۡ نَحۡنُ الۡمُنۡشِـُٔـوۡنَ ۝ نَحۡنُ جَعَلۡنٰهَا تَذۡكِرَةً وَّمَتَاعًا لِّلۡمُقۡوِيۡنَ‌ ۝ فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝ فَلَاۤ اُقۡسِمُ بِمَوٰقِعِ النُّجُوۡمِ ۝ وَاِنَّهٗ لَقَسَمٌ لَّوۡ تَعۡلَمُوۡنَ عَظِيۡمٌ ۝ اِنَّهٗ لَـقُرۡاٰنٌ كَرِيۡمٌ ۝ فِىۡ كِتٰبٍ مَّكۡنُوۡنٍ ۝ لَّا يَمَسُّهٗۤ اِلَّا الۡمُطَهَّرُوۡنَ ۝ تَنۡزِيۡلٌ مِّنۡ رَّبِّ الۡعٰلَمِيۡنَ ۝',
+                arab: 'اِذَا رُجَّتِ الۡاَرۡضُ رَجًّا ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Apabila bumi diguncangkan sedahsyat-dahsyatnya'
               },
               {
                 id: 5,
-                arab: 'اَفَبِهٰذَا الۡحَـدِيۡثِ اَنۡتُمۡ مُّدۡهِنُوۡنَ ۝ وَتَجۡعَلُوۡنَ رِزۡقَكُمۡ اَنَّكُمۡ تُكَذِّبُوۡنَ ۝ فَلَوۡلَاۤ اِذَا بَلَغَتِ الۡحُـلۡقُوۡمَ ۝ وَاَنۡتُمۡ حِيۡنَٮِٕذٍ تَـنۡظُرُوۡنَ ۝ وَنَحۡنُ اَقۡرَبُ اِلَيۡهِ مِنۡكُمۡ وَلٰـكِنۡ لَّا تُبۡصِرُوۡنَ ۝ فَلَوۡلَاۤ اِنۡ كُنۡتُمۡ غَيۡرَ مَدِيۡنِيۡنَ ۝ تَرۡجِعُوۡنَهَاۤ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝ فَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُقَرَّبِيۡنَ ۝ فَرَوۡحٌ وَّ رَيۡحَانٌ وَّجَنَّتُ نَعِيۡمٍ ۝ وَاَمَّاۤ اِنۡ كَانَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝ فَسَلٰمٌ لَّكَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝ وَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُكَذِّبِيۡنَ الضَّآلِّيۡنَ ۝ فَنُزُلٌ مِّنۡ حَمِيۡمٍ ۝ وَّتَصۡلِيَةُ جَحِيۡمٍ ۝ اِنَّ هٰذَا لَهُوَ حَقُّ الۡيَـقِيۡنِ ۝ فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝',
+                arab: 'وَّبُسَّتِ الۡجِبَالُ بَسًّا ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'dan gunung-gunung dihancurkan sehancur-hancurnya,'
               },
               {
                 id: 6,
-                arab: '',
-                indo: 'Doa surat waqiah',
+                arab: 'فَكَانَتۡ هَبَآءً مُّنۡۢبَـثًّا ۝',
+                indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'jadilah ia debu yang beterbangan.'
               },
               {
                 id: 7,
-                arab: 'اَللَّهُمَّ صُنْ وُجُوْهَنَا بِاْليَسَارِ وَلاَتُوهِنَّابِاْلاِقْتَارِ فَنَسْتَرْزِقَ طَالِبِيْ رِزْقِكَ وَنَسْتَعْطِفَ شِرَارَخَلْقِكَ وَنَشْتَغِلَ بِحَمْدِ مَنْ اَعْطَانَاوَنُبْتَلَى بِذَمِّ مَنْ مَنَعَنَاوَاَنْتَ مِنْ وَرَاءِذَلِكَ كُلِّهِ اَهْلُ اْلعَطَاءِ وَاْلمَنْعِ . اَللَّهُمَّ كَمَاصُنْتَ وُجُوْ هَنَاعَنِ السُّجُوْدِاِلاَّلَكَ فَصُنَّاعَنِ اْلحاَجَةِاِلاَّاِلَيْكَ بِجُوْدِكَ وَكَرَمِكَ وَفَضْلِكَ , يَااَرْحَمَ الرَّاحِمِيْنَ (ثلاثا) اَغْنِنَا بِفَضْلِكَ عَمَّنْ سِوَاكَ . وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى اَلِهِ وَصَحْبِهِ وَسَلَّمَ',
+                arab: 'وَّكُنۡـتُمۡ اَزۡوَاجًا ثَلٰـثَـةً ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Kamu menjadi tiga golongan,'
               },
               {
                 id: 8,
-                arab: 'اَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ ، وَهَبَ لَنَاَبِهِ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ مِنْ رِزْقِكَ الْحَلَالِ الطَّيِّبِ الْمُبَارَكِ مَا تَصُوْنُ بِهِ وُجُوْهَنَا عَنِ التَّعَرُّضِ اِلَى اَحَدٍ مِنْ خَلْقِكَ وَاجْعَلِ اللّٰهُمَّ لَنَا اِلَيْهِ طَرِيْقًا سَهْلاً مِنْ غَيْرِ فِتْنَةٍ وَلاَمِحْنَةٍ وَلاَمِنَّةٍ وَلاَتَبِعَةٍ لِأَحَدٍ وَجَنِّبْنَا اَللّٰهُمَّ الْحَرَامَ حَيْثُ كَانَ وَاَيْنَ كَانَ وَعِنْدَمَنْ كَانَ وَحُلَّ بَيْنَنَا وَبَيْنَ أَهْلِهِ وَاقْبِضْ عَنَّا اَيْدِيْهِمْ وَاصْرِفْ عَنَّا وُجُوْهَحُمْ وَقُلُوْبَهُمْ حَتَّى لاَ نَتَقَلَّبَ اِلاَّ فِيْمَا يُرْضِيْكَ وَلاَنَسْتَعِيْنَ بِنِعْمَتِكَ يَا ارْحَمَ الرَّحِمِيْنَ',
+                arab: 'فَاَصۡحٰبُ الۡمَيۡمَنَةِ مَاۤ اَصۡحٰبُ الۡمَيۡمَنَةِ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'yaitu golongan kanan, alangkah mulianya golongan kanan itu'
               },
               {
                 id: 9,
-                arab: 'اَللّٰهُمَّ اِنْ كَانَ رِزْكُنَا فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى الْأَرْضِ فَاَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَاِنْ كَانَ قَلِيْلاً فَكَثِّرْهُ وَاِنْ كَانَ مَعْدُوْمًا فَأَوْجِدْهُ وَاِنْ كَانَ مَوْقُوْفًا فَأَجْرِهِ وَاِنْ كَانَ ذَنْبًا فَأَغْفِرْهُ وَاِنْ كَانَ سَيِّئَةً فَامْحُهَا وَاِنْ كَانَ خَطِيْئَةً فَتَجَاوَزْعَنْهَا وَاِنْ كَانَ عَثْرَةً فَأَقِلْهَا وَبَارِكْ لَنَا فِى جَمِيْعِ ذَالِكَ ، اِنَّكَ مَلِيْكٌ مُقْتَدِرٌ وَمَا تَشَاؤُهُ مِنْ اَمْرٍيَكُوْنُ',
+                arab: 'وَاَصۡحٰبُ الۡمَشۡـَٔـمَةِ مَاۤ اَصۡحٰبُ الۡمَشۡـَٔـمَةِ ۝',
                 indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan golongan kiri, alangkah sengsaranya golongan kiri itu.'
+              },
+              {
+                id: 10,
+                arab: 'وَالسّٰبِقُوۡنَ السّٰبِقُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Selain itu, (golongan ketiga adalah) orang-orang yang paling dahulu (beriman). Merekalah yang paling dahulu (masuk surga).'
+              },
+              {
+                id: 11,
+                arab: 'اُولٰٓٮِٕكَ الۡمُقَرَّبُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka itulah orang-orang yang didekatkan (kepada Allah).'
+              },
+              {
+                id: 12,
+                arab: 'فِىۡ جَنّٰتِ النَّعِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka) berada dalam surga (yang penuh) kenikmatan.'
+              },
+              {
+                id: 13,
+                arab: 'ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka adalah) segolongan besar dari orang-orang yang terdahulu'
+              },
+              {
+                id: 14,
+                arab: 'قَلِيۡلٌ مِّنَ الۡاٰخِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan sedikit dari orang-orang yang (datang) kemudian.'
+              },
+              {
+                id: 15,
+                arab: 'عَلٰى سُرُرٍ مَّوۡضُوۡنَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka berada) di atas dipan-dipan yang bertatahkan emas dan permata'
+              },
+              {
+                id: 16,
+                arab: 'مُّتَّكِـــِٕيۡنَ عَلَيۡهَا مُتَقٰبِلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'seraya bersandar di atasnya saling berhadapan.'
+              },
+              {
+                id: 17,
+                arab: 'يَطُوۡفُ عَلَيۡهِمۡ وِلۡدَانٌ مُّخَلَّدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka dikelilingi oleh anak-anak yang selalu muda'
+              },
+              {
+                id: 18,
+                arab: 'بِاَكۡوَابٍ وَّاَبَارِيۡقَ وَكَاۡسٍ مِّنۡ مَّعِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dengan (membawa) gelas, kendi, dan seloki (berisi minuman yang diambil) dari sumber yang mengalir.'
+              },
+              {
+                id: 19,
+                arab: 'لَّا يُصَدَّعُوۡنَ عَنۡهَا وَلَا يُنۡزِفُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka tidak pening karenanya dan tidak pula mabuk.'
+              },
+              {
+                id: 20,
+                arab: 'وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka menyuguhkan pula) buah-buahan yang mereka pilih'
+              },
+              {
+                id: 21,
+                arab: 'وَلَحۡمِ طَيۡرٍ مِّمَّا يَشۡتَهُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan daging burung yang mereka sukai.'
+              },
+              {
+                id: 22,
+                arab: 'وَحُوۡرٌ عِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ada bidadari yang bermata indah'
+              },
+              {
+                id: 23,
+                arab: 'كَاَمۡثَالِ اللُّـؤۡلُـوٴِالۡمَكۡنُوۡنِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'laksana mutiara yang tersimpan dengan baik'
+              },
+              {
+                id: 24,
+                arab: 'جَزَآءًۢ بِمَا كَانُوۡا يَعۡمَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'sebagai balasan atas apa yang selama ini mereka kerjakan.'
+              },
+              {
+                id: 25,
+                arab: 'لَا يَسۡمَعُوۡنَ فِيۡهَا لَغۡوًا وَّلَا تَاۡثِيۡمًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Di sana mereka tidak mendengar percakapan yang sia-sia dan tidak (pula) percakapan yang menimbulkan dosa,'
+              },
+              {
+                id: 26,
+                arab: 'اِلَّا قِيۡلًا سَلٰمًا سَلٰمًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'kecuali (yang mereka dengar hanyalah) ucapan, “Salam… salam.”'
+              },
+              {
+                id: 27,
+                arab: 'وَاَصۡحٰبُ الۡيَمِيۡنِ مَاۤ اَصۡحٰبُ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Golongan kanan, alangkah mulianya golongan kanan itu.'
+              },
+              {
+                id: 28,
+                arab: 'فِىۡ سِدۡرٍ مَّخۡضُوۡدٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka) berada di antara pohon bidara yang tidak berduri,'
+              },
+              {
+                id: 29,
+                arab: 'وَّطَلۡحٍ مَّنۡضُوۡدٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'pohon pisang yang (buahnya) bersusun-susun,'
+              },
+              {
+                id: 30,
+                arab: 'وَّظِلٍّ مَّمۡدُوۡدٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'naungan yang terbentang luas,'
+              },
+              {
+                id: 31,
+                arab: 'وَّ مَآءٍ مَّسۡكُوۡبٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'air yang tercurah,'
+              },
+              {
+                id: 32,
+                arab: 'وَّفَاكِهَةٍ كَثِيۡرَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'buah-buahan yang banyak'
+              },
+              {
+                id: 33,
+                arab: 'لَّا مَقۡطُوۡعَةٍ وَّلَا مَمۡنُوۡعَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'yang tidak berhenti berbuah dan tidak terlarang memetiknya,'
+              },
+              {
+                id: 34,
+                arab: 'وَّ فُرُشٍ مَّرۡفُوۡعَةٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan kasur-kasur yang tebal lagi empuk.'
+              },
+              {
+                id: 35,
+                arab: 'اِنَّاۤ اَنۡشَاۡنٰهُنَّ اِنۡشَآءً ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kami menciptakan mereka (bidadari itu) secara langsung,'
+              },
+              {
+                id: 36,
+                arab: 'فَجَعَلۡنٰهُنَّ اَبۡكَارًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'lalu Kami jadikan mereka perawan-perawan'
+              },
+              {
+                id: 37,
+                arab: 'عُرُبًا اَتۡرَابًا ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'yang penuh cinta (lagi) sebaya umurnya,'
+              },
+              {
+                id: 38,
+                arab: 'لِّاَصۡحٰبِ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(diperuntukkan) bagi golongan kanan,'
+              },
+              {
+                id: 39,
+                arab: 'ثُلَّةٌ مِّنَ الۡاَوَّلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: ' (yaitu) segolongan besar dari orang-orang yang terdahulu'
+              },
+              {
+                id: 40,
+                arab: 'وَثُلَّةٌ مِّنَ الۡاٰخِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan segolongan besar (pula) dari orang-orang yang kemudian.'
+              },
+              {
+                id: 41,
+                arab: 'وَاَصۡحٰبُ الشِّمَالِ مَاۤ اَصۡحٰبُ الشِّمَالِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Golongan kiri, alangkah sengsaranya golongan kiri itu.'
+              },
+              {
+                id: 42,
+                arab: 'فِىۡ سَمُوۡمٍ وَّحَمِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Mereka berada) dalam siksaan angin yang sangat panas, air yang mendidih,'
+              },
+              {
+                id: 43,
+                arab: 'وَّظِلٍّ مِّنۡ يَّحۡمُوۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan naungan asap hitam'
+              },
+              {
+                id: 44,
+                arab: 'لَّا بَارِدٍ وَّلَا كَرِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'yang tidak sejuk dan tidak menyenangkan.'
+              },
+              {
+                id: 45,
+                arab: 'اِنَّهُمۡ كَانُوۡا قَبۡلَ ذٰ لِكَ مُتۡرَفِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya mereka sebelum itu hidup bermewah-mewah.'
+              },
+              {
+                id: 46,
+                arab: 'وَكَانُوۡا يُصِرُّوۡنَ عَلَى الۡحِنۡثِ الۡعَظِيۡمِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka terus-menerus mengerjakan dosa yang besar.'
+              },
+              {
+                id: 47,
+                arab: 'وَكَانُوۡا يَقُوۡلُوۡنَ اَٮِٕذَا مِتۡنَا وَكُنَّا تُرَابًا وَّعِظَامًا ءَاِنَّا لَمَبۡعُوۡثُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Apabila kami telah mati menjadi tanah dan tulang-belulang, apakah kami benar-benar akan dibangkitkan (kembali)'
+              },
+              {
+                id: 48,
+                arab: 'اَوَاٰبَآؤُنَا الۡاَوَّلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah nenek moyang kami yang terdahulu (akan dibangkitkan pula)?”'
+              },
+              {
+                id: 49,
+                arab: 'قُلۡ اِنَّ الۡاَوَّلِيۡنَ وَالۡاٰخِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Katakanlah (Nabi Muhammad), “Sesungguhnya orang-orang yang terdahulu dan yang kemudian'
+              },
+              {
+                id: 50,
+                arab: 'لَمَجۡمُوۡعُوۡنَ اِلٰى مِيۡقَاتِ يَوۡمٍ مَّعۡلُوۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'benar-benar akan dikumpulkan pada waktu tertentu, yaitu hari yang sudah diketahui.'
+              },
+              {
+                id: 51,
+                arab: 'ثُمَّ اِنَّكُمۡ اَيُّهَا الضَّآلُّوۡنَ الۡمُكَذِّبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kemudian, sesungguhnya kamu, wahai orang-orang sesat lagi pendusta,'
+              },
+              {
+                id: 52,
+                arab: 'لَاٰكِلُوۡنَ مِنۡ شَجَرٍ مِّنۡ زَقُّوۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'pasti akan memakan pohon zaqum.'
+              },
+              {
+                id: 53,
+                arab: 'فَمٰلِــُٔوۡنَ مِنۡهَا الۡبُطُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Lalu, kamu akan memenuhi perut-perutmu dengannya.'
+              },
+              {
+                id: 54,
+                arab: 'فَشٰرِبُوۡنَ عَلَيۡهِ مِنَ الۡحَمِيۡمِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Setelah itu, untuk penawarnya (zaqum) kamu akan meminum air yang sangat panas.'
+              },
+              {
+                id: 55,
+                arab: 'فَشٰرِبُوۡنَ شُرۡبَ الۡهِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, kamu minum bagaikan unta yang sangat haus.'
+              },
+              {
+                id: 56,
+                arab: 'هٰذَا نُزُلُهُمۡ يَوۡمَ الدِّيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Inilah hidangan (untuk) mereka pada hari Pembalasan.”'
+              },
+              {
+                id: 57,
+                arab: 'نَحۡنُ خَلَقۡنٰكُمۡ فَلَوۡلَا تُصَدِّقُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami telah menciptakanmu. Mengapa kamu tidak membenarkan (hari Kebangkitan)?'
+              },
+              {
+                id: 58,
+                arab: 'اَفَرَءَيۡتُمۡ مَّا تُمۡنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan apa yang kamu pancarkan (sperma)?'
+              },
+              {
+                id: 59,
+                arab: 'ءَاَنۡتُمۡ تَخۡلُقُوۡنَهٗۤ اَمۡ نَحۡنُ الۡخٰلِقُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menciptakannya atau Kami Penciptanya?'
+              },
+              {
+                id: 60,
+                arab: 'نَحۡنُ قَدَّرۡنَا بَيۡنَكُمُ الۡمَوۡتَ وَمَا نَحۡنُ بِمَسۡبُوۡقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menciptakannya atau Kami Penciptanya?'
+              },
+              {
+                id: 61,
+                arab: 'عَلٰٓى اَنۡ نُّبَدِّلَ اَمۡثَالَـكُمۡ وَنُـنۡشِئَكُمۡ فِىۡ مَا لَا تَعۡلَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'untuk mengubah bentukmu (di hari Kiamat) dan menciptakanmu kelak dalam keadaan yang tidak kamu ketahui.'
+              },
+              {
+                id: 62,
+                arab: 'وَلَـقَدۡ عَلِمۡتُمُ النَّشۡاَةَ الۡاُوۡلٰى فَلَوۡلَا تَذَكَّرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, kamu benar-benar telah mengetahui penciptaan yang pertama. Mengapa kamu tidak mengambil pelajaran?'
+              },
+              {
+                id: 63,
+                arab: 'اَفَرَءَيۡتُمۡ مَّا تَحۡرُثُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan benih yang kamu tanam?'
+              },
+              {
+                id: 64,
+                arab: 'ءَاَنۡتُمۡ تَزۡرَعُوۡنَهٗۤ اَمۡ نَحۡنُ الزّٰرِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menumbuhkannya atau Kami yang menumbuhkan?'
+              },
+              {
+                id: 65,
+                arab: 'لَوۡ نَشَآءُ لَجَـعَلۡنٰهُ حُطَامًا فَظَلۡتُمۡ تَفَكَّهُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami berkehendak, Kami benar-benar menjadikannya hancur sehingga kamu menjadi heran tercengang,'
+              },
+              {
+                id: 66,
+                arab: 'اِنَّا لَمُغۡرَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(sambil berkata,) “Sesungguhnya kami benar-benar menderita kerugian.'
+              },
+              {
+                id: 67,
+                arab: 'بَلۡ نَحۡنُ مَحۡرُوۡمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bahkan, kami tidak mendapat hasil apa pun.”'
+              },
+              {
+                id: 68,
+                arab: 'اَفَرَءَيۡتُمُ الۡمَآءَ الَّذِىۡ تَشۡرَبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan air yang kamu minum?'
+              },
+              {
+                id: 69,
+                arab: 'ءَاَنۡـتُمۡ اَنۡزَلۡـتُمُوۡهُ مِنَ الۡمُزۡنِ اَمۡ نَحۡنُ الۡمُنۡزِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menurunkannya dari awan atau Kami yang menurunkan?'
+              },
+              {
+                id: 70,
+                arab: 'لَوۡ نَشَآءُ جَعَلۡنٰهُ اُجَاجًا فَلَوۡلَا تَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami berkehendak, Kami menjadikannya asin. Mengapa kamu tidak bersyukur?'
+              },
+              {
+                id: 71,
+                arab: 'اَفَرَءَيۡتُمُ النَّارَ الَّتِىۡ تُوۡرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu memperhatikan api yang kamu nyalakan?'
+              },
+              {
+                id: 72,
+                arab: 'ءَاَنۡتُمۡ اَنۡشَاۡتُمۡ شَجَرَتَهَاۤ اَمۡ نَحۡنُ الۡمُنۡشِـُٔـوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu yang menumbuhkan kayunya atau Kami yang menumbuhkan?'
+              },
+              {
+                id: 73,
+                arab: 'نَحۡنُ جَعَلۡنٰهَا تَذۡكِرَةً وَّمَتَاعًا لِّلۡمُقۡوِيۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami menjadikannya (api itu) sebagai peringatan dan manfaat bagi para musafir.'
+              },
+              {
+                id: 74,
+                arab: 'فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, bertasbihlah dengan (menyebut) nama Tuhanmu Yang Mahaagung.'
+              },
+              {
+                id: 75,
+                arab: 'فَلَاۤ اُقۡسِمُ بِمَوٰقِعِ النُّجُوۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Aku bersumpah demi tempat beredarnya bintang-bintang.'
+              },
+              {
+                id: 76,
+                arab: 'وَاِنَّهٗ لَقَسَمٌ لَّوۡ تَعۡلَمُوۡنَ عَظِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya itu benar-benar sumpah yang sangat besar seandainya kamu mengetahui.'
+              },
+              {
+                id: 77,
+                arab: 'اِنَّهٗ لَـقُرۡاٰنٌ كَرِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ia benar-benar Al-Qur’an yang sangat mulia,'
+              },
+              {
+                id: 78,
+                arab: 'فِىۡ كِتٰبٍ مَّكۡنُوۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dalam Kitab yang terpelihara.'
+              },
+              {
+                id: 79,
+                arab: 'لَّا يَمَسُّهٗۤ اِلَّا الۡمُطَهَّرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak ada yang menyentuhnya, kecuali para hamba (Allah) yang disucikan.'
+              },
+              {
+                id: 80,
+                arab: 'تَنۡزِيۡلٌ مِّنۡ رَّبِّ الۡعٰلَمِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Al-Qur’an) diturunkan dari Tuhan seluruh alam.'
+              },
+              {
+                id: 81,
+                arab: 'اَفَبِهٰذَا الۡحَـدِيۡثِ اَنۡتُمۡ مُّدۡهِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apakah kamu menganggap remeh berita ini (Al-Qur’an)'
+              },
+              {
+                id: 82,
+                arab: 'وَتَجۡعَلُوۡنَ رِزۡقَكُمۡ اَنَّكُمۡ تُكَذِّبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan kamu menjadikan rezeki yang kamu terima (dari Allah) justru untuk mendustakan (Al-Qur’an)?'
+              },
+              {
+                id: 83,
+                arab: 'فَلَوۡلَاۤ اِذَا بَلَغَتِ الۡحُـلۡقُوۡمَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kalau begitu, mengapa (kamu) tidak (menahan nyawa) ketika telah sampai di kerongkongan,'
+              },
+              {
+                id: 84,
+                arab: 'وَاَنۡتُمۡ حِيۡنَٮِٕذٍ تَـنۡظُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'padahal kamu ketika itu melihat (orang yang sedang sekarat)?'
+              },
+              {
+                id: 85,
+                arab: 'وَنَحۡنُ اَقۡرَبُ اِلَيۡهِ مِنۡكُمۡ وَلٰـكِنۡ لَّا تُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami lebih dekat kepadanya (orang yang sedang sekarat) daripada kamu, tetapi kamu tidak melihat.'
+              },
+              {
+                id: 86,
+                arab: 'فَلَوۡلَاۤ اِنۡ كُنۡتُمۡ غَيۡرَ مَدِيۡنِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, mengapa jika kamu tidak diberi balasan,'
+              },
+              {
+                id: 87,
+                arab: 'تَرۡجِعُوۡنَهَاۤ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'kamu tidak mengembalikannya (nyawa itu) jika kamu orang-orang yang benar?'
+              },
+              {
+                id: 88,
+                arab: 'فَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُقَرَّبِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika dia (orang yang mati) itu termasuk yang didekatkan (kepada Allah),'
+              },
+              {
+                id: 89,
+                arab: 'فَرَوۡحٌ وَّ رَيۡحَانٌ وَّجَنَّتُ نَعِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dia memperoleh ketenteraman, rezeki, dan surga (yang penuh) kenikmatan.'
+              },
+              {
+                id: 90,
+                arab: 'وَاَمَّاۤ اِنۡ كَانَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika dia (termasuk) golongan kanan,'
+              },
+              {
+                id: 91,
+                arab: 'فَسَلٰمٌ لَّكَ مِنۡ اَصۡحٰبِ الۡيَمِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '“Salam bagimu” dari (sahabatmu,) golongan kanan.'
+              },
+              {
+                id: 92,
+                arab: 'وَاَمَّاۤ اِنۡ كَانَ مِنَ الۡمُكَذِّبِيۡنَ الضَّآلِّيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika dia termasuk golongan para pendusta lagi sesat,'
+              },
+              {
+                id: 93,
+                arab: 'فَنُزُلٌ مِّنۡ حَمِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'jamuannya berupa air mendidih'
+              },
+              {
+                id: 94,
+                arab: 'وَّتَصۡلِيَةُ جَحِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'dan dibakar oleh (neraka) Jahim.'
+              },
+              {
+                id: 95,
+                arab: 'اِنَّ هٰذَا لَهُوَ حَقُّ الۡيَـقِيۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ini benar-benar merupakan hakulyakin.'
+              },
+              {
+                id: 96,
+                arab: 'فَسَبِّحۡ بِاسۡمِ رَبِّكَ الۡعَظِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, bertasbihlah dengan (menyebut) nama Tuhanmu Yang Mahaagung.'
+              },
+              {
+                id: 97,
+                arab: '',
+                indo: 'Doa setelah baca surat Waqiah',
                 image: '',
                 latin: '',
                 arti: ''
               },
               {
-                id: 10,
-                arab: 'يَامَنْ أِذَااَرَادَ شَيْأً اِنَّمَا يَقُوْلَ لَهُ كُنْ فَيَكُوْنُ ، سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ وَسَلاَمٌ عَلَى الْمُرْسَلِيْنَ وَالْحَمْدُلِلّٰهِ رَبِّ الْعَالَمِيْنَ',
+                id: 98,
+                arab: 'اَللَّهُمَّ صُنْ وُجُوْهَنَا بِاْليَسَارِ وَلاَتُوهِنَّابِاْلاِقْتَارِ فَنَسْتَرْزِقَ طَالِبِيْ رِزْقِكَ وَنَسْتَعْطِفَ شِرَارَخَلْقِكَ وَنَشْتَغِلَ بِحَمْدِ مَنْ اَعْطَانَاوَنُبْتَلَى بِذَمِّ مَنْ مَنَعَنَاوَاَنْتَ مِنْ وَرَاءِذَلِكَ كُلِّهِ اَهْلُ اْلعَطَاءِ وَاْلمَنْعِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Ya Allah jagalah wajah kami dengan kecukupan (dalam rezeki), dan janganlah Kau hinakan kami dengan kekurangan, hingga kami meminta rezeki dari pencari rezeki-Mu dan mengharap belas kasih dari hamba-Mu yang bersifat buruk, serta sibuk memuji orang yang memberi kami dan diuji dengan mencaci orang yang mencegah (hartanya) dari kami. Padahal sesungguhnya Engkau di belakang semua itu yang memberi dan mencegah.'
+              },
+              {
+                id: 99,
+                arab: 'اَللَّهُمَّ كَمَاصُنْتَ وُجُوْ هَنَاعَنِ السُّجُوْدِاِلاَّلَكَ فَصُنَّاعَنِ اْلحاَجَةِاِلاَّاِلَيْكَ بِجُوْدِكَ وَكَرَمِكَ وَفَضْلِكَ , يَااَرْحَمَ الرَّاحِمِيْنَ (ثلاثا) اَغْنِنَا بِفَضْلِكَ عَمَّنْ سِوَاكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, seperti halnya Kau jaga wajah kami dari sujud kecuali kepada-Mu, maka jagalah kami dari berkebutuhan kecuali kepada-Mu, demi pemberian, kemuliaan, dan anugerah-Mu. Wahai yang Maha Kasih di antara para pengasih (3x).'
+              },
+              {
+                id: 100,
+                arab: 'وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى اَلِهِ وَصَحْبِهِ وَسَلَّمَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Shalawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya.'
+              },
+              {
+                id: 101,
+                arab: 'اَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَامُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah limpahkanlah shalawat dan salam atas junjungan kami Muhammad dan keluarga junjungan kami Muhammad.'
+              },
+              {
+                id: 102,
+                arab: 'وَهَبَ لَنَاَبِهِ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ مِنْ رِزْقِكَ الْحَلَالِ الطَّيِّبِ الْمُبَارَكِ مَا تَصُوْنُ بِهِ وُجُوْهَنَا عَنِ التَّعَرُّضِ اِلَى اَحَدٍ مِنْ خَلْقِكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan berilah kami demi beliau saaw dari rezeki-Mu yang halal, baik, dan berkah. Yang dapat menjaga wajah kami dari butuh kepada salah satu dari makhluk-Mu. '
+              },
+              {
+                id: 103,
+                arab: 'وَاجْعَلِ اللّٰهُمَّ لَنَا اِلَيْهِ طَرِيْقًا سَهْلاً مِنْ غَيْرِ فِتْنَةٍ وَلاَمِحْنَةٍ وَلاَمِنَّةٍ وَلاَتَبِعَةٍ لِأَحَدٍ وَجَنِّبْنَا',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jadikanlah untuk kami ya Allah, jalan yang mudah untuk menujunya, tanpa ujian, cobaan, kesusahan hidup, atau kesalahan terhadap siapa pun.'
+              },
+              {
+                id: 104,
+                arab: 'اَللّٰهُمَّ الْحَرَامَ حَيْثُ كَانَ وَاَيْنَ كَانَ وَعِنْدَمَنْ كَانَ وَحُلَّ بَيْنَنَا وَبَيْنَ أَهْلِهِ وَاقْبِضْ عَنَّا اَيْدِيْهِمْ وَاصْرِفْ عَنَّا وُجُوْهَحُمْ وَقُلُوْبَهُمْ حَتَّى لاَ نَتَقَلَّبَ اِلاَّ فِيْمَا يُرْضِيْكَ وَلاَنَسْتَعِيْنَ بِنِعْمَتِكَ يَا ارْحَمَ الرَّحِمِيْنَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jauhkanlah dari kami ya Allah hal-hal yang haram dalam posisi apa pun, dimana pun, dan kapan pun. Jauhkanlah kami dari para pelakunya (haram). Cegahlah dari kami tangan-tangan (usaha) mereka, palingkanlah dari kami wajah dan hati mereka hingga kami tidak berbuat kecuali yang menjadikan-Mu ridha, dan kami tidak menggunakan kenikmatan dari-Mu kecuali pada hal-hal yang Engkau menyukai dan meridhai-Nya. Dengan rahmat-Mu wahai yang Maha Pengasih di antara para pengasih.'
+              },
+              {
+                id: 105,
+                arab: 'اَللّٰهُمَّ اِنْ كَانَ رِزْكُنَا فِى السَّمَآءِ فَأَنْزِلْهُ وَاِنْ كَانَ فِى الْأَرْضِ فَاَخْرِجْهُ وَاِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَاِنْ كَانَ بَعِيْدًا فَقَرِّبْهُ وَاِنْ كَانَ حَرَامًا فَطَهِّرْهُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, jika rezeki kami terdapat di langit maka turunkanlah, jika di bumi maka keluarkanlah, jika sulit (untuk dicapai) maka mudahkanlah, jika jauh maka dekatkanlah, jika haram maka sucikanlah,'
+              },
+              {
+                id: 106,
+                arab: 'وَاِنْ كَانَ قَلِيْلاً فَكَثِّرْهُ وَاِنْ كَانَ مَعْدُوْمًا فَأَوْجِدْهُ وَاِنْ كَانَ مَوْقُوْفًا فَأَجْرِهِ وَاِنْ كَانَ ذَنْبًا فَأَغْفِرْهُ وَاِنْ كَانَ سَيِّئَةً فَامْحُهَا وَاِنْ كَانَ خَطِيْئَةً فَتَجَاوَزْعَنْهَا وَاِنْ كَانَ عَثْرَةً فَأَقِلْهَا وَبَارِكْ لَنَا فِى جَمِيْعِ ذَالِكَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'jika sedikit maka perbanyaklah, jika tak ada maka wujudkanlah, jika berhenti maka lancarkanlah, jika berdosa maka ampunilah, jika buruk maka hapuslah (keburukannya), jika salah maka maafkanlah, jika tergelincir maka hapuskanlah, dan berkahilah kami dalam semua itu.'
+              },
+              {
+                id: 107,
+                arab: 'اِنَّكَ مَلِيْكٌ مُقْتَدِرٌ وَمَا تَشَاؤُهُ مِنْ اَمْرٍيَكُوْنُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Engkau Maha Raja, Maha Kuasa, dan segala hal yang Engkau kehendaki akan terjadi,'
+              },
+              {
+                id: 108,
+                arab: 'يَامَنْ أِذَااَرَادَ شَيْأً اِنَّمَا يَقُوْلَ لَهُ كُنْ فَيَكُوْنُ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'wahai yang jika menghendaki sesuatu Dia berfirman, "Jadi," maka terjadilah.'
               },
             ]
           },
@@ -1004,51 +3460,723 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'يٰسٓ ۝ وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝ اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝ عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝ تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝ لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝ لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝ وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝ وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝ اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝ وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝ اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝ قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝ قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝ وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝ قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝ قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝ وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                arab: 'يٰسٓ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Yā Sīn.'
               },
               {
                 id: 2,
-                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝ وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝ ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝ اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝ اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝ قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝ بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝ وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝ يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝ اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝ وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝ وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝ لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝ وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝ وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝ وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝ لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                arab: 'وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Demi Al-Qur’an yang penuh hikmah,'
               },
               {
                 id: 3,
-                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝ وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝ وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝ اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝ وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝ وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝ وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ  قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝ وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝ مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝ فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝ وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝ قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝ اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝ هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝ لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝ سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝ وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝ اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                arab: 'اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'sesungguhnya engkau (Nabi Muhammad) benar-benar salah seorang dari rasul-rasul'
               },
               {
                 id: 4,
-                arab: 'وَّاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝ وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝ هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝ اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝ اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝ وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝ وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝ وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝ وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝ لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝ اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝ وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝ وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝ لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝ فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝ اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝ وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝ قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝ اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝ اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝ اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝ فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                arab: 'عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: '(yang berada) di atas jalan yang lurus,'
               },
               {
                 id: 5,
+                arab: 'تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa lagi Maha Penyayang,'
+              },
+              {
+                id: 6,
+                arab: 'لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar engkau (Nabi Muhammad) memberi peringatan kepada suatu kaum yang nenek moyang mereka belum pernah diberi peringatan, sehingga mereka lalai.'
+              },
+              {
+                id: 7,
+                arab: 'لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, benar-benar berlaku perkataan (ketetapan takdir) terhadap kebanyakan mereka, maka mereka tidak akan beriman.'
+              },
+              {
+                id: 8,
+                arab: 'اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kami telah memasang belenggu di leher mereka, lalu (tangan mereka yang terbelenggu diangkat) ke dagu, karena itu mereka tertengadah.'
+              },
+              {
+                id: 9,
+                arab: 'وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami memasang penghalang di hadapan mereka dan di belakang mereka, sehingga Kami menutupi (pandangan) mereka. Mereka pun tidak dapat melihat.'
+              },
+              {
+                id: 10,
+                arab: 'وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sama saja bagi mereka, apakah engkau (Nabi Muhammad) memberi peringatan kepada mereka atau tidak. Mereka (tetap) tidak akan beriman.'
+              },
+              {
+                id: 11,
+                arab: 'اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya engkau (Nabi Muhammad) hanya (bisa) memberi peringatan kepada orang-orang yang mau mengikutinya dan yang takut kepada Tuhan Yang Maha Pengasih tanpa melihat-Nya. Berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.'
+              },
+              {
+                id: 12,
+                arab: 'اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kamilah yang menghidupkan orang-orang yang mati dan Kami (pulalah) yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Segala sesuatu Kami kumpulkan dalam kitab induk yang nyata (Lauh Mahfuz).'
+              },
+              {
+                id: 13,
+                arab: 'وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Buatlah suatu perumpamaan bagi mereka (kaum kafir Makkah), yaitu penduduk suatu negeri, ketika para utusan datang kepada mereka,'
+              },
+              {
+                id: 14,
+                arab: 'اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya. Kemudian Kami menguatkan dengan (utusan) yang ketiga. Maka, ketiga (utusan itu) berkata, “Sesungguhnya kami adalah orang-orang yang diutus kepadamu.”'
+              },
+              {
+                id: 15,
+                arab: 'قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Kamu tidak lain hanyalah manusia seperti kami. (Allah) Yang Maha Pengasih tidak (pernah) menurunkan sesuatu apa pun. Kamu hanyalah berdusta.”'
+              },
+              {
+                id: 16,
+                arab: 'قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Tuhan kami mengetahui bahwa sesungguhnya kami benar-benar para utusan(-Nya) kepadamu.'
+              },
+              {
+                id: 17,
+                arab: 'وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Adapun kewajiban kami hanyalah menyampaikan (perintah Allah) yang jelas.”'
+              },
+              {
+                id: 18,
+                arab: 'قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Sesungguhnya kami bernasib malang karenamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami merajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”'
+              },
+              {
+                id: 19,
+                arab: 'قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Kemalangan kamu itu (akibat perbuatan) kamu sendiri. Apakah karena kamu diberi peringatan, (lalu kamu menjadi malang)? Sebenarnya kamu adalah kaum yang melampaui batas.”'
+              },
+              {
+                id: 20,
+                arab: 'وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Datanglah dengan bergegas dari ujung kota, seorang laki-laki. Dia berkata, “Wahai kaumku, ikutilah para rasul itu!'
+              },
+              {
+                id: 21,
+                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ikutilah orang yang tidak meminta imbalan (dalam berdakwah) kepadamu. Mereka adalah orang-orang yang mendapat petunjuk.'
+              },
+              {
+                id: 22,
+                arab: 'وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apa (alasanku) untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan?'
+              },
+              {
+                id: 23,
+                arab: 'ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mengapa aku (harus) mengambil sembahan-sembahan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.'
+              },
+              {
+                id: 24,
+                arab: 'اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku (jika berbuat) begitu, pasti berada dalam kesesatan yang nyata.'
+              },
+              {
+                id: 25,
+                arab: 'اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku telah beriman kepada Tuhanmu. Maka, dengarkanlah (pengakuan)-ku.”'
+              },
+              {
+                id: 26,
+                arab: 'قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Aduhai, sekiranya kaumku mengetahui'
+              },
+              {
+                id: 27,
+                arab: 'بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(bagaimana) Tuhanku mengampuniku dan menjadikanku termasuk orang-orang yang dimuliakan.”'
+              },
+              {
+                id: 28,
+                arab: 'وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Setelah dia (dibunuh), Kami tidak menurunkan satu pasukan pun dari langit kepada kaumnya dan Kami tidak perlu menurunkannya.'
+              },
+              {
+                id: 29,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Azab mereka) itu cukup dengan satu teriakan saja. Maka, seketika itu mereka mati.'
+              },
+              {
+                id: 30,
+                arab: 'يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Alangkah besar penyesalan diri para hamba itu. Setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.'
+              },
+              {
+                id: 31,
+                arab: 'اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui berapa banyak umat sebelum mereka yang telah Kami binasakan? Mereka (setelah binasa) tidak ada yang kembali kepada mereka (di dunia).'
+              },
+              {
+                id: 32,
+                arab: 'وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak ada satu (umat) pun, kecuali semuanya akan dihadirkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 33,
+                arab: 'وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kekuasaan-Nya) bagi mereka adalah bumi yang mati (tandus lalu) Kami menghidupkannya dan mengeluarkan darinya biji-bijian kemudian dari (biji-bijian) itu mereka makan.'
+              },
+              {
+                id: 34,
+                arab: 'وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami (juga) menjadikan padanya (bumi) kebun-kebun kurma dan anggur serta Kami memancarkan padanya beberapa mata air'
+              },
+              {
+                id: 35,
+                arab: 'لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Mengapa mereka tidak bersyukur?'
+              },
+              {
+                id: 36,
+                arab: 'سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri maupun dari apa yang tidak mereka ketahui.'
+              },
+              {
+                id: 37,
+                arab: 'وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda juga (atas kekuasaan Allah) bagi mereka adalah malam. Kami pisahkan siang dari (malam) itu. Maka, seketika itu mereka (berada dalam) kegelapan.'
+              },
+              {
+                id: 38,
+                arab: 'وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Suatu tanda juga atas kekuasaan Allah bagi mereka adalah) matahari yang berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa lagi Maha Mengetahui.'
+              },
+              {
+                id: 39,
+                arab: 'وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) bulan, Kami tetapkan bagi(-nya) tempat-tempat peredaran sehingga (setelah ia sampai ke tempat peredaran yang terakhir,) kembalilah ia seperti bentuk tandan yang tua.'
+              },
+              {
+                id: 40,
+                arab: 'لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.'
+              },
+              {
+                id: 41,
+                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami mengangkut keturunan mereka dalam kapal yang penuh muatan.'
+              },
+              {
+                id: 42,
+                arab: 'وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) Kami menciptakan untuk mereka dari jenis itu angkutan (lain) yang mereka kendarai.'
+              },
+              {
+                id: 43,
+                arab: 'وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika Kami menghendaki, Kami akan menenggelamkan mereka. Kemudian, tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan.'
+              },
+              {
+                id: 44,
+                arab: 'اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Akan tetapi, (Kami menyelamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberi mereka kesenangan hidup sampai waktu tertentu.'
+              },
+              {
+                id: 45,
+                arab: 'وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ketika dikatakan kepada mereka, “Takutlah kamu akan (siksa) yang ada di hadapanmu (di dunia) dan azab yang ada di belakangmu (akhirat) agar kamu mendapat rahmat,” (maka mereka berpaling).'
+              },
+              {
+                id: 46,
+                arab: 'وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak satu pun dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, kecuali mereka berpaling darinya.'
+              },
+              {
+                id: 47,
+                arab: 'وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kufur itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki, Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”'
+              },
+              {
+                id: 48,
+                arab: 'وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Kapankah janji (hari Kebangkitan) ini (terjadi) jika kamu orang-orang benar?”'
+              },
+              {
+                id: 49,
+                arab: 'مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka hanya menunggu satu teriakan yang akan membinasakan mereka saat mereka (sibuk) bertengkar (tentang urusan dunia).'
+              },
+              {
+                id: 50,
+                arab: 'فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Oleh sebab itu, mereka tidak dapat berwasiat dan tidak dapat kembali kepada keluarganya.'
+              },
+              {
+                id: 51,
+                arab: 'وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sangkakala pun ditiup dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya.'
+              },
+              {
+                id: 52,
+                arab: 'قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” (Lalu, dikatakan kepada mereka,) “Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah para rasul(-Nya).”'
+              },
+              {
+                id: 53,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 54,
+                arab: 'فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari itu tidak ada sama sekali orang yang dirugikan sedikit pun. Kamu tidak akan diberi balasan, kecuali atas apa yang telah kamu kerjakan.'
+              },
+              {
+                id: 55,
+                arab: 'اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya penghuni surga pada hari itu berada dalam kesibukan (sehingga tidak sempat berpikir tentang penghuni neraka) lagi bersenang-senang.'
+              },
+              {
+                id: 56,
+                arab: 'هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka dan pasangan-pasangannya berada dalam tempat yang teduh sambil berbaring di atas ranjang berkelambu.'
+              },
+              {
+                id: 57,
+                arab: 'لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Di (surga) itu mereka memperoleh buah-buahan dan apa saja yang mereka inginkan.'
+              },
+              {
+                id: 58,
+                arab: 'سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Kepada mereka dikatakan,) “Salam sejahtera” sebagai ucapan dari Tuhan Yang Maha Penyayang.'
+              },
+              {
+                id: 59,
+                arab: 'وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dikatakan kepada orang-orang kafir,) “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai para pendurhaka!'
+              },
+              {
+                id: 60,
+                arab: 'اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Aku telah berpesan kepadamu dengan sungguh-sungguh, wahai anak cucu Adam, bahwa janganlah kamu menyembah setan? Sesungguhnya setan itu musuh yang nyata bagi kamu.'
+              },
+              {
+                id: 61,
+                arab: 'وَاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga bahwa) sembahlah Aku. Inilah jalan yang lurus.”'
+              },
+              {
+                id: 62,
+                arab: 'وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu. Maka, apakah kamu tidak mengerti?'
+              },
+              {
+                id: 63,
+                arab: 'هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu.'
+              },
+              {
+                id: 64,
+                arab: 'اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya.'
+              },
+              {
+                id: 65,
+                arab: 'اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari ini Kami membungkam mulut mereka. Tangan merekalah yang berkata kepada Kami dan kaki merekalah yang akan bersaksi terhadap apa yang dahulu mereka kerjakan.'
+              },
+              {
+                id: 66,
+                arab: 'وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan menghapus penglihatan (membutakan) mereka sehingga mereka berlomba-lomba (mencari) jalan (selamat). Maka, bagaimana mungkin mereka dapat melihat?'
+              },
+              {
+                id: 67,
+                arab: 'وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan mengubah bentuk mereka di tempat mereka berada, sehingga mereka tidak sanggup meneruskan perjalanan dan juga tidak sanggup pulang kembali.'
+              },
+              {
+                id: 68,
+                arab: 'وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Siapa yang Kami panjangkan umurnya niscaya Kami balik proses penciptaannya (dari kuat menuju lemah). Maka, apakah mereka tidak mengerti?'
+              },
+              {
+                id: 69,
+                arab: 'وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami tidak mengajarkan syair kepadanya (Nabi Muhammad) dan (bersyair) itu tidaklah pantas baginya. (Wahyu yang Kami turunkan kepadanya) itu tidak lain hanyalah pelajaran dan Al-Qur’an yang jelas'
+              },
+              {
+                id: 70,
+                arab: 'لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar dia (Nabi Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar ketetapan (azab) terhadap orang-orang kafir itu menjadi pasti.'
+              },
+              {
+                id: 71,
+                arab: 'اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui bahwa Kami telah menciptakan untuk mereka hewan-hewan ternak dari ciptaan tangan Kami (sendiri), lalu mereka menjadi pemiliknya?'
+              },
+              {
+                id: 72,
+                arab: 'وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami menjadikannya (hewan-hewan itu) tunduk kepada mereka. Sebagian di antaranya menjadi tunggangan mereka dan sebagian (lagi) mereka makan.'
+              },
+              {
+                id: 73,
+                arab: 'وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada dirinya (hewan-hewan ternak itu) terdapat berbagai manfaat dan minuman untuk mereka. Apakah mereka tidak bersyukur?'
+              },
+              {
+                id: 74,
+                arab: 'وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka menjadikan sesembahan selain Allah agar mereka mendapat pertolongan.'
+              },
+              {
+                id: 75,
+                arab: 'لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Sesembahan) itu tidak mampu menolong mereka, padahal (sesembahan) itu adalah tentara yang dihadirkan untuk menjaganya.'
+              },
+              {
+                id: 76,
+                arab: 'فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, jangan sampai ucapan mereka membuat engkau (Nabi Muhammad) bersedih hati. Sesungguhnya Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.'
+              },
+              {
+                id: 77,
+                arab: 'اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah manusia mengetahui bahwa Kami menciptakannya dari setetes mani? Kemudian tiba-tiba saja dia menjadi musuh yang nyata.'
+              },
+              {
+                id: 78,
+                arab: 'وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dia membuat perumpamaan bagi Kami dan melupakan asal penciptaannya. Dia berkata, “Siapakah yang bisa menghidupkan tulang-belulang yang telah hancur luluh?”'
+              },
+              {
+                id: 79,
+                arab: 'قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Katakanlah (Nabi Muhammad), “Yang akan menghidupkannya adalah Zat yang menciptakannya pertama kali. Dia Maha Mengetahui setiap makhluk.'
+              },
+              {
+                id: 80,
+                arab: 'اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dialah) yang menjadikan api untukmu dari kayu yang hijau. Kemudian, seketika itu kamu menyalakan (api) darinya.”'
+              },
+              {
+                id: 81,
+                arab: 'اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Zat yang menciptakan langit dan bumi mampu menciptakan manusia yang serupa mereka itu (di akhirat kelak)? Benar. Dialah yang Maha Banyak Mencipta lagi Maha Mengetahui.'
+              },
+              {
+                id: 82,
+                arab: 'اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ketetapan-Nya, jika Dia menghendaki sesuatu, Dia hanya berkata kepadanya, “Jadilah!” Maka, jadilah (sesuatu) itu.'
+              },
+              {
+                id: 83,
+                arab: 'فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.'
+              },
+              {
+                id: 84,
                 arab: '',
-                indo: 'Doa surat yasin',
+                indo: 'Doa setelah baca surat yasin',
                 image: '',
                 latin: '',
                 arti: '',
               },
               {
-                id: 6,
-                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا ، اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ ، اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ، وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ. وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                id: 85,
+                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 86,
+                arab: 'اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Wahai Allah jadikanlah kami dan mereka itu dalam pemeliharaan, keamanan, dan perlindungan-Mu, dari segala setan yang durhaka dan penguasa yang lalim, dari para pembangkang, dan dari orang-orang yang dengki serta dari kejahatan orang-orang yang berbuat jahat, sesungguhnya Engkau Maha Kuasa atas segala sesuatu.',
+              },
+              {
+                id: 87,
+                arab: 'اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, perindahlah kami dengan keselamatan, kesejahteraan. Dan kokohkanlah kami dengan takwa dan istiqamah. Lindungilah kami dari segala sesuatu yang mengakibatkan penyesalan, sesungguhnya Engkau Maha Mendengar doa.',
+              },
+              {
+                id: 88,
+                arab: 'اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 89,
+                arab: 'وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Limpahkan shalawat dan salam ya Allah kepada hamba dan rasul-Mu, junjungan dan tuan kami Muhammad, juga keluarga dan para sahabatnya.',
+              },
+              {
+                id: 100,
+                arab: 'وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan berilah kami rezeki kesempurnaan dalam mengikuti beliau secara lahir dan batin, dalam keselamatan dan kesejahteraan dengan kasih sayang-Mu wahai yang Maha mengasihi di antara seluruh pengasih.',
               },
             ]
           },
@@ -2471,51 +5599,723 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'يٰسٓ ۝ وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝ اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝ عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝ تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝ لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝ لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝ وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝ وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝ اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝ وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝ اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝ قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝ قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝ وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝ قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝ قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝ وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                arab: 'يٰسٓ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Yā Sīn.'
               },
               {
                 id: 2,
-                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝ وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝ ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝ اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝ اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝ قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝ بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝ وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝ يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝ اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝ وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝ وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝ لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝ وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝ وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝ وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝ لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                arab: 'وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Demi Al-Qur’an yang penuh hikmah,'
               },
               {
                 id: 3,
-                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝ وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝ وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝ اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝ وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝ وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝ وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ  قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝ وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝ مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝ فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝ وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝ قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝ اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝ هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝ لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝ سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝ وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝ اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                arab: 'اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'sesungguhnya engkau (Nabi Muhammad) benar-benar salah seorang dari rasul-rasul'
               },
               {
                 id: 4,
-                arab: 'وَّاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝ وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝ هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝ اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝ اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝ وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝ وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝ وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝ وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝ لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝ اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝ وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝ وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝ لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝ فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝ اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝ وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝ قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝ اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝ اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝ اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝ فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                arab: 'عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: '(yang berada) di atas jalan yang lurus,'
               },
               {
                 id: 5,
-                arab: ' =======  دعاء سوراة يس =======',
+                arab: 'تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝',
                 indo: '',
+                image: '',
+                latin: '',
+                arti: '(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa lagi Maha Penyayang,'
+              },
+              {
+                id: 6,
+                arab: 'لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar engkau (Nabi Muhammad) memberi peringatan kepada suatu kaum yang nenek moyang mereka belum pernah diberi peringatan, sehingga mereka lalai.'
+              },
+              {
+                id: 7,
+                arab: 'لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, benar-benar berlaku perkataan (ketetapan takdir) terhadap kebanyakan mereka, maka mereka tidak akan beriman.'
+              },
+              {
+                id: 8,
+                arab: 'اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kami telah memasang belenggu di leher mereka, lalu (tangan mereka yang terbelenggu diangkat) ke dagu, karena itu mereka tertengadah.'
+              },
+              {
+                id: 9,
+                arab: 'وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami memasang penghalang di hadapan mereka dan di belakang mereka, sehingga Kami menutupi (pandangan) mereka. Mereka pun tidak dapat melihat.'
+              },
+              {
+                id: 10,
+                arab: 'وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sama saja bagi mereka, apakah engkau (Nabi Muhammad) memberi peringatan kepada mereka atau tidak. Mereka (tetap) tidak akan beriman.'
+              },
+              {
+                id: 11,
+                arab: 'اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya engkau (Nabi Muhammad) hanya (bisa) memberi peringatan kepada orang-orang yang mau mengikutinya dan yang takut kepada Tuhan Yang Maha Pengasih tanpa melihat-Nya. Berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.'
+              },
+              {
+                id: 12,
+                arab: 'اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kamilah yang menghidupkan orang-orang yang mati dan Kami (pulalah) yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Segala sesuatu Kami kumpulkan dalam kitab induk yang nyata (Lauh Mahfuz).'
+              },
+              {
+                id: 13,
+                arab: 'وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Buatlah suatu perumpamaan bagi mereka (kaum kafir Makkah), yaitu penduduk suatu negeri, ketika para utusan datang kepada mereka,'
+              },
+              {
+                id: 14,
+                arab: 'اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya. Kemudian Kami menguatkan dengan (utusan) yang ketiga. Maka, ketiga (utusan itu) berkata, “Sesungguhnya kami adalah orang-orang yang diutus kepadamu.”'
+              },
+              {
+                id: 15,
+                arab: 'قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Kamu tidak lain hanyalah manusia seperti kami. (Allah) Yang Maha Pengasih tidak (pernah) menurunkan sesuatu apa pun. Kamu hanyalah berdusta.”'
+              },
+              {
+                id: 16,
+                arab: 'قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Tuhan kami mengetahui bahwa sesungguhnya kami benar-benar para utusan(-Nya) kepadamu.'
+              },
+              {
+                id: 17,
+                arab: 'وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Adapun kewajiban kami hanyalah menyampaikan (perintah Allah) yang jelas.”'
+              },
+              {
+                id: 18,
+                arab: 'قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Sesungguhnya kami bernasib malang karenamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami merajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”'
+              },
+              {
+                id: 19,
+                arab: 'قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Kemalangan kamu itu (akibat perbuatan) kamu sendiri. Apakah karena kamu diberi peringatan, (lalu kamu menjadi malang)? Sebenarnya kamu adalah kaum yang melampaui batas.”'
+              },
+              {
+                id: 20,
+                arab: 'وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Datanglah dengan bergegas dari ujung kota, seorang laki-laki. Dia berkata, “Wahai kaumku, ikutilah para rasul itu!'
+              },
+              {
+                id: 21,
+                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ikutilah orang yang tidak meminta imbalan (dalam berdakwah) kepadamu. Mereka adalah orang-orang yang mendapat petunjuk.'
+              },
+              {
+                id: 22,
+                arab: 'وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apa (alasanku) untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan?'
+              },
+              {
+                id: 23,
+                arab: 'ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mengapa aku (harus) mengambil sembahan-sembahan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.'
+              },
+              {
+                id: 24,
+                arab: 'اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku (jika berbuat) begitu, pasti berada dalam kesesatan yang nyata.'
+              },
+              {
+                id: 25,
+                arab: 'اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku telah beriman kepada Tuhanmu. Maka, dengarkanlah (pengakuan)-ku.”'
+              },
+              {
+                id: 26,
+                arab: 'قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Aduhai, sekiranya kaumku mengetahui'
+              },
+              {
+                id: 27,
+                arab: 'بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(bagaimana) Tuhanku mengampuniku dan menjadikanku termasuk orang-orang yang dimuliakan.”'
+              },
+              {
+                id: 28,
+                arab: 'وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Setelah dia (dibunuh), Kami tidak menurunkan satu pasukan pun dari langit kepada kaumnya dan Kami tidak perlu menurunkannya.'
+              },
+              {
+                id: 29,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Azab mereka) itu cukup dengan satu teriakan saja. Maka, seketika itu mereka mati.'
+              },
+              {
+                id: 30,
+                arab: 'يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Alangkah besar penyesalan diri para hamba itu. Setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.'
+              },
+              {
+                id: 31,
+                arab: 'اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui berapa banyak umat sebelum mereka yang telah Kami binasakan? Mereka (setelah binasa) tidak ada yang kembali kepada mereka (di dunia).'
+              },
+              {
+                id: 32,
+                arab: 'وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak ada satu (umat) pun, kecuali semuanya akan dihadirkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 33,
+                arab: 'وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kekuasaan-Nya) bagi mereka adalah bumi yang mati (tandus lalu) Kami menghidupkannya dan mengeluarkan darinya biji-bijian kemudian dari (biji-bijian) itu mereka makan.'
+              },
+              {
+                id: 34,
+                arab: 'وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami (juga) menjadikan padanya (bumi) kebun-kebun kurma dan anggur serta Kami memancarkan padanya beberapa mata air'
+              },
+              {
+                id: 35,
+                arab: 'لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Mengapa mereka tidak bersyukur?'
+              },
+              {
+                id: 36,
+                arab: 'سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri maupun dari apa yang tidak mereka ketahui.'
+              },
+              {
+                id: 37,
+                arab: 'وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda juga (atas kekuasaan Allah) bagi mereka adalah malam. Kami pisahkan siang dari (malam) itu. Maka, seketika itu mereka (berada dalam) kegelapan.'
+              },
+              {
+                id: 38,
+                arab: 'وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Suatu tanda juga atas kekuasaan Allah bagi mereka adalah) matahari yang berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa lagi Maha Mengetahui.'
+              },
+              {
+                id: 39,
+                arab: 'وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) bulan, Kami tetapkan bagi(-nya) tempat-tempat peredaran sehingga (setelah ia sampai ke tempat peredaran yang terakhir,) kembalilah ia seperti bentuk tandan yang tua.'
+              },
+              {
+                id: 40,
+                arab: 'لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.'
+              },
+              {
+                id: 41,
+                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami mengangkut keturunan mereka dalam kapal yang penuh muatan.'
+              },
+              {
+                id: 42,
+                arab: 'وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) Kami menciptakan untuk mereka dari jenis itu angkutan (lain) yang mereka kendarai.'
+              },
+              {
+                id: 43,
+                arab: 'وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika Kami menghendaki, Kami akan menenggelamkan mereka. Kemudian, tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan.'
+              },
+              {
+                id: 44,
+                arab: 'اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Akan tetapi, (Kami menyelamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberi mereka kesenangan hidup sampai waktu tertentu.'
+              },
+              {
+                id: 45,
+                arab: 'وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ketika dikatakan kepada mereka, “Takutlah kamu akan (siksa) yang ada di hadapanmu (di dunia) dan azab yang ada di belakangmu (akhirat) agar kamu mendapat rahmat,” (maka mereka berpaling).'
+              },
+              {
+                id: 46,
+                arab: 'وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak satu pun dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, kecuali mereka berpaling darinya.'
+              },
+              {
+                id: 47,
+                arab: 'وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kufur itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki, Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”'
+              },
+              {
+                id: 48,
+                arab: 'وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Kapankah janji (hari Kebangkitan) ini (terjadi) jika kamu orang-orang benar?”'
+              },
+              {
+                id: 49,
+                arab: 'مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka hanya menunggu satu teriakan yang akan membinasakan mereka saat mereka (sibuk) bertengkar (tentang urusan dunia).'
+              },
+              {
+                id: 50,
+                arab: 'فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Oleh sebab itu, mereka tidak dapat berwasiat dan tidak dapat kembali kepada keluarganya.'
+              },
+              {
+                id: 51,
+                arab: 'وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sangkakala pun ditiup dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya.'
+              },
+              {
+                id: 52,
+                arab: 'قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” (Lalu, dikatakan kepada mereka,) “Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah para rasul(-Nya).”'
+              },
+              {
+                id: 53,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 54,
+                arab: 'فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari itu tidak ada sama sekali orang yang dirugikan sedikit pun. Kamu tidak akan diberi balasan, kecuali atas apa yang telah kamu kerjakan.'
+              },
+              {
+                id: 55,
+                arab: 'اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya penghuni surga pada hari itu berada dalam kesibukan (sehingga tidak sempat berpikir tentang penghuni neraka) lagi bersenang-senang.'
+              },
+              {
+                id: 56,
+                arab: 'هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka dan pasangan-pasangannya berada dalam tempat yang teduh sambil berbaring di atas ranjang berkelambu.'
+              },
+              {
+                id: 57,
+                arab: 'لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Di (surga) itu mereka memperoleh buah-buahan dan apa saja yang mereka inginkan.'
+              },
+              {
+                id: 58,
+                arab: 'سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Kepada mereka dikatakan,) “Salam sejahtera” sebagai ucapan dari Tuhan Yang Maha Penyayang.'
+              },
+              {
+                id: 59,
+                arab: 'وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dikatakan kepada orang-orang kafir,) “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai para pendurhaka!'
+              },
+              {
+                id: 60,
+                arab: 'اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Aku telah berpesan kepadamu dengan sungguh-sungguh, wahai anak cucu Adam, bahwa janganlah kamu menyembah setan? Sesungguhnya setan itu musuh yang nyata bagi kamu.'
+              },
+              {
+                id: 61,
+                arab: 'وَاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga bahwa) sembahlah Aku. Inilah jalan yang lurus.”'
+              },
+              {
+                id: 62,
+                arab: 'وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu. Maka, apakah kamu tidak mengerti?'
+              },
+              {
+                id: 63,
+                arab: 'هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu.'
+              },
+              {
+                id: 64,
+                arab: 'اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya.'
+              },
+              {
+                id: 65,
+                arab: 'اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari ini Kami membungkam mulut mereka. Tangan merekalah yang berkata kepada Kami dan kaki merekalah yang akan bersaksi terhadap apa yang dahulu mereka kerjakan.'
+              },
+              {
+                id: 66,
+                arab: 'وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan menghapus penglihatan (membutakan) mereka sehingga mereka berlomba-lomba (mencari) jalan (selamat). Maka, bagaimana mungkin mereka dapat melihat?'
+              },
+              {
+                id: 67,
+                arab: 'وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan mengubah bentuk mereka di tempat mereka berada, sehingga mereka tidak sanggup meneruskan perjalanan dan juga tidak sanggup pulang kembali.'
+              },
+              {
+                id: 68,
+                arab: 'وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Siapa yang Kami panjangkan umurnya niscaya Kami balik proses penciptaannya (dari kuat menuju lemah). Maka, apakah mereka tidak mengerti?'
+              },
+              {
+                id: 69,
+                arab: 'وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami tidak mengajarkan syair kepadanya (Nabi Muhammad) dan (bersyair) itu tidaklah pantas baginya. (Wahyu yang Kami turunkan kepadanya) itu tidak lain hanyalah pelajaran dan Al-Qur’an yang jelas'
+              },
+              {
+                id: 70,
+                arab: 'لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar dia (Nabi Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar ketetapan (azab) terhadap orang-orang kafir itu menjadi pasti.'
+              },
+              {
+                id: 71,
+                arab: 'اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui bahwa Kami telah menciptakan untuk mereka hewan-hewan ternak dari ciptaan tangan Kami (sendiri), lalu mereka menjadi pemiliknya?'
+              },
+              {
+                id: 72,
+                arab: 'وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami menjadikannya (hewan-hewan itu) tunduk kepada mereka. Sebagian di antaranya menjadi tunggangan mereka dan sebagian (lagi) mereka makan.'
+              },
+              {
+                id: 73,
+                arab: 'وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada dirinya (hewan-hewan ternak itu) terdapat berbagai manfaat dan minuman untuk mereka. Apakah mereka tidak bersyukur?'
+              },
+              {
+                id: 74,
+                arab: 'وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka menjadikan sesembahan selain Allah agar mereka mendapat pertolongan.'
+              },
+              {
+                id: 75,
+                arab: 'لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Sesembahan) itu tidak mampu menolong mereka, padahal (sesembahan) itu adalah tentara yang dihadirkan untuk menjaganya.'
+              },
+              {
+                id: 76,
+                arab: 'فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, jangan sampai ucapan mereka membuat engkau (Nabi Muhammad) bersedih hati. Sesungguhnya Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.'
+              },
+              {
+                id: 77,
+                arab: 'اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah manusia mengetahui bahwa Kami menciptakannya dari setetes mani? Kemudian tiba-tiba saja dia menjadi musuh yang nyata.'
+              },
+              {
+                id: 78,
+                arab: 'وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dia membuat perumpamaan bagi Kami dan melupakan asal penciptaannya. Dia berkata, “Siapakah yang bisa menghidupkan tulang-belulang yang telah hancur luluh?”'
+              },
+              {
+                id: 79,
+                arab: 'قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Katakanlah (Nabi Muhammad), “Yang akan menghidupkannya adalah Zat yang menciptakannya pertama kali. Dia Maha Mengetahui setiap makhluk.'
+              },
+              {
+                id: 80,
+                arab: 'اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dialah) yang menjadikan api untukmu dari kayu yang hijau. Kemudian, seketika itu kamu menyalakan (api) darinya.”'
+              },
+              {
+                id: 81,
+                arab: 'اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Zat yang menciptakan langit dan bumi mampu menciptakan manusia yang serupa mereka itu (di akhirat kelak)? Benar. Dialah yang Maha Banyak Mencipta lagi Maha Mengetahui.'
+              },
+              {
+                id: 82,
+                arab: 'اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ketetapan-Nya, jika Dia menghendaki sesuatu, Dia hanya berkata kepadanya, “Jadilah!” Maka, jadilah (sesuatu) itu.'
+              },
+              {
+                id: 83,
+                arab: 'فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.'
+              },
+              {
+                id: 84,
+                arab: '',
+                indo: 'Doa setelah baca surat yasin',
                 image: '',
                 latin: '',
                 arti: '',
               },
               {
-                id: 6,
-                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا ، اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ ، اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ، وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ. وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                id: 85,
+                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 86,
+                arab: 'اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Wahai Allah jadikanlah kami dan mereka itu dalam pemeliharaan, keamanan, dan perlindungan-Mu, dari segala setan yang durhaka dan penguasa yang lalim, dari para pembangkang, dan dari orang-orang yang dengki serta dari kejahatan orang-orang yang berbuat jahat, sesungguhnya Engkau Maha Kuasa atas segala sesuatu.',
+              },
+              {
+                id: 87,
+                arab: 'اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, perindahlah kami dengan keselamatan, kesejahteraan. Dan kokohkanlah kami dengan takwa dan istiqamah. Lindungilah kami dari segala sesuatu yang mengakibatkan penyesalan, sesungguhnya Engkau Maha Mendengar doa.',
+              },
+              {
+                id: 88,
+                arab: 'اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 89,
+                arab: 'وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Limpahkan shalawat dan salam ya Allah kepada hamba dan rasul-Mu, junjungan dan tuan kami Muhammad, juga keluarga dan para sahabatnya.',
+              },
+              {
+                id: 100,
+                arab: 'وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan berilah kami rezeki kesempurnaan dalam mengikuti beliau secara lahir dan batin, dalam keselamatan dan kesejahteraan dengan kasih sayang-Mu wahai yang Maha mengasihi di antara seluruh pengasih.',
               },
             ]
           },
@@ -2870,51 +6670,723 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'يٰسٓ ۝ وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝ اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝ عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝ تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝ لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝ لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝ وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝ وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝ اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝ اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝ وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝ اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝ قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝ قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝ وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝ قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝ قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝ وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                arab: 'يٰسٓ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Yā Sīn.'
               },
               {
                 id: 2,
-                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝ وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝ ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝ اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝ اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝ قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝ بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝ وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝ يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝ اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝ وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝ وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝ لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝ وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝ وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝ وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝ لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                arab: 'وَالۡقُرۡاٰنِ الۡحَكِيۡمِ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'Demi Al-Qur’an yang penuh hikmah,'
               },
               {
                 id: 3,
-                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝ وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝ وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝ اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝ وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝ وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝ وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ  قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝ وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝ مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝ فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝ وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝ قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝ اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝ فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝ اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝ هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝ لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝ سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝ وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝ اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                arab: 'اِنَّكَ لَمِنَ الۡمُرۡسَلِيۡنَ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: 'sesungguhnya engkau (Nabi Muhammad) benar-benar salah seorang dari rasul-rasul'
               },
               {
                 id: 4,
-                arab: 'وَّاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝ وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝ هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝ اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝ اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝ وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝ وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝ وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝ وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝ لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝ اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝ وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝ وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝ وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝ لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝ فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝ اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝ وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝ قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝ اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝ اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝ اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝ فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                arab: 'عَلٰى صِرَاطٍ مُّسۡتَقِيۡمٍ ۝',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: ''
+                arti: '(yang berada) di atas jalan yang lurus,'
               },
               {
                 id: 5,
-                arab: ' =======  دعاء سوراة يس =======',
+                arab: 'تَنۡزِيۡلَ الۡعَزِيۡزِ الرَّحِيۡمِ ۝',
                 indo: '',
+                image: '',
+                latin: '',
+                arti: '(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa lagi Maha Penyayang,'
+              },
+              {
+                id: 6,
+                arab: 'لِتُنۡذِرَ قَوۡمًا مَّاۤ اُنۡذِرَ اٰبَآؤُهُمۡ فَهُمۡ غٰفِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar engkau (Nabi Muhammad) memberi peringatan kepada suatu kaum yang nenek moyang mereka belum pernah diberi peringatan, sehingga mereka lalai.'
+              },
+              {
+                id: 7,
+                arab: 'لَقَدۡ حَقَّ الۡقَوۡلُ عَلٰٓى اَكۡثَرِهِمۡ فَهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, benar-benar berlaku perkataan (ketetapan takdir) terhadap kebanyakan mereka, maka mereka tidak akan beriman.'
+              },
+              {
+                id: 8,
+                arab: 'اِنَّا جَعَلۡنَا فِىۡۤ اَعۡنَاقِهِمۡ اَغۡلٰلًا فَهِىَ اِلَى الۡاَ ذۡقَانِ فَهُمۡ مُّقۡمَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kami telah memasang belenggu di leher mereka, lalu (tangan mereka yang terbelenggu diangkat) ke dagu, karena itu mereka tertengadah.'
+              },
+              {
+                id: 9,
+                arab: 'وَجَعَلۡنَا مِنۡۢ بَيۡنِ اَيۡدِيۡهِمۡ سَدًّا وَّمِنۡ خَلۡفِهِمۡ سَدًّا فَاَغۡشَيۡنٰهُمۡ فَهُمۡ لَا يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami memasang penghalang di hadapan mereka dan di belakang mereka, sehingga Kami menutupi (pandangan) mereka. Mereka pun tidak dapat melihat.'
+              },
+              {
+                id: 10,
+                arab: 'وَسَوَآءٌ عَلَيۡهِمۡ ءَاَنۡذَرۡتَهُمۡ اَمۡ لَمۡ تُنۡذِرۡهُمۡ لَا يُؤۡمِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sama saja bagi mereka, apakah engkau (Nabi Muhammad) memberi peringatan kepada mereka atau tidak. Mereka (tetap) tidak akan beriman.'
+              },
+              {
+                id: 11,
+                arab: 'اِنَّمَا تُنۡذِرُ مَنِ اتَّبَعَ الذِّكۡرَ وَخَشِىَ الرَّحۡمٰنَ بِالۡغَيۡبِۚ فَبَشِّرۡهُ بِمَغۡفِرَةٍ وَّاَجۡرٍ كَرِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya engkau (Nabi Muhammad) hanya (bisa) memberi peringatan kepada orang-orang yang mau mengikutinya dan yang takut kepada Tuhan Yang Maha Pengasih tanpa melihat-Nya. Berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.'
+              },
+              {
+                id: 12,
+                arab: 'اِنَّا نَحۡنُ نُحۡىِ الۡمَوۡتٰى وَنَكۡتُبُ مَا قَدَّمُوۡا وَاٰثَارَهُمۡ وَكُلَّ شَىۡءٍ اَحۡصَيۡنٰهُ فِىۡۤ اِمَامٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya Kamilah yang menghidupkan orang-orang yang mati dan Kami (pulalah) yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Segala sesuatu Kami kumpulkan dalam kitab induk yang nyata (Lauh Mahfuz).'
+              },
+              {
+                id: 13,
+                arab: 'وَاضۡرِبۡ لَهُمۡ مَّثَلًا اَصۡحٰبَ الۡقَرۡيَةِ ‌ۘ اِذۡ جَآءَهَا الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Buatlah suatu perumpamaan bagi mereka (kaum kafir Makkah), yaitu penduduk suatu negeri, ketika para utusan datang kepada mereka,'
+              },
+              {
+                id: 14,
+                arab: 'اِذۡ اَرۡسَلۡنَاۤ اِلَيۡهِمُ اثۡنَيۡنِ فَكَذَّبُوۡهُمَا فَعَزَّزۡنَا بِثَالِثٍ فَقَالُـوۡۤا اِنَّاۤ اِلَيۡكُمۡ مُّرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya. Kemudian Kami menguatkan dengan (utusan) yang ketiga. Maka, ketiga (utusan itu) berkata, “Sesungguhnya kami adalah orang-orang yang diutus kepadamu.”'
+              },
+              {
+                id: 15,
+                arab: 'قَالُوۡا مَاۤ اَنۡـتُمۡ اِلَّا بَشَرٌ مِّثۡلُـنَا ۙ وَمَاۤ اَنۡزَلَ الرَّحۡمٰنُ مِنۡ شَىۡءٍۙ اِنۡ اَنۡـتُمۡ اِلَّا تَكۡذِبُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Kamu tidak lain hanyalah manusia seperti kami. (Allah) Yang Maha Pengasih tidak (pernah) menurunkan sesuatu apa pun. Kamu hanyalah berdusta.”'
+              },
+              {
+                id: 16,
+                arab: 'قَالُوۡا رَبُّنَا يَعۡلَمُ اِنَّاۤ اِلَيۡكُمۡ لَمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Tuhan kami mengetahui bahwa sesungguhnya kami benar-benar para utusan(-Nya) kepadamu.'
+              },
+              {
+                id: 17,
+                arab: 'وَمَا عَلَيۡنَاۤ اِلَّا الۡبَلٰغُ الۡمُبِيۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Adapun kewajiban kami hanyalah menyampaikan (perintah Allah) yang jelas.”'
+              },
+              {
+                id: 18,
+                arab: 'قَالُـوۡۤا اِنَّا تَطَيَّرۡنَا بِكُمۡۚ لَٮِٕنۡ لَّمۡ تَنۡتَهُوۡا لَنَرۡجُمَنَّكُمۡ وَلَيَمَسَّنَّكُمۡ مِّنَّا عَذَابٌ اَلِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (penduduk negeri) menjawab, “Sesungguhnya kami bernasib malang karenamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami merajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”'
+              },
+              {
+                id: 19,
+                arab: 'قَالُوۡا طٰۤٮِٕـرُكُمۡ مَّعَكُمۡؕ اَٮِٕنۡ ذُكِّرۡتُمۡ ؕ بَلۡ اَنۡـتُمۡ قَوۡمٌ مُّسۡرِفُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka (para rasul) berkata, “Kemalangan kamu itu (akibat perbuatan) kamu sendiri. Apakah karena kamu diberi peringatan, (lalu kamu menjadi malang)? Sebenarnya kamu adalah kaum yang melampaui batas.”'
+              },
+              {
+                id: 20,
+                arab: 'وَجَآءَ مِنۡ اَقۡصَا الۡمَدِيۡنَةِ رَجُلٌ يَّسۡعٰى قَالَ يٰقَوۡمِ اتَّبِعُوا الۡمُرۡسَلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Datanglah dengan bergegas dari ujung kota, seorang laki-laki. Dia berkata, “Wahai kaumku, ikutilah para rasul itu!'
+              },
+              {
+                id: 21,
+                arab: 'اتَّبِعُوۡا مَنۡ لَّا يَسۡــٴَــلُكُمۡ اَجۡرًا وَّهُمۡ مُّهۡتَدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ikutilah orang yang tidak meminta imbalan (dalam berdakwah) kepadamu. Mereka adalah orang-orang yang mendapat petunjuk.'
+              },
+              {
+                id: 22,
+                arab: 'وَمَا لِىَ لَاۤ اَعۡبُدُ الَّذِىۡ فَطَرَنِىۡ وَاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apa (alasanku) untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan?'
+              },
+              {
+                id: 23,
+                arab: 'ءَاَ تَّخِذُ مِنۡ دُوۡنِهٖۤ اٰلِهَةً اِنۡ يُّرِدۡنِ الرَّحۡمٰنُ بِضُرٍّ لَّا تُغۡنِ عَنِّىۡ شَفَاعَتُهُمۡ شَيۡـــًٔا وَّلَا يُنۡقِذُوۡنِ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mengapa aku (harus) mengambil sembahan-sembahan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.'
+              },
+              {
+                id: 24,
+                arab: 'اِنِّىۡۤ اِذًا لَّفِىۡ ضَلٰلٍ مُّبِيۡنٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku (jika berbuat) begitu, pasti berada dalam kesesatan yang nyata.'
+              },
+              {
+                id: 25,
+                arab: 'اِنِّىۡۤ اٰمَنۡتُ بِرَبِّكُمۡ فَاسۡمَعُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya aku telah beriman kepada Tuhanmu. Maka, dengarkanlah (pengakuan)-ku.”'
+              },
+              {
+                id: 26,
+                arab: 'قِيۡلَ ادۡخُلِ الۡجَـنَّةَ ؕ قَالَ يٰلَيۡتَ قَوۡمِىۡ يَعۡلَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Aduhai, sekiranya kaumku mengetahui'
+              },
+              {
+                id: 27,
+                arab: 'بِمَا غَفَرَلِىۡ رَبِّىۡ وَجَعَلَنِىۡ مِنَ الۡمُكۡرَمِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(bagaimana) Tuhanku mengampuniku dan menjadikanku termasuk orang-orang yang dimuliakan.”'
+              },
+              {
+                id: 28,
+                arab: 'وَمَاۤ اَنۡزَلۡنَا عَلٰى قَوۡمِهٖ مِنۡۢ بَعۡدِهٖ مِنۡ جُنۡدٍ مِّنَ السَّمَآءِ وَمَا كُـنَّا مُنۡزِلِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Setelah dia (dibunuh), Kami tidak menurunkan satu pasukan pun dari langit kepada kaumnya dan Kami tidak perlu menurunkannya.'
+              },
+              {
+                id: 29,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ خٰمِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Azab mereka) itu cukup dengan satu teriakan saja. Maka, seketika itu mereka mati.'
+              },
+              {
+                id: 30,
+                arab: 'يٰحَسۡرَةً عَلَى الۡعِبَادِ ؔ‌ۚ مَا يَاۡتِيۡهِمۡ مِّنۡ رَّسُوۡلٍ اِلَّا كَانُوۡا بِهٖ يَسۡتَهۡزِءُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Alangkah besar penyesalan diri para hamba itu. Setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.'
+              },
+              {
+                id: 31,
+                arab: 'اَلَمۡ يَرَوۡا كَمۡ اَهۡلَـكۡنَا قَبۡلَهُمۡ مِّنَ الۡقُرُوۡنِ اَنَّهُمۡ اِلَيۡهِمۡ لَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui berapa banyak umat sebelum mereka yang telah Kami binasakan? Mereka (setelah binasa) tidak ada yang kembali kepada mereka (di dunia).'
+              },
+              {
+                id: 32,
+                arab: 'وَاِنۡ كُلٌّ لَّمَّا جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak ada satu (umat) pun, kecuali semuanya akan dihadirkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 33,
+                arab: 'وَاٰيَةٌ لَّهُمُ الۡاَرۡضُ الۡمَيۡتَةُ ۖ اَحۡيَيۡنٰهَا وَاَخۡرَجۡنَا مِنۡهَا حَبًّا فَمِنۡهُ يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kekuasaan-Nya) bagi mereka adalah bumi yang mati (tandus lalu) Kami menghidupkannya dan mengeluarkan darinya biji-bijian kemudian dari (biji-bijian) itu mereka makan.'
+              },
+              {
+                id: 34,
+                arab: 'وَجَعَلۡنَا فِيۡهَا جَنّٰتٍ مِّنۡ نَّخِيۡلٍ وَّاَعۡنَابٍ وَّفَجَّرۡنَا فِيۡهَا مِنَ الۡعُيُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami (juga) menjadikan padanya (bumi) kebun-kebun kurma dan anggur serta Kami memancarkan padanya beberapa mata air'
+              },
+              {
+                id: 35,
+                arab: 'لِيَاۡكُلُوۡا مِنۡ ثَمَرِهٖ ۙ وَمَا عَمِلَـتۡهُ اَيۡدِيۡهِمۡ‌ ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Mengapa mereka tidak bersyukur?'
+              },
+              {
+                id: 36,
+                arab: 'سُبۡحٰنَ الَّذِىۡ خَلَقَ الۡاَزۡوَاجَ كُلَّهَا مِمَّا تُنۡۢبِتُ الۡاَرۡضُ وَمِنۡ اَنۡفُسِهِمۡ وَمِمَّا لَا يَعۡلَمُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri maupun dari apa yang tidak mereka ketahui.'
+              },
+              {
+                id: 37,
+                arab: 'وَاٰيَةٌ لَّهُمُ الَّيۡلُ ۖ نَسۡلَخُ مِنۡهُ النَّهَارَ فَاِذَا هُمۡ مُّظۡلِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda juga (atas kekuasaan Allah) bagi mereka adalah malam. Kami pisahkan siang dari (malam) itu. Maka, seketika itu mereka (berada dalam) kegelapan.'
+              },
+              {
+                id: 38,
+                arab: 'وَالشَّمۡسُ تَجۡرِىۡ لِمُسۡتَقَرٍّ لَّهَا ‌ؕ ذٰلِكَ تَقۡدِيۡرُ الۡعَزِيۡزِ الۡعَلِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Suatu tanda juga atas kekuasaan Allah bagi mereka adalah) matahari yang berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa lagi Maha Mengetahui.'
+              },
+              {
+                id: 39,
+                arab: 'وَالۡقَمَرَ قَدَّرۡنٰهُ مَنَازِلَ حَتّٰى عَادَ كَالۡعُرۡجُوۡنِ الۡقَدِيۡمِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) bulan, Kami tetapkan bagi(-nya) tempat-tempat peredaran sehingga (setelah ia sampai ke tempat peredaran yang terakhir,) kembalilah ia seperti bentuk tandan yang tua.'
+              },
+              {
+                id: 40,
+                arab: 'لَا الشَّمۡسُ يَنۡۢبَغِىۡ لَهَاۤ اَنۡ تُدۡرِكَ الۡقَمَرَ وَلَا الَّيۡلُ سَابِقُ النَّهَارِ‌ؕ وَكُلٌّ فِىۡ فَلَكٍ يَّسۡبَحُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.'
+              },
+              {
+                id: 41,
+                arab: 'وَاٰيَةٌ لَّهُمۡ اَنَّا حَمَلۡنَا ذُرِّيَّتَهُمۡ فِى الۡفُلۡكِ الۡمَشۡحُوۡنِ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami mengangkut keturunan mereka dalam kapal yang penuh muatan.'
+              },
+              {
+                id: 42,
+                arab: 'وَخَلَقۡنَا لَهُمۡ مِّنۡ مِّثۡلِهٖ مَا يَرۡكَبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga) Kami menciptakan untuk mereka dari jenis itu angkutan (lain) yang mereka kendarai.'
+              },
+              {
+                id: 43,
+                arab: 'وَاِنۡ نَّشَاۡ نُغۡرِقۡهُمۡ فَلَا صَرِيۡخَ لَهُمۡ وَلَا هُمۡ يُنۡقَذُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Jika Kami menghendaki, Kami akan menenggelamkan mereka. Kemudian, tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan.'
+              },
+              {
+                id: 44,
+                arab: 'اِلَّا رَحۡمَةً مِّنَّا وَمَتَاعًا اِلٰى حِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Akan tetapi, (Kami menyelamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberi mereka kesenangan hidup sampai waktu tertentu.'
+              },
+              {
+                id: 45,
+                arab: 'وَاِذَا قِيۡلَ لَهُمُ اتَّقُوۡا مَا بَيۡنَ اَيۡدِيۡكُمۡ وَمَا خَلۡفَكُمۡ لَعَلَّكُمۡ تُرۡحَمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ketika dikatakan kepada mereka, “Takutlah kamu akan (siksa) yang ada di hadapanmu (di dunia) dan azab yang ada di belakangmu (akhirat) agar kamu mendapat rahmat,” (maka mereka berpaling).'
+              },
+              {
+                id: 46,
+                arab: 'وَمَا تَاۡتِيۡهِمۡ مِّنۡ اٰيَةٍ مِّنۡ اٰيٰتِ رَبِّهِمۡ اِلَّا كَانُوۡا عَنۡهَا مُعۡرِضِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidak satu pun dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, kecuali mereka berpaling darinya.'
+              },
+              {
+                id: 47,
+                arab: 'وَاِذَا قِيۡلَ لَهُمۡ اَنۡفِقُوۡا مِمَّا رَزَقَكُمُ اللّٰهُ قَالَ الَّذِيۡنَ كَفَرُوۡا لِلَّذِيۡنَ اٰمَنُوۡۤا اَنُطۡعِمُ مَنۡ لَّوۡ يَشَآءُ اللّٰهُ اَطۡعَمَهٗٓ ۖ اِنۡ اَنۡـتُمۡ اِلَّا فِىۡ ضَلٰلٍ مُّبِيۡنٍ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kufur itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki, Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”'
+              },
+              {
+                id: 48,
+                arab: 'وَيَقُوۡلُوۡنَ مَتٰى هٰذَا الۡوَعۡدُ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Kapankah janji (hari Kebangkitan) ini (terjadi) jika kamu orang-orang benar?”'
+              },
+              {
+                id: 49,
+                arab: 'مَا يَنۡظُرُوۡنَ اِلَّا صَيۡحَةً وَّاحِدَةً تَاۡخُذُهُمۡ وَهُمۡ يَخِصِّمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka hanya menunggu satu teriakan yang akan membinasakan mereka saat mereka (sibuk) bertengkar (tentang urusan dunia).'
+              },
+              {
+                id: 50,
+                arab: 'فَلَا يَسۡتَطِيۡعُوۡنَ تَوۡصِيَةً وَّلَاۤ اِلٰٓى اَهۡلِهِمۡ يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Oleh sebab itu, mereka tidak dapat berwasiat dan tidak dapat kembali kepada keluarganya.'
+              },
+              {
+                id: 51,
+                arab: 'وَنُفِخَ فِى الصُّوۡرِ فَاِذَا هُمۡ مِّنَ الۡاَجۡدَاثِ اِلٰى رَبِّهِمۡ يَنۡسِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sangkakala pun ditiup dan seketika itu mereka bergerak cepat dari kuburnya menuju kepada Tuhannya.'
+              },
+              {
+                id: 52,
+                arab: 'قَالُوۡا يٰوَيۡلَنَا مَنۡۢ بَعَثَنَا مِنۡ مَّرۡقَدِنَاۘ هٰذَا مَا وَعَدَ الرَّحۡمٰنُ وَصَدَقَ الۡمُرۡسَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” (Lalu, dikatakan kepada mereka,) “Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah para rasul(-Nya).”'
+              },
+              {
+                id: 53,
+                arab: 'اِنۡ كَانَتۡ اِلَّا صَيۡحَةً وَّاحِدَةً فَاِذَا هُمۡ جَمِيۡعٌ لَّدَيۡنَا مُحۡضَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).'
+              },
+              {
+                id: 54,
+                arab: 'فَالۡيَوۡمَ لَا تُظۡلَمُ نَفۡسٌ شَيۡـــًٔا وَّلَا تُجۡزَوۡنَ اِلَّا مَا كُنۡتُمۡ تَعۡمَلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari itu tidak ada sama sekali orang yang dirugikan sedikit pun. Kamu tidak akan diberi balasan, kecuali atas apa yang telah kamu kerjakan.'
+              },
+              {
+                id: 55,
+                arab: 'اِنَّ اَصۡحٰبَ الۡجَـنَّةِ الۡيَوۡمَ فِىۡ شُغُلٍ فٰكِهُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya penghuni surga pada hari itu berada dalam kesibukan (sehingga tidak sempat berpikir tentang penghuni neraka) lagi bersenang-senang.'
+              },
+              {
+                id: 56,
+                arab: 'هُمۡ وَاَزۡوَاجُهُمۡ فِىۡ ظِلٰلٍ عَلَى الۡاَرَآٮِٕكِ مُتَّكِـــُٔوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka dan pasangan-pasangannya berada dalam tempat yang teduh sambil berbaring di atas ranjang berkelambu.'
+              },
+              {
+                id: 57,
+                arab: 'لَهُمۡ فِيۡهَا فَاكِهَةٌ وَّلَهُمۡ مَّا يَدَّعُوۡنَ‌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Di (surga) itu mereka memperoleh buah-buahan dan apa saja yang mereka inginkan.'
+              },
+              {
+                id: 58,
+                arab: 'سَلٰمٌ قَوۡلًا مِّنۡ رَّبٍّ رَّحِيۡمٍ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Kepada mereka dikatakan,) “Salam sejahtera” sebagai ucapan dari Tuhan Yang Maha Penyayang.'
+              },
+              {
+                id: 59,
+                arab: 'وَامۡتَازُوا الۡيَوۡمَ اَيُّهَا الۡمُجۡرِمُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dikatakan kepada orang-orang kafir,) “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai para pendurhaka!'
+              },
+              {
+                id: 60,
+                arab: 'اَلَمۡ اَعۡهَدۡ اِلَيۡكُمۡ يٰبَنِىۡۤ اٰدَمَ اَنۡ لَّا تَعۡبُدُوا الشَّيۡطٰنَ‌‌ۚ اِنَّهٗ لَـكُمۡ عَدُوٌّ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Aku telah berpesan kepadamu dengan sungguh-sungguh, wahai anak cucu Adam, bahwa janganlah kamu menyembah setan? Sesungguhnya setan itu musuh yang nyata bagi kamu.'
+              },
+              {
+                id: 61,
+                arab: 'وَاَنِ اعۡبُدُوۡنِىۡ ؔ‌ؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Begitu juga bahwa) sembahlah Aku. Inilah jalan yang lurus.”'
+              },
+              {
+                id: 62,
+                arab: 'وَلَقَدۡ اَضَلَّ مِنۡكُمۡ جِبِلًّا كَثِيۡرًا‌ ؕ اَفَلَمۡ تَكُوۡنُوۡا تَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sungguh, ia (setan itu) benar-benar telah menyesatkan sangat banyak orang dari kamu. Maka, apakah kamu tidak mengerti?'
+              },
+              {
+                id: 63,
+                arab: 'هٰذِهٖ جَهَنَّمُ الَّتِىۡ كُنۡتُمۡ تُوۡعَدُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu.'
+              },
+              {
+                id: 64,
+                arab: 'اِصۡلَوۡهَا الۡيَوۡمَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya.'
+              },
+              {
+                id: 65,
+                arab: 'اَلۡيَوۡمَ نَخۡتِمُ عَلٰٓى اَفۡوَاهِهِمۡ وَتُكَلِّمُنَاۤ اَيۡدِيۡهِمۡ وَتَشۡهَدُ اَرۡجُلُهُمۡ بِمَا كَانُوۡا يَكۡسِبُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada hari ini Kami membungkam mulut mereka. Tangan merekalah yang berkata kepada Kami dan kaki merekalah yang akan bersaksi terhadap apa yang dahulu mereka kerjakan.'
+              },
+              {
+                id: 66,
+                arab: 'وَلَوۡ نَشَآءُ لَـطَمَسۡنَا عَلٰٓى اَعۡيُنِهِمۡ فَاسۡتَبَقُوا الصِّرَاطَ فَاَنّٰى يُبۡصِرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan menghapus penglihatan (membutakan) mereka sehingga mereka berlomba-lomba (mencari) jalan (selamat). Maka, bagaimana mungkin mereka dapat melihat?'
+              },
+              {
+                id: 67,
+                arab: 'وَلَوۡ نَشَآءُ لَمَسَخۡنٰهُمۡ عَلٰى مَكَانَتِهِمۡ فَمَا اسۡتَطَاعُوۡا مُضِيًّا وَّلَا يَرۡجِعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Seandainya Kami menghendaki, pastilah Kami akan mengubah bentuk mereka di tempat mereka berada, sehingga mereka tidak sanggup meneruskan perjalanan dan juga tidak sanggup pulang kembali.'
+              },
+              {
+                id: 68,
+                arab: 'وَمَنۡ نُّعَمِّرۡهُ نُـنَكِّسۡهُ فِى الۡخَـلۡقِ‌ؕ اَفَلَا يَعۡقِلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Siapa yang Kami panjangkan umurnya niscaya Kami balik proses penciptaannya (dari kuat menuju lemah). Maka, apakah mereka tidak mengerti?'
+              },
+              {
+                id: 69,
+                arab: 'وَمَا عَلَّمۡنٰهُ الشِّعۡرَ وَمَا يَنۡۢبَغِىۡ لَهٗؕ اِنۡ هُوَ اِلَّا ذِكۡرٌ وَّقُرۡاٰنٌ مُّبِيۡنٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami tidak mengajarkan syair kepadanya (Nabi Muhammad) dan (bersyair) itu tidaklah pantas baginya. (Wahyu yang Kami turunkan kepadanya) itu tidak lain hanyalah pelajaran dan Al-Qur’an yang jelas'
+              },
+              {
+                id: 70,
+                arab: 'لِّيُنۡذِرَ مَنۡ كَانَ حَيًّا وَّيَحِقَّ الۡقَوۡلُ عَلَى الۡكٰفِرِيۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'agar dia (Nabi Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar ketetapan (azab) terhadap orang-orang kafir itu menjadi pasti.'
+              },
+              {
+                id: 71,
+                arab: 'اَوَلَمۡ يَرَوۡا اَنَّا خَلَقۡنَا لَهُمۡ مِّمَّا عَمِلَتۡ اَيۡدِيۡنَاۤ اَنۡعَامًا فَهُمۡ لَهَا مٰلِكُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah mereka mengetahui bahwa Kami telah menciptakan untuk mereka hewan-hewan ternak dari ciptaan tangan Kami (sendiri), lalu mereka menjadi pemiliknya?'
+              },
+              {
+                id: 72,
+                arab: 'وَذَلَّـلۡنٰهَا لَهُمۡ فَمِنۡهَا رَكُوۡبُهُمۡ وَمِنۡهَا يَاۡكُلُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Kami menjadikannya (hewan-hewan itu) tunduk kepada mereka. Sebagian di antaranya menjadi tunggangan mereka dan sebagian (lagi) mereka makan.'
+              },
+              {
+                id: 73,
+                arab: 'وَلَهُمۡ فِيۡهَا مَنَافِعُ وَمَشَارِبُ‌ؕ اَفَلَا يَشۡكُرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Pada dirinya (hewan-hewan ternak itu) terdapat berbagai manfaat dan minuman untuk mereka. Apakah mereka tidak bersyukur?'
+              },
+              {
+                id: 74,
+                arab: 'وَاتَّخَذُوۡا مِنۡ دُوۡنِ اللّٰهِ اٰلِهَةً لَّعَلَّهُمۡ يُنۡصَرُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Mereka menjadikan sesembahan selain Allah agar mereka mendapat pertolongan.'
+              },
+              {
+                id: 75,
+                arab: 'لَا يَسۡتَطِيۡعُوۡنَ نَصۡرَهُمۡۙ وَهُمۡ لَهُمۡ جُنۡدٌ مُّحۡضَرُوۡنَ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Sesembahan) itu tidak mampu menolong mereka, padahal (sesembahan) itu adalah tentara yang dihadirkan untuk menjaganya.'
+              },
+              {
+                id: 76,
+                arab: 'فَلَا يَحۡزُنۡكَ قَوۡلُهُمۡ‌ۘ اِنَّا نَـعۡلَمُ مَا يُسِرُّوۡنَ وَمَا يُعۡلِنُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, jangan sampai ucapan mereka membuat engkau (Nabi Muhammad) bersedih hati. Sesungguhnya Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.'
+              },
+              {
+                id: 77,
+                arab: 'اَوَلَمۡ يَرَ الۡاِنۡسَانُ اَنَّا خَلَقۡنٰهُ مِنۡ نُّطۡفَةٍ فَاِذَا هُوَ خَصِيۡمٌ مُّبِيۡنٌ‏ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Tidakkah manusia mengetahui bahwa Kami menciptakannya dari setetes mani? Kemudian tiba-tiba saja dia menjadi musuh yang nyata.'
+              },
+              {
+                id: 78,
+                arab: 'وَضَرَبَ لَـنَا مَثَلًا وَّ نَسِىَ خَلۡقَهٗ‌ ؕ قَالَ مَنۡ يُّحۡىِ الۡعِظَامَ وَهِىَ رَمِيۡمٌ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dia membuat perumpamaan bagi Kami dan melupakan asal penciptaannya. Dia berkata, “Siapakah yang bisa menghidupkan tulang-belulang yang telah hancur luluh?”'
+              },
+              {
+                id: 79,
+                arab: 'قُلۡ يُحۡيِيۡهَا الَّذِىۡۤ اَنۡشَاَهَاۤ اَوَّلَ مَرَّةٍ‌ ؕ وَهُوَ بِكُلِّ خَلۡقٍ عَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Katakanlah (Nabi Muhammad), “Yang akan menghidupkannya adalah Zat yang menciptakannya pertama kali. Dia Maha Mengetahui setiap makhluk.'
+              },
+              {
+                id: 80,
+                arab: 'اۨلَّذِىۡ جَعَلَ لَـكُمۡ مِّنَ الشَّجَرِ الۡاَخۡضَرِ نَارًا فَاِذَاۤ اَنۡـتُمۡ مِّنۡهُ تُوۡقِدُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: '(Dialah) yang menjadikan api untukmu dari kayu yang hijau. Kemudian, seketika itu kamu menyalakan (api) darinya.”'
+              },
+              {
+                id: 81,
+                arab: 'اَوَلَيۡسَ الَّذِىۡ خَلَقَ السَّمٰوٰتِ وَالۡاَرۡضَ بِقٰدِرٍ عَلٰٓى اَنۡ يَّخۡلُقَ مِثۡلَهُمۡؔ بَلٰی وَهُوَ الۡخَـلّٰقُ الۡعَلِيۡمُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Bukankah Zat yang menciptakan langit dan bumi mampu menciptakan manusia yang serupa mereka itu (di akhirat kelak)? Benar. Dialah yang Maha Banyak Mencipta lagi Maha Mengetahui.'
+              },
+              {
+                id: 82,
+                arab: 'اِنَّمَاۤ اَمۡرُهٗۤ اِذَاۤ اَرَادَ شَیْــٴً۬ــا اَنۡ يَّقُوۡلَ لَهٗ كُنۡ فَيَكُوۡنُ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Sesungguhnya ketetapan-Nya, jika Dia menghendaki sesuatu, Dia hanya berkata kepadanya, “Jadilah!” Maka, jadilah (sesuatu) itu.'
+              },
+              {
+                id: 83,
+                arab: 'فَسُبۡحٰنَ الَّذِىۡ بِيَدِهٖ مَلَـكُوۡتُ كُلِّ شَىۡءٍ وَّاِلَيۡهِ تُرۡجَعُوۡنَ ۝',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Maka, Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.'
+              },
+              {
+                id: 84,
+                arab: '',
+                indo: 'Doa setelah baca surat yasin',
                 image: '',
                 latin: '',
                 arti: '',
               },
               {
-                id: 6,
-                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا ، اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ ، اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ، وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ. وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                id: 85,
+                arab: 'اللّٰهُمَّ اِنّٓا نَسْتَحْفِظُكَ وَ نَسْتَوْدِعُكَ اَدْيَانَنَا وَاَبْدَانَنَا وَاَنْفُسَنَا وَاَهْلَنَا وَاَوْلَادَنَا وَاَمْوَالَنَا وَكُلَّ شَيْءٍ اَعْطَيْتَنَا',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 86,
+                arab: 'اَللّٰهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِى كَنَفِكَ وَاَمَانِكَ وَعِيَاذِكَ مِن كُلِّ شَيْطَانٍ مَرِيدٍ وَجَبَّارٍ عَنِيدٍ وَذِى بَغْيٍ وَذِى حَسَدٍ وَمِنْ شَرِّ كُلِّ ذِى شَرٍّ اِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Wahai Allah jadikanlah kami dan mereka itu dalam pemeliharaan, keamanan, dan perlindungan-Mu, dari segala setan yang durhaka dan penguasa yang lalim, dari para pembangkang, dan dari orang-orang yang dengki serta dari kejahatan orang-orang yang berbuat jahat, sesungguhnya Engkau Maha Kuasa atas segala sesuatu.',
+              },
+              {
+                id: 87,
+                arab: 'اَللّٰهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلَامَةِ وَحَقِّقْنَا بِالتَّقْوٰى وَالْاِسْتِقَامَةِ وَاَعِذْناَ مِنْ مُوجِبَاتِ النَّدَامَةِ اِنَّكَ سَمِيْعُ الدُّعَاءِ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah, perindahlah kami dengan keselamatan, kesejahteraan. Dan kokohkanlah kami dengan takwa dan istiqamah. Lindungilah kami dari segala sesuatu yang mengakibatkan penyesalan, sesungguhnya Engkau Maha Mendengar doa.',
+              },
+              {
+                id: 88,
+                arab: 'اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ يَارَبَّ العَالَمِيْنَ ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Ya Allah ampunilah kami, kedua orang tua, anak-anak, dan para guru kami, serta saudara kami seagama, juga para sahabat dan orang-orang yang kami cintai di jalan-Mu serta mereka yang berbuat baik kepada kami. Begitu juga orang mukmin dan muslim laki-laki dan wanita, ya Tuhan alam semesta.',
+              },
+              {
+                id: 89,
+                arab: 'وَصَلِّ اللّٰهُمَّ عَلَى عَبْدِكَ وَرَسُولِكَ سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى اٰلِهِ وَصَحْبِهِ وَسَلِّمْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Limpahkan shalawat dan salam ya Allah kepada hamba dan rasul-Mu, junjungan dan tuan kami Muhammad, juga keluarga dan para sahabatnya.',
+              },
+              {
+                id: 100,
+                arab: 'وَارْزُقْنَا كَمَالَ الْمُتَابَعَةِ لَهُ وَظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلَامَةٍ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: 'Dan berilah kami rezeki kesempurnaan dalam mengikuti beliau secara lahir dan batin, dalam keselamatan dan kesejahteraan dengan kasih sayang-Mu wahai yang Maha mengasihi di antara seluruh pengasih.',
               },
             ]
           },
