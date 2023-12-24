@@ -14,113 +14,139 @@ export const data = [
         arab: 'جُصُوْص',
         latin: 'Dzikir ba’da shalāti al-farīdāti',
         dzikri: [
-          {
-            id: 1,
-            title: 'Dzikir',
-            name: '',
-            subName: 'Dzikir Setelah Sholat Wajib',
-            arab: 'ذِكْرَ',
-            latin: 'Dzikra',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'أَسْتَغْفِرُ اللّٰهَ الْعَظِيْمِ (٣)',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 2,
-                arab: 'اَللّٰهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ وَاِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا دَارَكَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ . اَللّٰهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ وَلَا مُعْطِيَ لِمَا مَنَعْتَ وَلاَرَادَّ لِمَا قَضَيْتَ وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ . اَللّٰهُمَّ اَعِنِّيْ عَلَي ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَاذَتِكَ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 3,
-                arab: 'رَبَّنَا تَقَبَّلْ مِنَّا اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْمُ . وَتُبْ عَلَيْنَا اِنَّكَ اَنْتَ التَّوَّابُ الرَّحِيْمُ (٣)',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 4,
-                arab: 'وَصَلَّى اللّٰهُ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَي آلِهِ وَصَحْبِهِ وَسَلَّمْ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 5,
-                arab: 'اَعُوْذُبِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ ۝ بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ ۝ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌ ۝ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِ ۝ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖ ۝ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَ ۝ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيْمُ ۝',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 6,
-                arab: 'سُبْنَكَ يَاعَلِيُّ يَاعَظِيْمُ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 7,
-                arab: 'سُبْحَانَاللّٰهِ (٣٣) الْحَمْدُلِلّٰهِ (٣٣) اَللّٰهُ اَكْبَرُ (٣٣)',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 8,
-                arab: 'لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهٗ لَا شَرِيكَ لَهُ . لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 9,
-                arab: '',
-                indo: 'Lalu mengangkat kedua tangannya :',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 10,
-                arab: 'الْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ . اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 11,
-                arab: '',
-                indo: 'Lalu berdoa sesuai hajatnya dan mengakhiri dengan doa habib abdullah al-haddad',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-              {
-                id: 12,
-                arab: 'اَللّٰهُمَّ اَخْرِجْ مِنْ قَلْبِيْ كُلَّ قَدْرٍ لِلدُّنْيَا وَكُلَّ مَحَلٍّ لِلْخَلْقِ يَمِيْلُ بِى اِلَى مَعْصِيَتِكَ اَوْ يُشْغِلُنِى عَنْ طَاعَتِكَ اَوْ يَحُوْلُ بَنِي وَبَيْنَ التَّحَقُّقِ بِمَعْرِفَتِكَ الْخَاصَّةِ وَمَحَبَّتِكَ الْخَالِصَةِ . وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ وَالْحَمْدُلِلّٰهِ رَبِّ الْعَالَمِيْنَ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: ''
-              },
-            ]
-          }
-        ]
+            {
+              id: 1,
+              title: 'Dzikir',
+              name: '',
+              subName: 'Dzikir Setelah Sholat Wajib',
+              arab: 'ذِكْرَ',
+              latin: 'Dzikra',
+              bait_bait: [
+                {
+                  id: 1,
+                  arab: 'أَسْتَغْفِرُ اللهَ (٣)',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Aku memohon ampun kepada Allah. (3x)'
+                },
+                {
+                  id: 2,
+                  arab: 'أَللَّهُمَّ أَنْتَ السَّلَامُ، وَمِنْكَ السَّلَامُ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَارَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا دَاركَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَاالْـجَلَالِ وَاْلإِكْرَامِ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Ya Allah, Engkau Maha Sejahtera, dari-Mu kesejahteraan, dan kepada-Mu kembali kesejahteraan, maka hiduplah kami wahai Tuhanku dalam kesejahteraan, masukkanlah kami ke negeri-Mu (surga) yang sejahtera, Maha Suci Engkau Tuhan Kami, Maha Tinggi Engkau, wahai Pemilik Kebesaran dan Kemuliaan.'
+                },
+                {
+                  id: 3,
+                  arab: 'اَللّٰهُمَّ لَا مَانِعَ لِمَا أَعْطَيْتَ وَلَا مُعْطِيَ لِمَا مَنَعْتَ وَلاَرَادَّ لِمَا قَضَيْتَ وَلَا يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ . اَللّٰهُمَّ اَعِنِّيْ عَلَي ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَاذَتِكَ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Ya Allah, tak ada yang dapat mencegah segala yang Kau beri, dan tak ada yang dapat memberi segala yang engkau cegah. tak ada yang dapat menolak segala ang Kau tetapkan dan tak bermanfaat mereka yang memiliki kekayaan, karena kekayaan berasal dari-Mu. Ya Allah, tolonglah aku dalam menyebut, mensyukuri dan beribadah kepada-Mu dengan baik.'
+                },
+                {
+                  id: 4,
+                  arab: 'رَبَّنَا تَقَبَّلْ مِنَّا اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْمُ . وَتُبْ عَلَيْنَا اِنَّكَ اَنْتَ التَّوَّابُ الرَّحِيْمُ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Tuhan kami, terimalah dari kami (doa), sesungguhnya Engkau Maha Mendangar lagi Maha Mengetahui. Terimalah taubat kami, sesungguhnya Engkau Maha penerima Taubat lagi Maha Penyayang.'
+                },
+                {
+                  id: 5,
+                  arab: 'وَصَلَّى اللّٰهُ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَي آلِهِ وَصَحْبِهِ وَسَلَّمْ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Sholawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya.'
+                },
+                {
+                  id: 6,
+                  arab: 'اَعُوْذُبِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ ، بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Aku berlindung kepada Allah dari setan yang terkutuk. Dengan Nama Allah yang Maha Pengasih lagi Maha Penyayang.'
+                },
+                {
+                  id: 7,
+                  arab: 'اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ الْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Allah, tidak ada tuhan selain Dia, Yang Maha Hidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Maha Tinggi lagi Maha Agung.'
+                },
+                {
+                  id: 8,
+                  arab: 'سُبْنَكَ يَاعَلِيُّ يَاعَظِيْمُ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Maha Suci Engkau yang Maha Tinggi, Maha Agung.'
+                },
+                {
+                  id: 9,
+                  arab: 'سُبْحَانَاللّٰهِ (٣٣) الْحَمْدُلِلّٰهِ (٣٣) اَللّٰهُ اَكْبَرُ (٣٣)',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Maha Suci Allah (33x); Segala Puji bagi Allah Tuhann semesta alam (33x); Allah Maha Besar (33x)'
+                },
+                {
+                  id: 10,
+                  arab: 'لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهٗ لَا شَرِيكَ لَهُ . لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Tiada Tuhan selain Allah yang Maha Esa tiasa sekutu bagi-Nya. Milik-Nya kerajaan, Milik-Nya segala Pujian. Dia menghidupkan dan mematikan, dan Dia Maha Kuasa atas segala sesuatu.'
+                },
+              ]
+            },
+            {
+              id: 1,
+              title: 'Dzikir-doa',
+              name: '',
+              subName: 'Doa Setelah Sholat Wajib',
+              arab: 'ذِكْرَ',
+              latin: 'Dzikra',
+              bait_bait: [
+                {
+                  id: 1,
+                  arab: 'الْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ . اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Segala puji bagi Allah Tuhan semesta alam. Ya Allah, limpahkanlah sholawat dan salam atas junjungan kami Muhammad dan keluarga junjungan kamu Muhammad.'
+                },
+                {
+                  id: 2,
+                  arab: '',
+                  indo: 'Lalu mengangkat kedua tangan dan berdoa sesuai dangan hajatnya dan mengakhiri dengan doa Habib Abdullah AlHaddad',
+                  image: '',
+                  latin: '',
+                  arti: ''
+                },
+                {
+                  id: 3,
+                  arab: 'اَللّٰهُمَّ اَخْرِجْ مِنْ قَلْبِيْ كُلَّ قَدْرٍ لِلدُّنْيَا وَكُلَّ مَحَلٍّ لِلْخَلْقِ يَمِيْلُ بِى اِلَى مَعْصِيَتِكَ اَوْ يُشْغِلُنِى عَنْ طَاعَتِكَ اَوْ يَحُوْلُ بَنِي وَبَيْنَ التَّحَقُّقِ بِمَعْرِفَتِكَ الْخَاصَّةِ وَمَحَبَّتِكَ الْخَالِصَةِ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Ya Allah, keluarkanlah dari hatiku segala pengagungan terhadap dunia, segala kedudukan terhadap makhluk, yang dapat menjerumuskanku ke dalam perbuatan maksiat terhadap-Mu, atau menyibukkanku dari perbuatan taat kepada-Mu, atau menghalangiku dari mendalami pengetahuan secara khusus tentang-Mu, dan cinta yang murni kepada-Mu.'
+                },
+                {
+                  id: 4,
+                  arab: 'وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ وَالْحَمْدُلِلّٰهِ رَبِّ الْعَالَمِيْنَ',
+                  indo: '',
+                  image: '',
+                  latin: '',
+                  arti: 'Sholawat dan salam Allah atas junjungan kami Muhammad, keluarga, serta para sahabatnya. Segala puji bagi Allah Tuhan semesta alam.'
+                },
+              ]
+            }
+          ]
       },
       {
         id: 2,
