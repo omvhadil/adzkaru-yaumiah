@@ -3,7 +3,8 @@
 import { data } from '../constans/index.js'
 import { useRoute } from 'vue-router'
 import Header from '../components/Header.vue'
-import { ref, computed } from 'vue'
+import { terjemahan } from '../constans/LocalStorage.js'
+import { ref, computed, watchEffect } from 'vue'
 
 const categoryNumber = ref(0)
 const kitabId = useRoute().params.kitab
@@ -17,6 +18,8 @@ const jmlcategorydzikir = dzikri.length
 
 const jmlname = dzikri[categoryNumber.value].name.length
 const jmlSubname = dzikri[categoryNumber.value].subName.length
+
+watchEffect(() => {})
 </script>
 <template>
   <Header :title="kitab.arab">
@@ -64,7 +67,7 @@ const jmlSubname = dzikri[categoryNumber.value].subName.length
               >
                 {{ item.arab }}
               </h2>
-              <h4 class="m-0 py-1 font-scheherazade text-[1rem]" align="left">
+              <h4 v-if="terjemahan" class="m-0 py-1 font-scheherazade text-[1rem]" align="left">
                 {{ item.arti }}
               </h4>
               <h2 class="m-0 py-1 font-scheherazade text-[1.3rem]" align="justify">
