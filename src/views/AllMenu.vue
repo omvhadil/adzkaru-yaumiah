@@ -57,7 +57,7 @@ const router = useRouter()
       </div>
       <!-- tahlil pendek -->
       <div
-        @click="router.push('/majmu/tahlil-kubur')"
+        @click="router.push('/tahlil-pendek/tahlil-kubur')"
         class="flex flex-col justify-center items-center text-center"
       >
         <div

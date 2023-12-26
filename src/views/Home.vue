@@ -32,11 +32,11 @@ const router = useRouter()
         <div class="w-[80%] p-0">
           <div class="text-center mt-4">
             <h1 class="font-aref text-yellow-300 text-[3.5rem]">الْخُلاَصَةُ</h1>
-            <p class="font-aref text-[1.7rem] text-white m-0">في الأوراداليوميةوالأدعية</p>
-            <span class="text-white font-aref text-[1.5rem]">
+            <p class="font-scheherazade text-[1.7rem] text-white m-0">في الأوراداليوميةوالأدعية</p>
+            <span class="text-white font-scheherazade text-[1.2rem]">
               جمع و ترتيب <br />
               الدّاعى الى اللّه الفقير <br /><span class="text-white font-semibold text-[1.5rem]">
-                فضيلة الرّحمن بن شمسل </span
+                فضيلة الرّحمن </span
               ><br />
               نفعنااللّه به بعلومه فى الدّارين آمين <br /><span class="text-[.9rem]"
                 >Copyright &copy; 2023</span
@@ -85,7 +85,7 @@ const router = useRouter()
               <span class="text-green-600 text-[.8rem]">Majmu'</span>
             </div>
             <!-- Tahlil -->
-            <div @click="router.push('/majmu/tahlil-kubur')" class="menu-item text-center">
+            <div @click="router.push('/tahlil-pendek/tahlil-kubur')" class="menu-item text-center">
               <div>
                 <div
                   class="cursor-pointer bg-gradient-to-b from-green-600 to-green-400 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
