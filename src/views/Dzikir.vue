@@ -41,13 +41,18 @@ watchEffect(() => {})
     </template>
   </Header>
 
-  <div class="container transition mt-10 px-0" :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'">
+  <div
+    class="container dark:bg-slate-900 transition mt-10 px-0"
+    :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'"
+  >
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
           <h2 class="m-0 font-aref mb-3 text-[3rem] text-green-600">﴾ {{ category.arab }} ﴿</h2>
-          <h4 v-if="jmlname" class="m-0 font-scheherazade">﴾ {{ tampilCategory?.name }} ﴿</h4>
-          <span v-if="jmlSubname" class="m-0 font-scheherazade text-lg">{{
+          <h4 v-if="jmlname" class="m-0 font-scheherazade dark:text-slate-50">
+            ﴾ {{ tampilCategory?.name }} ﴿
+          </h4>
+          <span v-if="jmlSubname" class="m-0 font-scheherazade text-lg dark:text-slate-50">{{
             tampilCategory?.subName
           }}</span>
         </div>
@@ -57,20 +62,24 @@ watchEffect(() => {})
           <tr
             v-for="item in tampilCategory?.bait_bait"
             :key="item.id"
-            class="even:bg-white odd:bg-green-50"
+            class="even:bg-white odd:bg-green-50 dark:even:bg-slate-700 dark:odd:bg-slate-900"
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-bottom' : ''">
               <h2
-                class="m-0 py-1 font-scheherazade text-[1.6rem]"
+                class="m-0 py-1 font-scheherazade text-[1.6rem] dark:text-white"
                 align="right"
                 style="line-height: 2 !important"
               >
                 {{ item.arab }}
               </h2>
-              <h4 v-if="terjemahan" class="m-0 py-1 font-scheherazade text-[1rem]" align="left">
+              <h4
+                v-if="terjemahan"
+                class="m-0 py-1 font-scheherazade text-[1rem] dark:text-white"
+                align="left"
+              >
                 {{ item.arti }}
               </h4>
-              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem]" align="justify">
+              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem] dark:text-white" align="justify">
                 {{ item.indo }}
               </h2>
               <div v-if="item.image.length">
