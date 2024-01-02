@@ -5,17 +5,9 @@ const router = useRouter()
 </script>
 <template>
   <!-- Header -->
-  <header class="container h-[3.5rem] flex items-center justify-between gap-3 dark:bg-slate-700">
+  <header class="container h-[3.5rem] flex items-center justify-between gap-3 bg-slate-700">
     <div @click="router.back()">
-      <div class="dark:hidden block">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
-          <path fill="none" d="M0 0h24v24H0z"></path>
-          <path
-            d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
-          ></path>
-        </svg>
-      </div>
-      <div class="dark:block hidden">
+      <div>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
@@ -25,10 +17,10 @@ const router = useRouter()
         </svg>
       </div>
     </div>
-    <h4 class="font-semibold text-lg text-green-500 dark:text-white">Semua Menu</h4>
+    <h4 class="font-semibold text-lg text-white">Semua Menu</h4>
   </header>
   <!-- Main -->
-  <main class="container pt-4 dark:bg-slate-700 bg-slate-50 min-h-[100vh]">
+  <main class="container pt-4 bg-slate-700 min-h-[100vh]">
     <section class="grid grid-cols-4 gap-3 mb-3">
       <!-- madad  -->
       <div
@@ -36,7 +28,7 @@ const router = useRouter()
         class="flex flex-col justify-center items-center text-center"
       >
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -46,7 +38,7 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-green-600 dark:text-white">Madad</p>
+        <p class="text-white">Madad</p>
       </div>
       <!-- majmu -->
       <div
@@ -54,7 +46,7 @@ const router = useRouter()
         class="flex flex-col justify-center items-center text-center"
       >
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -64,7 +56,7 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-green-600 dark:text-white">Majmu'</p>
+        <p class="text-white">Majmu'</p>
       </div>
       <!-- tahlil pendek -->
       <div
@@ -72,7 +64,7 @@ const router = useRouter()
         class="flex flex-col justify-center items-center text-center"
       >
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -82,7 +74,7 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-green-600 dark:text-white">Tahlil</p>
+        <p class="text-white">Tahlil</p>
       </div>
     </section>
     <hr />
@@ -93,7 +85,7 @@ const router = useRouter()
         class="flex flex-col justify-center items-center text-center"
       >
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -103,7 +95,7 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-green-600 dark:text-white">Simtud</p>
+        <p class="text-white">Simtud</p>
       </div>
       <!-- diba' -->
       <div
@@ -111,7 +103,7 @@ const router = useRouter()
         class="flex flex-col justify-center items-center text-center"
       >
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -121,7 +113,7 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-green-600 dark:text-white">Diba'</p>
+        <p class="text-white">Diba'</p>
       </div>
       <!-- kejawean -->
       <div
@@ -129,7 +121,7 @@ const router = useRouter()
         class="flex flex-col justify-center items-center text-center"
       >
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2 relative"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2 relative"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -139,12 +131,12 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-green-600 dark:text-white">Kejawen</p>
+        <p class="text-white">Kejawen</p>
       </div>
       <!-- basaudan -->
       <div class="flex flex-col justify-center items-center text-center">
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2 relative"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2 relative"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -163,12 +155,12 @@ const router = useRouter()
             </svg>
           </div>
         </div>
-        <p class="text-green-600 dark:text-white">Basaudan</p>
+        <p class="text-white">Basaudan</p>
       </div>
       <!-- ramadhan -->
       <div class="flex flex-col justify-center items-center text-center">
         <div
-          class="bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 rounded-full h-[50px] w-[50px] p-2 relative"
+          class="bg-gradient-to-b from-slate-900 to-slate-700 rounded-full h-[50px] w-[50px] p-2 relative"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
@@ -187,7 +179,7 @@ const router = useRouter()
             </svg>
           </div>
         </div>
-        <p class="text-green-600 dark:text-white">Ramadhan</p>
+        <p class="text-white">Ramadhan</p>
       </div>
     </section>
   </main>

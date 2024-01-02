@@ -3,7 +3,6 @@
 import { data } from '../constans/index.js'
 import { useRoute } from 'vue-router'
 import Header from '../components/Header.vue'
-import { terjemahan } from '../constans/LocalStorage.js'
 import { ref, computed, watchEffect } from 'vue'
 
 const categoryNumber = ref(0)
@@ -24,10 +23,7 @@ watchEffect(() => {})
 <template>
   <Header :title="kitab.arab">
     <template #menu>
-      <div
-        v-if="jmlcategorydzikir > 1"
-        class="flex bg-gradient-to-rt from-green-600 to-green-400 p-2 px-3 gap-2 w-full"
-      >
+      <div v-if="jmlcategorydzikir > 1" class="flex p-2 px-3 gap-2 w-full">
         <button
           v-for="item in category?.dzikri"
           :key="item.id"
@@ -42,17 +38,17 @@ watchEffect(() => {})
   </Header>
 
   <div
-    class="container dark:bg-slate-900 transition mt-10 px-0"
+    class="container bg-slate-900 transition mt-10 px-0"
     :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'"
   >
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
-          <h2 class="m-0 font-aref mb-3 text-[3rem] text-green-600">﴾ {{ category.arab }} ﴿</h2>
-          <h4 v-if="jmlname" class="m-0 font-scheherazade dark:text-slate-50">
+          <h2 class="m-0 font-aref mb-3 text-[3rem] text-yellow-300">﴾ {{ category.arab }} ﴿</h2>
+          <h4 v-if="jmlname" class="m-0 font-scheherazade text-slate-50">
             ﴾ {{ tampilCategory?.name }} ﴿
           </h4>
-          <span v-if="jmlSubname" class="m-0 font-scheherazade text-lg dark:text-slate-50">{{
+          <span v-if="jmlSubname" class="m-0 font-scheherazade text-lg text-slate-50">{{
             tampilCategory?.subName
           }}</span>
         </div>
@@ -62,24 +58,24 @@ watchEffect(() => {})
           <tr
             v-for="item in tampilCategory?.bait_bait"
             :key="item.id"
-            class="even:bg-white odd:bg-green-50 dark:even:bg-slate-700 dark:odd:bg-slate-900"
+            class="even:bg-slate-700 odd:bg-slate-900"
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-bottom' : ''">
               <h2
-                class="m-0 py-1 font-scheherazade text-[1.6rem] dark:text-white"
+                class="m-0 py-1 font-scheherazade text-[1.6rem] text-white"
                 align="right"
                 style="line-height: 2 !important"
               >
                 {{ item.arab }}
               </h2>
-              <h4
+              <!-- <h4
                 v-if="terjemahan"
-                class="m-0 py-1 font-scheherazade text-[1rem] dark:text-white"
+                class="m-0 py-1 font-scheherazade text-[1rem] text-white"
                 align="left"
               >
                 {{ item.arti }}
-              </h4>
-              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem] dark:text-white" align="justify">
+              </h4> -->
+              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem] text-yellow-300" align="center">
                 {{ item.indo }}
               </h2>
               <div v-if="item.image.length">

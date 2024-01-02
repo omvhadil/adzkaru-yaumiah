@@ -3,21 +3,21 @@
 import { useRouter } from 'vue-router'
 import MenuToggle from '../components/MenuToggle.vue'
 import { pesan } from '@/constans/index.js'
-import { useDark, useToggle } from '@vueuse/core'
+// darkmode
+// import { useDark, useToggle } from '@vueuse/core'
 
-const isDark = useDark()
-const toggleDark = useToggle(isDark)
+// const isDark = useDark()
+// const toggleDark = useToggle(isDark)
 
 const router = useRouter()
 </script>
 <template>
-  <main
-    class="main w-full h-[100vh] bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700"
-  >
+  <main class="main w-full h-[100vh] bg-gradient-to-b from-slate-900 to-slate-700">
     <!-- begin:header  -->
     <header class="header px-3">
       <div class="flex items-center justify-end h-[3.5rem] gap-5">
-        <div @click="toggleDark()">
+        <!-- darkmode -->
+        <!-- <div @click="toggleDark()">
           <button v-if="isDark">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
               <path fill="none" d="M0 0h24v24H0z"></path>
@@ -36,7 +36,7 @@ const router = useRouter()
               ></path>
             </svg>
           </button>
-        </div>
+        </div> -->
         <MenuToggle />
       </div>
     </header>
@@ -64,13 +64,13 @@ const router = useRouter()
         <!-- begin:menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-slate-200 to-slate-200 dark:bg-gradient-to-b dark:from-slate-500 dark:to-slate-400 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-slate-500 to-slate-400 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -81,13 +81,13 @@ const router = useRouter()
                   </svg>
                 </div>
               </div>
-              <span class="text-green-600 dark:text-white text-[.8rem]">Madad</span>
+              <span class="text-white text-[.8rem]">Madad</span>
             </div>
             <!-- Majmuk -->
             <div @click="router.push('majmu')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -98,13 +98,13 @@ const router = useRouter()
                   </svg>
                 </div>
               </div>
-              <span class="text-green-600 dark:text-white text-[.8rem]">Majmu'</span>
+              <span class="text-white text-[.8rem]">Majmu'</span>
             </div>
             <!-- Tahlil -->
             <div @click="router.push('/tahlil-pendek/tahlil-kubur')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -115,13 +115,13 @@ const router = useRouter()
                   </svg>
                 </div>
               </div>
-              <span class="text-green-600 dark:text-white text-[.8rem]">Tahlil</span>
+              <span class="text-white text-[.8rem]">Tahlil</span>
             </div>
             <!-- Lainnya -->
             <div @click="router.push('/all-menus')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-green-600 to-green-400 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -132,7 +132,7 @@ const router = useRouter()
                   </svg>
                 </div>
               </div>
-              <span class="text-green-600 dark:text-white text-[.8rem]">Lainnya</span>
+              <span class="text-white text-[.8rem]">Lainnya</span>
             </div>
           </div>
         </div>
