@@ -9,6 +9,8 @@
   --font-aref: 'Aref Ruqaa', serif;
 /* Font Indo Poppins - Reguler 400 - medium 500 - bold 700  */
   --font-poppins: 'Poppins', sans-serif;
+/* Font Indo Amiri - Reguler 400 - medium 500 - bold 700  */
+  --font-amiri: 'Amiri', serif;
 }
 /* Font Family  */
 .font-aref{
@@ -19,6 +21,12 @@
 }
 .font-poppins{
   font-family: var(--font-poppins)!important;
+}
+.font-amiri{
+  font-family: var(--font-amiri)!important;
+}
+.font-amiri-quran{
+  font-family: 'Amiri Quran', serif!important;
 }
 
 body{
