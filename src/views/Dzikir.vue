@@ -62,7 +62,7 @@ watchEffect(() => {})
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-bottom' : ''">
               <h2
-                class="m-0 py-1 font-amiri text-[1.6rem] text-white"
+                class="m-0 py-1 font-scheherazade text-[1.6rem] text-white"
                 align="right"
                 style="line-height: 2 !important"
               >
