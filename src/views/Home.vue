@@ -12,7 +12,7 @@ import { pesan } from '@/constans/index.js'
 const router = useRouter()
 </script>
 <template>
-  <main class="main w-full h-[100vh] bg-gradient-to-b from-slate-900 to-slate-700">
+  <main class="main w-full h-[100vh] bg-gradient-to-b from-black to-neutral-950">
     <!-- begin:header  -->
     <header class="header px-3">
       <div class="flex items-center justify-end h-[3.5rem] gap-5">
@@ -64,13 +64,13 @@ const router = useRouter()
         <!-- begin:menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-slate-500 to-slate-400 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-sm rounded-l-3xl bg-neutral-800 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-neutral-900 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -87,7 +87,7 @@ const router = useRouter()
             <div @click="router.push('majmu')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-neutral-900 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -104,7 +104,7 @@ const router = useRouter()
             <div @click="router.push('/tahlil-pendek/tahlil-kubur')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-neutral-900 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>
@@ -121,7 +121,7 @@ const router = useRouter()
             <div @click="router.push('/all-menus')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gradient-to-b from-slate-900 to-slate-700 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
+                  class="cursor-pointer bg-neutral-900 p-2 rounded-full flex items-center justify-center mx-auto w-[45px] h-[45px]"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path fill="none" d="M0 0h24v24H0z"></path>

@@ -38,7 +38,7 @@ watchEffect(() => {})
   </Header>
 
   <div
-    class="container bg-slate-900 transition mt-10 px-0"
+    class="container bg-neutral-800 transition mt-10 px-0"
     :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'"
   >
     <div class="pt-5">
@@ -58,9 +58,9 @@ watchEffect(() => {})
           <tr
             v-for="item in tampilCategory?.bait_bait"
             :key="item.id"
-            class="even:bg-slate-700 odd:bg-slate-900"
+            class="even:bg-neutral-800 odd:bg-neutral-800"
           >
-            <td class="col-11 px-2" :class="item.arab ? 'border-bottom' : ''">
+            <td class="col-11 px-2" :class="item.arab ? 'border-b' : ''">
               <h2
                 class="m-0 py-1 font-scheherazade text-[1.6rem] text-white"
                 align="right"

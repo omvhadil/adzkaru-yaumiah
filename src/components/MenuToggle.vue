@@ -14,7 +14,7 @@
     <div
       x-show="open"
       x-transition
-      class="w-[80%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-slate-900 py-8 px-6"
+      class="w-[80%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-neutral-800 py-8 px-6"
     >
       <div x-on:click="open = false" class="absolute top-4 right-4">
         <div>
