@@ -8,7 +8,7 @@ import { pesan } from '@/constans/index.js'
 const router = useRouter()
 </script>
 <template>
-  <main class="main w-full h-[100vh] bg-gradient-to-b from-green-600 to-green-400">
+  <main class="main w-full h-[100vh] bg-gradient-to-b from-green-600 to-green-500">
     <!-- begin:header  -->
     <header class="header px-3">
       <div class="flex items-center justify-end h-[3.5rem] gap-5">
