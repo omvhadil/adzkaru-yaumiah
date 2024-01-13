@@ -5585,7 +5585,7 @@ export const data = [
       {
         id: 1,
         slug: 'tahlil',
-        title: 'Tahlil',
+        title: 'Tahlil dan Yasin',
         arab: 'تَهْلِيلُ',
         latin: 'Tahlil',
         dzikri: [
@@ -6656,7 +6656,7 @@ export const data = [
       {
         id: 3,
         slug: 'istighosah',
-        title: 'Istighosah',
+        title: 'Istighosah Lengkap',
         arab: 'اِسْتِغَاثَه',
         latin: '',
         dzikri: [
@@ -6989,6 +6989,111 @@ export const data = [
       },
       {
         id: 5,
+        slug: 'rajab-puasa-sunnah',
+        title: 'Rajab : Niat Puasa Sunnah',
+        arab: '-----',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            title: 'niat',
+            name: '',
+            subName: 'Bacaan Niat Puasa Sunnah Rajab',
+            arab: '',
+            latin: ' ',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                indo: 'Disunnahkan puasa 3 hari di awal, tengah, dan akhir dibulan Rajab',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 2,
+                arab: 'نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ سُنَّةِ رَجَبَ لِلّٰهِ تَعَالَى',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        slug: 'rajab-amalan-jumat-terakhir',
+        title: 'Rajab : Amalan Jumat Terakhir',
+        arab: '-----',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            title: 'amalan',
+            name: '',
+            subName: 'Amalan Jumat Terakhir Di Bulan Rajab',
+            arab: '',
+            latin: ' ',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                indo: 'Dibaca 3x pada hari Jum`at di antara dua khutbah',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 2,
+                arab: 'رَبِّ اغْفِرْ لِی وَ ارْحَمْنِی وَ تُبْ عَلَيَّ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        slug: 'rajab-dzikir-khusus',
+        title: 'Rajab : Dzikir Khusus',
+        arab: '-----',
+        latin: '',
+        dzikri: [
+          {
+            id: 1,
+            title: 'dzikir',
+            name: '',
+            subName: 'Dzikir Di Bulan Rajab',
+            arab: '',
+            latin: ' ',
+            bait_bait: [
+              {
+                id: 1,
+                arab: '',
+                indo: 'Dibaca 11x setelah sholat fardhu',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+              {
+                id: 2,
+                arab: 'أَحْمَدْ رَسُوْلُ اللّٰهْ ٬ مُحَمَّدْ رَسُوْلُ اللّٰهْ',
+                indo: '',
+                image: '',
+                latin: '',
+                arti: ''
+              },
+            ]
+          }
+        ]
+      },
+      {
+        id: 8,
         slug: 'idul-adha',
         title: 'Bilal dan Khutbah Idul Adha',
         arab: 'عِيْدُ اْلأَضْحَى',
@@ -7051,7 +7156,7 @@ export const data = [
         ]
       },
       {
-        id: 6,
+        id: 9,
         slug: 'idul-fitri',
         title: 'Bilal dan Khutbah Idul fitri',
         arab: 'عِيْدُ الْفِطْرِ',
@@ -7114,7 +7219,7 @@ export const data = [
         ]
       },
       {
-        id: 7,
+        id: 8,
         slug: 'Jum`at-Khutbah-bilal',
         title: 'Bilal dan Khutbah Hari Jumat',
         arab: 'يَوْمُ الْجُمْعَةُ',

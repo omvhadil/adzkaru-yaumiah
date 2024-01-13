@@ -38,7 +38,7 @@ watchEffect(() => {})
   </Header>
 
   <div
-    class="container bg-neutral-800 transition mt-10 px-0"
+    class="container bg-neutral-800 transition mt-10 px-0 min-h-[100vh]"
     :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'"
   >
     <div class="pt-5">
