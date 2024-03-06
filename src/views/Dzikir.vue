@@ -44,7 +44,7 @@ watchEffect(() => {})
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
-          <h2 class="m-0 font-aref mb-3 text-[3rem] text-yellow-300">﴾ {{ category.arab }} ﴿</h2>
+          <h2 class="m-0 font-aref mb-3 text-[3rem] text-green-600">﴾ {{ category.arab }} ﴿</h2>
           <h4 v-if="jmlname" class="m-0 font-scheherazade text-slate-50">
             ﴾ {{ tampilCategory?.name }} ﴿
           </h4>
