@@ -5,29 +5,29 @@ const router = useRouter()
 </script>
 <template>
   <!-- Header -->
-  <header class="container h-[3.5rem] flex items-center justify-between gap-3 bg-neutral-900">
+  <header class="container h-[3.5rem] flex items-center justify-between gap-3 bg-green-100">
     <div @click="router.back()">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
-            fill="#fff"
+            fill="green"
             d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
           ></path>
         </svg>
       </div>
     </div>
-    <h4 class="font-semibold text-lg text-white">Semua Menu</h4>
+    <h4 class="font-semibold text-lg text-green-800">Semua Menu</h4>
   </header>
   <!-- Main -->
-  <main class="container pt-4 bg-neutral-800 min-h-[100vh]">
+  <main class="container pt-4 bg-green-100 min-h-[100vh]">
     <section class="grid grid-cols-4 gap-3 mb-3">
       <!-- madad  -->
       <div
         @click="router.push('/madad')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -36,14 +36,14 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-white">Madad</p>
+        <p class="text-green-800">Madad</p>
       </div>
       <!-- majmu -->
       <div
         @click="router.push('/majmu')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -52,14 +52,14 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-white">Majmu'</p>
+        <p class="text-green-800">Majmu'</p>
       </div>
       <!-- tahlil pendek -->
       <div
         @click="router.push('/tahlil-pendek/tahlil-kubur')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -68,7 +68,7 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-white">Tahlil</p>
+        <p class="text-green-800">Tahlil</p>
       </div>
     </section>
     <hr />
@@ -78,7 +78,7 @@ const router = useRouter()
         @click="router.push('/simtud')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -87,14 +87,14 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-white">Simtud</p>
+        <p class="text-green-800">Simtud</p>
       </div>
       <!-- diba' -->
       <div
         @click="router.push('/diba')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -103,14 +103,14 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-white">Diba'</p>
+        <p class="text-green-800">Diba'</p>
       </div>
       <!-- kejawean -->
       <div
         @click="router.push('/kejawen')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3 relative">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3 relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -119,11 +119,11 @@ const router = useRouter()
             ></path>
           </svg>
         </div>
-        <p class="text-white">Kejawen</p>
+        <p class="text-green-800">Kejawen</p>
       </div>
       <!-- basaudan -->
       <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3 relative">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3 relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -141,11 +141,11 @@ const router = useRouter()
             </svg>
           </div>
         </div>
-        <p class="text-white">Basaudan</p>
+        <p class="text-green-800">Basaudan</p>
       </div>
       <!-- ramadhan -->
       <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-neutral-900 rounded-full h-[50px] w-[50px] p-3 relative">
+        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3 relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -163,7 +163,7 @@ const router = useRouter()
             </svg>
           </div>
         </div>
-        <p class="text-white">Ramadhan</p>
+        <p class="text-green-800">Ramadhan</p>
       </div>
     </section>
   </main>

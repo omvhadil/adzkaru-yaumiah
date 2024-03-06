@@ -38,7 +38,7 @@ watchEffect(() => {})
   </Header>
 
   <div
-    class="container bg-neutral-800 transition mt-10 px-0 min-h-[100vh]"
+    class="container bg-green-50 transition mt-10 px-0 min-h-[100vh]"
     :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'"
   >
     <div class="pt-5">
@@ -48,7 +48,7 @@ watchEffect(() => {})
           <h4 v-if="jmlname" class="m-0 font-scheherazade text-slate-50">
             ﴾ {{ tampilCategory?.name }} ﴿
           </h4>
-          <span v-if="jmlSubname" class="m-0 font-scheherazade text-lg text-slate-50">{{
+          <span v-if="jmlSubname" class="m-0 font-scheherazade text-lg text-dark">{{
             tampilCategory?.subName
           }}</span>
         </div>
@@ -58,11 +58,11 @@ watchEffect(() => {})
           <tr
             v-for="item in tampilCategory?.bait_bait"
             :key="item.id"
-            class="even:bg-neutral-800 odd:bg-neutral-800"
+            class="even:bg-green-50 odd:bg-green-50"
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-b' : ''">
               <h2
-                class="m-0 py-1 font-scheherazade text-[1.6rem] text-white"
+                class="m-0 py-1 font-scheherazade text-[1.8rem] text-dark"
                 align="right"
                 style="line-height: 2 !important"
               >
