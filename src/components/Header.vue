@@ -11,7 +11,9 @@ const data = defineProps({
 })
 </script>
 <template>
-  <nav class="bg-gradient-to-br from-green-500 to-green-800 fixed top-0 start-0 w-full p-0">
+  <nav
+    class="rounded-bl-2xl rounded-br-2xl bg-gradient-to-r from-green-500 to-blue-800 fixed top-0 start-0 w-full p-0"
+  >
     <div class="container flex items-center p-2 justify-between h-[3.5rem]">
       <div @click="router.back()" class="cursor-pointer">
         <!-- begin:icon -->

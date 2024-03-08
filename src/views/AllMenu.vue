@@ -5,7 +5,7 @@ const router = useRouter()
 </script>
 <template>
   <!-- Header -->
-  <header class="container h-[3.5rem] flex items-center justify-between gap-3 bg-green-100">
+  <header class="container h-[3.5rem] flex items-center justify-between gap-3 bg-slate-50">
     <div @click="router.back()">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
@@ -20,14 +20,14 @@ const router = useRouter()
     <h4 class="font-semibold text-lg text-green-800">Semua Menu</h4>
   </header>
   <!-- Main -->
-  <main class="container pt-4 bg-green-100 min-h-[100vh]">
+  <main class="container pt-4 bg-slate-50 min-h-[100vh]">
     <section class="grid grid-cols-4 gap-3 mb-3">
       <!-- madad  -->
       <div
         @click="router.push('/madad')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -43,7 +43,7 @@ const router = useRouter()
         @click="router.push('/majmu')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -59,7 +59,7 @@ const router = useRouter()
         @click="router.push('/tahlil-pendek/tahlil-kubur')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -78,7 +78,7 @@ const router = useRouter()
         @click="router.push('/simtud')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -94,7 +94,7 @@ const router = useRouter()
         @click="router.push('/diba')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3">
+        <div class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -110,7 +110,9 @@ const router = useRouter()
         @click="router.push('/kejawen')"
         class="flex flex-col justify-center items-center text-center"
       >
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3 relative">
+        <div
+          class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3 relative"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -123,7 +125,9 @@ const router = useRouter()
       </div>
       <!-- basaudan -->
       <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3 relative">
+        <div
+          class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3 relative"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
@@ -145,7 +149,9 @@ const router = useRouter()
       </div>
       <!-- ramadhan -->
       <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-green-700 rounded-full h-[50px] w-[50px] p-3 relative">
+        <div
+          class="bg-gradient-to-b from-green-500 to-blue-500 rounded-full h-[50px] w-[50px] p-3 relative"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path
