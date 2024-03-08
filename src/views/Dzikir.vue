@@ -38,7 +38,7 @@ watchEffect(() => {})
   </Header>
 
   <div
-    class="container bg-green-50 transition mt-10 px-0 min-h-[100vh]"
+    class="container bg-slate-50 transition mt-10 px-0 min-h-[100vh]"
     :class="jmlcategorydzikir > 1 ? 'py-10' : 'py-0'"
   >
     <div class="pt-5">
@@ -58,7 +58,7 @@ watchEffect(() => {})
           <tr
             v-for="item in tampilCategory?.bait_bait"
             :key="item.id"
-            class="even:bg-green-50 odd:bg-green-50"
+            class="even:bg-slate-50 odd:bg-slate-50"
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-b' : ''">
               <h2
@@ -75,7 +75,7 @@ watchEffect(() => {})
               >
                 {{ item.arti }}
               </h4> -->
-              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem] text-yellow-300" align="center">
+              <h2 class="m-0 py-1 font-scheherazade text-[1.3rem] text-green-500" align="center">
                 {{ item.indo }}
               </h2>
               <div v-if="item.image.length">

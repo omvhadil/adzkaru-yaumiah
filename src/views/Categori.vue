@@ -26,7 +26,7 @@ const kitab = data.find((item) => item.slug === kitabId)
           >
             <h6 class="m-0">{{ index + 1 }}</h6>
           </div>
-          <div class="flex items-center ps-3 text-green-800">
+          <div class="flex items-center ps-3 text-dark">
             <p class="m-0 text-sm">{{ item.title }}</p>
           </div>
         </div>

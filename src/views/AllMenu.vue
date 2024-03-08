@@ -11,13 +11,13 @@ const router = useRouter()
         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
-            fill="green"
+            fill="#000000"
             d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
           ></path>
         </svg>
       </div>
     </div>
-    <h4 class="font-semibold text-lg text-green-800">Semua Menu</h4>
+    <h4 class="font-semibold text-lg text-dark">Semua Menu</h4>
   </header>
   <!-- Main -->
   <main class="container pt-4 bg-slate-50 min-h-[100vh]">
