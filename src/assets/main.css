@@ -29,6 +29,24 @@
   font-family: 'Amiri Quran', serif!important;
 }
 
+@font-face{
+  font-family:'Me Quran';
+  src:url('https://kangismet.github.io/fonts/me_quran.eot');
+  src:url('https://kangismet.github.io/fonts/me_quran.eot?#iefix') format('embedded-opentype'),
+  url('https://kangismet.github.io/fonts/me_quran.ttf') format('truetype');
+  font-weight:400;
+  font-weight:normal;
+  font-display: swap;
+  }
+
+.arabku{
+  line-height: 3rem;
+  font-family: "Me Quran","Traditional Arabic",Tahoma,sans-serif;
+  font-weight: normal;
+  text-align: right;
+  direction: rtl;
+}
+
 body{
   font-family: var(--font-poppins)!important;
 }

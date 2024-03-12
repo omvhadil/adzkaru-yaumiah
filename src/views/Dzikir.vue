@@ -61,11 +61,7 @@ watchEffect(() => {})
             class="even:bg-slate-50 odd:bg-slate-50"
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-b' : ''">
-              <h2
-                class="m-0 py-1 font-scheherazade text-[1.8rem] text-dark"
-                align="right"
-                style="line-height: 2 !important"
-              >
+              <h2 class="m-0 py-1 arabku text-[1.7rem] text-dark" align="right">
                 {{ item.arab }}
               </h2>
               <!-- <h4
