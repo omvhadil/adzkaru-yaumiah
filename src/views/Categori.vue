@@ -19,14 +19,12 @@ const kitab = data.find((item) => item.slug === kitabId)
       >
         <div
           @click="router.push('/' + kitabId + '/' + item.slug)"
-          class="flex shadow-sm rounded-sm overflow-hidden cursor-pointer h-[50px]"
+          class="flex shadow-sm rounded-lg overflow-hidden cursor-pointer h-[50px]"
         >
-          <div
-            class="flex items-center justify-center bg-gradient-to-br from-green-400 to-blue-400 text-dark text-slate-100 w-[40px]"
-          >
-            <h6 class="m-0">{{ index + 1 }}</h6>
+          <div class="flex items-center justify-center text-dark w-[40px]">
+            <h6 class="m-0">{{ index + 1 }}.</h6>
           </div>
-          <div class="flex items-center ps-3 text-dark">
+          <div class="flex items-center text-dark">
             <p class="m-0 text-sm">{{ item.title }}</p>
           </div>
         </div>

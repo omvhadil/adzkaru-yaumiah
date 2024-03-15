@@ -14,23 +14,32 @@
     <div
       x-show="open"
       x-transition
-      class="w-[80%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-green-100 py-8 px-6"
+      class="w-[80%] h-[100vh] shadow-lg fixed top-0 right-0 z-10 bg-slate-100"
     >
-      <div x-on:click="open = false" class="absolute top-4 right-4">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" viewBox="0 0 24 24">
-            <path fill="none" d="M0 0h24v24H0z"></path>
-            <path
-              fill="green"
-              d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"
-            ></path>
-          </svg>
+      <div class="bg-gradient-to-tr from-green-500 to-blue-500 w-100 h-[200px]">
+        <div x-on:click="open = false" class="absolute top-4 right-4">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" viewBox="0 0 24 24">
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path
+                fill="white"
+                d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="absolute w-full text-center mt-10">
+          <h6 class="text-4xl font-semibold text-white">ALABIM</h6>
+          <p class="text-lg font-medium text-white">Group</p>
+          <div class="mt-3">
+            <p class="text-white">
+              Kraksaan, Probolinggo <br />
+              Jawa Timur
+            </p>
+          </div>
         </div>
       </div>
-      <div class="absolute top-4 left-4">
-        <h6 class="text-lg font-semibold text-green-800">Pengaturan</h6>
-      </div>
-      <div class="grid gap-4 mt-8 text-green-800 mb-6">
+      <div class="grid gap-4 text-green-800 mb-6 pt-4 px-6">
         <div class="flex gap-3">
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
@@ -80,7 +89,7 @@
           <h4>Privasi</h4>
         </div>
       </div>
-      <hr class="bg-green-800" />
+      <hr />
     </div>
   </div>
 </template>

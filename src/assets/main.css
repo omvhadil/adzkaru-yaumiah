@@ -30,18 +30,18 @@
 }
 
 @font-face{
-  font-family:'Me Quran';
-  src:url('https://kangismet.github.io/fonts/me_quran.eot');
-  src:url('https://kangismet.github.io/fonts/me_quran.eot?#iefix') format('embedded-opentype'),
-  url('https://kangismet.github.io/fonts/me_quran.ttf') format('truetype');
+  font-family:'UthmanThaha';
+  src:url('https://kangismet.github.io/fonts/Uthman-Thaha.eot');
+  src:url('https://kangismet.github.io/fonts/Uthman-Thaha.eot?#iefix') format('embedded-opentype'),
+  url('https://kangismet.github.io/fonts/Uthman-Thaha.ttf') format('truetype');
   font-weight:400;
   font-weight:normal;
   font-display: swap;
   }
 
 .arabku{
-  line-height: 3rem;
-  font-family: "Me Quran","Traditional Arabic",Tahoma,sans-serif;
+  line-height: 3.5rem;
+  font-family: "UthmanThaha","Traditional Arabic",Tahoma,sans-serif;
   font-weight: normal;
   text-align: right;
   direction: rtl;
