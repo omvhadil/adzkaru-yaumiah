@@ -11,23 +11,35 @@ const kitab = data.find((item) => item.slug === kitabId)
 <template>
   <Header :title="kitab.arab" />
   <div class="container mt-14 pt-4 pb-5 bg-slate-50 min-h-[100vh]">
-    <div class="grid gap-3">
-      <div
-        v-for="(item, index) in kitab.category"
-        :key="item.id"
-        class="col-12 border border-slate-300 bg-slate-200"
-      >
+    <div class="grid">
+      <div v-for="(item, index) in kitab.category" :key="item.id" class="col-12">
         <div
           @click="router.push('/' + kitabId + '/' + item.slug)"
-          class="flex shadow-sm rounded-lg overflow-hidden cursor-pointer h-[50px]"
+          class="flex cursor-pointer h-[50px]"
         >
-          <div class="flex items-center justify-center text-dark w-[40px]">
-            <h6 class="m-0">{{ index + 1 }}.</h6>
+          <div class="flex">
+            <div class="flex items-center justify-center text-dark w-[40px]">
+              <h6 class="m-0">{{ index + 1 }}.</h6>
+            </div>
+            <div class="flex items-center text-dark">
+              <p class="m-0 text-base font-poppins">{{ item.title }}</p>
+            </div>
           </div>
-          <div class="flex items-center text-dark">
-            <p class="m-0 text-sm">{{ item.title }}</p>
+          <div class="flex items-center ml-auto">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path
+                d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+              ></path>
+            </svg>
           </div>
         </div>
+        <hr />
       </div>
     </div>
   </div>
