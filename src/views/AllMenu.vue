@@ -6,7 +6,7 @@ const router = useRouter()
 <template>
   <!-- Header -->
   <header
-    class="container h-[3.5rem] flex items-center justify-between gap-3 bg-gradient-to-r from-green-500 to-blue-700"
+    class="container rounded-bl-2xl rounded-br-2xl h-[3.5rem] flex items-center justify-between gap-3 bg-gradient-to-r from-green-500 to-blue-700"
   >
     <div @click="router.back()">
       <div>
