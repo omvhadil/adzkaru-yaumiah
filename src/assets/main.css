@@ -28,6 +28,9 @@
 .font-amiri-quran{
   font-family: 'Amiri Quran', serif!important;
 }
+.font-omar {
+  font-family: 'Omar', sans-serif;
+}
 
 @font-face{
   font-family:'Me Quran';
@@ -38,7 +41,18 @@
   font-weight:normal;
   font-display: swap;
   }
-
+  @font-face{
+  font-family:'quran';
+  src: url('/public/font/me_quranR3HOQ.ttf') format('truetype');
+  }
+  
+.quran{
+  line-height: 3.3rem;
+  font-family: "quran";
+  font-weight: normal;
+  text-align: right;
+  direction: rtl;
+}
 .arabku{
   line-height: 3.3rem;
   font-family: "Me Quran","Traditional Arabic",Tahoma,sans-serif;
