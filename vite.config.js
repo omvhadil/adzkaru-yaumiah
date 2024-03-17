@@ -11,7 +11,7 @@ export default defineConfig({
     VitePWA({ registerType: 'autoUpdate',  manifest: {
       name: 'Khulasoh',
       short_name: 'Khulasoh',
-      background_color: '#000000',
+      background_color: '#ffffff',
       display: 'standalone',
       scope: '/',
       start_url: '/',

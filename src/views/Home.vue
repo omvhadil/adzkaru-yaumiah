@@ -34,7 +34,7 @@ const router = useRouter()
         <!-- title  -->
         <div class="w-[80%] p-0">
           <div class="text-center mt-4">
-            <h1 class="font-aref text-green-600 text-[3.5rem]">الْخُلَاصَةُ</h1>
+            <h1 class="font-aref text-blue-600 text-[3.5rem]">الْخُلَاصَةُ</h1>
             <p class="font-scheherazade text-[1.7rem] text-dark m-0">في الأوراداليوميةوالأدعية</p>
             <span class="text-dark font-scheherazade text-[1.2rem]">
               جمع و ترتيب <br />
@@ -50,7 +50,7 @@ const router = useRouter()
         <!-- menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-green-500 to-blue-700 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-blue-700 to-blue-400 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">
@@ -129,7 +129,7 @@ const router = useRouter()
       <!-- title timeline -->
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-2 py-4">
-          <div class="w-[5px] h-[25px] bg-green-600"></div>
+          <div class="w-[5px] h-[25px] bg-blue-600"></div>
           <h4 class="font-bold text-lg">Mahfudzot</h4>
         </div>
         <div>
@@ -149,11 +149,13 @@ const router = useRouter()
       <hr />
       <!-- content timeline -->
       <div class="py-4 relative h-[300px]">
-        <div class="bg-green-600 px-3 rounded-md absolute">
+        <div class="bg-blue-600 px-3 rounded-md absolute">
           <p class="text-small text-white">Terbaru</p>
         </div>
         <div class="mt-8">
-          <p class="justify-end arabku text-xl">اطْلَبِ العِلْمَ مِنَ المَهْدِ إِلىَ اللَحْدِ</p>
+          <p class="justify-end font-rustam-quran text-xl">
+            اطْلَبِ العِلْمَ مِنَ المَهْدِ إِلىَ اللَحْدِ
+          </p>
           <p class="mt-2">Tuntutlah ilmu sejak buaian hingga liang lahat.</p>
         </div>
       </div>

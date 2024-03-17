@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+  font-family:'Rustam Quran';
+  src: url('/font/rustam_quranR3HOQ.ttf') format('truetype');
+}
+
 :root{
 /* Font Arabic Scheherazade New - Reguler 400 */
   --font-scheherazade: 'Scheherazade New', serif;
@@ -9,9 +14,8 @@
   --font-aref: 'Aref Ruqaa', serif;
 /* Font Indo Poppins - Reguler 400 - medium 500 - bold 700  */
   --font-poppins: 'Poppins', sans-serif;
-/* Font Indo Amiri - Reguler 400 - medium 500 - bold 700  */
-  --font-amiri: 'Amiri', serif;
 }
+
 /* Font Family  */
 .font-aref{
   font-family: var(--font-aref)!important;
@@ -22,40 +26,9 @@
 .font-poppins{
   font-family: var(--font-poppins)!important;
 }
-.font-amiri{
-  font-family: var(--font-amiri)!important;
-}
-.font-amiri-quran{
-  font-family: 'Amiri Quran', serif!important;
-}
-.font-omar {
-  font-family: 'Omar', sans-serif;
-}
-
-@font-face{
-  font-family:'Me Quran';
-  src:url('https://kangismet.github.io/fonts/me_quran.eot');
-  src:url('https://kangismet.github.io/fonts/me_quran.eot?#iefix') format('embedded-opentype'),
-  url('https://kangismet.github.io/fonts/me_quran.ttf') format('truetype');
-  font-weight:400;
-  font-weight:normal;
-  font-display: swap;
-  }
-  @font-face{
-  font-family:'quran';
-  src: url('/public/font/me_quranR3HOQ.ttf') format('truetype');
-  }
-  
-.quran{
+.font-rustam-quran{
   line-height: 3.3rem;
-  font-family: "quran";
-  font-weight: normal;
-  text-align: right;
-  direction: rtl;
-}
-.arabku{
-  line-height: 3.3rem;
-  font-family: "Me Quran","Traditional Arabic",Tahoma,sans-serif;
+  font-family: "Rustam Quran";
   font-weight: normal;
   text-align: right;
   direction: rtl;
