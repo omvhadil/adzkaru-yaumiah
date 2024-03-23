@@ -45,10 +45,10 @@ watchEffect(() => {})
       <div class="text-center mb-3">
         <div>
           <h2 class="m-0 font-aref mb-3 text-[3rem] text-blue-600">﴾ {{ category.arab }} ﴿</h2>
-          <h4 v-if="jmlname" class="m-0 font-poppins text-slate-50">
+          <h4 v-if="jmlname" class="m-0 font-kalam-regular text-slate-50">
             ﴾ {{ tampilCategory?.name }} ﴿
           </h4>
-          <span v-if="jmlSubname" class="m-0 font-poppins text-lg text-dark">{{
+          <span v-if="jmlSubname" class="m-0 font-kalam-regular text-lg text-dark">{{
             tampilCategory?.subName
           }}</span>
         </div>
@@ -61,7 +61,7 @@ watchEffect(() => {})
             class="even:bg-slate-50 odd:bg-slate-50"
           >
             <td class="col-11 px-2" :class="item.arab ? 'border-b' : ''">
-              <h2 class="m-0 py-1 font-rustam-quran text-[1.9rem] text-dark" align="right">
+              <h2 class="m-0 py-1 font-scheherazade text-[1.9rem] text-dark" align="right">
                 {{ item.arab }}
               </h2>
               <!-- <h4
@@ -71,7 +71,7 @@ watchEffect(() => {})
               >
                 {{ item.arti }}
               </h4> -->
-              <h2 class="m-0 py-1 font-poppins text-[1.3rem] text-blue-700" align="center">
+              <h2 class="m-0 py-1 font-kalam-regular text-[1.3rem] text-blue-700" align="center">
                 {{ item.indo }}
               </h2>
               <div v-if="item.image.length">

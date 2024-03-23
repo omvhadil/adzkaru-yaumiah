@@ -33,9 +33,21 @@
   text-align: right;
   direction: rtl;
 }
+.font-kalam-light{
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+.font-kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body{
-  font-family: var(--font-poppins)!important;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .container-app {
   max-width: 450px;
