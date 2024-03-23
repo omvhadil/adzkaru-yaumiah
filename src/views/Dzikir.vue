@@ -28,7 +28,7 @@ watchEffect(() => {})
           v-for="item in category?.dzikri"
           :key="item.id"
           @click="categoryNumber = item.id - 1"
-          class="bg-slate-200 border-light w-full p-1 text-dark text-sm rounded-md"
+          class="bg-slate-50 border-light w-full p-1 text-dark text-sm rounded-md"
           type="button"
         >
           {{ item.title }}
@@ -44,7 +44,7 @@ watchEffect(() => {})
     <div class="pt-5">
       <div class="text-center mb-3">
         <div>
-          <h2 class="m-0 font-aref mb-3 text-[3rem] text-blue-600">﴾ {{ category.arab }} ﴿</h2>
+          <h2 class="m-0 font-aref mb-3 text-[3rem] text-gray-800">﴾ {{ category.arab }} ﴿</h2>
           <h4 v-if="jmlname" class="m-0 font-kalam-regular text-slate-50">
             ﴾ {{ tampilCategory?.name }} ﴿
           </h4>
@@ -71,7 +71,7 @@ watchEffect(() => {})
               >
                 {{ item.arti }}
               </h4> -->
-              <h2 class="m-0 py-1 font-kalam-regular text-[1.3rem] text-blue-700" align="center">
+              <h2 class="m-0 py-1 font-kalam-regular text-[1.3rem] text-gray-700" align="center">
                 {{ item.indo }}
               </h2>
               <div v-if="item.image.length">

@@ -10,9 +10,13 @@ const kitab = data.find((item) => item.slug === kitabId)
 </script>
 <template>
   <Header :title="kitab.arab" />
-  <div class="container mt-14 pt-4 pb-5 bg-slate-50 min-h-[100vh]">
+  <div class="container mt-14 pt-4 pb-5 bg-gray-50 min-h-[100vh]">
     <div class="grid">
-      <div v-for="(item, index) in kitab.category" :key="item.id" class="col-12">
+      <div
+        v-for="(item, index) in kitab.category"
+        :key="item.id"
+        class="col-12 hover:bg-gray-200 rounded-lg"
+      >
         <div
           @click="router.push('/' + kitabId + '/' + item.slug)"
           class="flex cursor-pointer h-[50px]"
@@ -25,7 +29,7 @@ const kitab = data.find((item) => item.slug === kitabId)
               <p class="m-0 text-base font-kalam-regular">{{ item.title }}</p>
             </div>
           </div>
-          <div class="flex items-center ml-auto">
+          <div class="flex items-center ml-auto pr-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

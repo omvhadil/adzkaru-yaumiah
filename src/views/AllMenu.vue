@@ -6,30 +6,30 @@ const router = useRouter()
 <template>
   <!-- Header -->
   <header
-    class="container rounded-bl-2xl rounded-br-2xl h-[3.5rem] flex items-center justify-between gap-3 bg-gradient-to-r from-blue-700 to-blue-400"
+    class="container fixed rounded-bl-2xl rounded-br-2xl h-[3.5rem] flex items-center justify-between gap-3 bg-gradient-to-r from-gray-400 to-gray-300"
   >
     <div @click="router.back()">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
-            fill="#ffffff"
+            fill="black"
             d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
           ></path>
         </svg>
       </div>
     </div>
-    <h4 class="font-semibold text-lg text-white font-kalam-regular">Semua Menu</h4>
+    <h4 class="font-semibold text-lg text-dark font-kalam-regular">Semua Menu</h4>
   </header>
   <!-- Main -->
-  <main class="container pt-4 bg-slate-50 min-h-[100vh]">
+  <main class="container pt-[4.5rem] bg-gray-50 min-h-[100vh]">
     <section class="grid grid-cols-4 gap-3 mb-3">
       <!-- madad  -->
       <div
         @click="router.push('/madad')"
-        class="flex flex-col justify-center items-center text-center"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1">
           <span class="text-3xl">📖</span>
         </div>
         <p class="text-dark">Madad</p>
@@ -37,9 +37,9 @@ const router = useRouter()
       <!-- majmu -->
       <div
         @click="router.push('/majmu')"
-        class="flex flex-col justify-center items-center text-center"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1">
           <span class="text-3xl">📚</span>
         </div>
         <p class="text-dark">Majmu'</p>
@@ -47,9 +47,9 @@ const router = useRouter()
       <!-- tahlil pendek -->
       <div
         @click="router.push('/tahlil-pendek/tahlil-kubur')"
-        class="flex flex-col justify-center items-center text-center"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1">
           <span class="text-3xl">🤲</span>
         </div>
         <p class="text-dark">Tahlil</p>
@@ -60,9 +60,9 @@ const router = useRouter()
       <!-- simtud -->
       <div
         @click="router.push('/simtud')"
-        class="flex flex-col justify-center items-center text-center"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1">
           <span class="text-3xl">📗</span>
         </div>
         <p class="text-dark">Simtud</p>
@@ -70,9 +70,9 @@ const router = useRouter()
       <!-- diba' -->
       <div
         @click="router.push('/diba')"
-        class="flex flex-col justify-center items-center text-center"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1">
           <span class="text-3xl">📙</span>
         </div>
         <p class="text-dark">Diba'</p>
@@ -80,16 +80,16 @@ const router = useRouter()
       <!-- kejawean -->
       <div
         @click="router.push('/kejawen')"
-        class="flex flex-col justify-center items-center text-center"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0 relative">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1 relative">
           <span class="text-3xl">🪔</span>
         </div>
         <p class="text-dark">Kejawen</p>
       </div>
       <!-- basaudan -->
-      <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0 relative">
+      <div class="flex flex-col justify-center items-center text-center cursor-pointer">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1 relative">
           <span class="text-3xl">📕</span>
           <div class="absolute top-0 right-0">
             <span class="text-sm">🔐</span>
@@ -98,8 +98,8 @@ const router = useRouter()
         <p class="text-dark">Basaudan</p>
       </div>
       <!-- ramadhan -->
-      <div class="flex flex-col justify-center items-center text-center">
-        <div class="bg-blue-100 rounded-full h-[45px] w-[45px] p-0 relative">
+      <div class="flex flex-col justify-center items-center text-center cursor-pointer">
+        <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1 relative">
           <span class="text-3xl">📓</span>
           <div class="absolute top-0 right-0">
             <span class="text-sm">🔐</span>
