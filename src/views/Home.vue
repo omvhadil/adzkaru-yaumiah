@@ -72,7 +72,7 @@ const router = useRouter()
         <!-- menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-sm rounded-l-3xl bg-gradient-to-b from-gray-400 to-gray-300 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-lg rounded-l-3xl bg-gradient-to-b from-gray-400 to-gray-300 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">

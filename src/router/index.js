@@ -23,6 +23,11 @@ const router = createRouter({
       name: 'all-menu',
       component: () => import('../views/AllMenu.vue')
     },
+    {
+      path: '/tentang',
+      name: 'tentang',
+      component: () => import('../views/Tentang.vue')
+    },
     // =======
     {
       path: '/desain-baru',

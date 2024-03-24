@@ -1,5 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup></script>
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+</script>
 <template>
   <div x-data="{ open: false }">
     <div x-on:click="open = true" class="cursor-pointer">
@@ -27,7 +31,10 @@
           </svg>
         </div>
         <div class="grid gap-1 px-4 text-dark mb-6 pt-12">
-          <div class="flex gap-2 p-2 hover:bg-white rounded-lg cursor-pointer">
+          <div
+            @click="router.push('/tentang')"
+            class="flex gap-2 p-2 hover:bg-white rounded-lg cursor-pointer"
+          >
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24">
                 <path fill="none" d="M0 0h24v24H0z"></path>
