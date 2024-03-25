@@ -29,7 +29,7 @@ const router = useRouter()
         tanpa perlu lagi install aplikasi tambahan, tanpa iklan dan tanpa analitik apapun sehingga
         lebih aman untuk privasi data anda.</span
       >
-      <br class="" />
+      <br />
       <span class="">
         Khulasoh.io menggunakan berbagai sumber data, diantaranya:<br />
         1. Al-Khulashotul Madadan An-Nabawy<br />

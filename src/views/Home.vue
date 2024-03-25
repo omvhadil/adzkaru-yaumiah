@@ -154,7 +154,7 @@ const router = useRouter()
           <p class="text-right font-scheherazade text-xl">
             اطْلَبِ العِلْمَ مِنَ المَهْدِ إِلىَ اللَحْدِ
           </p>
-          <p class="mt-2 font-kalam-light">Tuntutlah ilmu sejak buaian hingga liang lahat.</p>
+          <p class="mt-2 font-kalam">Tuntutlah ilmu sejak buaian hingga liang lahat.</p>
         </div>
       </div>
     </section>

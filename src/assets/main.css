@@ -2,43 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  font-family:'Rustam Quran';
-  src: url('/font/rustam_quranR3HOQ.ttf') format('truetype');
-}
-
-:root{
-/* Font Arabic Scheherazade New - Reguler 400 */
-  --font-scheherazade: 'Scheherazade New', serif;
-/* Font Arabic Aref Ruqaa - Reguler 400 */
-  --font-aref: 'Aref Ruqaa', serif;
-/* Font Indo Poppins - Reguler 400 - medium 500 - bold 700  */
-  --font-poppins: 'Poppins', sans-serif;
-}
-
-/* Font Family  */
-.font-aref{
-  font-family: var(--font-aref)!important;
-}
-.font-scheherazade{
-  font-family: var(--font-scheherazade)!important;
-}
-.font-poppins{
-  font-family: var(--font-poppins)!important;
-}
-.font-rustam-quran{
-  line-height: 3.3rem;
-  font-family: "Rustam Quran";
-  font-weight: normal;
-  text-align: right;
-  direction: rtl;
-}
-.font-kalam-light{
-  font-family: "Kalam", cursive;
-  font-weight: 300;
+/* Font aref ruqo - 400, 700  */
+.font-aref {
+  font-family: "Aref Ruqaa", serif;
+  font-weight: 400;
   font-style: normal;
 }
-.font-kalam-regular {
+/* Font Arabic Scheherazade New - 400, 500, 600, 700 */
+.font-scheherazade {
+  font-family: "Scheherazade New", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/* Font Indo Kalam - 300, 400, 700 */
+.font-kalam {
   font-family: "Kalam", cursive;
   font-weight: 400;
   font-style: normal;

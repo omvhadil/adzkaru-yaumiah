@@ -19,7 +19,7 @@ const router = useRouter()
         </svg>
       </div>
     </div>
-    <h4 class="font-semibold text-lg text-dark font-kalam-regular">Semua Menu</h4>
+    <h4 class="font-semibold text-lg text-dark font-kalam">Semua Menu</h4>
   </header>
   <!-- Main -->
   <main class="container pt-[4.5rem] bg-gray-50 min-h-[100vh]">
