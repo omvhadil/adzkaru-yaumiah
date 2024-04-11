@@ -64,7 +64,7 @@ watchEffect(() => {})
               <h2
                 class="m-0 py-1 font-scheherazade text-[1.9rem] text-dark"
                 align="right"
-                style="line-height: 3.3rem"
+                style="line-height: 3.7rem"
               >
                 {{ item.arab }}
               </h2>

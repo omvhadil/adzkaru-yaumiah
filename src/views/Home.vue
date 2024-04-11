@@ -16,7 +16,7 @@ const router = useRouter()
             <MenuToggle />
           </div>
           <!-- title  -->
-          <span class="text-xl font-medium">KHULASOH.io</span>
+          <span class="text-xl font-medium">AR-ROHMAN.io</span>
         </div>
         <div class="flex gap-1 items-center">
           <!-- dark mode  -->
@@ -56,7 +56,7 @@ const router = useRouter()
         <!-- title  -->
         <div class="w-[80%] p-0">
           <div class="text-center mt-4">
-            <h1 class="font-aref text-[3.5rem]">الْخُلَاصَةُ</h1>
+            <h1 class="font-aref text-[3.5rem]">الْرَّحْمَنُ</h1>
             <p class="font-scheherazade text-[1.7rem] text-dark m-0">في الأوراداليوميةوالأدعية</p>
             <span class="text-dark font-scheherazade text-[1.2rem]">
               جمع و ترتيب <br />

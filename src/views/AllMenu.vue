@@ -98,12 +98,12 @@ const router = useRouter()
         <p class="text-dark">Basaudan</p>
       </div>
       <!-- ramadhan -->
-      <div class="flex flex-col justify-center items-center text-center cursor-pointer">
+      <div
+        @click="router.push('/Ramadhan')"
+        class="flex flex-col justify-center items-center text-center cursor-pointer"
+      >
         <div class="bg-gray-200 rounded-full h-[40px] w-[40px] p-0 pt-1 relative">
           <span class="text-3xl">📓</span>
-          <div class="absolute top-0 right-0">
-            <span class="text-sm">🔐</span>
-          </div>
         </div>
         <p class="text-dark">Ramadhan</p>
       </div>
