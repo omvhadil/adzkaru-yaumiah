@@ -64,15 +64,11 @@ watchEffect(() => {})
               <h2
                 class="m-0 py-1 font-scheherazade text-[1.9rem] text-dark"
                 align="right"
-                style="line-height: 3.7rem"
+                style="line-height: 3.3rem"
               >
                 {{ item.arab }}
               </h2>
-              <!-- <h4
-                v-if="terjemahan"
-                class="m-0 py-1 font-scheherazade text-[1rem] text-white"
-                align="left"
-              >
+              <!-- <h4 class="m-0 py-1 font-scheherazade text-[1rem] text-dark" align="left">
                 {{ item.arti }}
               </h4> -->
               <h2 class="m-0 py-1 font-kalam text-[1.3rem] text-gray-700" align="center">
