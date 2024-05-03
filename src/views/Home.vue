@@ -6,21 +6,21 @@ import MenuToggle from '../components/MenuToggle.vue'
 const router = useRouter()
 </script>
 <template>
-  <main class="main w-full h-[100vh] bg-gray-200 overflow-hidden">
+  <main class="main w-full h-[100vh] bg-green-100 overflow-hidden">
     <!-- header  -->
     <header class="header px-4 bg-gray-50">
       <div class="flex h-[3.5rem] justify-between items-center">
         <div class="flex items-center gap-4">
           <!-- menu toggle  -->
-          <div class="p-3 rounded-lg hover:bg-gray-200">
+          <div class="p-3 rounded-lg hover:bg-green-100">
             <MenuToggle />
           </div>
           <!-- title  -->
-          <span class="text-xl font-medium">AR-ROHMAN.io</span>
+          <span class="text-xl font-medium">AL-FADILATU.io</span>
         </div>
         <div class="flex gap-1 items-center">
           <!-- dark mode  -->
-          <div class="p-3 rounded-lg hover:bg-gray-200 cursor-pointer">
+          <div class="p-3 rounded-lg hover:bg-green-100 cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -34,7 +34,7 @@ const router = useRouter()
             </svg>
           </div>
           <!-- profile user  -->
-          <div class="p-3 rounded-lg hover:bg-gray-200 cursor-pointer">
+          <div class="p-3 rounded-lg hover:bg-green-100 cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -56,7 +56,7 @@ const router = useRouter()
         <!-- title  -->
         <div class="w-[80%] p-0">
           <div class="text-center mt-4">
-            <h1 class="font-aref text-[3.5rem]">الْرَّحْمَنُ</h1>
+            <h1 class="font-aref text-[3.5rem]">الْفَضِيْلَةُ</h1>
             <p class="font-scheherazade text-[1.7rem] text-dark m-0">في الأوراداليوميةوالأدعية</p>
             <span class="text-dark font-scheherazade text-[1.2rem]">
               جمع و ترتيب <br />
@@ -72,13 +72,13 @@ const router = useRouter()
         <!-- menu -->
         <div class="w-[20%] p-0">
           <div
-            class="shadow-lg rounded-l-3xl bg-gradient-to-b from-gray-400 to-gray-300 py-4 grid justify-center gap-3 ms-auto w-[90%]"
+            class="shadow-lg rounded-l-3xl bg-gradient-to-b from-green-300 to-green-200 py-4 grid justify-center gap-3 ms-auto w-[90%]"
           >
             <!-- Madad -->
             <div @click="router.push('madad')" class="text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gray-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
+                  class="cursor-pointer bg-green-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
                 >
                   <span class="text-3xl">📖</span>
                 </div>
@@ -89,7 +89,7 @@ const router = useRouter()
             <div @click="router.push('majmu')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gray-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
+                  class="cursor-pointer bg-green-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
                 >
                   <span class="text-3xl">📚</span>
                 </div>
@@ -100,7 +100,7 @@ const router = useRouter()
             <div @click="router.push('/tahlil-pendek/tahlil-kubur')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gray-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
+                  class="cursor-pointer bg-green-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
                 >
                   <span class="text-3xl">🤲</span>
                 </div>
@@ -111,7 +111,7 @@ const router = useRouter()
             <div @click="router.push('/all-menus')" class="menu-item text-center">
               <div>
                 <div
-                  class="cursor-pointer bg-gray-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
+                  class="cursor-pointer bg-green-100 p-1 rounded-full flex items-center justify-center mx-auto w-[40px] h-[40px]"
                 >
                   <span class="text-3xl">♻</span>
                 </div>
@@ -127,10 +127,10 @@ const router = useRouter()
       <!-- title timeline -->
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-2 py-4">
-          <div class="w-[5px] h-[25px] bg-gray-600"></div>
+          <div class="w-[5px] h-[25px] bg-green-600"></div>
           <h4 class="font-bold text-lg">Mahfudzot</h4>
         </div>
-        <div class="p-2 hover:bg-gray-200 rounded-lg cursor-pointer">
+        <div class="p-2 hover:bg-green-200 rounded-lg cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -147,7 +147,7 @@ const router = useRouter()
       <hr />
       <!-- content timeline -->
       <div class="py-4 relative h-[300px]">
-        <div class="bg-gray-600 px-2 rounded-md absolute">
+        <div class="bg-green-600 px-2 rounded-md absolute">
           <p class="text-sm text-white">Terbaru</p>
         </div>
         <div class="mt-8">
