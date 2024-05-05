@@ -32,7 +32,7 @@ export const data = [
               },
               {
                 id: 2,
-                arab: 'اَللّٰهُمَّ أَنْتَ السَّلَامُ  ،  وَمِنْكَ السَّلَامُ ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَارَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا دَارَكَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَاالْـجَلَالِ وَاْلإِكْرَامِ',
+                arab: 'اَللّٰهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَا رَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا دَارَكَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ',
                 indo: '',
                 image: '',
                 latin: '',
@@ -48,11 +48,11 @@ export const data = [
               },
               {
                 id: 4,
-                arab: 'رَبَّنَا تَقَبَّلْ مِنَّا اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْمُ ، وَتُبْ عَلَيْنَا اِنَّكَ اَنْتَ التَّوَّابُ الرَّحِيْمُ',
+                arab: 'رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيْعُ الْعَلِيْمُ وَتُبْ عَلَيْنَا إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيْمُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Tuhan kami, terimalah dari kami (doa), sesungguhnya Engkau Maha Mendangar lagi Maha Mengetahui. Terimalah taubat kami, sesungguhnya Engkau Maha penerima Taubat lagi Maha Penyayang.'
+                arti: 'Tuhan kami, terimalah dari kami (doa), sesungguhnya Engkau Maha Mendangar lagi Maha Mengetahui. Terimalah taubat kami, sesungguhnya Engkau Maha penerima Taubat lagi Maha Penyayang.(3)'
               },
               {
                 id: 5,
@@ -153,7 +153,7 @@ export const data = [
         slug: 'subuh',
         title: 'Dzikir Setelah Sholat Subuh',
         arab: 'وِرْدُ الَّطِيْفُ',
-        latin: 'Dzikir ba’da shalāti as-subhi',
+        latin: 'Dzikir ba’da shalātii as-subhi',
         dzikri: [
           {
             id: 1,
@@ -165,443 +165,387 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم ، قُلْ هُوَ اللّٰهُ أَحَدٌ ۝ اَللّٰهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُوْلَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ۝ (٣)',
+                arab: 'سُوْرَةُ الْإِخْلَاصْ (۳) ، الْمُعَوِّذَتَيْنِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dengan Nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah (wahai Muhammad): "Dialah Allah yang Maha Esa; Allah yang menjadi tumpuan segala permohonan; Ia tidak beranak, dan Ia pula  tidak diperanakkan; Dan tidak ada siapapun yang sebanding dengan-Nya". (QS. Al-Ikhlas)'
+                arti: ''
               },
               {
                 id: 2,
-                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ ماَ خَلَقَ ۝ وَمِنْ شَـرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِنْ شَـرِّ النَّـفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝ (٣)',
+                arab: 'رَبِّ أَعُوْذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِيْنِ ، وَأَعُوْذُ بِكَ رَبِّ أَنْ يَحْضُرُوْنَ (۳)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dengan Nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah (wahai Muhammad); "Aku berlindung dengan Tuhan yang menciptakan cahaya subuh, dari kejahatan makhluk-makhluk yang Ia ciptakan; dan dari kejahatan malam apabila ia gelap gulita; dan dari (ahli-ahli sihir) yang menghembus pada simpulan-simpulan ikatan; dan dari kejahatan orang dengki apabila ia mendengki". (QS. Al-Falaq)'
+                arti: ''
               },
               {
                 id: 3,
-                arab: 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَهِ النَّاسِ ۝ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ اَلَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ ۝ (٣)',
+                arab: 'أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُوْنَ ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dengan Nama Allah Yang Maha Pengasih lagi Maha Penyayang. Katakanlah (wahai Muhammad); "Aku berlindung dengan Tuhan sekalian manusia; Yang menguasai sekalian manusia; Tuhan yang berhak disembah oleh sekalian manusia; Dari kejahatan pembisik penghasut yang timbul tenggelam; Yang melemparkan bisikan dan hasutannya ke dalam hati manusia dari kalangan jin dan manusia". (QS. An-Nas)'
+                arti: ''
               },
               {
                 id: 4,
-                arab: 'رَبِّ أَعُوذُ بِـكَ مِنْ هَمَـزَاتِ الشَّيَـاطِيْنِ ، وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُـرُونِ (٣)',
+                arab: 'فَتَعَالَى اللّٰهُ الْمَلِكُ الْحَقُّ لَا إِلٰهَ إِلَّا هُوَ رَبُّ الْعَرْشِ الْكَرِيْمِ ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Tuhanku, aku berlindung kepada-Mu dari bisikan-bisikan syaitan. Dan aku berlindung pula kepada-Mu ya Tuhanku dari kehadiran mereka kepadaku.'
+                arti: ''
               },
               {
                 id: 5,
-                arab: 'اَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثاً وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُـوْنَ',
+                arab: 'وَمَنْ يَدْعُ مَعَ اللّٰهِ إِلٰهًا اٰخَرَ لَا بُرْهَانَ لَهُ بِهِ فَإِنَّمَا حِسَابُهُ عِنْدَ رَبِّهِ إِنَّهُ لَا يُفْلِحُ الكَافِرُوْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Maka apakah aku mengira, bahwa sesungguhnya Kami menciptakan kamu sia-sia saja, dan bahwa kamu tidak akan dikembalikan kepada kami? (QS. Al-Mukminun: 115)'
+                arti: ''
               },
               {
                 id: 6,
-                arab: 'فَتَعَالَى اللّٰهُ الْمَلِكُ الْحَقُّ لَا إِلَهَ إِلَاّ هُوَ رَبُّ الْعَرْشِ الْكَرِيْم',
+                arab: 'وَقُلْ رَبِّ اغْفِرْ وَارْحَمْ وَأَنْتَ خَيْرُ الرَّاحِمِيْنَ ، فَسُبْحَانَ اللّٰهِ حِيْنَ تُمْسُوْنَ وَحِيْنَ تُصْبِحُوْنَ وَلَهُ الْحَمْدُ فِي السَّمَوَاتِ وَالأَرْضِ وَعَشِيًّا وَحِيْنَ تُظْهِرُوْنَ                ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Maka Maha Tinggi Allah, Raja yang sebenarnya - tidak ada Tuhan selain Dia - Tuhan yang mempunyai arsy yang Agung. (QS. Al-Mukminun: 116)'
+                arti: ''
               },
               {
                 id: 7,
-                arab: 'وَ مَنْ يَدْعُ مَعَ اللّٰهِ إِلٰهاً آخَرَ لَا بُرْهَانَ لَهُ بِـهِ فَإِنَّمَا حِسَـابُهُ عِنْدَ رَبّـِهِ إِنَّـهٗ لَا يُفْلِحُ الْكَافِـرُوْنَ',
+                arab: 'يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَيُحْيِيْ الْأَرْضَ بَعْدَ مَوْتِهَا وَكَذٰلِكَ تُخْرَجُوْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dan barang siapa memohon kepada tuhan selain Allah, padahal tidak ada suatu bukti pun baginya tentang itu, maka sesungguhnya perhitungannya disisi Tuhannya, sesungguhnya orang-orang kafir itu tidak beruntung. (QS. Al-Mukminun: 117)'
+                arti: ''
               },
               {
                 id: 8,
-                arab: 'وَقُلْ رَبِّ اغْفِرْ وَارْحَمْ وَأَنْتَ خَيْرُ الرَّاحِمِيْنَ',
+                arab: 'اَعُوْذُ بِاللّٰهِ السَّمِيْعِ الْعَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dan katakanlah: Ya Tuhanku berilah ampunan dan berilah rahmat, dan Engkau adalah Perberi rahmat yang terbaik. (QS. Al-Mukminun: 118)'
+                arti: ''
               },
               {
                 id: 9,
-                arab: 'فَسُبْحَانَ اللّٰهِ حِيْنَ تُمْسُوْنَ وَحِيْنَ تُصْبِحُوْنَ',
+                arab: 'لَوْ أَنْزَلْنَا هٰذَا القُرْآنَ عَلَى جَبَلٍ لَرَأَيْتَهُ خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللّٰهِ وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Maka bertasbih kepada Allah diwaktu kamu berada di petang hari dan waktu kamu berada di waktu subuh. (QS. Ar-Rum: 17)'
+                arti: ''
               },
               {
                 id: 10,
-                arab: 'وَلَهُ الْحَمْدُ فِي السَّمَوَاتِ وَالأَرْضِ وَعَشِيًّا وَحِيْنَ تُظْهِرُوْنَ',
+                arab: 'هُوَ اللّٰهُ الَّذِي لَا إِلٰهَ إِلَّا هُوَ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ هُوَ الرَّحْمٰنُ الرَّحِيْمُ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dan bagi-Nya segala puji dilangit dan bumi, dan diwaktu petang dan ketika kamu berada di waktu dzuhur. (QS. Ar-Rum: 18)'
+                arti: ''
               },
               {
                 id: 11,
-                arab: 'يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَيُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَيُحْيِ الأَرْضَ بَعْدَ مَوْتِهَا وَكَذَلِكَ تُخْرِجُوْنَ',
+                arab: 'هُوَ اللّٰهُ الَّذِي لَا إِلٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوْسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيْزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللّٰهِ عَمَّا يُشْرِكُوْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dia mengeluarkan yang hidup dari yang mati dan mengeluarkan yang mati dari yang hidup dan menghidupkan bumi sesudah matinya: dan seperti itulah kamu dikeluarkan (dari kubur). (QS. Ar-Rum: 19)'
+                arti: ''
               },
               {
                 id: 12,
-                arab: 'أَعُوْذُ بِاللّٰهِ السَّمِيْعِ الْعَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْم (٣)',
+                arab: 'هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى يُسَبِّحُ لَهُ مَا فِي السَّمَوَاتِ وَالْأَرْضِ وَهُوَ العَزِيْزُ الْحَكِيْمُ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Aku berlindung dengan Allah Yang Maha Mendengar Lagi Maha Mengetahui dari bisikan syaitan yang terkutuk. (3x)'
+                arti: ''
               },
               {
                 id: 13,
-                arab: 'لَوْ أَنْزَلْنَـا هَذَا الْقُرْآنَ عَلَى جَبَلٍ لَرَأَيْتَهُ خَاشِعًـا مُتَصَدِّعًا مِنْ خَشْيَةِ اللّٰهِ وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ',
+                arab: 'سَلَامٌ عَلَى نُوْحٍ فِي الْعَالَمِيْنَ إِنَّا كَذَلِكَ نَجْزِى الْمُحْسِنِيْنَ إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِيْنَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Kalau sekiranya Kamu menurunkan Al-Quran ini pada sebuah gunung pasti kamu akan melihatnya tunduk terpecah-pecah disebabkan takut kepada Allah. Dan perumpamaan-perumpamaan itu Kami buat untuk manusia supaya mereka berfikir. (QS. Al-Hasyr: 21)'
+                arti: ''
               },
               {
                 id: 14,
-                arab: 'هُوَ اللّٰهُ الَّذِيْ لَا إِلَهَ إِلَّا هُوَ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ هُوَ الرَّحْمَنُ الرَّحِيْمُ',
+                arab: 'أَعُوْذُ بِكَلِمَاتِ اللّٰهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dialah Allah Yang Tiada Tuhan selain Dia, Yang Mengetahui yang ghaib dan yang nyata. Dialah yang Maha Pemurah lagi Maha Penyayang. (QS. Al-Hasyr: 22)'
+                arti: ''
               },
               {
                 id: 15,
-                arab: 'هُوَ اللّٰهُ الَّذِيْ لَا إِلَهَ إِلَاّ هُوَ الْمَلِكُ الْقُدُّوْسُ السَّلَامُ الْمُؤْمِـنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللّٰهِ عَمَّا يُشْرِكُوْنَ',
+                arab: 'بِسْمِ اللّٰهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيْعُ الْعَلِيْمُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dialah Allah yang Tiada Tuhan selain Dia; Raja yang Maha Suci; Yang Maha Sejahtera; Yang Memberikan keamanan; Yang Maha Memelihara; Yang Maha Perkasa; Yang Maha Kuasa; Yang Memiliki Segala Keagungan. Maha Suci Allah dari apa yang mereka persekutukan. (QS. Al-Hasyr: 23)'
+                arti: ''
               },
               {
                 id: 16,
-                arab: 'هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى يُسَبِّحُ لَهُ مَا فِي السَّمَوَاتِ وَالأَرْضِ وَهُوَ الْعَزِيْزُ الْحَكِيْم',
+                arab: 'اَللّٰهُمَّ إِنِّي اَصْبَحْتُ مِنْكَ فِي نِعْمَةٍ وَعَافِيَةٍ وَسِتْرِ فَأَتْمِمْ نِعْمَتَكَ عَلَيَّ وَعَافِيَتَكَ وَسِتْرَكَ فِي الدُّنْيَا وَالْآخِرَةِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dialah Allah Yang Menciptakan; Yang Mengadakan; Yang Membentuk Rupa; Yang mempunyai sifat-sifat baik; Bertasbih kepada-Nya segala yang dilangit dan dibumi; dan Dia-lah Yang Maha Perkasa Lagi Maha Bijaksana. (QS. Al-Hasyr: 24)'
+                arti: ''
               },
               {
                 id: 17,
-                arab: 'سَلَامٌ عَلَى نُوْحٍ فِي الْعَالَمِيْن',
+                arab: 'اَللّٰهُمَّ إِنِّي اَصْبَحْتُ أُشْهِدُكَ وَاُشْهِدُ حَمَلَةَ عَرْشِكَ وَمَلَائِكَتَكَ وَجَمِيْعَ خَلْقِكَ أَنَّكَ أَنْتَ اللّٰهُ لَا إِلٰهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، وَأَنَّ سَيِّدَنَا مُحَمَّدًا عَبْدُكَ وَرَسُوْلُكَ (٤)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Kesejahteraan dilimpahkan atas Nuh diseluruh alam. (QS. Ash-Shaffat: 79)'
+                arti: ''
               },
               {
                 id: 18,
-                arab: 'إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِيْن ، إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِيْنَ',
+                arab: 'الْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ حَمْدًا يُوَا فِي نِعَمَهُ وَيُكَا فِي مَزِيْدَهُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik. (QS. Ash-Shaffat: 80) Sesungguhnya dia termasuk diantara hamba-hamba Kami yang beriman. (QS. Ash-Shaffat: 81)'
+                arti: ''
               },
               {
                 id: 19,
-                arab: 'أَعُوذُ بِكَلِمَاتِ اللّٰهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ (٣)',
+                arab: 'آمَنْتُ بِاللّٰهِ الْعَظِيْمِ وَكَفَرْتُ بِالْجِبْتِ وَالطَّاغُوْتِ وَاسْتَمْسَكْتُ بِالْعُرْوَةِ الْوُثْقٰى لَا انْفِصَامَ لَهَا وَاللّٰهُ سَمِيْعٌ عَلِيْمٌ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk-Nya. (3x)'
+                arti: ''
               },
               {
                 id: 20,
-                arab: 'بِسْمِ اللّٰهِ الَّذِيْ لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي اْلأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيْعُ الْعَلِيْمُ (٣)',
+                arab: 'رَضِيْتُ بِاللّٰهِ رَبَّا وَبِالْإِسْلَامِ دِيْنًا وَبِمُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ نَبِيًّا وَرَسُوْلًا (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Dengan nama Allah uang dengan nama-Nya tak satu pun, yang dibumi maupun di langit dapat memberi bencana dan Ia Maha Mendengar Lagi Maha mengetahui. (3x)'
+                arti: ''
               },
               {
                 id: 21,
-                arab: 'اَللّٰهُمَّ إِنِّي أَصْبَحْتُ مِنْكَ فِي نِعْمَةٍ وَعَافِيَةٍ وَسِتْرٍ فَأَتْمِمْ نِعْمَتَكَ عَلَيَّ وَعَافِيَتَكَ وَسِتْرَكَ فِي الدُّنْيَا وَاْلآخِرَةِ (٣)',
+                arab: 'حَسْبِيَ اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ (٧)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, sesungguhnya aku berada di pagi hari dalam kenikmatan, keselamatan dan perlindungan dari-Mu, maka sempurnakanlah kenikmatan, keselamatan dan perlindungan-Mu di dunia dan akhirat. (3x)'
+                arti: ''
               },
               {
                 id: 22,
-                arab: 'اَللّٰهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ وَمَلَائِكَتَكَ وَجَمِيعَ خَلْقِكَ أَنَّكَ أَنْتَ اللّٰهُ لَا إِلَهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيْكَ لَكَ وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ (٤)',
+                arab: 'اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلِّمِ (١٠)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, sesungguhnya aku berada di pagi hari dalam keadaan menjadikan-Mu sebagai saksi, begitu juga pemikul arsy-Mu, para malaikat dan seluruh makhluk-Mu, bahwa sesungguhnya Engkau adalah Allah yang tiada tuhan selain-Mu, yang Maha Esa tiada sekutu bagi-Mu, dan sesungguhnya Muhammad adalah hamba dan rasul-Mu. (4x)'
+                arti: ''
               },
               {
                 id: 23,
-                arab: 'اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ حَمْدًا يُوَافِي نِعَمَهُ وَيُكَافِئُ مَزِيْدَهُ (٣)',
+                arab: 'اَللّٰهُمَّ إِنِّي اَسْئَلُكَ مِنْ فُجَاءَةِ الْخَيْرِ وَأَعُوْذُ بِكَ مِنْ فُجَاءَةِ الشَّرِّ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Segala puji bagi Allah, Tuhan alam semesta, pujian yang memenuhi nikmat-nikmat-Nya dan mencukupi tambahan (nikmat)-Nya. (3x)'
+                arti: ''
               },
               {
                 id: 24,
-                arab: 'آمَنْتُ بِاللّٰهِ العَظِيْمِ وَكَفَرْتُ بِالْجِبْتِ وَالطَّاغُوْتِ وَاسْتَمْسَكْتُ بِالْعُرْوَةِ الْوُثْقَى لَا انْفِصَامَ لَهَا وَاللّٰهُ سَمِيْعٌ عَلِيْمٌ (٣)',
+                arab: 'اَللّٰهُمَّ أَنْتَ رَبِّي لَا إِلٰهَ إِلَّا أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوْءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوْبَ إِلَّا أَنْتَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Aku beriman kepada Allah Yang Maha Agung dan ingkar terhadap sembahan selain Allah dan thaghut (segala yang disekutukan dengan Allah), serta aku berpegang dengan tali yang kukuh yang tidak akan terputus. Dan Allah Maha Mendengar Lagi Maha Mengetahui. (QS. Al-Baqarah: 256) (3x)'
+                arti: ''
               },
               {
                 id: 25,
-                arab: 'رَضِيْتُ بِاللّٰهِ رَبـًّا وَ بِالإِسْلَامِ دِيْنـًا وَبِمُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا وَرَسُوْلاً (٣)',
+                arab: 'اَللّٰهُمَّ أَنْتَ رَبِّي لَا إِلٰهَ إِلَّا أَنْتَ عَلَيْكَ تَوَكَّلْتُ وَأَنْتَ رَبُّ الْعَرْشِ العَظِيْمِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Aku ridho Allah sebagai Tuhan, Islam sebagai agama dan Muhammad SAW sebagai Nabi dan Rosul. (3x)'
+                arti: ''
               },
               {
                 id: 26,
-                arab: 'حَسْـبِيَ اللّٰهُ لَا إِلَهَ إِلَّا هُـوَ عَلَيْـهِ تَـوَكَّلْتُ وَهُـوَ رَبُّ العَرْشِ العَظِيْـم(٧)',
+                arab: 'مَا شَاءَ اللّٰهُ كَانَ وَمَا لَمْ يَشَأْ لَمْ يَكُنْ ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيُّ الْعَظِيْمِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Cukuplah Allah (sebagai pelindungku), tiada Tuhan melainkan Dia, kepada-Nya aku bertawakal, dan Dialah Penguasa Arsy yang Agung. (QS. At-Taubah: 129) (7x)'
+                arti: ''
               },
               {
                 id: 27,
-                arab: 'اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَسَلِّمْ (١٠)',
+                arab: 'أَعْلَمُ أَنَّ اللّٰهَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ وَأَنَّ اللّٰهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, limpahkanlah shalawat dan salam kepada junjungan kamu Muhammad serta keluarga dan para sahabarnya. (10x)'
+                arti: ''
               },
               {
                 id: 28,
-                arab: 'اَللّٰهُمَّ إِنِّي أَسْأَلُكَ مِنْ فُجَاءَةِ الْخَيْرِ وَأَعُوذُ بِكَ مِنْ فُجَاءَةِ الشَّرِّ',
+                arab: 'اَللّٰهُمَّ إِنِّي اَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ وَمِنْ شَرِّكُلِّ دَابَّةٍ أَنْتَ اٰخِذُ بِنَاصِيَتِهَا إِنَّ رَبِّيْ عَلَى صِرَاطٍ مُسْتَقِيْمٍ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah aku memohon kepada-Mu kebaikan yang tidak disangka; dan aku berlindung kepada-Mu dari keburukan yang datang tiba-tiba.'
+                arti: ''
               },
               {
                 id: 29,
-                arab: 'اَللّٰهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَاّ أَنْتَ خَلَقْتَنِيْ وَ أَناَ عَبْدُكَ وَأَناَ عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوْذُ بِـكَ مِنْ شَرِّ مـَا صَنَعْـتُ أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوْءُ بِذَنْبِيْ فاَغْفِرْ لِيْ فَاِنَّهُ لَا يَغْفِرُ الذُّنُوْبَ إِلَّا أَنْتَ',
+                arab: 'يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ اَسْتَغِيْتُ وَمِنْ عَذَابِكَ اَسْتَجِيْرُ اَصْلِحْ لِيْ شَأْنِي كُلَّهُ وَلَا تَكِلْنِيْ إِلَى نَفْسِيْ وَلَا إِلَى أَحَدٍ مِنْ خَلْقِكَ طَرْفَةَ عَيْنٍ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, Engkaulah Tuhanku, tiada Tuhan selain Engkau; Engkau ciptakan aku, dan aku adalah hamba-Mu, dan aku akan menuruti perintah dan amanat-Mu sekuat tenagaku. Aku berlindung kepada-Mu dari hal-hal buruk yang aku perbuat, dan aku mengakui nikmat kurnia-Mu kepadaku, serta mengakui dosaku, maka ampunilah aku, karena tak ada yang mampu mengampuni dosa itu selain Engkau.'
+                arti: ''
               },
               {
                 id: 30,
-                arab: 'اَللّٰهُمَّ أَنْتَ رَبِّيْ لَا اِلَهَ إِلَّا أَنْتَ عَلَيْكَ تَوَكَّلْـتُ وَأَنْتَ رَبُّ الْعَـرْشِ الْعَظِيْـم ',
+                arab: 'اَللّٰهُمَّ إِنِّي أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَأَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ وَاَعُوْذُ بِكَ مِنْ غَلَبَةِ الدِّيْنِ وَقَهْرِ الرِّجَالِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah Engkaulah Tuhanku tiada Tuhan selain Engkau aku berserah diri, dan Engkau Tuhan arsy yang mempunyai keagungan.'
+                arti: ''
               },
               {
                 id: 31,
-                arab: 'مَا شَاءَ اللّٰهُ كَـانَ وَمَا لَمْ يَشَأْ لَـمْ يَكُنْ وَلَا حَـوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ',
+                arab: 'اَللّٰهُمَّ اِنِّيْ اَسْئَلُكَ الْعَافِيَةَ فِيْ الدُّنْيَا وَالْآخِرَةِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Apa yang dikehendaki Allah  pasti akan terjadi, dan apa yang tidak dikehendaki tidak akan terjadi, Tiada daya dan tiada kekuatan tanpa pertolongan Allah yang Maha Tinggi lagi Maha Besar.'
+                arti: ''
               },
               {
                 id: 32,
-                arab: 'اَعْلَـمُ أَنَّ اللّٰهَ عَلَى كُلِّ شَيْءٍ قَدِيْـرٌ ، وَاَنَّ اللّٰهَ قَدْ أَحَـاطَ بِكُلِّ شَيْءٍ عِلْمًـا',
+                arab: 'اَللّٰهُمَّ إِنِّي اَسْئَلُكَ الْعَفْوَ وَ الْعَافِيَةَ وَالْمُعَافَاةَ الدَّائِمَةَ فِيْ دِيْنِي وَدُنْيَايَ وَاَهْلِي وَمَا لِي ، اَللّٰهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِيْ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Aku mengetahui bahwasanya Allah Maha Kuasa atas segala sesuatu. dan sesungguhnya Allah, ilmu-Nya meliputi segala sesuatu. (QS. At-Talaq: 12)'
+                arti: ''
               },
               {
                 id: 33,
-                arab: 'اَللّٰهُمَّ إِنِّي أَعُوْذُ بِـكَ مِنْ شَرِّ نَفْسِيْ وَمِنْ شَرِّ كُـلِّ دَابَّـةٍ أَنْتَ آخِـذٌ بِنَا صِيَتِهاَ إِنَّ رَبِيِّ عَلَى صِرَاطٍ مُسْتَقِيْمٍ',
+                arab: 'اَللّٰهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِيْ وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِي وَمِنْ فَوْقِي وَأَعُوْدُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, aku berlindung kepada-Mu dari kejahatan diriku sendiri, dan dari kejahatan segala yang melata dan ubun-ubunnya berada dalam genggaman-Mu, sesungguhnya Tuhanku selalu berada diatas jalan yang lurus.'
+                arti: ''
               },
               {
                 id: 34,
-                arab: 'يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ اَسْتَغِيْثُ وَمِنْ عَذَابِكَ أَسْتَجِيْرُ أَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلَا تَكِلْنِيْ إِلَي نَفْسِيْ وَلَا إِلَى أَحَدٍ مِنْ خَلْقِكَ طَرْفَةَ عَيْنٍ',
+                arab: 'اَللّٰهُمَّ أَنْتَ خَلَقْتَنِيْ وَاَنْتَ تَهْدِيْنِيْ وَأَنْتَ تُطْعِمُنِيْ وَأَنْتَ تُسْقِيْنِيْ وَاَنْتَ تُمِيْتُنِيْ وَأَنتَ تُحْيِيْنِي وَأَنْتَ عَلَى كُلِّ شَيْ قَدِيْرٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Wahai yang Maha Hidup dan Maha Berdiri Sendiri, aku memohon pertolongan dengan kasih sayang-Mu, dan aku memohon perlindungan dari siksa-Mu. Perbaikilah untukku segala permasalahanku, dan jangan Engkau tinggalkan aku kepada diriku sendiri, dan kepada salah seorang dari makhluk-Mu walau sekejap mata pun.'
+                arti: ''
               },
               {
                 id: 35,
-                arab: 'اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَأَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ',
+                arab: 'اَصْبَحْنَا عَلَى فِطْرَةِ الْإِسْلَامِ وَعَلَى كَلِمَةٍ الْإِخْلَاصِ وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, aku berlindung kepada-Mu dari kegundahan dan kesedihan, dan aku berlindung kepada-Mudari ketidakberdayaan dan sifat malas, dan aku berlindung kepada-Mu dari sifat pengecut dan kikir, dan aku berlindung kepada-Mu dari beban hutang dan penindasan manusia.'
+                arti: ''
               },
               {
                 id: 36,
-                arab: 'اَللّٰهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ',
+                arab: 'اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَعَلَيْكَ نَتَوَكَّلُ وَإِلَيْكَ النُّشُورُ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, aku memohon kepada-Mu keselamatan di dunia dan akhirat.'
+                arti: ''
               },
               {
                 id: 37,
-                arab: 'اَللّٰهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَـافِيَةَ وَالْمُعَافاَةَ الدَّائِمَةَ فِي دِيْنِيْ وَدُنْياَيَ وَأَهْلِيْ وَماَلِيْ',
+                arab: 'اَصْبَحْنَا وَاَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ ، اَللّٰهُمَّ إِنِّي اَسْئَلُكَ خَيْرَهٰذَا الْيَوْمِ فَتْحَهُ وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُدَاهُ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, aku memohon kepada-Mu maaf dan keselamatan serta perlindungan yang abadi dalam agama, dunia, keluarga, dan hartaku.'
+                arti: ''
               },
               {
                 id: 38,
-                arab: 'اَللّٰهُمَّ اسْتُرْ عَوْرَاتِيْ وَآمِنْ رَوْعَاتِيْ',
+                arab: 'اَللّٰهُمَّ اِنِّيْ اَسْئَلُكَ خَيْرَ هٰذَا الْيَوْمِ وَخَيْرَ مَا فِيْهِ وَخَيْرَمَا قَبْلَهُ وَخَيْرَ مَا بَعْدَهُ ، وَأَعُوْذُ بِكَ مِنْ شَرِّهٰذَا الْيَوْمِ وَشَرِّ مَا فِيْهِ وَشَرِّ مَا قَبْلَهُ وَشَرِّ مَا بَعْدَهُ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, tutupilah segala kekuranganku, dan berilah keamanan kepadaku dari rasa takut.'
+                arti: ''
               },
               {
                 id: 39,
-                arab: 'اَللّٰهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِيْ وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِيْ وَمِنْ فَوْقِيْ ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ',
+                arab: 'اَللّٰهُمَّ مَا أَصْبَحَ بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لَا شَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ عَلَى ذٰلِكَ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, jagalah aku (dari malapetaka) yang datang dari depan dan belakangku, dari kanan dan kiriku, dari atasku,  dan aku berlindung dengan keagungan-Mu agar tidak dibinasakan dari bawahku.'
+                arti: ''
               },
               {
                 id: 40,
-                arab: 'اَللّٰهُمَّ أَنْتَ خَلَقْتَنِـيْ وَأَنْتَ تَهْدِيْنِـيْ وَأَنْتَ تُطْعِمُنِـيْ وَأَنْتَ تُسْقِيْنِـيْ وَأَنْتَ تُمِيْتُنِـي وَأَنْتَ تُحْيِيْنِـيْ وَاَنْتَ عَلَي كُلِّ شَئٍ قَدِيْرٌ',
+                arab: 'سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ وَرِضَى نَفْسِهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, Engkaulah yang menciptakanku, memberikan petunjuk kepadaku, memberi makanan kepadaku, memberikan minuman kepadaku, mematikanku, menghidupkanku, dan Engkau Maha Kuasa atas segala sesuatu.'
+                arti: ''
               },
               {
                 id: 41,
-                arab: 'أَصْبَحْنَا عَلَى فِطْرَةِ اْلإِسْلَامِ وَعَلَى كَلِمَةِ اْلإِخْلَاصِ وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْراَهِيْمَ حَنِيْفاً مُسْلِماً وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ',
+                arab: 'سُبْحَانَ اللّٰهِ الْعَظِيْمِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ وَرِضَى نَفْسِهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Kami berada pada pagi ini di atas fitrah beragama Islam, kalimat yang murni, agama Nabi kami Muhammad saw dan agama bapak kami Ibrahim as yang lurus dan berserah diri (kepada Allah), dan sekali-kali bukanlah dia dari golongan orang-orang yang mempersekutukan Allah dengan yang lain.'
+                arti: ''
               },
               {
                 id: 42,
-                arab: 'اَللّٰهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ',
+                arab: 'سُبْحَانَ اللّٰهِ عَدَدَ مَا خَلَقَ فِيْ السَّمَاءِ ، سُبْحَانَ اللّٰهِ عَدَدَ مَا خَلَقَ فِيْ الْأَرْضِ ، سُبْحَانَ اللّٰهِ عَدَدَ مَا بَيْنَ ذٰلِكَ سُبْحَانَ اللّٰهِ عَدَدَ مَا هُوَ خَالِقُ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah! Dengan-Mu kami berada di waktu pagi, dan demikian pula di waktu petang, dengan-Mu kami hidup dan dengan-mu kami mati, serta kepada-Mu tempat kembali.'
+                arti: ''
               },
               {
                 id: 43,
-                arab: 'أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ',
+                arab: 'اَلْحَمْدُ لِلّٰهِ عَدَدَ مَا خَلَقَ فِيْ السَّمَاءِ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَا خَلَقَ فِيْ الْأَرْضِ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَا بَيْنَ ذٰلِكَ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَا هُوَ خَالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Kami berada di pagi hari dan kerajaan milik Allah, serta segala puji bagi Allah Tuhan semesta alam.'
+                arti: ''
               },
               {
                 id: 44,
-                arab: 'اَللّٰهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ فَتْحَهُ وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُدَاهُ',
+                arab: 'لَا اِلٰهُ إِلَّا اللّٰهُ عَدَدَ مَا خَلَقَ فِيْ السَّمَاءِ ، لَا اِلٰهَ إِلَّا اللّٰهُ عَدَدَ مَا خَلَقَ فِيْ الْأَرْضِ ، لَا اِلٰهَ إِلَّا اللّٰهُ عَدَدَ مَا بَيْنَ ذٰلِكَ ، لَا اِلٰهَ إِلَّا اللّٰهُ عَدَدَ مَا هُوَ خَالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, kami memohon kepada-Mu kebaikan hari ini, pembukaan. pertolongan, cahaya, keberkahan dan petunjuknya.'
+                arti: ''
               },
               {
                 id: 45,
-                arab: 'اَللّٰهُمَّ إِنَّي أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ وَخَيْرَ مَا فِيْهِ وَأَعُوْذُ بِكَ مِنْ شَرِّ هَذَاالْيَوْمِ وَشَرِّ مَا فِيْهِ',
+                arab: 'اَللّٰهُ أَكْبَرُ عَدَدَ مَا خَلَقَ فِيْ السَّمَاءِ ، اَللّٰهُ أَكْبَرُ عَدَدَ مَا خَلَقَ فِيْ الْأَرْضِ ، اَللّٰهُ أَكْبَرُ عَدَدَ مَا بَيْنَ ذٰلِكَ ، اَللّٰهُ أَكْبَرَ عَدَدَ مَا هُوَ خَالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah aku memohon kepada-Mu kebaikan hari ini, dan kebaikan apa yang ada di dalamnya, kebaikan sebelum dan sesudahnya. Dan aku berlindung kepada-Mu dari keburukan hari ini dan keburukan apa yang terdapat didalamnya, juga keburukan sebelum dan sesudahnya.'
+                arti: ''
               },
               {
                 id: 46,
-                arab: 'اَللّٰهُمَّ ماَ أَصْبَحَ بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَـدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لَا شَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ عَلَى ذَلِكَ',
+                arab: 'لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللّٰهِ الْعَلِيُّ الْعَظِيْمِ عَدَدَ مَا خَلَقَ فِيْ السَّمَاءِ ، لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللّٰهِ الْعَلِيُّ الْعَظِيْمِ عَدَدَ مَا خَلَقَ فِيْ الْأَرْضِ ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيُّ الْعَظِيْمِ عَدَدَ مَا بَيْنَ ذٰلِكَ ، لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللّٰهِ الْعَلِيُّ الْعَظِيْمِ عَدَدَ مَا هُوَ خَالِقٌ',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Ya Allah, nikmat yang aku terima di pagi ini, atau yang di terima oleh salah seorang dari hamba-Mu, maka semua itu semata-mata dari-Mu yang Maha Esa tiada sekutu bagi-Mu. Bagi-Mu segala pujian dan untuk-Mu segala syukur atas semua itu.'
+                arti: ''
               },
               {
                 id: 47,
-                arab: 'سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ عَدَدَ خَلْقِـهِ وَرِضَـى نَفْسِهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ (٣)',
+                arab: 'لَا اِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِيْ وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ عَدَدَ كُلِّ ذَرَّةٍ أَلْفَ مَرَّةٍ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Maha Suci Allah dan segala puji untuk-Nya, sebanyak bilangan makhluk-Nya, keridhaan, timbangan Arsy dan sebanyak tinta untuk menulis kalimat-Nya. (3X)'
+                arti: ''
               },
               {
                 id: 48,
-                arab: 'سُبْحَانَ اللّٰهِ الْعَظِيْمِ وَبِحَمْدِهِ عَدَدَ خَلْقِـهِ وَرِضَـى نَفْسِـهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ (٣)',
+                arab: 'اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلٰى سَيِّدِنَا مُحَمَّدٍ مِفْتَاحِ بَابِ رَحْمَةِ اللّٰهِ عَدَدَ مَا فِيْ عِلْمِ اللّٰهِ صَلَاةً وَسَلَامًا دَائِمَيْنِ بِدَوَامِ مُلْكِ اللّٰهِ وَعَلَى آلِهِ وَصَحْبِهِ عَدَدَ كُلِّ ذَرَّةٍ أَلْفَ مَرَّةٍ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
-                arti: 'Maha Suci Allah lagi maha Agung dan segala puji untuk-Nya, sebanyak bilangan makhluk-Nya, keridhaan, timbangan Arsy dan sebanyak tinta untuk menulis kalimat-Nya. (3X)'
-              },
-              {
-                id: 49,
-                arab: 'سُبْحَـانَ اللّٰهِ عَدَدَ مَا خَلَقَ فِي السَّمَـاءِ ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا خَلَـقَ فِي الأَرْضِ ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا بَيْنَ ذَلِكَ ، سُبْحَـانَ اللّٰهِ عَدَدَ مَا هُوَ خَـالِقٌ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Maha suci Allah sebanyak bilangan ciptaan-Nya di langit, Mala suci Allah sebanyak bilangan ciptaan-Nya di bumi, Maha suci Allah sebanyak bilangan ciptaan-Nya di antara keduanya dan Maha suc Allah sebanyak bilangan ciptaan-Nya.'
-              },
-              {
-                id: 50,
-                arab: 'اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا بَيْـنَ ذَلِكَ ، اَلْحَمْدُ لِلّٰهِ عَدَدَ مَـا هُوَ خَـالِقٌ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Segala puji bagi Allah sebanyak bilangan ciptaan-Nya di langit, Segala puji bagi Allah sebanyak bilangan ciptaan-Nya di bumi, Segala puji bagi Allah sebanyak bilangan ciptaan-Nya di antara keduanya dan Segala puji bagi Allah sebanyak bilangan ciptaan-Nya.'
-              },
-              {
-                id: 51,
-                arab: 'لَا إِلَهَ إِلَاّ اللّٰهُ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، لَا إِلَهَ إِلَاّ اللّٰهُ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، لَا إِلَـهَ إِلَاّ اللّٰهُ عَدَدَ مَـا بَيْـنَ ذَلِـكَ ، لَا إِلَهَ إِلَاّ اللّٰهُ عَدَدَ مَـا هُوَ خَـالِقٌ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Tiada tuhan selain Allah sebanyak bilangan ciptaan-Nya di langit, Tiada tuhan selain Allah sebanyak bilangan ciptaan-Nya di bumi, Tiada tuhan selain Allah sebanyak bilangan ciptaan-Nya di antara keduanya dan Tiada tuhan selain Allah sebanyak bilangan ciptaan- Nya.'
-              },
-              {
-                id: 52,
-                arab: 'اَللّٰهُ أَكْبَرُ عَدَدَ مَـا خَلَـقَ فِي السَّمَـاءِ ، اَللّٰهُ أَكْبَرُ عَدَدَ مَـا خَلَـقَ فِي الأَرْضِ ، اَللّٰهُ أَكْبَرُ عَدَدَ مَـا بَيْـنَ ذَلِكَ ، اَللّٰهُ أَكْبَرُ عَدَدَ مَـا هُوَ خَـالِقٌ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Allah Maha Besar sebanyak bilangan ciptaan-Nya di langit, Allah Maha Besar sebanyak bilangan ciptaan-Nya di bumi, Allah Maha Besar sebanyak bilangan ciptaan-Nya di antara keduanya dan Allah Maha Besar sebanyak bilangan ciptaan-Nya.'
-              },
-              {
-                id: 53,
-                arab: 'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا خَلَقَ فِي السَّمَاءِ ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا خَلَقَ فِي الْأَرْضِ ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَـا بَيْـنَ ذَلِـكَ ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ العَلِيِّ الْعَظِيْـمِ عَدَدَ مَا هُوَ خَالِقٌ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Tiada daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya di langit, Tuda daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya di bumi, Tiada daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya di antara keduanya dan Tiada daya dan kekuatan kecuali dari Allah yang Maha Tinggi lagi Maha Agung sebanyak bilangan ciptaan-Nya.'
-              },
-              {
-                id: 54,
-                arab: 'لَا إِلَهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَـى كُلِّ شَيْءٍ قَدِيْرٌ (٣)',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Tiada tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya, kepunyaan-Nya kerajaan, dan hanya bagi-Nya segala puji, yang menghidupkan dan mematika dan Dia Maha Kuasa atas segala sesuatu, sebanyak setiap zarrah seribu kali. (3x)'
-              },
-              {
-                id: 55,
-                arab: 'اَللّٰهُمَّ صَلِّ وَ سَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ مِفْتَاحِ بَابِ رَحْمَةِ اللّٰهِ عَدَدَمَا فِى عِلْمِ اللّٰهِ صَلَاةً وَسَلَامًا دَائِمَيْنِ بِدَوَامِ مُلْكِ اللّٰهِ وَعَلَى آلِهِ وَصَحْبِهِ عَدَدَكُلِّ ذَرَّةٍ أَلْفَ مَرَّةٍ (٣)',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: 'Ya Allah limpahkanlah shalawat dan salam atas junjungan kami Muhammad pembuka pintu rahmat Allah, sebanyak segala yang terdapat ilmu Allah. Shalawat dan salam yang terus menerus bersama dengan keabadian kerajaan Allah. Juga kepada keluarga dan sahabatnya sebanyak setiap zarrah seribu kali. (3X)'
+                arti: ''
               },
             ]
           },
@@ -2228,7 +2172,7 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'لَا اِلٰهَ اِلَّا اللّٰهُ الْمَلِكُ الْحَقُّ الْمُبِيْنُ (100)',
+                arab: 'لَا اِلٰهَ اِلَّا اللّٰهُ الْمَلِكُ الْحَقُّ الْمُبِيْنُ (١٠٠)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -2300,7 +2244,7 @@ export const data = [
               },
               {
                 id: 10,
-                arab: 'يَاغِيَاثَ الْمُسْتَغِيْثِيْنَ (3)',
+                arab: 'يَاغِيَاثَ الْمُسْتَغِيْثِيْنَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -2308,7 +2252,7 @@ export const data = [
               },
               {
                 id: 11,
-                arab: 'يَادَرَكَ الْهَالِكِيْنَ (3)',
+                arab: 'يَادَرَكَ الْهَالِكِيْنَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -3265,7 +3209,7 @@ export const data = [
               },
               {
                 id: 4,
-                arab: 'كهيعص (3)',
+                arab: 'كهيعص (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -3305,7 +3249,7 @@ export const data = [
               },
               {
                 id: 9,
-                arab: 'شَاهَتِ الْوُجُوهِ (3)',
+                arab: 'شَاهَتِ الْوُجُوهِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -3353,7 +3297,7 @@ export const data = [
               },
               {
                 id: 15,
-                arab: 'فَاللّٰهُ خَيْرٌ حَافِظًا وَهُوَ أَرْحَمُ الرَّاحِمِينَ (3) ',
+                arab: 'فَاللّٰهُ خَيْرٌ حَافِظًا وَهُوَ أَرْحَمُ الرَّاحِمِينَ (٣) ',
                 indo: '',
                 image: '',
                 latin: '',
@@ -3369,7 +3313,7 @@ export const data = [
               },
               {
                 id: 17,
-                arab: 'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ (3)',
+                arab: 'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -3417,7 +3361,7 @@ export const data = [
               },
               {
                 id: 23,
-                arab: 'أَعُوذُ بِكَلِمَاتِ الله التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ (3) ',
+                arab: 'أَعُوذُ بِكَلِمَاتِ الله التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ (٣) ',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4206,7 +4150,7 @@ export const data = [
               },
               {
                 id: 3,
-                arab: 'لَا إِلَهَ إِلَاّ اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِير (3) ',
+                arab: 'لَا إِلَهَ إِلَاّ اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِير (٣) ',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4214,7 +4158,7 @@ export const data = [
               },
               {
                 id: 4,
-                arab: 'سٌبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَا إِلَهَ إِلَاّ اللّٰهُ وَاللّٰهُ اَكْبَر(3)',
+                arab: 'سٌبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَا إِلَهَ إِلَاّ اللّٰهُ وَاللّٰهُ اَكْبَر(٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4222,7 +4166,7 @@ export const data = [
               },
               {
                 id: 5,
-                arab: '(3)سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ سُبْحاَنَ اللّٰهِ الْعَظِيْمِ',
+                arab: '(٣)سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ سُبْحاَنَ اللّٰهِ الْعَظِيْمِ',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4230,7 +4174,7 @@ export const data = [
               },
               {
                 id: 6,
-                arab: '  رَبَّنَا اغْفِرْ لَنَا وَتُبْ عَلَيْنَا إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيْمُ (3)',
+                arab: '  رَبَّنَا اغْفِرْ لَنَا وَتُبْ عَلَيْنَا إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيْمُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4238,7 +4182,7 @@ export const data = [
               },
               {
                 id: 7,
-                arab: 'اَللّٰهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اَللّٰهُمَّ صَلِّ عَلَيْهِ وَسَلِّمْ (3)',
+                arab: 'اَللّٰهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اَللّٰهُمَّ صَلِّ عَلَيْهِ وَسَلِّمْ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4246,7 +4190,7 @@ export const data = [
               },
               {
                 id: 8,
-                arab: 'أَعُوْذُ بِكَلِمَاتِ اللّٰهِ التَّآمَّاتِ مِنْ شَرِّمَا خَلَقَ (3)',
+                arab: 'أَعُوْذُ بِكَلِمَاتِ اللّٰهِ التَّآمَّاتِ مِنْ شَرِّمَا خَلَقَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4254,7 +4198,7 @@ export const data = [
               },
               {
                 id: 9,
-                arab: 'بِسْمِ اللّٰهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلَا فِي الْسَّمَآءِ وَهُوَ الْسَّمِيْعُ الْعَلِيْمُ (3)',
+                arab: 'بِسْمِ اللّٰهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلَا فِي الْسَّمَآءِ وَهُوَ الْسَّمِيْعُ الْعَلِيْمُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4262,7 +4206,7 @@ export const data = [
               },
               {
                 id: 10,
-                arab: 'رَضِيْنَا بِاللّٰهِ رَبًّا وَبِالإِسْلَامِ دِيْنًا وَبِمُحَمَّدٍ نَبِيًّا (3)',
+                arab: 'رَضِيْنَا بِاللّٰهِ رَبًّا وَبِالإِسْلَامِ دِيْنًا وَبِمُحَمَّدٍ نَبِيًّا (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4270,7 +4214,7 @@ export const data = [
               },
               {
                 id: 11,
-                arab: 'بِسْمِ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَالْخَيْرُ وَالشَّرُّ بِمَشِيْئَةِ اللّٰهِ (3)',
+                arab: 'بِسْمِ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَالْخَيْرُ وَالشَّرُّ بِمَشِيْئَةِ اللّٰهِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4278,7 +4222,7 @@ export const data = [
               },
               {
                 id: 12,
-                arab: 'آمَنَّا بِاللّٰهِ وَاليَوْمِ الآخِرِ تُبْناَ إِلَى اللّٰهِ باَطِناً وَظَاهِرًا (3)',
+                arab: 'آمَنَّا بِاللّٰهِ وَاليَوْمِ الآخِرِ تُبْناَ إِلَى اللّٰهِ باَطِناً وَظَاهِرًا (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4286,7 +4230,7 @@ export const data = [
               },
               {
                 id: 13,
-                arab: 'يَا رَبَّنَا وَاعْفُ عَنَّا وَامْحُ الَّذِيْ كَانَ مِنَّا (3)',
+                arab: 'يَا رَبَّنَا وَاعْفُ عَنَّا وَامْحُ الَّذِيْ كَانَ مِنَّا (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4294,7 +4238,7 @@ export const data = [
               },
               {
                 id: 14,
-                arab: 'ياَ ذَا الْجَلَالِ وَالإِكْراَمِ أَمِتْناَ عَلَى دِيْنِ الإِسْلَامِ (7)',
+                arab: 'ياَ ذَا الْجَلَالِ وَالإِكْراَمِ أَمِتْناَ عَلَى دِيْنِ الإِسْلَامِ (٧)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4302,7 +4246,7 @@ export const data = [
               },
               {
                 id: 15,
-                arab: 'ياَ قَوِيُّ ياَ مَتِيْنُ اكْفِ شَرَّ الظَّالِمِيْنَ (3)',
+                arab: 'ياَ قَوِيُّ ياَ مَتِيْنُ اكْفِ شَرَّ الظَّالِمِيْنَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4310,7 +4254,7 @@ export const data = [
               },
               {
                 id: 16,
-                arab: 'أَصْلَحَ اللّٰهُ أُمُوْرَ الْمُسْلِمِيْنَ صَرَفَ اللّٰهُ شَرَّ الْمُؤْذِيْنَ (3)',
+                arab: 'أَصْلَحَ اللّٰهُ أُمُوْرَ الْمُسْلِمِيْنَ صَرَفَ اللّٰهُ شَرَّ الْمُؤْذِيْنَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4318,7 +4262,7 @@ export const data = [
               },
               {
                 id: 17,
-                arab: 'يَا عَلِيُّ يَا كَبِيْرُ يَا عَلِيْمُ يَا قَدِيْرُ يَا سَمِيعُ يَا بَصِيْرُ يَا لَطِيْفُ يَا خَبِيْرُ (3)',
+                arab: 'يَا عَلِيُّ يَا كَبِيْرُ يَا عَلِيْمُ يَا قَدِيْرُ يَا سَمِيعُ يَا بَصِيْرُ يَا لَطِيْفُ يَا خَبِيْرُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4326,7 +4270,7 @@ export const data = [
               },
               {
                 id: 18,
-                arab: 'ياَ فَارِجَ الهَمِّ يَا كَاشِفَ الغَّمِّ يَا مَنْ لِعَبْدِهِ يَغْفِرُ وَيَرْحَمُ (3)',
+                arab: 'ياَ فَارِجَ الهَمِّ يَا كَاشِفَ الغَّمِّ يَا مَنْ لِعَبْدِهِ يَغْفِرُ وَيَرْحَمُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4334,7 +4278,7 @@ export const data = [
               },
               {
                 id: 19,
-                arab: 'أَسْتَغْفِرُ اللهَ رَبَّ الْبَرَايَا أَسْتَغْفِرُ اللهَ مِنَ الْخَطَاياَ (4)',
+                arab: 'أَسْتَغْفِرُ اللهَ رَبَّ الْبَرَايَا أَسْتَغْفِرُ اللهَ مِنَ الْخَطَاياَ (٤)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4342,7 +4286,7 @@ export const data = [
               },
               {
                 id: 20,
-                arab: 'لَا إِلَهَ إِلَاّ اللّٰهُ (52)',
+                arab: 'لَا إِلَهَ إِلَاّ اللّٰهُ (٥٢)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4358,7 +4302,7 @@ export const data = [
               },
               {
                 id: 22,
-                arab: 'بِسْم اللّٰهِ الرَّحْمنِ الرَّحِيْمِ ، قُلْ هُوَ اللّٰهُ أَحَدٌ ، اَللهُ الصَّمَدُ ، لَمْ يَلِدْ وَلَمْ يٌوْلَدْ ، وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ (3)',
+                arab: 'بِسْم اللّٰهِ الرَّحْمنِ الرَّحِيْمِ ، قُلْ هُوَ اللّٰهُ أَحَدٌ ، اَللهُ الصَّمَدُ ، لَمْ يَلِدْ وَلَمْ يٌوْلَدْ ، وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4366,7 +4310,7 @@ export const data = [
               },
               {
                 id: 23,
-                arab: 'بِسْم اللّٰهِ الرَّحْمنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ، مِنْ شَرِّ ماَ خَلَقَ ، وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ، وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَد (1)',
+                arab: 'بِسْم اللّٰهِ الرَّحْمنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ، مِنْ شَرِّ ماَ خَلَقَ ، وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ، وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَد (١)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4374,7 +4318,7 @@ export const data = [
               },
               {
                 id: 24,
-                arab: 'بِسْم اللّٰهِ الرَّحْمنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ، مَلِكِ النَّاسِ ، إِلهِ النَّاسِ ، مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ، اَلَّذِيْ يُوَسْوِسُ فِي صُدُوْرِ النَّاسِ ، مِنَ الْجِنَّةِ وَالنَّاسِ (1)',
+                arab: 'بِسْم اللّٰهِ الرَّحْمنِ الرَّحِيْمِ ، قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ، مَلِكِ النَّاسِ ، إِلهِ النَّاسِ ، مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ، اَلَّذِيْ يُوَسْوِسُ فِي صُدُوْرِ النَّاسِ ، مِنَ الْجِنَّةِ وَالنَّاسِ (١)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4422,7 +4366,7 @@ export const data = [
               },
               {
                 id: 30,
-                arab: 'اَللّٰهُمَّ إِنَّا نَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ، وَنَعُوْذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ (3)',
+                arab: 'اَللّٰهُمَّ إِنَّا نَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ، وَنَعُوْذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4430,7 +4374,7 @@ export const data = [
               },
               {
                 id: 31,
-                arab: 'يَا عَالِمَ السِّرِّ مِنَّا لَا تَهْتِكِ السِّتْرَ عَنَّا وَ عَافِنَا وَاعْفُ عَنَّا وَ كُنْ لَنَا حَيْثُ كُنَّا (3)',
+                arab: 'يَا عَالِمَ السِّرِّ مِنَّا لَا تَهْتِكِ السِّتْرَ عَنَّا وَ عَافِنَا وَاعْفُ عَنَّا وَ كُنْ لَنَا حَيْثُ كُنَّا (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4438,7 +4382,7 @@ export const data = [
               },
               {
                 id: 32,
-                arab: 'يَا الله بِهَا يَا الله بِهَا يَا الله بِحُسْنِ الخْاَتِمَةِ (3)',
+                arab: 'يَا الله بِهَا يَا الله بِهَا يَا الله بِحُسْنِ الخْاَتِمَةِ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4446,7 +4390,7 @@ export const data = [
               },
               {
                 id: 33,
-                arab: 'يَا لَطِيْفًا بِخَلْقِهِ ، يَا عَلِيْمًا بِخَلْقِهِ ، يَا خَبِيْرًا بِخَلْقِهِ اُلْطُفِ بِنَا يَا لَطِيْفُ يَا عَلِيْمُ يَا خَبِيْرُ (3)',
+                arab: 'يَا لَطِيْفًا بِخَلْقِهِ ، يَا عَلِيْمًا بِخَلْقِهِ ، يَا خَبِيْرًا بِخَلْقِهِ اُلْطُفِ بِنَا يَا لَطِيْفُ يَا عَلِيْمُ يَا خَبِيْرُ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4454,7 +4398,7 @@ export const data = [
               },
               {
                 id: 34,
-                arab: 'يَا لَطِيْفًا لَمْ يَزَلْ اُلْطُفْ بِنَا فِيْمَا نَزَلَ ، إِنَّكَ لَطِيْفٌ لَمْ تَزَلْ اُلْطُفْ بِنَا وَ الْمُسْلِمِيْنَ (3)',
+                arab: 'يَا لَطِيْفًا لَمْ يَزَلْ اُلْطُفْ بِنَا فِيْمَا نَزَلَ ، إِنَّكَ لَطِيْفٌ لَمْ تَزَلْ اُلْطُفْ بِنَا وَ الْمُسْلِمِيْنَ (٣)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4480,7 +4424,7 @@ export const data = [
               },
               {
                 id: 2,
-                arab: 'سُوْرٌ (7)',
+                arab: 'سُوْرٌ (٧)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -4539,7 +4483,7 @@ export const data = [
             bait_bait: [
               {
                 id: 1,
-                arab: 'حَسْبُنَا اللّٰهُ وَنِعْمَ الْوَكِيْل ، نِعْمَ الْمَوْليَ وَنِعْمَ النَّصِيْر (70)',
+                arab: 'حَسْبُنَا اللّٰهُ وَنِعْمَ الْوَكِيْل ، نِعْمَ الْمَوْليَ وَنِعْمَ النَّصِيْر (٧٠)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -5485,30 +5429,12 @@ export const data = [
       {
         id: 8,
         slug: 'dhuha',
-        title: 'Niat Sholat Dhuha dan Doa',
+        title: 'Doa Sholat Dhuha',
         latin: '',
         arab: 'الصَّلَاةُ الضُّحَی',
         dzikri: [
           {
             id: 1,
-            title: 'Niat',
-            name: '',
-            subName: 'Niat Sholat Dhuha',
-            arab: '',
-            latin: '',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'اُصَلِّى سُنَّةَ الضُّحَى رَكْعَتَيْنِ لِلّٰهِ تَعَالَى . اَللّٰهُ اَكْبَرُ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: '',
-              },
-            ]
-          },
-          {
-            id: 2,
             title: 'Doa',
             name: '',
             subName: 'Doa Setelah sholat Dhuha',
@@ -5530,30 +5456,12 @@ export const data = [
       {
         id: 9,
         slug: 'tahajjud',
-        title: 'Niat Sholat Tahajjud dan Doa',
+        title: 'Doa Sholat Tahajjud',
         latin: '',
         arab: 'الصَّلَاةُ التَّهَجُّد',
         dzikri: [
           {
             id: 1,
-            title: 'Niat',
-            name: '',
-            subName: 'Niat Sholat Tahajjud',
-            arab: '',
-            latin: '',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'اُصَلِّى سُنَّةَ التَّهَجُّدِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى . اَللّٰهُ اَكْبَر',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: '',
-              },
-            ]
-          },
-          {
-            id: 2,
             title: 'Doa',
             name: '',
             subName: 'Doa Setelah sholat Tahajjud',
