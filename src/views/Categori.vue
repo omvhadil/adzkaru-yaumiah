@@ -15,7 +15,7 @@ const kitab = data.find((item) => item.slug === kitabId)
       <div
         v-for="(item, index) in kitab.category"
         :key="item.id"
-        class="col-12 hover:bg-green-200 rounded-lg"
+        class="col-12 hover:bg-slate-100 rounded-lg"
       >
         <div
           @click="router.push('/' + kitabId + '/' + item.slug)"
