@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { useRouter } from 'vue-router'
-import MenuToggle from '../components/MenuToggle.vue'
+import MenuToggle from '../components/T-Menu.vue'
 // import { pesan } from '@/constans/index.js'
 const router = useRouter()
 </script>

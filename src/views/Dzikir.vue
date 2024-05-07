@@ -18,6 +18,12 @@ const jmlcategorydzikir = dzikri.length
 const jmlname = dzikri[categoryNumber.value].name.length
 const jmlSubname = dzikri[categoryNumber.value].subName.length
 
+const jumlahcategori = kitab.category.length
+
+const posisiCategori = category.id
+
+console.log(kitabId)
+
 watchEffect(() => {})
 </script>
 <template>
@@ -32,6 +38,24 @@ watchEffect(() => {})
           type="button"
         >
           {{ item.title }}
+        </button>
+      </div>
+      <!-- ========= -->
+      <div v-if="kitabId === 'diba'" class="flex justify-center pb-2 gap-9 items-center">
+        <button
+          @click="categoryNumber = category.id - 1"
+          class="rounded-full bg-gray-100 flex items-center justify-center w-8 h-8"
+        >
+          ◀
+        </button>
+        <h4 class="py-2 px-5 bg-gray-100 rounded-md">
+          {{ posisiCategori }} / {{ jumlahcategori }}
+        </h4>
+        <button
+          @click="categoryNumber = category.id + 1"
+          class="rounded-full bg-gray-100 flex items-center justify-center w-8 h-8"
+        >
+          ▶
         </button>
       </div>
     </template>
