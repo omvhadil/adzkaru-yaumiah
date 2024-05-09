@@ -69,7 +69,7 @@ const router = useRouter()
       </div>
       <!-- diba' -->
       <div
-        @click="router.push('/diba')"
+        @click="router.push('/khusus/diba/sholawat-pertama')"
         class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
         <div class="bg-slate-200 rounded-full h-[40px] w-[40px] p-0 pt-1">

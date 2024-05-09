@@ -19,6 +19,11 @@ const router = createRouter({
       component: () => import('../views/Dzikir.vue')
     },
     {
+      path: '/khusus/:kitab/:category',
+      name: 'dzikirkusus',
+      component: () => import('../views/Dzikir-Khusus.vue')
+    },
+    {
       path: '/all-menus',
       name: 'all-menu',
       component: () => import('../views/AllMenu.vue')

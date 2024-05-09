@@ -25,18 +25,20 @@ watchEffect(() => {})
 <template>
   <Header :title="kitab.arab">
     <template #menu>
-      <div v-if="jmlcategorydzikir > 1" class="flex p-2 px-3 gap-2 w-full">
+      <div v-if="jmlcategorydzikir > 1" class="flex p-2 px-3 gap-2 w-full overflow-x-scroll">
         <button
           v-for="item in category?.dzikri"
           :key="item.id"
           @click="categoryNumber = item.id - 1"
-          class="bg-slate-50 border-light w-full p-1 text-dark text-sm rounded-md"
+          class="bg-slate-50 border-light p-1 px-2 text-dark text-sm rounded-md"
           :class="categoryNumber === item.id - 1 ? 'bg-gray-600 text-white' : ''"
+          style="white-space: nowrap"
           type="button"
         >
-          {{ item.title }}
+          {{ item.subName }}
         </button>
       </div>
+      <!-- ========= -->
     </template>
   </Header>
 
