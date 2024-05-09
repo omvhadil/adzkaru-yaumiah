@@ -59,7 +59,7 @@ const router = useRouter()
     <section class="grid grid-cols-4 gap-4 mt-3">
       <!-- simtud -->
       <div
-        @click="router.push('/simtud')"
+        @click="router.push('/khusus/simtud/sholawat-pertama')"
         class="flex flex-col justify-center items-center text-center cursor-pointer"
       >
         <div class="bg-slate-200 rounded-full h-[40px] w-[40px] p-0 pt-1">

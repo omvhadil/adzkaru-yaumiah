@@ -18,8 +18,6 @@ const jmlcategorydzikir = dzikri.length
 const jmlname = dzikri[categoryNumber.value].name.length
 const jmlSubname = dzikri[categoryNumber.value].subName.length
 
-console.log(kitabId)
-
 watchEffect(() => {})
 </script>
 <template>

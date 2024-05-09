@@ -8031,18 +8031,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 2,
-        slug: 'sholawat-kedua',
-        title: 'Sholawat Kadua',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Sholawat Kadua',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 2,
             title: '',
             name: '',
             subName: 'Sholawat Kedua',
@@ -8154,18 +8145,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 3,
-        slug: 'alhamdulillahi',
-        title: 'Alhamdulillahi',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Alhamdulillahi',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 3,
             title: '',
             name: '',
             subName: 'Alhamdulillahi',
@@ -8181,18 +8163,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 4,
-        slug: 'tajallal-haqqu',
-        title: 'Tajallal Haqqu',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Tajallal Haqqu',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 4,
             title: '',
             name: '',
             subName: 'Tajallal Haqqu',
@@ -8256,18 +8229,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 5,
-        slug: 'waasyhadu',
-        title: 'Wa Asyhadu',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Wa Asyhadu',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 5,
             title: '',
             name: '',
             subName: 'Wa Asyhadu',
@@ -8283,18 +8247,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 6,
-        slug: 'falamma',
-        title: 'Falamma',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Falamma',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 6,
             title: '',
             name: '',
             subName: 'Falamma',
@@ -8310,18 +8265,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 7,
-        slug: 'waqod-ana',
-        title: 'Waqod Ana',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Waqod Ana',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 7,
             title: '',
             name: '',
             subName: 'Waqod Ana',
@@ -8337,18 +8283,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 8,
-        slug: 'wamundzu-aliqot',
-        title: 'Wamundzu Aliqot',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Wamundu Aliqot',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 8,
             title: '',
             name: '',
             subName: 'Wamundzu Aliqot',
@@ -8364,18 +8301,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 9,
-        slug: 'fahina-quroba',
-        title: 'Fahina Quroba',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Fahina Quroba',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 9,
             title: '',
             name: '',
             subName: 'Fahina Quroba',
@@ -8391,18 +8319,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 10,
-        slug: 'mahallul-qiyam',
-        title: 'Mahallul Qiyam',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Mahallul Qiyam',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 10,
             title: '',
             name: '',
             subName: 'Mahallul Qiyam',
@@ -8522,18 +8441,9 @@ export const data = [
                 arti: ''
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 11,
-        slug: 'wahina-baroza',
-        title: 'Wahina Baroza',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Wahina Baroza',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 11,
             title: '',
             name: '',
             subName: 'Wahina Baroza',
@@ -8549,18 +8459,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 12,
-        slug: 'summa-innahu',
-        title: 'Summa Innahu',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Summa Innahu',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 12,
             title: '',
             name: '',
             subName: 'Summa Innahu',
@@ -8576,18 +8477,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 13,
-        slug: 'fanasyaa',
-        title: 'Fanasya`a',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Fanasya`a',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 13,
             title: '',
             name: '',
             subName: 'Fanasya`a',
@@ -8603,18 +8495,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 14,
-        slug: 'summa-innahu-ba`da',
-        title: 'Summa Innahu Ba`da',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Summa Innahu Ba`da',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 14,
             title: '',
             name: '',
             subName: 'Summa Innahu Ba`da',
@@ -8630,18 +8513,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 15,
-        slug: 'waninasyi-syarfi',
-        title: 'Waninasyi Syarfi',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Waninasyi Syarfi',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 15,
             title: '',
             name: '',
             subName: 'Waninasyi Syarfi',
@@ -8657,18 +8531,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 16,
-        slug: 'wahaisu-tasyarroffati',
-        title: 'Wahaisu Tasyarroffati',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Wahaisu Tasyarroffati',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 16,
             title: '',
             name: '',
             subName: 'Wahaisu Tasyarroffati',
@@ -8684,18 +8549,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 17,
-        slug: 'walaqodit-tashofa',
-        title: 'Walaqodit Tashofa',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Walaqodit Tashofa',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 17,
             title: '',
             name: '',
             subName: 'Walaqodit Tashofa',
@@ -8711,18 +8567,9 @@ export const data = [
                 arti: ''
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 18,
-        slug: 'doa-maulid',
-        title: 'Doa Maulid',
-        arab: 'سِمْطُ الدُّرَارْ',
-        latin: 'Doa Maulid',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 18,
             title: '',
             name: '',
             subName: 'Doa Maulid',
@@ -8917,99 +8764,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 2,
-        slug: 'laqodja-akum',
-        title: 'Laqodja Akum',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Laqodja Akum',
-        dzikri: [
+          },
           {
-            id: 1,
-            title: '',
-            name: '',
-            subName: 'Laqodja Akum',
-            arab: '',
-            latin: '',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'لَقَدْ جَاءَكُمْ رَسُوْلٌ مِّنْ أَنْفُسِكُمْ عَزِيْزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيْصٌ عَلَيْكُمْ بِالْمُؤْمِنِيْنَ رَؤُوْفٌ رَّحِيْمٌ ۝ إِنَّ اللهَ وَ مَلآئِكَتَهُ يُصَلُّوْنَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِيْنَ آمَنُوْا صَلُّوْا عَلَيْهِ وَ سَلِّمُوْا تَسْلِيْمًا',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: '',
-              }
-            ]
-          }
-        ]
-      },
-      {
-        id: 3,
-        slug: 'alhamdulillah',
-        title: 'Alhamdulillah',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Alhamdulillah',
-        dzikri: [
-          {
-            id: 1,
-            title: '',
-            name: '',
-            subName: 'Alhamdulillah',
-            arab: '',
-            latin: '',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'الْحَمْدُ لِلّهِ الْقَوِيِّ الْغَالِبِ ۝ الْوَلِيِّ الطَّالِبِ ۝ الْبَاعِثِ الْوَارِثِ الْمَا نِحِ السَّالِبِ ۝ عَالَمِ الْكَائِنِ وَ الْبَائِنِ وَ الزَّائِلِ وَ الذَّاهِبِ ۝ يُسَبِّحُهُ الْآفِلُ وَ الْمَآئِلُ وَ الطَّالِعُ وَ الْغَارِبُ ۝ وَ يُوَحِّدُهُ النَّاطِقُ وَ الصَّامِتُ وَ الْجَامِدُ وَ الذَّائِبُ ۝ يَضْرِبُ بِعَدْلِهِ السَّاكِنُ وَ يَسْكُنُ بِفَضْلِهِ الضَّارِبُ ۝ (لَا إِلهَ إِلَّا اللهُ) حَكِيْمٌ أَظْهَرَ بَدِيْعَ حِكَمِهِ وَ الْعَجَائِبِ ۝ فِيْ تَرْتِيْبِ تَرْكِيْبِ هذِهِ الْقَوَالِبِ ۝ خَلَقَ مُخًّا وَ عَظْمًا وَ عَضُدًا وَ عُرُوْقًا وَ لَحْمًا وَ جِلْدًا وَ شَعْرًا بِنَظْمٍ مُؤْتَلِفٍ مُتَرَاكِبٍ ۝ مِنْ مَاءٍ دَافِقٍ يَخْرُجُ مِنْ بَيْنِ الصُّلْبِ وَ التَّرَائِبِ ۝ (لَا إِلهَ إِلَّا اللهُ) كَرِيْمٌ بَسَطَ لِخَلْقِهِ بِسَاطَ كَرَمِهِ وَ الْمَوَاهِبَ ۝ يَنْزِلُ فِيْ كُلِّ لَيْلَةٍ إِلَى سَمَاءِ الدُّنْيَا وَ يُنَادِيْ هَلْ مِنْ مُسْتَغْفِرٍ هَلْ مِنْ تَائِبٍ ۝ هَلْ مِنْ طَالِبِ حَاجَةٍ فَأُنِيْلَهُ الْمَطَالِبَ ۝ فَلَوْ رَأَيْتَ الْخُدَّامَ قِيَامًا عَلَى الْأَقْدَامِ وَ قَدْ جَادُوْا بِالدُّمُوْغِ السَّوَاكِبِ ۝ وَ الْقَوْمَ بَيْنَ نَادِمٍ وَ تَائِبٍ ۝ وَ خَائِفٍ لِنَفْسِهِ يُعَاتِبُ ۝ وَ آبِقٍ مِنَ الذُّنُوْبِ إِلَيْهِ هَارِبٍ ۝ فَلَا يَزَالُوْنَ فِي الْاِسْتِغْفَارِ حَتَّى يَكُفَّ كَفُّ النَّهَارِ ذُيُوْلَ الْغَيَاهِبِ ۝ فَيَعُوْذُوْنَ وَ قَدْ فَازُوْا بِالْمَطْلُوْبِ وَ أَدْرَكُوْا رِضَا الْمَحْبُوْبِ وَ لَمْ يَعُدْ أَحَدٌ مِنَ الْقَوْمِ وَ هُوَ خَائِبٌ ۝ (لَا إِلهَ إِلَّا اللهُ) فَسُبْحَانَهُ وَ تَعَالَى مِنْ مَلِكٍ أَوْجَدَ نُوْرَ نَبِيِّهِ مُحَمَّدٍ (ص) مِنْ نُوْرِهِ قَبْلَ أَنْ يَخْلُقَ آدَمَ مِنَ الطِّيْنِ اللَّازِبِ ۝ وَ عَرَضَ فَخْرَهُ عَلَى الْأَشْيَاءِ وَ قَالَ هذَا سَيِّدُ الْأَنْبِيَاءِ وَ أَجَلُّ الْأَصْفِيَاءِ وَ أَكْرَمُ الْحَبَائِبِ ۝',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: '',
-              }
-            ]
-          }
-        ]
-      },
-      {
-        id: 4,
-        slug: 'qilahuwa-adam',
-        title: 'Qilahuawa Adam',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Qilahuawa Adam',
-        dzikri: [
-          {
-            id: 1,
-            title: '',
-            name: '',
-            subName: 'Qilahuawa Adam',
-            arab: '',
-            latin: '',
-            bait_bait: [
-              {
-                id: 1,
-                arab: 'قِيْلَ هُوَ آدَمُ ، قَالَ آدَمُ بِهِ أُنِيْلَهُ أَعْلَى الْمَرَاتِبِ ۝ قِيْلَ هُوَ نُوْحٌ ، قَالَ نُوْحٌ بِهِ يَنْجُوْ مِنَ الْغَرَقِ وَ يَهْلِكُ مَنْ خَالَفَهُ مِنَ الْأَهْلِ وَ الْأَقَارِبِ ۝ قِيْلَ هُوَ إِبْرَاهِيْمُ ، قَالَ إِبْرَاهِيْمُ بِهِ تَقُوْمُ حُجَّتُهُ عَلَى عُبَّادِ الْأَصْنَامِ وَ الْكَوَاكِبِ ۝ قِيْلَ هُوَ مُوْسَى ، قَالَ مُوْسَى أَخُوْهُ وَ لكِنْ هذَا حَبِيْبٌ وَ مُوْسَى كَلِيْمٌ وَ مُخَاطِبٌ ۝ قِيْلَ هُو عِيْسَى ، قَالَ عِيْسَى يُبَشِّرُ بِهِ وَ هُوَ بَيْنَ يَدَيْ نُبُوَّتِهِ كَالْحَاجِبِ ۝ قِيْلَ فَمَنْ هذَا الْحَبِيْبُ الْكَرِيْمُ الَّذِيْ أَلْبَسْتَهُ حُلَّتَ الْوَقَارِ ۝ وَ تَوَجْتَهُ بِتِيْجَانِ الْمَهَابَةِ وَ الْإِفْتِخَارِ ۝ وَ نَشَرْتَ عَلَى رَأْسِهِ الْعَصَائِبِ ۝ قَالَ هُوَ نَبِيٌّ اسْتَخَرْتُهُ مِنْ لُئَيِّ ابْنِ غَالِبٍ ۝ يَمُوْتُ أَبُوْهُ وَ أُمُّهُ وَ يَكْفُلُهُ جَدُّهُ ثُمَّ عَمُّهُ الشَّقِيْقُ أَبُوْ طَالِبٍ',
-                indo: '',
-                image: '',
-                latin: '',
-                arti: '',
-              }
-            ]
-          }
-        ]
-      },
-      {
-        id: 5,
-        slug: 'yubastu-mintihamah',
-        title: 'Yub`atsu Mintihamah',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Yub`atsu Mintihamah',
-        dzikri: [
-          {
-            id: 1,
+            id: 5,
             title: '',
             name: '',
             subName: 'Yub`atsu Mintihamah',
@@ -9025,18 +8782,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 6,
-        slug: 'stumma-arudduhu',
-        title: 'Tsumma Arudduhu',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Tsumma Arudduhu',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 6,
             title: '',
             name: '',
             subName: 'Tsumma Arudduhu',
@@ -9052,18 +8800,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 7,
-        slug: 'fasubhanaman-khossohu',
-        title: 'Fasubhaman Khossohu',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Fasubhaman Khossohu',
-        dzikri: [ 
+          },
           {
-            id: 1,
+            id: 7,
             title: '',
             name: '',
             subName: 'Fasubhaman Khossohu',
@@ -9079,18 +8818,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 8,
-        slug: 'awwaluma-nastaftih',
-        title: 'Awwaluma Nastaftih',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Awwaluma Nastaftih',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 8,
             title: '',
             name: '',
             subName: 'Awwaluma Nastaftih',
@@ -9106,18 +8836,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 9,
-        slug: 'alhaditsul-awwal',
-        title: 'Alhaditsul Awwal',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Alhaditsul Awwal',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 9,
             title: '',
             name: '',
             subName: 'Alhaditsul Awwal',
@@ -9133,18 +8854,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 10,
-        slug: 'alhadistus-tsani',
-        title: 'Alhaditsus Tsani',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Alhaditsus Tsani',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 10,
             title: '',
             name: '',
             subName: 'Alhaditsus Tsani',
@@ -9160,18 +8872,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 11,
-        slug: 'fayakulul-haqqu',
-        title: 'Fayakulul Haqqu',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Fayakulul Haqqu',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 11,
             title: '',
             name: '',
             subName: 'Fayakulul Haqqu',
@@ -9187,18 +8890,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 12,
-        slug: 'ahdiru-kulubakum',
-        title: 'Ahdiru Kulubakum',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Ahdiru Kulubakum',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 12,
             title: '',
             name: '',
             subName: 'Ahdiru Kulubakum',
@@ -9214,18 +8908,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 13,
-        slug: 'fahtazzal-harsyu',
-        title: 'Fahtazzal Harsyu',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Fahtazzal Harsyu',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 13,
             title: '',
             name: '',
             subName: 'Fayakulul Haqqu',
@@ -9241,18 +8926,9 @@ export const data = [
                 arti: '',
               }
             ]
-          }
-        ]
-      },
-      {
-        id: 14,
-        slug: 'dibak-mahallul-qiyam',
-        title: 'Mahallul Qiyam',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Mahallul Qiyam',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 14,
             title: '',
             name: '',
             subName: 'Mahallul Qiyam',
@@ -9436,18 +9112,9 @@ export const data = [
                 arti: '',
               },
             ]
-          }
-        ]
-      },
-      {
-        id: 15,
-        slug: 'dibak-doa-maulid',
-        title: 'Doa Maulid',
-        arab: 'مَوْلِدُ الدِّبَاعِی',
-        latin: 'Doa Maulid',
-        dzikri: [
+          },
           {
-            id: 1,
+            id: 15,
             title: '',
             name: '',
             subName: 'Doa Maulid',
