@@ -30,8 +30,10 @@ watchEffect(() => {})
           v-for="item in category?.dzikri"
           :key="item.id"
           @click="categoryNumber = item.id - 1"
-          class="bg-slate-50 border-light w-full p-1 text-dark text-sm rounded-md"
-          :class="categoryNumber === item.id - 1 ? 'bg-gray-600 text-white' : ''"
+          class="border-light w-full p-1 text-sm rounded-md"
+          :class="
+            categoryNumber == item.id - 1 ? 'bg-gray-600 text-white' : 'bg-slate-50  text-dark '
+          "
           type="button"
         >
           {{ item.title }}
