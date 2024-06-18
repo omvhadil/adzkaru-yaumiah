@@ -6814,7 +6814,7 @@ export const data = [
               },
               {
                 id: 35,
-                arab: 'يَا اَللٌّهُ (١١)',
+                arab: 'يَا اَللّٰهُ (١١)',
                 indo: '',
                 image: '',
                 latin: '',
@@ -10416,7 +10416,7 @@ export const data = [
               },
               {
                 id: 24,
-                arab: 'يَا اَللٌّهُ (١١)',
+                arab: 'يَا اَللّٰهُ (١١)',
                 indo: '',
                 image: '',
                 latin: '',
